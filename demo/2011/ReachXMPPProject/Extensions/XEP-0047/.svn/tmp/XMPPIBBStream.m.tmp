@@ -1,0 +1,545 @@
+//
+//  XMPPIbbStream.m
+//  iPhoneXMPP
+//
+//  Created by reachhu on 2011/7/5.
+//  Copyright 2011年 __MyCompanyName__. All rights reserved.
+//
+
+#import "XMPP.h"
+#import "XMPPIBBStream.h"
+#import "XMPPLogging.h"
+//#import "NSNumber+XMPP.h"
+//#import "NSData+XMPP.h"
+
+#define INTEGRATE_WITH_CAPABILITIES 1
+
+#if INTEGRATE_WITH_CAPABILITIES
+#import "XMPPCapabilities.h"
+#endif
+
+// Define default value
+#define BLOCK_DEFAULT_SZIE       4096
+
+// Define various states
+#define STATE_INIT               0
+
+#define STATE_REQUEST_SENT       1
+#define STATE_ACTIVATE_SENT      4
+#define STATE_REQUEST_OPEN       2
+#define STATE_REQUEST_CLOSE      3
+
+#define STATE_RES_OPEN           4
+#define STATE_RES_RECEIVE        5
+#define STATE_RES_CLOSE          6
+
+#define STATE_FAILURE            100
+
+// Define response type for open
+#define RES_OPEN_OK             1
+#define RES_OPEN_NOT_SUPPORT    2
+
+//notification name
+#define CompletedAction @"CompletedAction"
+// Declare private methods
+@interface XMPPIBBStream (PrivateAPI)
+
+- (void)reset;
+
+- (void)processOpenResponse:(XMPPIQ *)iq;
+- (void)processSendResponse:(XMPPIQ *)iq;
+- (void)processActivateSend:(XMPPIQ *)iq;
+- (void)processCloseResponse:(XMPPIQ *)iq;
+
+- (void)processOpenRequest:(XMPPIQ *)iq;
+- (void)processReceiveData:(XMPPIQ *)iq;
+- (void)processCloseRequest:(XMPPIQ *)iq;
+
+@end
+
+
+@implementation XMPPIBBStream
+@synthesize toJID;
+
+- (id)initWithStream:(XMPPStream *)stream
+{
+    if ((self = [super init]))
+	{
+		[self initWithStream:stream myJID:nil];
+	}
+	return self;
+}
+
+- (id)initWithStream:(XMPPStream *)stream myJID:(XMPPJID *)jid
+{
+    if ((self = [super init]))
+	{
+		// Store references
+		//xmppStream = [stream retain];
+		if(jid != nil)
+        {
+            myJID = [jid retain];
+		}
+        [self reset];
+        [xmppStream addDelegate:self delegateQueue:xmppIBBQueue];
+        [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(completedAction:) name:CompletedAction object:nil];
+	}
+	return self;
+}
+
+         
+-(void)completedAction:(NSNotification*)notification{
+    
+}
+#if INTEGRATE_WITH_CAPABILITIES //Reach:tag1
+
+- (BOOL)activate:(XMPPStream *)stream
+{
+	//XMPPLogTrace();
+	
+	if ([super activate:stream])
+	{
+		//XMPPLogVerbose(@"%@: Activated", THIS_FILE);
+		
+#if INTEGRATE_WITH_CAPABILITIES
+		[xmppStream autoAddDelegate:self delegateQueue:moduleQueue toModulesOfClass:[XMPPCapabilities class]];
+#endif
+		
+		return YES;
+	}
+	
+	return NO;
+}
+
+- (void)deactivate
+{
+#if INTEGRATE_WITH_CAPABILITIES
+	[xmppStream removeAutoDelegate:self delegateQueue:moduleQueue fromModulesOfClass:[XMPPCapabilities class]];
+#endif
+	
+	[super deactivate];
+}
+
+
+/**
+ * If an XMPPCapabilites instance is used we want to advertise our support for pubsub support.
+ **/
+- (void)xmppCapabilities:(XMPPCapabilities *)sender collectingMyCapabilities:(NSXMLElement *)query
+{
+	// <query xmlns="http://jabber.org/protocol/disco#info">
+	//   ...
+	//   <identity category='pubsub' type='service'/>
+	//   <feature var='http://jabber.org/protocol/ibb' />
+	//   ...
+	// </query>
+	
+	/*NSXMLElement *identity = [NSXMLElement elementWithName:@"identity"];
+	[identity addAttributeWithName:@"category" stringValue:@"ibb"];
+	[identity addAttributeWithName:@"type" stringValue:@"service"];
+	[query addChild:identity];*/
+	
+	NSXMLElement *feature = [NSXMLElement elementWithName:@"feature"];
+	[feature addAttributeWithName:@"var" stringValue:@"http://jabber.org/protocol/ibb"];
+    //[feature addAttributeWithName:@"var" stringValue:@"http://jabber.org/protocol/si/profile/file-transfer"];
+	[query addChild:feature];
+}
+#endif//Reach:tag1
+
+- (void *)openIBB : (XMPPJID *)jid
+{
+    [self reset];
+    if(jid != nil)
+    {
+        toJID = [jid retain];
+        [toJID setValue:@"iphone" forKey:@"resource"];
+    }
+    uuid = [[xmppStream generateUUID] retain];
+    if(block_size == 0)
+        block_size = BLOCK_DEFAULT_SZIE;
+    
+    NSXMLElement *open = [NSXMLElement elementWithName:@"open"];
+	[open addAttributeWithName:@"xmlns" stringValue:@"http://jabber.org/protocol/ibb"];
+    [open addAttributeWithName:@"block-size" stringValue:[NSString stringWithFormat:@"%i", block_size]];
+    [open addAttributeWithName:@"sid" stringValue:uuid];
+    [open addAttributeWithName:@"stanza" stringValue:@"iq"];
+    
+    
+	XMPPIQ *iq = [XMPPIQ iqWithType:@"set" to:toJID elementID:uuid child:open];
+	
+	[xmppStream sendElement:iq];
+	
+	// Update state
+	state = STATE_REQUEST_OPEN;
+}
+
+- (void *)closeIBB
+{
+    NSXMLElement *open = [NSXMLElement elementWithName:@"close"];
+	[open addAttributeWithName:@"xmlns" stringValue:@"http://jabber.org/protocol/ibb"];
+    [open addAttributeWithName:@"sid" stringValue:uuid];
+    
+    
+	XMPPIQ *iq = [XMPPIQ iqWithType:@"set" to:toJID elementID:uuid child:open];
+	
+	[xmppStream sendElement:iq];
+	
+	// Update state
+	state = STATE_REQUEST_CLOSE;
+}
+
+//Send open response for open request from other client.
+- (void *)sendOpenRes:(int)resType
+{
+	/*
+     *Example 2. Responder accepts session
+     
+     <iq from='juliet@capulet.com/balcony'
+     id='jn3h8g65'
+     to='romeo@montague.net/orchard'
+     type='result'/>
+     
+     If the responder does not support IBB, it returns a <service-unavailable/> or <feature-not-implemented/> error.
+     */
+    if (resType == RES_OPEN_OK) {
+        XMPPIQ *iq = [[XMPPIQ iqWithType:@"result" to:toJID elementID:uuid]retain];
+        
+        [xmppStream sendElement:iq];
+        
+        // Update state
+        state = STATE_RES_OPEN;
+    }
+    
+    /*
+     Example 3. Responder does not support IBB
+     
+     <iq from='juliet@capulet.com/balcony'
+     id='jn3h8g65'
+     to='romeo@montague.net/orchard'
+     type='error'>
+     <error type='cancel'>
+     <service-unavailable xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/>
+     </error>
+     </iq>
+     
+     If the responder supports IBB but would prefer a smaller block-size, it returns a <resource-constraint/> error.
+     */
+    if(resType == RES_OPEN_NOT_SUPPORT)
+    {
+        NSXMLElement *_IBBData = [NSXMLElement elementWithName:@"error"];
+        //[_IBBData addAttributeWithName:@"xmlns" stringValue:@"http://jabber.org/protocol/ibb"];
+        [_IBBData addAttributeWithName:@"type" stringValue:@"cancel"];
+        
+        NSXMLNode *_IBBData2 = [NSXMLNode nodeWithName:@"service-unavailable"];
+        [_IBBData2 addAttributeWithName:@"xmlns" stringValue:@"urn:ietf:params:xml:ns:xmpp-stanzas"];
+        XMPPIQ *iq = [XMPPIQ iqWithType:@"error" to:toJID elementID:uuid child:_IBBData2];
+        
+        [xmppStream sendElement:iq];
+        
+        // Update state
+        state = STATE_RES_OPEN;
+
+    }
+    /*
+     Example 4. Responder prefers smaller chunks
+     
+     <iq from='juliet@capulet.com/balcony'
+     id='jn3h8g65'
+     to='romeo@montague.net/orchard'
+     type='error'>
+     <error type='modify'>
+     <resource-constraint xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/>
+     </error>
+     </iq>
+     
+     If the responder supports IBB but does not wish to proceed with the session, it returns a <not-acceptable/> error.
+     
+     Example 5. Responder does not wish to proceed
+     
+     <iq from='juliet@capulet.com/balcony'
+     id='jn3h8g65'
+     to='romeo@montague.net/orchard'
+     type='error'>
+     <error type='cancel'>
+     <not-acceptable xmlns='urn:ietf:params:xml:ns:xmpp-stanzas'/>
+     </error>
+     </iq>
+     */
+}
+
+//Data should be convert to base64 binary data before sending.
+- (void *)sendData:(NSString *)data
+{
+	// <iq type="set" to="target" id="123">
+	//   <query xmlns="http://jabber.org/protocol/bytestreams" sid="123" mode="tcp">
+	//     <streamhost jid="proxy.domain1.org" host="100.200.300.401" port="7777"/>
+	//     <streamhost jid="proxy.domain2.org" host="100.200.300.402" port="7777"/>
+	//   </query>
+	// </iq>
+	[data retain];
+	NSXMLElement *_IBBData = [NSXMLElement elementWithName:@"data" stringValue:data];
+	[_IBBData addAttributeWithName:@"xmlns" stringValue:@"http://jabber.org/protocol/ibb"];
+    [_IBBData addAttributeWithName:@"seq" stringValue:[NSString stringWithFormat:@"%i", dataSeqNum++]];
+    [_IBBData addAttributeWithName:@"sid" stringValue:uuid];
+		
+	XMPPIQ *iq = [XMPPIQ iqWithType:@"set" to:toJID elementID:uuid child:_IBBData];
+	
+	[xmppStream sendElement:iq];
+	
+	// Update state
+	state = STATE_REQUEST_SENT;
+}
+
+- (void *)reset
+{
+    // Create a uuid to be used as the id for all messages in the stun communication.
+    // This helps differentiate various turn messages between various turn sockets.
+    // Relying only on JID's is troublesome, because client A could be initiating a connection to server B,
+    // while at the same time client B could be initiating a connection to server A.
+    // So an incoming connection from JID clientB@deusty.com/home would be for which turn socket?
+    uuid = nil;
+    
+    // Setup initial state for a client connection
+    state = STATE_INIT;
+    dataSeqNum = 0;
+    
+    // Create dispatch queue.
+	xmppIBBQueue = dispatch_queue_create("XMPPIBBStream", NULL);
+}
+-(void)runTimer:(NSTimer*)timer{
+     XMPPIQ *iq= (XMPPIQ*)[timer userInfo];
+    //[self processOpenResponse:iq];
+    //if(STATE_RES_OPEN == state)
+    //{
+        [self processReceiveData:iq];
+    //}
+
+    [_timer invalidate];
+    _timer=nil;
+}
+- (BOOL)xmppStream:(XMPPStream *)sender didReceiveIQ:(XMPPIQ *)iq
+{
+	// Disco queries (sent to jabber server) use id=discoUUID
+	// P2P queries (sent to other Mojo app) use id=uuid
+    NSString *iq_uuid = [iq elementID];
+    NSString *from_jid = [iq attributeStringValueForName:@"from"];
+    NSString *to_jid = [iq attributeStringValueForName:@"to"];
+    myJID = [sender myJID];
+    if (uuid == nil) {
+        /*
+         * 1. Check if this IQ is a IBB open request stream from other client.
+         * eg. 
+         *    <iq from='romeo@montague.net/orchard'
+         *    id='jn3h8g65'
+         *    to='juliet@capulet.com/balcony'
+         *    type='set'>
+         *    <open xmlns='http://jabber.org/protocol/ibb'
+         *    block-size='4096'
+         *    sid='i781hf64'
+         *    stanza='iq'/>
+         *    </iq> 
+         */
+        DDXMLElement *from_element = [iq elementForName:@"open" xmlns:@"http://jabber.org/protocol/ibb"];
+        if (from_element !=nil) {
+            //Need process : This is a IBB open request from other client.
+            //* Call other handle process
+            uuid = [iq_uuid retain];
+            [[[XMPPJID alloc] initWithString:xxxx] autorelease]
+            toJID = [[XMPPJID jidWithString:from_jid]retain];//For "response", the 'to jid' is 'from jid' on iq.
+            [self processOpenResponse:iq];
+            /*_timer=[NSTimer scheduledTimerWithTimeInterval:2.0f target:self selector:@selector(runTimer:) userInfo:iq repeats:NO];
+            [_timer fire];*/
+            return YES;
+        }
+        
+        //(XXXX) XEP-0096 : the sample code for "File Transfer" negotitate.
+        /*from_element = [iq elementForName:@"si" xmlns:@"http://jabber.org/protocol/si"];
+        if (from_element != nil) {
+            uuid = [iq_uuid retain];
+            toJID = [[XMPPJID jidWithString:from_jid]retain];//For "response", the 'to jid' is 'from jid' on iq.
+            XMPPIQ *iq = [[XMPPIQ iqWithType:@"result" to:toJID elementID:uuid]retain];
+            NSXMLElement *_IBBData1 = [[NSXMLElement elementWithName:@"si" xmlns:@"http://jabber.org/protocol/si"]retain];
+            NSXMLElement *_IBBData2 = [[NSXMLElement elementWithName:@"feature" xmlns:@"http://jabber.org/protocol/feature-neg"]retain];
+            NSXMLElement *_IBBData3 = [[NSXMLElement elementWithName:@"x" xmlns:@"jabber:x:data"]retain];
+            [_IBBData3 addAttributeWithName:@"type" stringValue:@"submit"];
+            NSXMLElement *_IBBData4 = [[NSXMLElement elementWithName:@"field"]retain];
+            [_IBBData4 addAttributeWithName:@"var" stringValue:@"stream-method"];
+            NSXMLElement *_IBBData5 = [[NSXMLElement elementWithName:@"value" stringValue:@"http://jabber.org/protocol/ibb"]retain];
+            
+            [iq addChild:_IBBData1];
+            [_IBBData1 addChild:_IBBData2];
+            [_IBBData2 addChild:_IBBData3];
+            [_IBBData3 addChild:_IBBData4];
+            [_IBBData4 addChild:_IBBData5];
+            
+            [xmppStream sendElement:iq];
+            return YES;
+        }*/
+        return NO;
+    }
+    else if (![uuid isEqualToString:iq_uuid] || ![to_jid isEqualToString:[myJID full]])
+    {
+		// Doesn't apply to us
+		return NO;
+	}
+    
+	
+	//XMPPLogTrace2(@"%@: %@ - state(%i)", THIS_FILE, THIS_METHOD, state);
+	// for client receive data
+    if(STATE_RES_OPEN == state)
+    {
+        /*_timer=[NSTimer scheduledTimerWithTimeInterval:2.0f target:self selector:@selector(runTimer:) userInfo:iq repeats:NO];
+        [_timer fire];*/
+        [self processReceiveData:iq];
+    }
+    else if(STATE_RES_RECEIVE == state)
+    {
+        DDXMLElement *from_element = [iq elementForName:@"close" xmlns:@"http://jabber.org/protocol/ibb"];
+        if (from_element !=nil) {
+            [self processCloseRequest:iq];
+        }
+    }
+    
+    // for client sent data
+    if (state == STATE_REQUEST_OPEN)
+	{
+		[self processOpenResponse:iq];
+	}
+    else if (state == STATE_REQUEST_SENT)
+	{
+		[self processSendResponse:iq];
+	}
+	else if (state == STATE_REQUEST_CLOSE)
+	{
+		[self processCloseResponse:iq];
+	}
+    
+    // for client receive data
+    if (STATE_RES_OPEN == state) {
+        [self processReceiveData:iq];
+    }
+	
+	return YES;
+}
+
+- (NSString *)moduleName
+{
+	return @"XMPPIBBStream";
+}
+
+/**
+ * Event handling
+ **/
+- (void)processOpenResponse:(XMPPIQ *)iq
+{
+    NSLog(@"starting SEND!...1");
+    //* Handle a open request from other client.
+    if (STATE_INIT == state) {
+        [self sendOpenRes:RES_OPEN_OK];
+        state = STATE_RES_OPEN;
+    }
+    
+    //* Handle a open response from other client - notify user to send data.
+    if (STATE_REQUEST_OPEN == state) {
+        [self sendData:@"Hello!"];
+    }
+}
+
+- (void)processSendResponse:(XMPPIQ *)iq
+{
+    //test : 3 times
+    if (STATE_REQUEST_SENT) {
+        [self closeIBB];
+        /*if(dataSeqNum < 3)
+            [self sendData:[NSString stringWithFormat:@"Hello...%i", dataSeqNum]];
+        else*/
+            
+    }
+}
+
+- (void)processActivateSend:(XMPPIQ *)iq
+{
+    //XXXX
+}
+
+- (void)processCloseResponse:(XMPPIQ *)iq
+{
+    //1. Return happy case.
+    XMPPIQ *my_iq = [[XMPPIQ iqWithType:@"result" to:toJID elementID:uuid]retain];
+    [xmppStream sendElement:my_iq];
+    
+    //2. Notify User to save data.
+    
+    //3. Update state
+    state = STATE_RES_RECEIVE;
+    [self reset];
+
+}
+
+- (void)processOpenRequest:(XMPPIQ *)iq
+{
+    //Notifing user to receive a file.
+}
+
+- (void)processReceiveData:(XMPPIQ *)iq
+{
+    //Collect data from iq
+    //DDXMLElement *element = [iq elementForName:@"data"];
+    //NSString *data = [element valueForKey:@"data"];
+    
+    /* 
+     Acknowledging data received via IQ
+    <iq from='juliet@capulet.com/balcony'
+    id='kr91n475'
+    to='romeo@montague.net/orchard'
+    type='result'/>
+     */
+    NSLog(@"starting SEND...2!");
+    XMPPIQ *my_iq = [[XMPPIQ iqWithType:@"result" to:toJID elementID:uuid]retain];
+    
+    [xmppStream sendElement:my_iq];
+    
+    // Update state
+    state = STATE_RES_RECEIVE;
+
+}
+
+- (void)processCloseRequest:(XMPPIQ *)iq
+{
+    //Close susscess response
+    NSLog(@"starting COLSE...3!");
+    XMPPIQ *my_iq = [[XMPPIQ iqWithType:@"result" to:toJID elementID:uuid]retain];
+    
+    [xmppStream sendElement:my_iq];
+    
+    // Update state
+    state = STATE_RES_CLOSE;
+    
+    //XXXX:notify user the "transfer" is done.
+    [self reset];
+}
+
+/**
+ * Standard deconstructor.
+ * Release any objects we may have retained.
+ * These objects should all be defined in the header.
+ **/
+- (void)dealloc
+{
+    if (xmppIBBQueue)
+		dispatch_release(xmppIBBQueue);
+    
+    [xmppStream release];
+    [toJID release];
+    [fromJID release];
+    [myJID release];
+    [uuid release];//?
+    [type release];
+    [protocol release];//
+    [sid release];//session id
+    [stanza release];
+
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:CompletedAction object:nil];
+    [super dealloc];
+}
+
+@end

@@ -1,0 +1,256 @@
+THTML5ChartingTest
+v7
+r0
+t315734766.749438
+cCheck dependencies
+cProcessInfoPlistFile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist HTML5ChartingTest-Info.plist
+cCompileXIB /Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+cCompileXIB /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch HTML5ChartingTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o /Users/change/Desktop/HTML5ChartingTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest normal i386
+cGenerateDSYMFile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+cTouch /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.h
+c000000004D2182DB0000000000000210
+t1294041819
+s528
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m
+c000000004D2182DB0000000000000AB2
+t1294041819
+s2738
+i"HTML5ChartingTestAppDelegate.h"
+i"HTML5ChartingTestViewController.h"
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.h
+c000000004D21834E0000000000000152
+t1294041934
+s338
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m
+c000000004D21836700000000000005ED
+t1294041959
+s1517
+i"HTML5ChartingTestViewController.h"
+
+N/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+c000000004D2182DB0000000000001A6D
+t1294041819
+s6765
+
+N/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch
+c000000004D2182DB00000000000000CB
+t1294041819
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+c000000004D2182DB0000000000004EA1
+t1294041819
+s20129
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+t1294041966
+s238
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM
+t1294041966
+s102
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+t1294041966
+s18040
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTestViewController.nib
+t1294041964
+s1269
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist
+t1294041964
+s637
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/MainWindow.nib
+t1294041964
+s1701
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/PkgInfo
+t1294041964
+s8
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTest.LinkFileList
+c000000004D21836C00000000000001E0
+t1294041964
+s480
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o
+t1294041966
+s48528
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o
+t1294041966
+s36320
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o
+t1294041966
+s6304
+
+N/Users/change/Desktop/HTML5ChartingTest/main.m
+c000000004D2182DB0000000000000168
+t1294041819
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch
+t1294041966
+s15211536
+
+NHTML5ChartingTest-Info.plist
+c000000004D2182DB000000000000038D
+t1294041819
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315734764#315734764#0(0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734766.106530
+e315734766.329788
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o
+x/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m315734766#315734766#0(0"0(0#0#78"/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m8601756576#2181"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m -o /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734766.310190
+e315734766.377594
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o
+x/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m315734766#315734766#0(0"0(0#0#81"/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m8615825568#2187"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m -o /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o /Users/change/Desktop/HTML5ChartingTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734766.105207
+e315734766.310083
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/HTML5ChartingTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/change/Desktop/HTML5ChartingTest/main.m315734766#315734766#0(0"0(0#0#46"/Users/change/Desktop/HTML5ChartingTest/main.m8604965120#2125"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/HTML5ChartingTest/main.m -o /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+s315734764.465743
+e315734764.901673
+r1
+xCompileXIB
+x/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+lSLF07#2@46"CompileXIB HTML5ChartingTestViewController.xib315734764#315734764#0(0"0(0#0#75"/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib8606117696#625"    cd /Users/change/Desktop/HTML5ChartingTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTestViewController.nib /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+s315734764.463029
+e315734764.905301
+r1
+xCompileXIB
+x/Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib315734764#315734764#0(0"0(0#0#54"/Users/change/Desktop/HTML5ChartingTest/MainWindow.xib8607702592#583"    cd /Users/change/Desktop/HTML5ChartingTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/MainWindow.nib /Users/change/Desktop/HTML5ChartingTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CGenerateDSYMFile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+s315734766.682237
+e315734766.729860
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest315734766#315734766#0(0"0(0#0#107"/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest8605411616#416"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest -o /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM0#
+
+CLd /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest normal i386
+s315734766.377691
+e315734766.682118
+r1
+xLd
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+xnormal
+xi386
+lSLF07#2@112"Link /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest315734766#315734766#0(0"0(0#0#0"8607315296#955"    cd /Users/change/Desktop/HTML5ChartingTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -filelist /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest0#
+
+CProcessInfoPlistFile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist HTML5ChartingTest-Info.plist
+s315734764.422428
+e315734764.462921
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist
+xHTML5ChartingTest-Info.plist
+lSLF07#2@36"Process HTML5ChartingTest-Info.plist315734764#315734764#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest-Info.plist27303270317031540#512"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HTML5ChartingTest-Info.plist -genpkginfo /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch HTML5ChartingTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734764.905509
+e315734766.105016
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch
+xHTML5ChartingTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HTML5ChartingTest_Prefix.pch315734764#315734766#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch8615928032#2006"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -c /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch0#
+
+CTouch /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+s315734766.729951
+e315734766.749369
+r1
+xTouch
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+lSLF07#2@95"Touch /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app315734766#315734766#0(0"0(0#0#0"8605231200#290"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+

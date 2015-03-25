@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/AppDelegate.h
+END
+RequestController.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/RequestController.h
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/Info.plist
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/AppDelegate.m
+END
+XMPPStream_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/XMPPStream_Prefix.pch
+END
+RequestController.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/RequestController.m
+END
+ChatWindowManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/ChatWindowManager.h
+END
+RosterController.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/RosterController.h
+END
+ChatController.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/ChatController.h
+END
+ChatWindowManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/ChatWindowManager.m
+END
+RosterController.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/RosterController.m
+END
+ChatController.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/DesktopXMPP/ChatController.m
+END

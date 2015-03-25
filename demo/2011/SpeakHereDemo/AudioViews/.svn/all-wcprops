@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews
+END
+LevelMeter.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/LevelMeter.m
+END
+GLLevelMeter.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/GLLevelMeter.m
+END
+LevelView.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/LevelView.h
+END
+LevelMeter.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/LevelMeter.h
+END
+AQLevelMeter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/AQLevelMeter.h
+END
+GLLevelMeter.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/GLLevelMeter.h
+END
+LevelView.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/LevelView.m
+END
+AQLevelMeter.mm
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/2011/!svn/ver/40/SpeakHere/AudioViews/AQLevelMeter.mm
+END

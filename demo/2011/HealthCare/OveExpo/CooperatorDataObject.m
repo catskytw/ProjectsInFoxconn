@@ -1,0 +1,13 @@
+//
+//  CooperatorDataObject.m
+//  HealthCare
+//
+//  Created by Liao Chen-chih on 2011/11/8.
+//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
+//
+
+#import "CooperatorDataObject.h"
+
+@implementation CooperatorDataObject
+@synthesize address,email,phone,webSite;
+@end

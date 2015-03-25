@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/13/branches/wtclient-0.1
+END
+WTClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/8/branches/wtclient-0.1/WTClient.h
+END
+WTHTTPConnection.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/13/branches/wtclient-0.1/WTHTTPConnection.h
+END
+WTClient.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/8/branches/wtclient-0.1/WTClient.m
+END
+WTHTTPConnection.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/branches/wtclient-0.1/WTHTTPConnection.m
+END

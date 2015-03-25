@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	0867D690FE84028FC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = D2AAC07D0554694100DB518D /* RTSPClient */;
+		breakpoints = (
+		);
+		codeSenseManager = D692652C11EDB0DC00C43D70 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1125,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1085,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 304337384;
+			PBXWorkspaceStateSaveDate = 304337384;
+		};
+		perUserProjectItems = {
+			D682934611F89ED500AB3F80 = D682934611F89ED500AB3F80 /* PBXTextBookmark */;
+			D682934811F89ED500AB3F80 = D682934811F89ED500AB3F80 /* PBXTextBookmark */;
+			D682934E11F89F5100AB3F80 = D682934E11F89F5100AB3F80 /* PBXTextBookmark */;
+			D68C398411F08010001B9496 = D68C398411F08010001B9496 /* PBXTextBookmark */;
+			D68C3AEA11F46B5C001B9496 = D68C3AEA11F46B5C001B9496 /* PBXTextBookmark */;
+			D68C3B1311F46DB4001B9496 = D68C3B1311F46DB4001B9496 /* PBXTextBookmark */;
+			D68CC43A1213D8FC00A77D62 = D68CC43A1213D8FC00A77D62 /* PBXTextBookmark */;
+			D6A40F4811F754F900055C63 = D6A40F4811F754F900055C63 /* PBXTextBookmark */;
+			D6A40F4A11F754F900055C63 = D6A40F4A11F754F900055C63 /* PBXTextBookmark */;
+			D6A995DA121D13B700986A1C = D6A995DA121D13B700986A1C /* PBXTextBookmark */;
+			D6C4A131121E843900986E9D = D6C4A131121E843900986E9D /* PBXTextBookmark */;
+		};
+		sourceControlManager = D692652B11EDB0DC00C43D70 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	4640799A10FEC9B1001245F2 /* RTSPClientSession.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1303, 728}}";
+			sepNavSelRange = "{299, 21}";
+			sepNavVisRange = "{35, 1309}";
+		};
+	};
+	4640799B10FEC9B1001245F2 /* RTSPClientSession.mm */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \"MediaSubsession subsession\";\n            r = \"{6832, 30}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 7868}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1303, 3978}}";
+			sepNavSelRange = "{6640, 16}";
+			sepNavVisRange = "{5567, 1286}";
+		};
+	};
+	AA747D9E0F9514B9006C5449 /* RTSPClient_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1034, 534}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 188}";
+		};
+	};
+	D2AAC07D0554694100DB518D /* RTSPClient */ = {
+		activeExec = 0;
+	};
+	D682934611F89ED500AB3F80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D68C39FA11F444B9001B9496 /* RTSPClient.hh */;
+		name = "RTSPClient.hh: 83";
+		rLen = 60;
+		rLoc = 3426;
+		rType = 0;
+		vrLen = 2234;
+		vrLoc = 3072;
+	};
+	D682934811F89ED500AB3F80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6A40F4711F754F900055C63 /* BasicUsageEnvironment0.hh */;
+		name = "BasicUsageEnvironment0.hh: 87";
+		rLen = 11;
+		rLoc = 2860;
+		rType = 0;
+		vrLen = 1357;
+		vrLoc = 1716;
+	};
+	D682934E11F89F5100AB3F80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6A40F4511F754F900055C63 /* BasicUsageEnvironment0.cpp */;
+		name = "BasicUsageEnvironment0.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1120;
+		vrLoc = 1266;
+	};
+	D68C398411F08010001B9496 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = AA747D9E0F9514B9006C5449 /* RTSPClient_Prefix.pch */;
+		name = "RTSPClient_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 188;
+		vrLoc = 0;
+	};
+	D68C39FA11F444B9001B9496 /* RTSPClient.hh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = RTSPClient.hh;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/Live555/src/liveMedia/include/RTSPClient.hh;
+		sourceTree = "<absolute>";
+	};
+	D68C3AEA11F46B5C001B9496 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D68C3AEB11F46B5C001B9496 /* MediaSession.hh */;
+		name = "MediaSession.hh: 33";
+		rLen = 36;
+		rLoc = 1259;
+		rType = 0;
+		vrLen = 1824;
+		vrLoc = 1127;
+	};
+	D68C3AEB11F46B5C001B9496 /* MediaSession.hh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = MediaSession.hh;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/Live555/src/liveMedia/include/MediaSession.hh;
+		sourceTree = "<absolute>";
+	};
+	D68C3B1311F46DB4001B9496 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D68C3B1411F46DB4001B9496 /* RTSPClient.cpp */;
+		name = "RTSPClient.cpp: 1046";
+		rLen = 0;
+		rLoc = 34930;
+		rType = 0;
+		vrLen = 1143;
+		vrLoc = 52796;
+	};
+	D68C3B1411F46DB4001B9496 /* RTSPClient.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = RTSPClient.cpp;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/Live555/src/liveMedia/RTSPClient.cpp;
+		sourceTree = "<absolute>";
+	};
+	D68CC43A1213D8FC00A77D62 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4640799A10FEC9B1001245F2 /* RTSPClientSession.h */;
+		name = "RTSPClientSession.h: 15";
+		rLen = 21;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 35;
+	};
+	D692652B11EDB0DC00C43D70 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	D692652C11EDB0DC00C43D70 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	D6A40F4511F754F900055C63 /* BasicUsageEnvironment0.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = BasicUsageEnvironment0.cpp;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/RTSPClient/../Live555/src/BasicUsageEnvironment/BasicUsageEnvironment0.cpp;
+		sourceTree = "<absolute>";
+	};
+	D6A40F4711F754F900055C63 /* BasicUsageEnvironment0.hh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = BasicUsageEnvironment0.hh;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/Live555/src/BasicUsageEnvironment/include/BasicUsageEnvironment0.hh;
+		sourceTree = "<absolute>";
+	};
+	D6A40F4811F754F900055C63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6A40F4911F754F900055C63 /* UsageEnvironment.cpp */;
+		name = "UsageEnvironment.cpp: 10";
+		rLen = 0;
+		rLoc = 551;
+		rType = 0;
+		vrLen = 1561;
+		vrLoc = 0;
+	};
+	D6A40F4911F754F900055C63 /* UsageEnvironment.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = UsageEnvironment.cpp;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/RTSPClient/../Live555/src/UsageEnvironment/UsageEnvironment.cpp;
+		sourceTree = "<absolute>";
+	};
+	D6A40F4A11F754F900055C63 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D6A40F4B11F754F900055C63 /* UsageEnvironment.hh */;
+		name = "UsageEnvironment.hh: 132";
+		rLen = 60;
+		rLoc = 4217;
+		rType = 0;
+		vrLen = 1723;
+		vrLoc = 2868;
+	};
+	D6A40F4B11F754F900055C63 /* UsageEnvironment.hh */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = UsageEnvironment.hh;
+		path = /Users/felixenriquez/Documents/Iphone/Temp/dropcam/lib/Live555/src/UsageEnvironment/include/UsageEnvironment.hh;
+		sourceTree = "<absolute>";
+	};
+	D6A995DA121D13B700986A1C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4640799B10FEC9B1001245F2 /* RTSPClientSession.mm */;
+		name = "RTSPClientSession.mm: 149";
+		rLen = 10;
+		rLoc = 3870;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 2744;
+	};
+	D6C4A131121E843900986E9D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4640799B10FEC9B1001245F2 /* RTSPClientSession.mm */;
+		name = "RTSPClientSession.mm: 149";
+		rLen = 10;
+		rLoc = 3870;
+		rType = 0;
+		vrLen = 1205;
+		vrLoc = 2744;
+	};
+}

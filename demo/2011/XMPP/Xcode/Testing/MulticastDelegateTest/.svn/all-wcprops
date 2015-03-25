@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/main.m
+END
+Class1.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/Class1.m
+END
+Class2.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/Class2.m
+END
+MulticastDelegateTestAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/MulticastDelegateTestAppDelegate.h
+END
+MulticastDelegateTest-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/MulticastDelegateTest-Info.plist
+END
+MulticastDelegateTest_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/MulticastDelegateTest_Prefix.pch
+END
+MulticastDelegateTestAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/MulticastDelegateTestAppDelegate.m
+END
+Class1.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/Class1.h
+END
+Class2.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/Class2.h
+END
+MyProtocol.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Xcode/Testing/MulticastDelegateTest/MyProtocol.h
+END

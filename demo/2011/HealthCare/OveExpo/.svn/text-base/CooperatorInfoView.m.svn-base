@@ -1,0 +1,89 @@
+//
+//  ExhibitroInfoViewController.m
+//  OveExpo
+//
+//  Created by Chang Link on 11/9/21.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import <MapKit/MapKit.h>
+#import "CooperatorInfoView.h"
+#import "FcConfig.h"
+#import "LocalizationSystem.h"
+#import "UITuneLayout.h"
+#import "NinePatch.h"
+#import "QueryPattern.h"
+#import "Tools.h"
+#import "CooperatorDataAdaptor.h"
+#import "CooperatorDataObject.h"
+#import "CooperatorDummyDao.h"
+#import "LocalizedCurrentLocation.h"
+#define ContentSpacingVertical 14
+
+@interface CooperatorInfoView(PrivateMethod)
+@end
+@implementation CooperatorInfoView
+@synthesize infoLabel,emailLabel,phoneLabel,addressLabel;
+@synthesize contentScroll;
+@synthesize seperateImg;
+@synthesize nameLabel;
+@synthesize websiteBtn;
+@synthesize pathGuideBtn;
+@synthesize btnBgImg;
+@synthesize cooperatorId;
+
+#pragma mark - View lifecycle
+- (void)viewDidLoad
+{
+    [self initData];
+    [super viewDidLoad];
+}
+-(void) setUIDefault{
+    [super setUIDefault];
+    [self settingBtnStyle:pathGuideBtn];
+    [self settingBtnStyle:websiteBtn];
+    [pathGuideBtn setTitle:AMLocalizedString(@"pathGuide",nil) forState:UIControlStateNormal];
+    [websiteBtn setTitle:AMLocalizedString(@"goWebSite",nil) forState:UIControlStateNormal];
+    
+    [seperateImg setImage:[TUNinePatchCache imageOfSize:seperateImg.frame.size forNinePatchNamed:@"bg_line"]];
+    [btnBgImg setImage:[TUNinePatchCache imageOfSize:btnBgImg.frame.size forNinePatchNamed:@"bg_black"]];
+    
+    UIImageView *seperateImg2 = [UIImageView new];
+    [seperateImg2 setImage:[TUNinePatchCache imageOfSize:seperateImg.frame.size forNinePatchNamed:@"bg_line"]];
+    seperateImg2.frame = CGRectMake(0, emailLabel.frame.origin.y+ContentSpacingVertical+ emailLabel.frame.size.height, seperateImg.frame.size.width, seperateImg.frame.size.height);
+    [contentScroll addSubview:seperateImg2];
+    [seperateImg2 release];  
+    
+    CGSize infoSize = [infoLabel.text sizeWithFont:[UIFont fontWithName:DefaultFontName size:14] constrainedToSize:CGSizeMake(infoLabel.frame.size.width,500000) lineBreakMode:UILineBreakModeWordWrap];
+    infoLabel.frame = CGRectMake(infoLabel.frame.origin.x, emailLabel.frame.origin.y+ContentSpacingVertical*2+ emailLabel.frame.size.height+2, infoSize.width, infoSize.height);
+    [contentScroll setContentSize:CGSizeMake(contentScroll.frame.size.width, infoLabel.frame.origin.y+infoSize.height)];
+}
+-(void) initData{   
+    CooperatorDataAdaptor *m_dataAdaptor=[CooperatorDummyDao new];
+    CooperatorDataObject *m_tmpObj=[m_dataAdaptor getCooperatorData:cooperatorId];
+    [nameLabel setText:m_tmpObj.objName];
+    [phoneLabel setText:m_tmpObj.phone];
+    [addressLabel setText:m_tmpObj.address];
+    [emailLabel setText:m_tmpObj.email];
+    [m_dataAdaptor release];
+}
+
+#pragma mark - ActionMethod
+- (IBAction)goWebSite:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:website]];
+}
+-(IBAction)googleRoute:(id)sender{
+    NSString *destinationAddress = addressLabel.text;  
+    NSString *sourceAddress = [LocalizedCurrentLocation currentLocationStringForCurrentLanguage];
+    
+    NSString *url = [NSString
+                     stringWithFormat:@"http://maps.google.com/maps?saddr=%@&daddr=%@",
+                     [sourceAddress
+                      stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding],
+                     [destinationAddress
+                      stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
+    
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: url]];
+}
+#pragma -
+@end

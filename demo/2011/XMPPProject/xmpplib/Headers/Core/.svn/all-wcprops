@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Reach/!svn/ver/72/2011/XMPPProject_use_lib/xmpplib/Headers/Core
+END
+XMPPMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPMessage.h
+END
+XMPPPresence.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPPresence.h
+END
+XMPPModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPModule.h
+END
+XMPPJID.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPJID.h
+END
+XMPPLogging.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPLogging.h
+END
+XMPPElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPElement.h
+END
+XMPPIQ.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPIQ.h
+END
+XMPPStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Reach/!svn/ver/72/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPStream.h
+END
+XMPPInternal.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPInternal.h
+END
+XMPPParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPPParser.h
+END
+XMPP.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Core/XMPP.h
+END

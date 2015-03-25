@@ -1,0 +1,10 @@
+/* 
+ Localizable.strings
+ OveExpo
+ 
+ Created by Chang Link on 11/9/19.
+ Copyright 2011年 foxconn. All rights reserved.
+ */
+
+"tab_home"="OVCHome";
+"tab_login"="Login";

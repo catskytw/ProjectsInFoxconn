@@ -1,0 +1,18 @@
+//
+//  Config.h
+//  iPhoneXMPP
+//
+//  Created by 廖 晨志 on 2011/7/21.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+//http://192.168.43.136:8080/Zack/file
+<<<<<<< .mine
+#define SERVERPREFIX @"http://10.161.32.74:8080/service/voiceService.sendMessage"
+=======
+//#define SERVERPREFIX @"http://10.62.13.31:8080/Zack/file"
+#define SERVERPREFIX @"http://10.62.13.32:9090/service/voiceService.receiveMessage"
+#define SERVERPREFIX @"http://192.168.43.136:8080/Zack/file"
+>>>>>>> .r74
+#define SHOW_ACTIVITY_INDICATOR @"ShowActivityIndicator"
+#define CLOSE_ACTIVITY_INDICATOR @"CloseActivityIndicator"
+//#define SERVERPREFIX @"http://yourIp:yourPort/ur_serverName"

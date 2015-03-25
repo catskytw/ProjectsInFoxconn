@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C3FA5EA12D1C77300B1C99A /* tokyo.json in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA5E912D1C77300B1C99A /* tokyo.json */; };
+		0C3FA5ED12D1C77F00B1C99A /* analytics.csv in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA5EB12D1C77F00B1C99A /* analytics.csv */; };
+		0C3FA5EE12D1C77F00B1C99A /* analytics.tsv in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA5EC12D1C77F00B1C99A /* analytics.tsv */; };
+		0C3FA62512D1C92A00B1C99A /* mootools-adapter.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA61912D1C92900B1C99A /* mootools-adapter.js */; };
+		0C3FA62612D1C92A00B1C99A /* mootools-adapter.src.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA61A12D1C92900B1C99A /* mootools-adapter.src.js */; };
+		0C3FA62712D1C92A00B1C99A /* highcharts.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA61B12D1C92900B1C99A /* highcharts.js */; };
+		0C3FA62812D1C92A00B1C99A /* highcharts.src.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA61C12D1C92A00B1C99A /* highcharts.src.js */; };
+		0C3FA62912D1C92A00B1C99A /* exporting.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA61E12D1C92A00B1C99A /* exporting.js */; };
+		0C3FA62A12D1C92A00B1C99A /* exporting.src.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA61F12D1C92A00B1C99A /* exporting.src.js */; };
+		0C3FA62B12D1C92A00B1C99A /* dark-blue.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA62112D1C92A00B1C99A /* dark-blue.js */; };
+		0C3FA62C12D1C92A00B1C99A /* dark-green.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA62212D1C92A00B1C99A /* dark-green.js */; };
+		0C3FA62D12D1C92A00B1C99A /* gray.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA62312D1C92A00B1C99A /* gray.js */; };
+		0C3FA62E12D1C92A00B1C99A /* grid.js in Sources */ = {isa = PBXBuildFile; fileRef = 0C3FA62412D1C92A00B1C99A /* grid.js */; };
+		0C3FA63512D1CB5C00B1C99A /* highcharts.js in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA61B12D1C92900B1C99A /* highcharts.js */; };
+		0C3FA63612D1CB6700B1C99A /* highcharts.src.js in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA61C12D1C92A00B1C99A /* highcharts.src.js */; };
+		0C3FA68912D1CC9B00B1C99A /* area-basic.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66612D1CC9B00B1C99A /* area-basic.htm */; };
+		0C3FA68A12D1CC9B00B1C99A /* area-inverted.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66712D1CC9B00B1C99A /* area-inverted.htm */; };
+		0C3FA68B12D1CC9B00B1C99A /* area-missing.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66812D1CC9B00B1C99A /* area-missing.htm */; };
+		0C3FA68C12D1CC9B00B1C99A /* area-negative.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66912D1CC9B00B1C99A /* area-negative.htm */; };
+		0C3FA68D12D1CC9B00B1C99A /* area-stacked-percent.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66A12D1CC9B00B1C99A /* area-stacked-percent.htm */; };
+		0C3FA68E12D1CC9B00B1C99A /* area-stacked.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66B12D1CC9B00B1C99A /* area-stacked.htm */; };
+		0C3FA68F12D1CC9B00B1C99A /* areaspline.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66C12D1CC9B00B1C99A /* areaspline.htm */; };
+		0C3FA69012D1CC9B00B1C99A /* bar-basic.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66D12D1CC9B00B1C99A /* bar-basic.htm */; };
+		0C3FA69112D1CC9B00B1C99A /* bar-negative-stack.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66E12D1CC9B00B1C99A /* bar-negative-stack.htm */; };
+		0C3FA69212D1CC9B00B1C99A /* bar-stacked.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA66F12D1CC9B00B1C99A /* bar-stacked.htm */; };
+		0C3FA69312D1CC9B00B1C99A /* column-basic.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67012D1CC9B00B1C99A /* column-basic.htm */; };
+		0C3FA69412D1CC9B00B1C99A /* column-negative.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67112D1CC9B00B1C99A /* column-negative.htm */; };
+		0C3FA69512D1CC9B00B1C99A /* column-parsed.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67212D1CC9B00B1C99A /* column-parsed.htm */; };
+		0C3FA69612D1CC9B00B1C99A /* column-rotated-labels.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67312D1CC9B00B1C99A /* column-rotated-labels.htm */; };
+		0C3FA69712D1CC9B00B1C99A /* column-stacked-and-grouped.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67412D1CC9B00B1C99A /* column-stacked-and-grouped.htm */; };
+		0C3FA69812D1CC9B00B1C99A /* column-stacked-percent.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67512D1CC9B00B1C99A /* column-stacked-percent.htm */; };
+		0C3FA69912D1CC9B00B1C99A /* column-stacked.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67612D1CC9B00B1C99A /* column-stacked.htm */; };
+		0C3FA69A12D1CC9B00B1C99A /* combo-dual-axes.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67712D1CC9B00B1C99A /* combo-dual-axes.htm */; };
+		0C3FA69B12D1CC9B00B1C99A /* combo-multi-axes.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67812D1CC9B00B1C99A /* combo-multi-axes.htm */; };
+		0C3FA69C12D1CC9B00B1C99A /* combo-regression.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67912D1CC9B00B1C99A /* combo-regression.htm */; };
+		0C3FA69D12D1CC9B00B1C99A /* combo.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67A12D1CC9B00B1C99A /* combo.htm */; };
+		0C3FA69E12D1CC9B00B1C99A /* dynamic-click-to-add.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67B12D1CC9B00B1C99A /* dynamic-click-to-add.htm */; };
+		0C3FA69F12D1CC9B00B1C99A /* dynamic-master-detail.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67C12D1CC9B00B1C99A /* dynamic-master-detail.htm */; };
+		0C3FA6A012D1CC9B00B1C99A /* dynamic-update.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67D12D1CC9B00B1C99A /* dynamic-update.htm */; };
+		0C3FA6A112D1CC9B00B1C99A /* line-ajax.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67E12D1CC9B00B1C99A /* line-ajax.htm */; };
+		0C3FA6A212D1CC9B00B1C99A /* line-basic.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA67F12D1CC9B00B1C99A /* line-basic.htm */; };
+		0C3FA6A312D1CC9B00B1C99A /* line-labels.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68012D1CC9B00B1C99A /* line-labels.htm */; };
+		0C3FA6A412D1CC9B00B1C99A /* line-time-series.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68112D1CC9B00B1C99A /* line-time-series.htm */; };
+		0C3FA6A512D1CC9B00B1C99A /* pie-basic.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68212D1CC9B00B1C99A /* pie-basic.htm */; };
+		0C3FA6A612D1CC9B00B1C99A /* pie-donut.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68312D1CC9B00B1C99A /* pie-donut.htm */; };
+		0C3FA6A712D1CC9B00B1C99A /* pie-legend.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68412D1CC9B00B1C99A /* pie-legend.htm */; };
+		0C3FA6A812D1CC9B00B1C99A /* scatter.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68512D1CC9B00B1C99A /* scatter.htm */; };
+		0C3FA6A912D1CC9B00B1C99A /* spline-inverted.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68612D1CC9B00B1C99A /* spline-inverted.htm */; };
+		0C3FA6AA12D1CC9B00B1C99A /* spline-plot-bands.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68712D1CC9B00B1C99A /* spline-plot-bands.htm */; };
+		0C3FA6AB12D1CC9B00B1C99A /* spline-symbols.htm in Resources */ = {isa = PBXBuildFile; fileRef = 0C3FA68812D1CC9B00B1C99A /* spline-symbols.htm */; };
+		1D3623260D0F684500981E51 /* HTML5ChartingTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HTML5ChartingTestAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* HTML5ChartingTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* HTML5ChartingTestViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* HTML5ChartingTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* HTML5ChartingTestViewController.m */; };
+		A3216B2914AD993200968004 /* ovc expo_57.png in Resources */ = {isa = PBXBuildFile; fileRef = A3216B2814AD993200968004 /* ovc expo_57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C3FA5E912D1C77300B1C99A /* tokyo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tokyo.json; sourceTree = "<group>"; };
+		0C3FA5EB12D1C77F00B1C99A /* analytics.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analytics.csv; sourceTree = "<group>"; };
+		0C3FA5EC12D1C77F00B1C99A /* analytics.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = analytics.tsv; sourceTree = "<group>"; };
+		0C3FA61912D1C92900B1C99A /* mootools-adapter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-adapter.js"; sourceTree = "<group>"; };
+		0C3FA61A12D1C92900B1C99A /* mootools-adapter.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "mootools-adapter.src.js"; sourceTree = "<group>"; };
+		0C3FA61B12D1C92900B1C99A /* highcharts.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.js; sourceTree = "<group>"; };
+		0C3FA61C12D1C92A00B1C99A /* highcharts.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = highcharts.src.js; sourceTree = "<group>"; };
+		0C3FA61E12D1C92A00B1C99A /* exporting.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.js; sourceTree = "<group>"; };
+		0C3FA61F12D1C92A00B1C99A /* exporting.src.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = exporting.src.js; sourceTree = "<group>"; };
+		0C3FA62112D1C92A00B1C99A /* dark-blue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-blue.js"; sourceTree = "<group>"; };
+		0C3FA62212D1C92A00B1C99A /* dark-green.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "dark-green.js"; sourceTree = "<group>"; };
+		0C3FA62312D1C92A00B1C99A /* gray.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gray.js; sourceTree = "<group>"; };
+		0C3FA62412D1C92A00B1C99A /* grid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = grid.js; sourceTree = "<group>"; };
+		0C3FA66612D1CC9B00B1C99A /* area-basic.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "area-basic.htm"; sourceTree = "<group>"; };
+		0C3FA66712D1CC9B00B1C99A /* area-inverted.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "area-inverted.htm"; sourceTree = "<group>"; };
+		0C3FA66812D1CC9B00B1C99A /* area-missing.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "area-missing.htm"; sourceTree = "<group>"; };
+		0C3FA66912D1CC9B00B1C99A /* area-negative.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "area-negative.htm"; sourceTree = "<group>"; };
+		0C3FA66A12D1CC9B00B1C99A /* area-stacked-percent.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "area-stacked-percent.htm"; sourceTree = "<group>"; };
+		0C3FA66B12D1CC9B00B1C99A /* area-stacked.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "area-stacked.htm"; sourceTree = "<group>"; };
+		0C3FA66C12D1CC9B00B1C99A /* areaspline.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = areaspline.htm; sourceTree = "<group>"; };
+		0C3FA66D12D1CC9B00B1C99A /* bar-basic.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "bar-basic.htm"; sourceTree = "<group>"; };
+		0C3FA66E12D1CC9B00B1C99A /* bar-negative-stack.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "bar-negative-stack.htm"; sourceTree = "<group>"; };
+		0C3FA66F12D1CC9B00B1C99A /* bar-stacked.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "bar-stacked.htm"; sourceTree = "<group>"; };
+		0C3FA67012D1CC9B00B1C99A /* column-basic.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-basic.htm"; sourceTree = "<group>"; };
+		0C3FA67112D1CC9B00B1C99A /* column-negative.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-negative.htm"; sourceTree = "<group>"; };
+		0C3FA67212D1CC9B00B1C99A /* column-parsed.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-parsed.htm"; sourceTree = "<group>"; };
+		0C3FA67312D1CC9B00B1C99A /* column-rotated-labels.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-rotated-labels.htm"; sourceTree = "<group>"; };
+		0C3FA67412D1CC9B00B1C99A /* column-stacked-and-grouped.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-stacked-and-grouped.htm"; sourceTree = "<group>"; };
+		0C3FA67512D1CC9B00B1C99A /* column-stacked-percent.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-stacked-percent.htm"; sourceTree = "<group>"; };
+		0C3FA67612D1CC9B00B1C99A /* column-stacked.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "column-stacked.htm"; sourceTree = "<group>"; };
+		0C3FA67712D1CC9B00B1C99A /* combo-dual-axes.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "combo-dual-axes.htm"; sourceTree = "<group>"; };
+		0C3FA67812D1CC9B00B1C99A /* combo-multi-axes.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "combo-multi-axes.htm"; sourceTree = "<group>"; };
+		0C3FA67912D1CC9B00B1C99A /* combo-regression.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "combo-regression.htm"; sourceTree = "<group>"; };
+		0C3FA67A12D1CC9B00B1C99A /* combo.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = combo.htm; sourceTree = "<group>"; };
+		0C3FA67B12D1CC9B00B1C99A /* dynamic-click-to-add.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "dynamic-click-to-add.htm"; sourceTree = "<group>"; };
+		0C3FA67C12D1CC9B00B1C99A /* dynamic-master-detail.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "dynamic-master-detail.htm"; sourceTree = "<group>"; };
+		0C3FA67D12D1CC9B00B1C99A /* dynamic-update.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "dynamic-update.htm"; sourceTree = "<group>"; };
+		0C3FA67E12D1CC9B00B1C99A /* line-ajax.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "line-ajax.htm"; sourceTree = "<group>"; };
+		0C3FA67F12D1CC9B00B1C99A /* line-basic.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "line-basic.htm"; sourceTree = "<group>"; };
+		0C3FA68012D1CC9B00B1C99A /* line-labels.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "line-labels.htm"; sourceTree = "<group>"; };
+		0C3FA68112D1CC9B00B1C99A /* line-time-series.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "line-time-series.htm"; sourceTree = "<group>"; };
+		0C3FA68212D1CC9B00B1C99A /* pie-basic.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "pie-basic.htm"; sourceTree = "<group>"; };
+		0C3FA68312D1CC9B00B1C99A /* pie-donut.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "pie-donut.htm"; sourceTree = "<group>"; };
+		0C3FA68412D1CC9B00B1C99A /* pie-legend.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "pie-legend.htm"; sourceTree = "<group>"; };
+		0C3FA68512D1CC9B00B1C99A /* scatter.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = scatter.htm; sourceTree = "<group>"; };
+		0C3FA68612D1CC9B00B1C99A /* spline-inverted.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "spline-inverted.htm"; sourceTree = "<group>"; };
+		0C3FA68712D1CC9B00B1C99A /* spline-plot-bands.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "spline-plot-bands.htm"; sourceTree = "<group>"; };
+		0C3FA68812D1CC9B00B1C99A /* spline-symbols.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "spline-symbols.htm"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HTML5ChartingTestAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5ChartingTestAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HTML5ChartingTestAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML5ChartingTestAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HTML5ChartingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTML5ChartingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* HTML5ChartingTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HTML5ChartingTestViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* HTML5ChartingTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5ChartingTestViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* HTML5ChartingTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTML5ChartingTestViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* HTML5ChartingTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTML5ChartingTest_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HTML5ChartingTest-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HTML5ChartingTest-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A3216B2814AD993200968004 /* ovc expo_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ovc expo_57.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FA61712D1C92900B1C99A /* js */,
+				0C3FA5F012D1C78600B1C99A /* TestCode */,
+				1D3623240D0F684500981E51 /* HTML5ChartingTestAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HTML5ChartingTestAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* HTML5ChartingTestViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* HTML5ChartingTestViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0C3FA5F012D1C78600B1C99A /* TestCode */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FA66612D1CC9B00B1C99A /* area-basic.htm */,
+				0C3FA66712D1CC9B00B1C99A /* area-inverted.htm */,
+				0C3FA66812D1CC9B00B1C99A /* area-missing.htm */,
+				0C3FA66912D1CC9B00B1C99A /* area-negative.htm */,
+				0C3FA66A12D1CC9B00B1C99A /* area-stacked-percent.htm */,
+				0C3FA66B12D1CC9B00B1C99A /* area-stacked.htm */,
+				0C3FA66C12D1CC9B00B1C99A /* areaspline.htm */,
+				0C3FA66D12D1CC9B00B1C99A /* bar-basic.htm */,
+				0C3FA66E12D1CC9B00B1C99A /* bar-negative-stack.htm */,
+				0C3FA66F12D1CC9B00B1C99A /* bar-stacked.htm */,
+				0C3FA67012D1CC9B00B1C99A /* column-basic.htm */,
+				0C3FA67112D1CC9B00B1C99A /* column-negative.htm */,
+				0C3FA67212D1CC9B00B1C99A /* column-parsed.htm */,
+				0C3FA67312D1CC9B00B1C99A /* column-rotated-labels.htm */,
+				0C3FA67412D1CC9B00B1C99A /* column-stacked-and-grouped.htm */,
+				0C3FA67512D1CC9B00B1C99A /* column-stacked-percent.htm */,
+				0C3FA67612D1CC9B00B1C99A /* column-stacked.htm */,
+				0C3FA67712D1CC9B00B1C99A /* combo-dual-axes.htm */,
+				0C3FA67812D1CC9B00B1C99A /* combo-multi-axes.htm */,
+				0C3FA67912D1CC9B00B1C99A /* combo-regression.htm */,
+				0C3FA67A12D1CC9B00B1C99A /* combo.htm */,
+				0C3FA67B12D1CC9B00B1C99A /* dynamic-click-to-add.htm */,
+				0C3FA67C12D1CC9B00B1C99A /* dynamic-master-detail.htm */,
+				0C3FA67D12D1CC9B00B1C99A /* dynamic-update.htm */,
+				0C3FA67E12D1CC9B00B1C99A /* line-ajax.htm */,
+				0C3FA67F12D1CC9B00B1C99A /* line-basic.htm */,
+				0C3FA68012D1CC9B00B1C99A /* line-labels.htm */,
+				0C3FA68112D1CC9B00B1C99A /* line-time-series.htm */,
+				0C3FA68212D1CC9B00B1C99A /* pie-basic.htm */,
+				0C3FA68312D1CC9B00B1C99A /* pie-donut.htm */,
+				0C3FA68412D1CC9B00B1C99A /* pie-legend.htm */,
+				0C3FA68512D1CC9B00B1C99A /* scatter.htm */,
+				0C3FA68612D1CC9B00B1C99A /* spline-inverted.htm */,
+				0C3FA68712D1CC9B00B1C99A /* spline-plot-bands.htm */,
+				0C3FA68812D1CC9B00B1C99A /* spline-symbols.htm */,
+				0C3FA5EB12D1C77F00B1C99A /* analytics.csv */,
+				0C3FA5EC12D1C77F00B1C99A /* analytics.tsv */,
+				0C3FA5E912D1C77300B1C99A /* tokyo.json */,
+			);
+			name = TestCode;
+			sourceTree = "<group>";
+		};
+		0C3FA61712D1C92900B1C99A /* js */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FA61812D1C92900B1C99A /* adapters */,
+				0C3FA61B12D1C92900B1C99A /* highcharts.js */,
+				0C3FA61C12D1C92A00B1C99A /* highcharts.src.js */,
+				0C3FA61D12D1C92A00B1C99A /* modules */,
+				0C3FA62012D1C92A00B1C99A /* themes */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		0C3FA61812D1C92900B1C99A /* adapters */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FA61912D1C92900B1C99A /* mootools-adapter.js */,
+				0C3FA61A12D1C92900B1C99A /* mootools-adapter.src.js */,
+			);
+			path = adapters;
+			sourceTree = "<group>";
+		};
+		0C3FA61D12D1C92A00B1C99A /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FA61E12D1C92A00B1C99A /* exporting.js */,
+				0C3FA61F12D1C92A00B1C99A /* exporting.src.js */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		0C3FA62012D1C92A00B1C99A /* themes */ = {
+			isa = PBXGroup;
+			children = (
+				0C3FA62112D1C92A00B1C99A /* dark-blue.js */,
+				0C3FA62212D1C92A00B1C99A /* dark-green.js */,
+				0C3FA62312D1C92A00B1C99A /* gray.js */,
+				0C3FA62412D1C92A00B1C99A /* grid.js */,
+			);
+			path = themes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* HTML5ChartingTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A3216B2814AD993200968004 /* ovc expo_57.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* HTML5ChartingTest_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* HTML5ChartingTestViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* HTML5ChartingTest-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* HTML5ChartingTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HTML5ChartingTest" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HTML5ChartingTest;
+			productName = HTML5ChartingTest;
+			productReference = 1D6058910D05DD3D006BFB54 /* HTML5ChartingTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Foxconn;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HTML5ChartingTest" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* HTML5ChartingTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3FA63612D1CB6700B1C99A /* highcharts.src.js in Resources */,
+				0C3FA63512D1CB5C00B1C99A /* highcharts.js in Resources */,
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* HTML5ChartingTestViewController.xib in Resources */,
+				0C3FA5EA12D1C77300B1C99A /* tokyo.json in Resources */,
+				0C3FA5ED12D1C77F00B1C99A /* analytics.csv in Resources */,
+				0C3FA5EE12D1C77F00B1C99A /* analytics.tsv in Resources */,
+				0C3FA68912D1CC9B00B1C99A /* area-basic.htm in Resources */,
+				0C3FA68A12D1CC9B00B1C99A /* area-inverted.htm in Resources */,
+				0C3FA68B12D1CC9B00B1C99A /* area-missing.htm in Resources */,
+				0C3FA68C12D1CC9B00B1C99A /* area-negative.htm in Resources */,
+				0C3FA68D12D1CC9B00B1C99A /* area-stacked-percent.htm in Resources */,
+				0C3FA68E12D1CC9B00B1C99A /* area-stacked.htm in Resources */,
+				0C3FA68F12D1CC9B00B1C99A /* areaspline.htm in Resources */,
+				0C3FA69012D1CC9B00B1C99A /* bar-basic.htm in Resources */,
+				0C3FA69112D1CC9B00B1C99A /* bar-negative-stack.htm in Resources */,
+				0C3FA69212D1CC9B00B1C99A /* bar-stacked.htm in Resources */,
+				0C3FA69312D1CC9B00B1C99A /* column-basic.htm in Resources */,
+				0C3FA69412D1CC9B00B1C99A /* column-negative.htm in Resources */,
+				0C3FA69512D1CC9B00B1C99A /* column-parsed.htm in Resources */,
+				0C3FA69612D1CC9B00B1C99A /* column-rotated-labels.htm in Resources */,
+				0C3FA69712D1CC9B00B1C99A /* column-stacked-and-grouped.htm in Resources */,
+				0C3FA69812D1CC9B00B1C99A /* column-stacked-percent.htm in Resources */,
+				0C3FA69912D1CC9B00B1C99A /* column-stacked.htm in Resources */,
+				0C3FA69A12D1CC9B00B1C99A /* combo-dual-axes.htm in Resources */,
+				0C3FA69B12D1CC9B00B1C99A /* combo-multi-axes.htm in Resources */,
+				0C3FA69C12D1CC9B00B1C99A /* combo-regression.htm in Resources */,
+				0C3FA69D12D1CC9B00B1C99A /* combo.htm in Resources */,
+				0C3FA69E12D1CC9B00B1C99A /* dynamic-click-to-add.htm in Resources */,
+				0C3FA69F12D1CC9B00B1C99A /* dynamic-master-detail.htm in Resources */,
+				0C3FA6A012D1CC9B00B1C99A /* dynamic-update.htm in Resources */,
+				0C3FA6A112D1CC9B00B1C99A /* line-ajax.htm in Resources */,
+				0C3FA6A212D1CC9B00B1C99A /* line-basic.htm in Resources */,
+				0C3FA6A312D1CC9B00B1C99A /* line-labels.htm in Resources */,
+				0C3FA6A412D1CC9B00B1C99A /* line-time-series.htm in Resources */,
+				0C3FA6A512D1CC9B00B1C99A /* pie-basic.htm in Resources */,
+				0C3FA6A612D1CC9B00B1C99A /* pie-donut.htm in Resources */,
+				0C3FA6A712D1CC9B00B1C99A /* pie-legend.htm in Resources */,
+				0C3FA6A812D1CC9B00B1C99A /* scatter.htm in Resources */,
+				0C3FA6A912D1CC9B00B1C99A /* spline-inverted.htm in Resources */,
+				0C3FA6AA12D1CC9B00B1C99A /* spline-plot-bands.htm in Resources */,
+				0C3FA6AB12D1CC9B00B1C99A /* spline-symbols.htm in Resources */,
+				A3216B2914AD993200968004 /* ovc expo_57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HTML5ChartingTestAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* HTML5ChartingTestViewController.m in Sources */,
+				0C3FA62512D1C92A00B1C99A /* mootools-adapter.js in Sources */,
+				0C3FA62612D1C92A00B1C99A /* mootools-adapter.src.js in Sources */,
+				0C3FA62712D1C92A00B1C99A /* highcharts.js in Sources */,
+				0C3FA62812D1C92A00B1C99A /* highcharts.src.js in Sources */,
+				0C3FA62912D1C92A00B1C99A /* exporting.js in Sources */,
+				0C3FA62A12D1C92A00B1C99A /* exporting.src.js in Sources */,
+				0C3FA62B12D1C92A00B1C99A /* dark-blue.js in Sources */,
+				0C3FA62C12D1C92A00B1C99A /* dark-green.js in Sources */,
+				0C3FA62D12D1C92A00B1C99A /* gray.js in Sources */,
+				0C3FA62E12D1C92A00B1C99A /* grid.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HTML5ChartingTest_Prefix.pch;
+				INFOPLIST_FILE = "HTML5ChartingTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = HTML5ChartingTest;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = HTML5ChartingTest_Prefix.pch;
+				INFOPLIST_FILE = "HTML5ChartingTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = HTML5ChartingTest;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CHICHE HUANG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1D2C5259-FAEB-4269-B423-2307B0C34051";
+				SDKROOT = iphoneos5.0;
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: CHICHE HUANG";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "1D2C5259-FAEB-4269-B423-2307B0C34051";
+				SDKROOT = iphoneos5.0;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HTML5ChartingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HTML5ChartingTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

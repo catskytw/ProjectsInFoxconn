@@ -1,0 +1,8 @@
+{
+	Description = "\U4e00\U500b\U7522\U54c1\U6e05\U55ae\U4e2d\U7684\U6309\U9375, \U5305\U542b\U8cc7\U8a0a\U6709\U7522\U54c1\U7e2e\U5716,\U7522\U54c1\U540d\U7a31,\U50f9\U683c.";
+	"ImplicitCounterpartTemplateFiles" = {
+		"FcProductButtonView1.h" = "FcProductButtonView1.h";
+		"FcProductButtonView1.m" = "FcProductButtonView1.m";
+		"FcProductButtonView1.xib" = "FcProductButtonView1.xib";
+	};
+}

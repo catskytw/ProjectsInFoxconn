@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/17/trunk/Examples/MobileWebDAVTransporter/Classes
+END
+TransferStatusController.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/16/trunk/Examples/MobileWebDAVTransporter/Classes/TransferStatusController.h
+END
+MobileWebDAVTransporterAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/16/trunk/Examples/MobileWebDAVTransporter/Classes/MobileWebDAVTransporterAppDelegate.h
+END
+TransferStatusController.m
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/16/trunk/Examples/MobileWebDAVTransporter/Classes/TransferStatusController.m
+END
+TestController.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/Examples/MobileWebDAVTransporter/Classes/TestController.h
+END
+MobileWebDAVTransporterAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/16/trunk/Examples/MobileWebDAVTransporter/Classes/MobileWebDAVTransporterAppDelegate.m
+END
+TestController.m
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/17/trunk/Examples/MobileWebDAVTransporter/Classes/TestController.m
+END

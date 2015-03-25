@@ -1,0 +1,978 @@
+#import "iPhoneXMPPAppDelegate.h"
+#import "RootViewController.h"
+#import "SettingsViewController.h"
+
+#import "GCDAsyncSocket.h"
+#import "XMPP.h"
+#import "XMPPCapabilitiesCoreDataStorage.h"
+#import "XMPPRosterCoreDataStorage.h"
+#import "XMPPvCardAvatarModule.h"
+#import "XMPPvCardCoreDataStorage.h"
+
+#import "DDLog.h"
+#import "DDTTYLogger.h"
+#import "Queue.h" //A19 toolkit
+#import "MessageQueue.h"
+#import <CFNetwork/CFNetwork.h>
+#import "ChattingViewController.h"
+#import "TURNSocket.h"
+#import "Config.h"
+#import "XMPPJID+ext.h"
+#import "XMPPResource.h"
+#import "XMPPPresence.h"
+#import "Tools.h"
+#import "Config.h"
+// Log levels: off, error, warn, info, verbose
+static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+static const BOOL self_test = YES;
+
+@interface iPhoneXMPPAppDelegate()
+
+- (void)setupStream;
+
+- (void)goOnline;
+- (void)goOffline;
+- (XMPPMessage *) sendMessage:(XMPPStream *)sender messageString:(NSString *)message toUserID:(XMPPJID *)jid withFileName:(NSString *)fileName;
+
+@end
+
+#pragma mark -
+@implementation iPhoneXMPPAppDelegate
+
+@synthesize xmppStream;
+@synthesize xmppCapabilities;
+@synthesize xmppRoster;
+@synthesize xmppIBBStream;
+@synthesize xmppPubSub;
+@synthesize xmppRoom;
+@synthesize xmppvCardAvatarModule;
+@synthesize xmppvCardTempModule;
+
+@synthesize window;
+@synthesize navigationController;
+@synthesize settingsViewController;
+@synthesize loginButton;
+@synthesize inputBox;
+@synthesize selectedJID;
+@synthesize delDialog;
+@synthesize buddyConfirmDialog;
+
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    // reg a notification
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(sendMessageNotification:) name:@"sendMessageNotification" object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(sendFileNotification:) name:@"sendFileNotification" object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(receiveShowActivityIndicatorNotification:) name:SHOW_ACTIVITY_INDICATOR object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(receiveCloseActivityIndicatorNotification:) name:CLOSE_ACTIVITY_INDICATOR object:nil];
+	// Configure logging framework
+	[DDLog addLogger:[DDTTYLogger sharedInstance]];
+    
+	// Setup the view controllers    
+	[window setRootViewController:navigationController];
+	[window makeKeyAndVisible];
+	// Setup the XMPP stream
+    
+	[self setupStream];
+    
+	//if (![self connect]) {
+		[navigationController presentModalViewController:settingsViewController animated:NO];
+	//}
+    
+	return YES;
+}
+
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:@"sendMessageNotification" object:nil];
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:@"sendFileNotification" object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:SHOW_ACTIVITY_INDICATOR object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:CLOSE_ACTIVITY_INDICATOR object:nil];
+	[xmppStream removeDelegate:self];
+	[xmppRoster removeDelegate:self];
+    
+	[xmppStream disconnect];
+	[xmppvCardAvatarModule release];
+	[xmppvCardTempModule release];
+    [xmppCapabilities release];
+	[xmppStream release];
+	[xmppRoster release];
+    //[xmppRoom release];
+    [xmppIBBStream release];
+    [xmppPubSub release];
+    
+	[password release];
+	[loginButton release];
+	[settingsViewController release];
+	[navigationController release];
+    [[MessageQueue share] release];
+    [MessageQueue releaseMessageQueue];
+	[window release];
+    [delDialog release];
+    
+	[super dealloc];
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark Private
+-(void)sendMessageNotification:(NSNotification*)notification{
+    NSDictionary *dic=notification.userInfo;
+    NSString *m_message=[dic valueForKey:@"_message"];
+    XMPPJID *m_jid=[dic valueForKey:@"_jid"];
+    if (!m_jid) {
+        //NSLog(@"iPhoneXMPPAppDelegate sendMessageNotification error: m_jid is nil");
+        m_jid = myJID;
+    }
+    [MessageQueue setMessageWithJID:[xmppStream sendMessage:xmppStream messageString:m_message toUserID:m_jid] withJID:[m_jid user]];
+}
+-(void)sendFileNotification:(NSNotification*)notification{
+    NSDictionary *dic=notification.userInfo;
+    NSString *m_message=[dic valueForKey:@"_message"];
+    XMPPJID *m_jid=[dic valueForKey:@"_jid"];
+    NSString *m_path=[dic valueForKey:@"_path"];
+    NSString *m_base64=[dic valueForKey:@"_base64"];
+    if (!m_jid) {
+        //NSLog(@"iPhoneXMPPAppDelegate sendFileNotification error: m_jid is nil");
+        m_jid = myJID;
+    }
+    
+    
+    /* comment by change, you don't need this.
+    id(^jidStringWithoutResource)(XMPPJID *jid)=^(XMPPJID *jid){
+        return [NSString stringWithFormat:@"%@@%@",[jid user],[jid domain]];   
+    };
+    */
+    
+    NSString *myJidString= [[xmppStream myJID] full];
+    NSString *targetJidString=[m_jid full];
+    myJidString =[myJidString stringByReplacingOccurrencesOfString:@"/" withString:@"%2F"];
+    
+    NSString *postString=[NSString stringWithFormat:@"voiceData=%@&from=%@&to=%@&format=aac&payload=mp4",m_base64,myJidString,targetJidString];
+    NSLog(@"postString:%@",postString);
+    NSData *postData = [postString dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
+    NSString *postLength = [NSString stringWithFormat:@"%d", [postData length]];
+    
+    NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] init] autorelease];
+    [request setURL:[NSURL URLWithString:SEND_MESSAGE_URL]];
+    [request setHTTPMethod:@"POST"];
+    [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [request setValue:postLength forHTTPHeaderField:@"Content-Length"];
+    [request setValue:@"Mobile Safari 1.1.3 (iPhone; U; CPU like Mac OS X; en)" forHTTPHeaderField:@"User-Agent"];
+    
+    [request setHTTPBody:postData]; //加上 post 的資料
+    connect = [[NSURLConnection alloc] initWithRequest:request delegate:self];
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Configure the xmpp stream
+- (void)setupStream
+{
+	// Initialize variables
+	xmppStream = [[XMPPStream alloc] init];
+    xmppCapabilities = [[XMPPCapabilities alloc] initWithCapabilitiesStorage:[XMPPCapabilitiesCoreDataStorage sharedInstance]];
+	xmppRoster = [[XMPPRoster alloc] initWithRosterStorage:[XMPPRosterCoreDataStorage sharedInstance]];
+    //xmppRoom = [[XMPPRoom alloc] initWithRoomName:@"roomName..." nickName:@"nickName..."];
+    //xmppRoom = [[XMPPRoom alloc] initWithDispatchQueue:dispatch_get_main_queue()];
+	xmppvCardTempModule = [[XMPPvCardTempModule alloc] initWithvCardStorage:[XMPPvCardCoreDataStorage sharedInstance]];
+	xmppvCardAvatarModule = [[XMPPvCardAvatarModule alloc] initWithvCardTempModule:xmppvCardTempModule];
+    xmppIBBStream = [[XMPPIBBStream alloc] initWithStream:xmppStream myJID:nil];
+    //xmppPubSub = [[XMPPPubSub alloc]initWithDispatchQueue:dispatch_get_main_queue()];
+	// Configure modules
+    
+    xmppCapabilities.autoFetchHashedCapabilities = YES;
+    xmppCapabilities.autoFetchNonHashedCapabilities = NO;
+	[xmppRoster setAutoRoster:YES];
+    
+	/**
+	 * Add XMPPRoster as a delegate of XMPPvCardAvatarModule to cache roster photos in the roster.
+	 * This frees the view controller from having to save photos on the main thread.
+     **/
+	[xmppvCardAvatarModule addDelegate:xmppRoster delegateQueue:xmppRoster.moduleQueue];
+    
+    
+	// Activate xmpp modules
+    
+    [xmppCapabilities activate:xmppStream];
+	[xmppRoster activate:xmppStream];
+	[xmppvCardTempModule activate:xmppStream];
+	[xmppvCardAvatarModule activate:xmppStream];
+    [xmppIBBStream activate:xmppStream];
+    //[xmppPubSub activate:xmppStream];
+    
+	// Add ourself as a delegate to anything we may be interested in
+    
+	[xmppStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
+	[xmppRoster addDelegate:self delegateQueue:dispatch_get_main_queue()];
+    //[xmppRoom addDelegate:self delegateQueue:dispatch_get_main_queue()];
+    //[xmppIBBStream addDelegate:self delegateQueue:dispatch_get_main_queue()];
+    //[xmppPubSub addDelegate:self delegateQueue:dispatch_get_main_queue()];
+	// Optional:
+	// 
+	// Replace me with the proper domain and port.
+	// The example below is setup for a typical google talk account.
+	// 
+	// If you don't supply a hostName, then it will be automatically resolved using the JID (below).
+	// For example, if you supply a JID like 'user@quack.com/rsrc'
+	// then the xmpp framework will follow the xmpp specification, and do a SRV lookup for quack.com.
+	// 
+	// If you don't specify a hostPort, then the default (5222) will be used.
+	//	[xmppStream setHostName:@"talk.google.com"];
+	//	[xmppStream setHostPort:5222];	
+	NSString *serverHost = [[NSUserDefaults standardUserDefaults] stringForKey:kXMPPmyServerHost];
+    [xmppStream setHostName:serverHost];
+    [xmppStream setHostPort:5222];
+    
+	// You may need to alter these settings depending on the server you're connecting to
+	allowSelfSignedCertificates = NO;
+	allowSSLHostNameMismatch = NO;
+}
+
+// It's easy to create XML elments to send and to read received XML elements.
+// You have the entire NSXMLElement and NSXMLNode API's.
+// 
+// In addition to this, the NSXMLElement+XMPP category provides some very handy methods for working with XMPP.
+// 
+// On the iPhone, Apple chose not to include the full NSXML suite.
+// No problem - we use the KissXML library as a drop in replacement.
+// 
+// For more information on working with XML elements, see the Wiki article:
+// http://code.google.com/p/xmppframework/wiki/WorkingWithElements
+
+- (void)goOnline
+{
+	XMPPPresence *presence = [XMPPPresence presence]; // type="available" is implicit
+	
+	[[self xmppStream] sendElement:presence];
+}
+
+- (void)goOffline
+{
+	XMPPPresence *presence = [XMPPPresence presenceWithType:@"unavailable"];
+	
+	[[self xmppStream] sendElement:presence];
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark Connect/disconnect
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- (BOOL)connect
+{
+    //[Tools addWaitCursor];
+    if (![xmppStream isDisconnected]) {
+        return YES;
+    }
+    
+    NSString *_myJID = [[NSUserDefaults standardUserDefaults] stringForKey:kXMPPmyJID];
+    NSString *myPassword = [[NSUserDefaults standardUserDefaults] stringForKey:kXMPPmyPassword];
+    
+    myJID = [XMPPJID jidWithString:_myJID];
+    if ([myJID resource] == nil) {
+        [myJID setValue:@"foxconn" forKey:@"resource"];
+    }
+    
+    //
+    // If you don't want to use the Settings view to set the JID, 
+    // uncomment the section below to hard code a JID and password.
+    //
+    // Replace me with the proper JID and password:
+    //	myJID = @"user@gmail.com/xmppframework";
+    //	myPassword = @"";
+  	//myJID = @"reach@reach";
+  	//myPassword = @"1234";
+    
+    if (_myJID == nil || myPassword == nil) {
+        DDLogWarn(@"JID and password must be set before connecting!");
+        
+        return NO;
+    }
+    
+    [xmppStream setMyJID:myJID];
+    password = myPassword;
+    
+    NSError *error = nil;
+    if (![xmppStream connect:&error])
+    {
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error connecting" 
+                                                            message:@"See console for error details." 
+                                                           delegate:nil 
+                                                  cancelButtonTitle:@"Ok" 
+                                                  otherButtonTitles:nil];
+        [alertView show];
+        [alertView release];
+        
+        DDLogError(@"Error connecting: %@", error);
+        //[Tools delWaitCursor];
+        NSLog(@"connectiong error");
+        return NO;
+    }
+    //[Tools delWaitCursor];
+    return YES;
+}
+
+- (void)disconnect {
+    [self goOffline];
+    
+    [xmppStream disconnect];
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark UIApplicationDelegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void)applicationDidEnterBackground:(UIApplication *)application 
+{
+    /*
+     Use this method to release shared resources, save user data, invalidate timers, and store enough application state 
+     information to restore your application to its current state in case it is terminated later. 
+     If your application supports background execution, called instead of applicationWillTerminate: when the user quits.
+     */
+    DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+    
+#if TARGET_IPHONE_SIMULATOR
+    DDLogError(@"The iPhone simulator does not process background network traffic.  Inbound traffic is queued until the keepAliveTimeout:handler: fires.");
+#endif
+    
+    if ([application respondsToSelector:@selector(setKeepAliveTimeout:handler:)]) 
+    {
+        [application setKeepAliveTimeout:600 handler:^{
+            DDLogVerbose(@"KeepAliveHandler");
+            
+            // Do other keep alive stuff here.
+        }];
+    }
+}
+
+- (void)applicationWillEnterForeground:(UIApplication *)application 
+{
+    DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+}
+
+-(void)receiveShowActivityIndicatorNotification:(NSNotification*)notification{
+    if ([[notification name] isEqualToString:SHOW_ACTIVITY_INDICATOR]) {
+        NSLog(@"received ShowActivityIndicator");
+        [Tools addWaitCursor];
+    }
+}
+-(void)receiveCloseActivityIndicatorNotification:(NSNotification*)notification{
+    if ([[notification name] isEqualToString:CLOSE_ACTIVITY_INDICATOR]) {
+        NSLog(@"received CloseActivityIndicator");
+        [Tools delWaitCursor];
+    }
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark XMPPRosterDelegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void)xmppRoster:(XMPPRoster *)sender didReceiveBuddyRequest:(XMPPPresence *)presence
+{
+    DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+    
+    NSString *displayName = [[xmppRoster userForJID:[presence from]] displayName];
+    NSString *jidStrBare = [presence fromStr];
+    NSString *body = nil;
+    
+    if (![displayName isEqualToString:jidStrBare]) 
+    {
+        body = [NSString stringWithFormat:@"Buddy request from %@ <%@>", displayName, jidStrBare];
+    } 
+    else 
+    {
+        body = [NSString stringWithFormat:@"Buddy request from %@", displayName];
+    }
+    
+    
+    if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateActive)
+    {
+        buddyConfirmDialog = [[UIAlertView alloc] initWithTitle:displayName
+                                                            message:body 
+                                                           delegate:self 
+                                                  cancelButtonTitle:@"Exit" 
+                                                  otherButtonTitles:@"Accept", @"Reject",nil];
+        [[self buddyConfirmDialog] show];
+        buddyConfirmDialog_jid = [[presence from]retain];
+        /*UIAlertView *confirmDialog = [[UIAlertView alloc] initWithTitle:displayName
+                                                                message:body 
+                                                               delegate:self 
+                                                      cancelButtonTitle:@"Exit" 
+                                                      otherButtonTitles:@"Accept", @"Reject",nil];
+        [confirmDialog show];
+        [confirmDialog release];*/
+    } 
+    else 
+    {
+        // We are not active, so use a local notification instead
+        UILocalNotification *localNotification = [[UILocalNotification alloc] init];
+        localNotification.alertAction = @"Not implemented";
+        localNotification.alertBody = body;
+        
+        [[UIApplication sharedApplication] presentLocalNotificationNow:localNotification];
+        [localNotification release];
+    }
+    
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark XMPPStream Delegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void)xmppStream:(XMPPStream *)sender socketDidConnect:(GCDAsyncSocket *)socket 
+{
+    // Allows the application to receive inbound XMPP traffic while in the background.
+    [socket performBlock:^{
+        [socket enableBackgroundingOnSocket];
+    }];
+}
+
+- (void)xmppStream:(XMPPStream *)sender willSecureWithSettings:(NSMutableDictionary *)settings
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+	
+	if (allowSelfSignedCertificates)
+	{
+		[settings setObject:[NSNumber numberWithBool:YES] forKey:(NSString *)kCFStreamSSLAllowsAnyRoot];
+	}
+	
+	if (allowSSLHostNameMismatch)
+	{
+		[settings setObject:[NSNull null] forKey:(NSString *)kCFStreamSSLPeerName];
+	}
+	else
+	{
+		// Google does things incorrectly (does not conform to RFC).
+		// Because so many people ask questions about this (assume xmpp framework is broken),
+		// I've explicitly added code that shows how other xmpp clients "do the right thing"
+		// when connecting to a google server (gmail, or google apps for domains).
+		
+		NSString *expectedCertName = nil;
+		
+		NSString *serverDomain = xmppStream.hostName;
+		NSString *virtualDomain = [xmppStream.myJID domain];
+		
+		if ([serverDomain isEqualToString:@"talk.google.com"])
+		{
+			if ([virtualDomain isEqualToString:@"gmail.com"])
+			{
+				expectedCertName = virtualDomain;
+			}
+			else
+			{
+				expectedCertName = serverDomain;
+			}
+		}
+		else if (serverDomain == nil)
+		{
+			expectedCertName = virtualDomain;
+		}
+		else
+		{
+			expectedCertName = serverDomain;
+		}
+		
+		if (expectedCertName)
+		{
+			[settings setObject:expectedCertName forKey:(NSString *)kCFStreamSSLPeerName];
+		}
+	}
+}
+
+- (void)xmppStreamDidSecure:(XMPPStream *)sender
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+}
+
+- (void)xmppStreamDidConnect:(XMPPStream *)sender
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+	
+	isOpen = YES;
+	
+	NSError *error = nil;
+	
+    if([settingsViewController isRegister] == YES)
+    {
+        if(![[self xmppStream] registerWithPassword:password error:&error])
+        {
+            DDLogError(@"Error authenticating: %@", error);
+            [navigationController presentModalViewController:settingsViewController animated:YES];
+        }
+    }
+    else
+	{
+        if(![[self xmppStream] authenticateWithPassword:password error:&error])
+        {
+            DDLogError(@"Error authenticating: %@", error);
+            [navigationController presentModalViewController:settingsViewController animated:YES];
+        }
+	}
+}
+
+- (void)xmppStreamDidAuthenticate:(XMPPStream *)sender
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+	[[NSNotificationCenter defaultCenter]postNotificationName:@"dismissSettingNotification" object:nil userInfo:nil];
+	[self goOnline];
+}
+
+- (void)xmppStreamDidRegister:(XMPPStream *)sender
+{
+    DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+    NSError *error = nil;
+	if(![[self xmppStream] authenticateWithPassword:password error:&error])
+    {
+        DDLogError(@"Error authenticating for regist: %@", error);
+        [navigationController presentModalViewController:settingsViewController animated:YES];
+    }
+}
+/* sender : 
+ * messageString : message content
+ * jid : target user id.(eg. [user name]@[service])
+ */
+- (XMPPMessage *) sendMessage:(XMPPStream *)sender messageString:(NSString *)message toUserID:(XMPPJID *)jid 
+{
+	return [self sendMessage:sender messageString:message toUserID:jid withFileName:nil withFileData:nil];
+}
+
+/* sender : 
+ * messageString : message content
+ * jid : target user id.(eg. [user name]@[service])
+ */
+- (XMPPMessage *) sendMessage:(XMPPStream *)sender messageString:(NSString *)_message toUserID:(XMPPJID *)jid withFileName:(NSString *)fileName withFileData:(NSString *)fileData
+{
+	NSString *fileStr = fileName;
+    NSString *messageStr = _message;
+    NSXMLElement *properties = nil;
+
+    if (self_test == NO) {
+        NSLog(@"Send file message : Formal process...");
+    }
+    else
+    {
+        NSLog(@"Send file message : Self test...");
+        if([fileStr length] > 0)
+        {
+            //XXXX : Post sound data to http server.
+            NSFileHandle *_file = nil;
+            //Notify user.
+            NSXMLElement *message = [[NSXMLElement elementWithName:@"message"]retain];
+            [message addAttributeWithName:@"type" stringValue:@"chat"];
+            //[message addAttributeWithName:@"to" stringValue:[jid full]];
+            [message addAttributeWithName:@"to" stringValue:[[sender myJID]full]];
+            NSXMLElement *body = [NSXMLElement elementWithName:@"body"];
+            [body setStringValue:messageStr];
+            [message addChild:body];
+            
+            //Follow Smack properties protocol.
+            NSXMLElement *property = nil;
+            properties = [[NSXMLElement elementWithName:@"properties" xmlns:@"http://www.jivesoftware.com/xmlns/xmpp/properties"]retain];
+            
+            property = [[self createProperty:@"extType" withValue:@"voiceFile" valueType:@"string"]retain];
+            [properties addChild:property];
+            //[property release];
+            property = [[self createProperty:@"voiceId" withValue:fileStr valueType:@"string"]retain];
+            [properties addChild:property];
+            //[property release];
+            property = [[self createProperty:@"desc" withValue:@"This is a test file..." valueType:@"string"]retain];
+            [properties addChild:property];
+            //[property release];
+            property = [[self createProperty:@"from" withValue:@"zack@zack" valueType:@"string"]retain];
+            [properties addChild:property];
+            //[property release];
+            property = [[self createProperty:@"to" withValue:@"zack1@zack" valueType:@"string"]retain];
+            [properties addChild:property];
+            //[property release];
+            localPathProperty = [[self createProperty:@"file_local_path" withValue:fileStr valueType:@"string"]retain];
+            [properties addChild:localPathProperty];
+            //[localPathProperty release];
+            [message addChild:properties];
+            //[properties release];
+            
+            [xmppStream sendElement:message];
+            return [XMPPMessage messageFromElement:message];
+        }
+        else
+        {
+            return nil;
+        }
+    }
+}
+
+- (NSXMLElement *) createProperty:(NSString *)name withValue:(NSString *)value valueType:(NSString *)valueType
+{
+    NSXMLElement *property = nil;
+    NSXMLElement *_name = nil;
+    NSXMLElement *_value = nil;
+    property = [[NSXMLElement elementWithName:@"property"]retain];
+    _name = [[NSXMLElement elementWithName:@"name"]retain];
+    [_name setStringValue:name];
+    _value = [[NSXMLElement elementWithName:@"value"]retain];
+    [_value setStringValue:value];
+    if (valueType != nil) {
+        [_value addAttributeWithName:@"type" stringValue:valueType];
+    }
+    
+    [property addChild:_name];
+    [property addChild:_value];
+    //[_name release];
+    //[_value release];
+    //[property autorelease];
+    return property;
+}
+
+- (BOOL) isFileMessage:(XMPPMessage *)message
+{
+    NSString *xmlString = [message XMLString];
+    NSLog(@"data...%@", xmlString);
+    
+    DDXMLElement *properties = [[message elementForName:@"properties" xmlns:@"http://www.jivesoftware.com/xmlns/xmpp/properties"]retain];
+    if (properties != nil) {
+        NSString *value = [self getPropertyByName:message withKey:@"extType"];
+        if ([value isEqualToString:@"voiceFile"] == YES) {
+            return YES;
+        }
+        return NO;
+    }
+    return NO;
+}
+
+- (NSString *) getPropertyByName:(XMPPMessage *)message withKey:(NSString *)key
+{
+    DDXMLElement *properties = [[message elementForName:@"properties" xmlns:@"http://www.jivesoftware.com/xmlns/xmpp/properties"]retain];
+    if (properties != nil) {
+        NSArray *property_arr = [[properties elementsForName:@"property"]retain];
+        NSEnumerator *_index = [property_arr objectEnumerator];
+        DDXMLElement *property = nil;
+        property = [_index nextObject];
+        while (property != nil) {
+            DDXMLElement *_name_obj = [property elementForName:@"name"];
+            NSString *_name = [_name_obj stringValue];
+            if ([_name isEqualToString:key]) {
+                return [[property elementForName:@"value"] stringValue];
+            }
+            property = [_index nextObject];
+        }
+        return nil;
+    }
+    return nil;
+}
+
+- (BOOL) setProperty:(XMPPMessage *)message withProperty:(DDXMLElement *)property
+{
+    DDXMLElement *properties = [[message elementForName:@"properties" xmlns:@"http://www.jivesoftware.com/xmlns/xmpp/properties"]retain];
+    if (properties != nil) {
+        [properties addChild:property];
+        return YES;
+    }
+    return NO;
+}
+
+- (void)xmppStream:(XMPPStream *)sender didNotAuthenticate:(NSXMLElement *)error
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+    [Tools delWaitCursor];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Did Not Authenticate" 
+                                                        message:@"Please check accout and password..."//[error localizedDescription]
+                                                       delegate:nil 
+                                              cancelButtonTitle:@"Ok" 
+                                              otherButtonTitles:nil];
+    [alertView show];
+    [alertView release];
+    [navigationController presentModalViewController:settingsViewController animated:YES];
+}
+
+- (BOOL)xmppStream:(XMPPStream *)sender didReceiveIQ:(XMPPIQ *)iq
+{
+	DDLogVerbose(@"%@: %@ - %@", THIS_FILE, THIS_METHOD, [iq elementID]);
+	
+	return NO;
+}
+
+-(BOOL)handleFileMessage:(XMPPMessage *)message
+{
+    NSString *_file_url =RECEIVE_MESSAGE_URL;
+    if (_file_url != nil) {
+        NSString *_file_name = [self getPropertyByName:message withKey:@"voiceId"];        
+        _file_url = [_file_url stringByAppendingFormat:@"?voiceId=%@%@", _file_name, @"&audioFormat=aac&payload=mp4", nil];
+        NSURL *url=[NSURL URLWithString:_file_url];
+        NSData *data=[NSData dataWithContentsOfURL:url];
+        NSString *_temp_path = NSTemporaryDirectory();
+        NSString *_save_path = [_temp_path stringByAppendingString:_file_name];
+        _save_path = [_save_path stringByAppendingString:@".mp4"];
+        [data writeToFile:_save_path atomically:YES];
+        
+        //Add message file_local_path property
+        DDXMLElement *_localPathProperty = [[self createProperty:@"file_local_path" withValue:_save_path valueType:@"string"]retain];
+        [self setProperty:message withProperty:_localPathProperty];
+        NSLog(@"get local path = %@",[self getPropertyByName:message withKey:@"file_local_path"]);
+    }        
+    return YES;
+}
+
+/* 
+ * eg. Get message content
+ *  NSString *body = [[message elementForName:@"body"] stringValue];    
+ *  NSString *displayName = [[xmppRoster userForJID:[message from]] displayName];
+ */
+- (void)xmppStream:(XMPPStream *)sender didReceiveMessage:(XMPPMessage *)message
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+    if (![[message from] user]) {
+        NSLog(@"iPhoneXMPPAppDelegate didReceiveMessage error: [message from] is nil");
+    }
+    
+    //filter out the self message
+    NSString *message_to = [[message to] user];
+    NSString *my = [[xmppStream myJID]user];
+    if (![my isEqualToString:message_to]) {
+        NSLog(@"iPhoneXMPPAppDelegate didReceiveMessage : the message is not for me...");
+        return;
+    }
+    //NSString *xmlString = [message XMLString];
+    NSLog(@"receive message!!");
+    if ([self isFileMessage:message] == YES) {
+        if ([self handleFileMessage:message] == NO){
+            NSLog(@"handleFileMessage : Error...");
+        }
+        NSLog(@"change file path:%@",[self getPropertyByName:message withKey:@"file_local_path"]);
+    }
+    
+    NSArray *viewContrlls=[[self navigationController] viewControllers];
+    [viewContrlls lastObject];
+    
+    NSArray *bodys=[message elementsForName:@"body"];
+    if (bodys!=nil || [self isFileMessage:message]) {
+        if (!([[viewContrlls lastObject] isKindOfClass:[ChattingViewController class]])||!([[[message from]user] isEqualToString:[selectedJID user]])) {
+            UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:[[message from]user] message:[[message elementForName:@"body"] stringValue] delegate:nil cancelButtonTitle:nil otherButtonTitles:@"OK",nil]autorelease];
+            [alert show];
+            NSNumber *unreadCnt =[[MessageQueue shareUnreadDic]objectForKey:[[message from]user]];
+            if (unreadCnt== nil) {
+                [[MessageQueue shareUnreadDic]setValue:[NSNumber numberWithInt:1] forKey:[[message from]user]];
+            }else{
+                [[MessageQueue shareUnreadDic]setValue:[NSNumber numberWithInt:[unreadCnt intValue]+1] forKey:[[message from]user]];
+            }
+            [[NSNotificationCenter defaultCenter]postNotificationName:@"reloadContactListNotification" object:nil];
+        }
+        //NSLog(@"bodys %@",[[bodys objectAtIndex:0]stringValue]);
+    }
+    //NSLog(@"didReceiveMessage message from%@ selectedJid:%@", [[message from]user], [selectedJID user]);
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"reloadConversationTable" object:nil userInfo:nil];
+    
+    // (XXXX) 1.Check the target queue for this message.
+    // 2. Put the message to queue.
+    // 3. Notify UI to update.
+    // eg. :
+    //  NSString *body = [[message elementForName:@"body"] stringValue];    
+    //  NSString *displayName = [[xmppRoster userForJID:[message from]] displayName];
+    
+    // A simple example of inbound message handling.
+    
+    /*if ([message isChatMessageWithBody])
+     {
+     NSString *body = [[message elementForName:@"body"] stringValue];    
+     NSString *displayName = [[xmppRoster userForJID:[message from]] displayName];
+     
+     if ([[UIApplication sharedApplication] applicationState] == UIApplicationStateActive)
+     {
+     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:displayName
+     message:body 
+     delegate:nil 
+     cancelButtonTitle:@"Ok" 
+     otherButtonTitles:nil];
+     [alertView show];
+     [alertView release];
+     } else {
+     // We are not active, so use a local notification instead
+     UILocalNotification *localNotification = [[UILocalNotification alloc] init];
+     localNotification.alertAction = @"Ok";
+     localNotification.alertBody = [NSString stringWithFormat:@"From: %@\n\n%@",displayName,body];
+     
+     [[UIApplication sharedApplication] presentLocalNotificationNow:localNotification];
+     [localNotification release];
+     }
+     }*/
+}
+
+- (void)xmppStream:(XMPPStream *)sender didReceivePresence:(XMPPPresence *)presence
+{
+	DDLogVerbose(@"%@: %@ - %@", THIS_FILE, THIS_METHOD, [presence fromStr]);
+    NSString * type = [presence type];
+    if ([type isEqualToString:@"unsubscribe"] || [type isEqualToString:@"unsubscribed"]) {
+        XMPPJID *friend = [presence from];
+        [xmppRoster removeBuddy:friend];
+    }
+    //Notify table to reload.
+    //NSArray *viewControllers = [navigationController viewControllers];
+    /*RootViewController *rootView = (RootViewController *)[navigationController.viewControllers objectAtIndex:0];
+    UITableViewController *tableView = (UITableViewController *)rootView;
+    [tableView reloadInputViews];*/
+    //[xmppRoster xmppRosterStorage] re
+}
+
+- (void)xmppStream:(XMPPStream *)sender didReceiveError:(id)error
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+}
+
+- (void)xmppStreamDidDisconnect:(XMPPStream *)sender withError:(NSError *)error
+{
+	DDLogVerbose(@"%@: %@", THIS_FILE, THIS_METHOD);
+	[Tools delWaitCursor];
+	if (!isOpen)
+	{
+        UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error connecting" 
+                                                            message:[error localizedDescription]
+                                                           delegate:nil 
+                                                  cancelButtonTitle:@"Ok" 
+                                                  otherButtonTitles:nil];
+        [alertView show];
+        [alertView release];
+		DDLogError(@"Unable to connect to server. Check xmppStream.hostName");
+	}
+    else
+    {
+        if([[error localizedDescription]length] > 0)
+        {
+            UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Error connecting" 
+                                                            message:[error localizedDescription]
+                                                           delegate:nil 
+                                                  cancelButtonTitle:@"Ok" 
+                                                  otherButtonTitles:nil];
+            [alertView show];
+            [alertView release];
+        }
+    }
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark TurnSocket Delegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (void)turnSocket:(TURNSocket *)sender didSucceed:(GCDAsyncSocket *)socket
+{
+    DDLogError(@"didSucceed...");
+}
+
+- (void)turnSocketDidFail:(TURNSocket *)sender
+{
+    DDLogError(@"turnSocketDidFail...");
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#pragma mark UIBuilder item Delegate
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+- (IBAction)addFriend
+{
+    XMPPJID *friend;
+    DDLogVerbose(@"%@: %@ - %@", THIS_FILE, THIS_METHOD, inputBox);
+    friend = [[XMPPJID jidWithString:inputBox] retain];
+    [xmppRoster addBuddy:friend withNickname:[friend user]];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (alertView == delDialog) {
+        if (buttonIndex == 1) {
+            XMPPJID *friend = [XMPPJID jidWithString:inputBox];
+            [xmppRoster removeBuddy:friend];
+        }
+    }
+    else if(alertView == buddyConfirmDialog)
+    {
+        if (buttonIndex == 0) {
+            //Exit
+        }
+        else if (buttonIndex == 1) {
+            //Accept
+            [xmppRoster acceptBuddyRequest:buddyConfirmDialog_jid];
+            
+        }
+        else if (buttonIndex == 2) {
+            //Reject
+            [xmppRoster rejectBuddyRequest:buddyConfirmDialog_jid];
+        }
+        [buddyConfirmDialog_jid release];
+    }
+    
+    [alertView release];
+}
+
+- (IBAction)delFriend
+{
+    delDialog = [[UIAlertView alloc ]initWithTitle:@"Warning" message:@"Are you Sure? Delete a friend" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:nil];
+    [delDialog addButtonWithTitle:@"OK"];
+    [delDialog show];    
+}
+
+- (IBAction)chatWithFriend
+{
+    XMPPJID *friend = selectedJID;
+    NSLog(@"chatWithFriend %@", [selectedJID user]);
+    [[MessageQueue shareUnreadDic]setValue:[NSNumber numberWithInt:0] forKey:[selectedJID user]];
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"reloadConversationTable" object:nil userInfo:nil];
+    ChattingViewController *nextViewController=[ChattingViewController new];
+    nextViewController.targetJid=friend;
+    nextViewController.targetDisplayName=[friend full];
+    nextViewController.navigationItem.title=[friend full];
+    [self.navigationController pushViewController:nextViewController animated:YES];
+    [nextViewController autorelease];
+    
+}
+
+- (IBAction)sendFile
+{
+    XMPPJID *friend = selectedJID;
+    //Test for multi-chat.
+    //1. Create Chat room
+    
+    
+    //Just for testing.
+    //xmppStream setMyJID:@"reach"
+    //friend = [[XMPPJID jidWithUser:@"zack" domain:@"reach" resource:@"iMac"]retain];
+    //[friend domain] = @"zack";
+    //self sendMessage:xmppStream messageString:@"hello" toUserID:friend withFileName:@"0123456789" withFileData:@"fileData..."];
+    /*XMPPRosterCoreDataStorage *_storage = [xmppRoster xmppRosterStorage];
+    if (_storage == nil) {
+        NSLog(@"_storage == nil...");
+    }
+    id <XMPPResource> resource = [[_storage resourceForJID:friend xmppStream:xmppStream]retain];
+    if (resource == nil) {
+        NSLog(@"resource == nil...");
+    }
+    XMPPPresence *presence = [resource presence];
+    if (presence == nil) {
+        NSLog(@"presence == nil...");
+    }
+    XMPPJID *res_jid= [[resource jid]retain];
+    NSLog(@"user status= %@, type=%@, res_jid=%@", [presence status], [presence type], [res_jid full]);*/
+    //[friend release];
+    
+    //[xmppIBBStream openIBB:friend];
+    //[xmppIBBStream setToJID:friend];
+    //[xmppIBBStream sendData:@"Hello"];
+    //socket5 = [[TURNSocket alloc] initWithStream:xmppStream toJID:friend];
+    //socket5 connection:<#(NSURLConnection *)#> didCancelAuthenticationChallenge:<#(NSURLAuthenticationChallenge *)#>
+}
+
+- (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
+{   //發生錯誤
+    [connect release];
+    NSLog(@"發生錯誤 %@",[error description]);
+}
+
+- (void)connection: (NSURLConnection *)connection didReceiveResponse: (NSURLResponse *)aResponse
+{  //連線建立成功
+    //取得狀態
+    NSInteger status = (NSInteger)[(NSHTTPURLResponse *)aResponse statusCode];
+    NSLog(@"%d", status);
+}
+
+-(void) connection:(NSURLConnection *)connection didReceiveData: (NSData *) incomingData
+{   //收到封包，將收到的資料塞進緩衝中並修改進度條
+}
+
+- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+{   //檔案下載完成
+    //將緩衝區的資料轉成字串
+    [connect release];
+}
+@end

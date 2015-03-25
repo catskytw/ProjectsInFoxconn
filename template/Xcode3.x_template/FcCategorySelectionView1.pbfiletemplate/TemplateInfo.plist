@@ -1,0 +1,8 @@
+{
+	Description = "\U4e00\U500bPicker\U9078\U64c7\U7684\U756b\U9762,\U5305\U542b\U6709 \"\U78ba\U5b9a\U201c, \"\U53d6\U6d88\U201c \U6309\U9375\U4e4b\U756b\U9762; \U53e6\U80cc\U666f\U70ba\U534a\U900f\U660e\U4e4b\U7070\U9ed1\U8272";
+	"ImplicitCounterpartTemplateFiles" = {
+		"FcCatalogTemplate1.xib" = "FcCatalogTemplate1.xib";
+		"FcCatalogTemplate1.h" = "FcCatalogTemplate1.h";
+		"FcCatalogTemplate1.m" = "FcCatalogTemplate1.m";
+	};
+}

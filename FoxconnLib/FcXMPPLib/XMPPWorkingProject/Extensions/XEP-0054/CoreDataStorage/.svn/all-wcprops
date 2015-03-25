@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage
+END
+XMPPvCardTempCoreDataStorageObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardTempCoreDataStorageObject.h
+END
+XMPPvCardCoreDataStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.h
+END
+XMPPvCardTempCoreDataStorageObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardTempCoreDataStorageObject.m
+END
+XMPPvCardCoreDataStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorage.m
+END
+XMPPvCardAvatarCoreDataStorageObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardAvatarCoreDataStorageObject.h
+END
+XMPPvCardCoreDataStorageObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorageObject.h
+END
+XMPPvCardAvatarCoreDataStorageObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardAvatarCoreDataStorageObject.m
+END
+XMPPvCardCoreDataStorageObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/XEP-0054/CoreDataStorage/XMPPvCardCoreDataStorageObject.m
+END

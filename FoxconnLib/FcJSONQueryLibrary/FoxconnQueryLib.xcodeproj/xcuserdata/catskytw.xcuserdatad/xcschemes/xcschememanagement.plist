@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FcQueryTestProject.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>FcQueryTestProjectTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>FcTest2Project.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>FoxconnQueryLib.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0C8A7549139500AB000CF06D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A31ECAEC14983FA0005EE222</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A31ECB0A149842DF005EE222</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A31ECB26149842DF005EE222</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A37B555F149897AF007B5FFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A37B557B149897AF007B5FFE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2AAC07D0554694100DB518D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

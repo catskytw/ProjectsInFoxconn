@@ -1,0 +1,14 @@
+//
+//  FcSprite.m
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/28.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import "FcSprite.h"
+
+
+@implementation FcSprite
+@synthesize fc_position,fc_scale,fc_angle,fc_radian;
+@end

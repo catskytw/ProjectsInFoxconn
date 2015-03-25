@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3106B4D14244AF200A044EF /* libRTSPClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3106B4C14244AF200A044EF /* libRTSPClient.a */; };
+		A373FF3214234F4600BE184D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF3114234F4600BE184D /* UIKit.framework */; };
+		A373FF3414234F4600BE184D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF3314234F4600BE184D /* Foundation.framework */; };
+		A373FF3614234F4600BE184D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF3514234F4600BE184D /* CoreGraphics.framework */; };
+		A373FF3C14234F4600BE184D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A373FF3A14234F4600BE184D /* InfoPlist.strings */; };
+		A373FF3E14234F4600BE184D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A373FF3D14234F4600BE184D /* main.m */; };
+		A373FF4214234F4600BE184D /* RTSpTestProjectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A373FF4114234F4600BE184D /* RTSpTestProjectAppDelegate.m */; };
+		A373FF4514234F4600BE184D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A373FF4314234F4600BE184D /* MainWindow.xib */; };
+		A373FF4814234F4600BE184D /* RTSpTestProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A373FF4714234F4600BE184D /* RTSpTestProjectViewController.m */; };
+		A373FF4B14234F4600BE184D /* RTSpTestProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A373FF4914234F4600BE184D /* RTSpTestProjectViewController.xib */; };
+		A373FF5314234F4600BE184D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF5214234F4600BE184D /* SenTestingKit.framework */; };
+		A373FF5414234F4600BE184D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF3114234F4600BE184D /* UIKit.framework */; };
+		A373FF5514234F4600BE184D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF3314234F4600BE184D /* Foundation.framework */; };
+		A373FF5614234F4600BE184D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF3514234F4600BE184D /* CoreGraphics.framework */; };
+		A373FF5E14234F4600BE184D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A373FF5C14234F4600BE184D /* InfoPlist.strings */; };
+		A373FF6014234F4600BE184D /* RTSpTestProjectTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A373FF5F14234F4600BE184D /* RTSpTestProjectTests.h */; };
+		A373FF6214234F4600BE184D /* RTSpTestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A373FF6114234F4600BE184D /* RTSpTestProjectTests.m */; };
+		A373FF741423531100BE184D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A373FF731423531100BE184D /* MediaPlayer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A373FF5714234F4600BE184D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A373FF2414234F4500BE184D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A373FF2C14234F4600BE184D;
+			remoteInfo = RTSpTestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3106B4C14244AF200A044EF /* libRTSPClient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRTSPClient.a; sourceTree = "<group>"; };
+		A373FF2D14234F4600BE184D /* RTSpTestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RTSpTestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A373FF3114234F4600BE184D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A373FF3314234F4600BE184D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A373FF3514234F4600BE184D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A373FF3914234F4600BE184D /* RTSpTestProject-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTSpTestProject-Info.plist"; sourceTree = "<group>"; };
+		A373FF3B14234F4600BE184D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A373FF3D14234F4600BE184D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A373FF3F14234F4600BE184D /* RTSpTestProject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RTSpTestProject-Prefix.pch"; sourceTree = "<group>"; };
+		A373FF4014234F4600BE184D /* RTSpTestProjectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSpTestProjectAppDelegate.h; sourceTree = "<group>"; };
+		A373FF4114234F4600BE184D /* RTSpTestProjectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSpTestProjectAppDelegate.m; sourceTree = "<group>"; };
+		A373FF4414234F4600BE184D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A373FF4614234F4600BE184D /* RTSpTestProjectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSpTestProjectViewController.h; sourceTree = "<group>"; };
+		A373FF4714234F4600BE184D /* RTSpTestProjectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSpTestProjectViewController.m; sourceTree = "<group>"; };
+		A373FF4A14234F4600BE184D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RTSpTestProjectViewController.xib; sourceTree = "<group>"; };
+		A373FF5114234F4600BE184D /* RTSpTestProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RTSpTestProjectTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A373FF5214234F4600BE184D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A373FF5B14234F4600BE184D /* RTSpTestProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RTSpTestProjectTests-Info.plist"; sourceTree = "<group>"; };
+		A373FF5D14234F4600BE184D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A373FF5F14234F4600BE184D /* RTSpTestProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTSpTestProjectTests.h; sourceTree = "<group>"; };
+		A373FF6114234F4600BE184D /* RTSpTestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTSpTestProjectTests.m; sourceTree = "<group>"; };
+		A373FF6D14234F8300BE184D /* RTSPClientSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTSPClientSession.h; sourceTree = "<group>"; };
+		A373FF731423531100BE184D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A373FF2A14234F4600BE184D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373FF741423531100BE184D /* MediaPlayer.framework in Frameworks */,
+				A373FF3214234F4600BE184D /* UIKit.framework in Frameworks */,
+				A373FF3414234F4600BE184D /* Foundation.framework in Frameworks */,
+				A373FF3614234F4600BE184D /* CoreGraphics.framework in Frameworks */,
+				A3106B4D14244AF200A044EF /* libRTSPClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A373FF4D14234F4600BE184D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373FF5314234F4600BE184D /* SenTestingKit.framework in Frameworks */,
+				A373FF5414234F4600BE184D /* UIKit.framework in Frameworks */,
+				A373FF5514234F4600BE184D /* Foundation.framework in Frameworks */,
+				A373FF5614234F4600BE184D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A373FF2214234F4500BE184D = {
+			isa = PBXGroup;
+			children = (
+				A373FF3714234F4600BE184D /* RTSpTestProject */,
+				A373FF5914234F4600BE184D /* RTSpTestProjectTests */,
+				A373FF3014234F4600BE184D /* Frameworks */,
+				A373FF2E14234F4600BE184D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A373FF2E14234F4600BE184D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A373FF2D14234F4600BE184D /* RTSpTestProject.app */,
+				A373FF5114234F4600BE184D /* RTSpTestProjectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A373FF3014234F4600BE184D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3106B4C14244AF200A044EF /* libRTSPClient.a */,
+				A373FF731423531100BE184D /* MediaPlayer.framework */,
+				A373FF3114234F4600BE184D /* UIKit.framework */,
+				A373FF3314234F4600BE184D /* Foundation.framework */,
+				A373FF3514234F4600BE184D /* CoreGraphics.framework */,
+				A373FF5214234F4600BE184D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A373FF3714234F4600BE184D /* RTSpTestProject */ = {
+			isa = PBXGroup;
+			children = (
+				A373FF4014234F4600BE184D /* RTSpTestProjectAppDelegate.h */,
+				A373FF4114234F4600BE184D /* RTSpTestProjectAppDelegate.m */,
+				A373FF4314234F4600BE184D /* MainWindow.xib */,
+				A373FF4614234F4600BE184D /* RTSpTestProjectViewController.h */,
+				A373FF4714234F4600BE184D /* RTSpTestProjectViewController.m */,
+				A373FF4914234F4600BE184D /* RTSpTestProjectViewController.xib */,
+				A373FF3814234F4600BE184D /* Supporting Files */,
+			);
+			path = RTSpTestProject;
+			sourceTree = "<group>";
+		};
+		A373FF3814234F4600BE184D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A373FF6D14234F8300BE184D /* RTSPClientSession.h */,
+				A373FF3914234F4600BE184D /* RTSpTestProject-Info.plist */,
+				A373FF3A14234F4600BE184D /* InfoPlist.strings */,
+				A373FF3D14234F4600BE184D /* main.m */,
+				A373FF3F14234F4600BE184D /* RTSpTestProject-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A373FF5914234F4600BE184D /* RTSpTestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A373FF5F14234F4600BE184D /* RTSpTestProjectTests.h */,
+				A373FF6114234F4600BE184D /* RTSpTestProjectTests.m */,
+				A373FF5A14234F4600BE184D /* Supporting Files */,
+			);
+			path = RTSpTestProjectTests;
+			sourceTree = "<group>";
+		};
+		A373FF5A14234F4600BE184D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A373FF5B14234F4600BE184D /* RTSpTestProjectTests-Info.plist */,
+				A373FF5C14234F4600BE184D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A373FF2C14234F4600BE184D /* RTSpTestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A373FF6514234F4600BE184D /* Build configuration list for PBXNativeTarget "RTSpTestProject" */;
+			buildPhases = (
+				A373FF2914234F4600BE184D /* Sources */,
+				A373FF2A14234F4600BE184D /* Frameworks */,
+				A373FF2B14234F4600BE184D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RTSpTestProject;
+			productName = RTSpTestProject;
+			productReference = A373FF2D14234F4600BE184D /* RTSpTestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A373FF5014234F4600BE184D /* RTSpTestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A373FF6814234F4600BE184D /* Build configuration list for PBXNativeTarget "RTSpTestProjectTests" */;
+			buildPhases = (
+				A373FF4C14234F4600BE184D /* Sources */,
+				A373FF4D14234F4600BE184D /* Frameworks */,
+				A373FF4E14234F4600BE184D /* Resources */,
+				A373FF4F14234F4600BE184D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A373FF5814234F4600BE184D /* PBXTargetDependency */,
+			);
+			name = RTSpTestProjectTests;
+			productName = RTSpTestProjectTests;
+			productReference = A373FF5114234F4600BE184D /* RTSpTestProjectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A373FF2414234F4500BE184D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = A373FF2714234F4500BE184D /* Build configuration list for PBXProject "RTSpTestProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A373FF2214234F4500BE184D;
+			productRefGroup = A373FF2E14234F4600BE184D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A373FF2C14234F4600BE184D /* RTSpTestProject */,
+				A373FF5014234F4600BE184D /* RTSpTestProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A373FF2B14234F4600BE184D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373FF3C14234F4600BE184D /* InfoPlist.strings in Resources */,
+				A373FF4514234F4600BE184D /* MainWindow.xib in Resources */,
+				A373FF4B14234F4600BE184D /* RTSpTestProjectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A373FF4E14234F4600BE184D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373FF5E14234F4600BE184D /* InfoPlist.strings in Resources */,
+				A373FF6014234F4600BE184D /* RTSpTestProjectTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A373FF4F14234F4600BE184D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A373FF2914234F4600BE184D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373FF3E14234F4600BE184D /* main.m in Sources */,
+				A373FF4214234F4600BE184D /* RTSpTestProjectAppDelegate.m in Sources */,
+				A373FF4814234F4600BE184D /* RTSpTestProjectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A373FF4C14234F4600BE184D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A373FF6214234F4600BE184D /* RTSpTestProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A373FF5814234F4600BE184D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A373FF2C14234F4600BE184D /* RTSpTestProject */;
+			targetProxy = A373FF5714234F4600BE184D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A373FF3A14234F4600BE184D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A373FF3B14234F4600BE184D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A373FF4314234F4600BE184D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A373FF4414234F4600BE184D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		A373FF4914234F4600BE184D /* RTSpTestProjectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A373FF4A14234F4600BE184D /* en */,
+			);
+			name = RTSpTestProjectViewController.xib;
+			sourceTree = "<group>";
+		};
+		A373FF5C14234F4600BE184D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A373FF5D14234F4600BE184D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A373FF6314234F4600BE184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHICHE HUANG (CS6AKN4BVG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "BAFC5955-BD9E-4E1C-9328-1968F855ACEC";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "i386 armv7 armv6";
+			};
+			name = Debug;
+		};
+		A373FF6414234F4600BE184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: CHICHE HUANG (CS6AKN4BVG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "BAFC5955-BD9E-4E1C-9328-1968F855ACEC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "i386 armv7 armv6";
+			};
+			name = Release;
+		};
+		A373FF6614234F4600BE184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTSpTestProject/RTSpTestProject-Prefix.pch";
+				INFOPLIST_FILE = "RTSpTestProject/RTSpTestProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A373FF6714234F4600BE184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTSpTestProject/RTSpTestProject-Prefix.pch";
+				INFOPLIST_FILE = "RTSpTestProject/RTSpTestProject-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A373FF6914234F4600BE184D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTSpTestProject.app/RTSpTestProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTSpTestProject/RTSpTestProject-Prefix.pch";
+				INFOPLIST_FILE = "RTSpTestProjectTests/RTSpTestProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A373FF6A14234F4600BE184D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RTSpTestProject.app/RTSpTestProject";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RTSpTestProject/RTSpTestProject-Prefix.pch";
+				INFOPLIST_FILE = "RTSpTestProjectTests/RTSpTestProjectTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A373FF2714234F4500BE184D /* Build configuration list for PBXProject "RTSpTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A373FF6314234F4600BE184D /* Debug */,
+				A373FF6414234F4600BE184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A373FF6514234F4600BE184D /* Build configuration list for PBXNativeTarget "RTSpTestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A373FF6614234F4600BE184D /* Debug */,
+				A373FF6714234F4600BE184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A373FF6814234F4600BE184D /* Build configuration list for PBXNativeTarget "RTSpTestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A373FF6914234F4600BE184D /* Debug */,
+				A373FF6A14234F4600BE184D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A373FF2414234F4500BE184D /* Project object */;
+}

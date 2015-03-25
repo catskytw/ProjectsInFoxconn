@@ -1,0 +1,265 @@
+//
+//  QueryPattern.m
+//  FoxconnQueryLib
+//
+//  Created by 廖 晨志 on 2010/12/2.
+//  Copyright 2010 foxconn. All rights reserved.
+//
+
+#import "QueryPattern.h"
+#import "SBJsonParser.h"
+#import "DownloadThreadObject.h"
+#import "JSONCoreDataUtil.h"
+@implementation QueryPattern
+@synthesize _startSyncNotificationName,_endSyncNotificationName;
+-(id)init{
+    if((self=[super init])){
+        _startSyncNotificationName=nil;
+        _endSyncNotificationName=nil;
+    }
+    return  self;
+}
+-(id)initWithStartNotificationName:(NSString*)startNotification withEndNotification:(NSString*)endNotification{
+    if((self=[self init])){
+        if(startNotification!=nil)
+            _startSyncNotificationName=[[NSString stringWithString:startNotification]retain];
+        if(endNotification!=nil)
+            _endSyncNotificationName=[[NSString stringWithString:endNotification]retain];
+    }
+    return self;
+}
+-(BOOL)prepareDicWithDictionary:(NSDictionary*)outsideDic{
+	if(outsideDic!=nil)
+		jsonDic=[[NSDictionary dictionaryWithDictionary:outsideDic]retain];
+	return YES;
+}
+-(BOOL)prepareDic:(NSString*)urlString{
+	NSLog(@"%@",urlString);
+    if(_startSyncNotificationName!=nil)
+        [[NSNotificationCenter defaultCenter]postNotificationName:_startSyncNotificationName object:nil];
+	jsonDic=[[NSDictionary dictionaryWithDictionary:(NSDictionary*)[self getJSONRawResult:urlString]]retain];
+
+    if(_endSyncNotificationName!=nil){
+        NSMutableDictionary *dic=[NSMutableDictionary dictionary];
+        [dic setValue:self forKey:@"QueryPatternSelf"];
+        //NSLog(@"response:%@",[jsonDic valueForKey:@"response"]);
+        [[NSNotificationCenter defaultCenter]postNotificationName:_endSyncNotificationName object:nil userInfo:dic];
+    }
+	return YES;
+}
+-(void)dealloc{
+    if(_startSyncNotificationName!=nil) [_startSyncNotificationName release];
+    if(_endSyncNotificationName!=nil) [_endSyncNotificationName release];
+	[jsonDic release];
+	[super dealloc];
+}
+-(BOOL)valueBinding:(id)uiComponents withKey:(NSString *)key withIndexArray:(NSUInteger)index{
+	NSString *value=[self getValue:key withIndex:index];
+	[self uiValueBinding:uiComponents withValue:value];
+	return YES;
+}
+-(BOOL)valueBindings:(NSArray*)uiComponents withKey:(NSString*)key withIndexArray:(NSArray*)indexs{
+	NSMutableArray *indexsClone;
+	if(indexs!=nil){
+		indexsClone=[NSMutableArray arrayWithArray:indexs];
+		if([indexsClone count]<[uiComponents count]){
+			for(int i=0;i<[uiComponents count]-[indexsClone count];i++)
+				[indexsClone addObject:[NSNumber numberWithInt:-1]];
+		}
+	}
+	for(int i=0;i<[uiComponents count];i++){
+		NSString *value=(indexs==nil)?[self getValue:key withIndex:i]:
+		[self getValue:key withIndex:[(NSNumber*)[indexsClone objectAtIndex:i]intValue]];
+		[self uiValueBinding:[uiComponents objectAtIndex:i] withValue:value];
+	}
+	return YES;
+}	
+-(NSInteger)getNumberUnderNode:(NSString *)nodeName withKey:(NSString *)key withDepth:(NSInteger)depth{
+    NSDictionary *resultDic=jsonDic;
+	id baseNode=nil;
+	NSInteger numberCount;
+	JSONCoreDataUtil *baseCoreTool=[JSONCoreDataUtil new];
+	JSONCoreDataUtil *searchTool=[JSONCoreDataUtil new];
+	[baseCoreTool fetchObjects:resultDic withQueryString:nodeName];
+	if([baseCoreTool.dataArray count]>0)
+		baseNode=[baseCoreTool.dataArray objectAtIndex:0];
+    //指定深度
+    searchTool.depthIndex=depth;
+	[searchTool fetchObjectsWithNoTypeDataSource:baseNode withQueryString:key];
+	numberCount=[searchTool.dataArray count];
+	[baseCoreTool release];
+	[searchTool release];
+	return numberCount;
+}
+-(NSInteger)getNumberUnderNode:(NSString*)nodeName withKey:(NSString*)key{
+	NSDictionary *resultDic=jsonDic;
+	id baseNode=nil;
+	NSInteger numberCount;
+	JSONCoreDataUtil *baseCoreTool=[JSONCoreDataUtil new];
+	JSONCoreDataUtil *searchTool=[JSONCoreDataUtil new];
+	[baseCoreTool fetchObjects:resultDic withQueryString:nodeName];
+	if([baseCoreTool.dataArray count]>0)
+		baseNode=[baseCoreTool.dataArray objectAtIndex:0];
+	[searchTool fetchObjectsWithNoTypeDataSource:baseNode withQueryString:key];
+	numberCount=[searchTool.dataArray count];
+	[baseCoreTool release];
+	[searchTool release];
+	return numberCount;
+}
+-(id)getObjectUnderNode:(NSString*)nodeName withIndex:(NSInteger)index{
+	NSDictionary *resultDic=jsonDic;
+	id baseNode=nil;
+	JSONCoreDataUtil *baseCoreTool=[JSONCoreDataUtil new];
+	[baseCoreTool fetchObjects:resultDic withQueryString:nodeName];
+	if([baseCoreTool.dataArray count]>=index && [baseCoreTool.dataArray count]>0)
+		baseNode=[[baseCoreTool.dataArray objectAtIndex:index]copy];
+    [baseCoreTool release];
+	return baseNode;
+}
+-(NSString*)getValueUnderNode:(NSString*)nodeName withKey:(NSString*)key withIndex:(NSUInteger)index withDepth:(NSInteger)depth{
+    NSDictionary *resultDic=jsonDic;
+	id baseNode=nil;
+	NSString *resultString;
+	JSONCoreDataUtil *baseCoreTool=[JSONCoreDataUtil new];
+	JSONCoreDataUtil *searchTool=[JSONCoreDataUtil new];
+	[baseCoreTool fetchObjects:resultDic withQueryString:nodeName];
+	if([baseCoreTool.dataArray count]>0)
+		baseNode=[baseCoreTool.dataArray objectAtIndex:0];
+    searchTool.depthIndex=depth;
+	[searchTool fetchObjectsWithNoTypeDataSource:baseNode withQueryString:key];
+	resultString=[NSString stringWithString:[searchTool searchValue:index]];
+	[baseCoreTool release];
+	[searchTool release];
+	return resultString;
+}
+-(NSString*)getValueUnderNode:(NSString*)nodeName withKey:(NSString*)key withIndex:(NSUInteger)index{
+	NSDictionary *resultDic=jsonDic;
+	id baseNode=nil;
+	NSString *resultString;
+	JSONCoreDataUtil *baseCoreTool=[JSONCoreDataUtil new];
+	JSONCoreDataUtil *searchTool=[JSONCoreDataUtil new];
+	[baseCoreTool fetchObjects:resultDic withQueryString:nodeName];
+	if([baseCoreTool.dataArray count]>0)
+		baseNode=[baseCoreTool.dataArray objectAtIndex:0];
+	[searchTool fetchObjectsWithNoTypeDataSource:baseNode withQueryString:key];
+	resultString=[NSString stringWithString:[searchTool searchValue:index]];
+	[baseCoreTool release];
+	[searchTool release];
+	return resultString;
+}
+-(NSString*)getValue:(NSString*)key withIndex:(NSUInteger)index{
+	NSDictionary *resultDic=jsonDic;
+	NSString *resultString;
+	JSONCoreDataUtil *coreTool=[JSONCoreDataUtil new];
+	[coreTool fetchObjects:resultDic withQueryString:key];
+	resultString=[NSString stringWithString:[coreTool searchValue:index]];
+	[coreTool release];
+	return resultString;
+}
+-(NSInteger)getNumberForKey:(NSString*)key{
+	NSDictionary *resultDic=jsonDic;
+	JSONCoreDataUtil *coreTool=[JSONCoreDataUtil new];
+	[coreTool fetchObjects:resultDic withQueryString:key];
+	NSInteger resultNum=[coreTool.dataArray count];
+	[coreTool release];
+	return resultNum;
+}
+-(id)getJSONRawResult:(NSString*)urlString{
+	id returnObject=[self objectWithUrl:[NSURL URLWithString:urlString]];
+	return returnObject;
+}
+
+-(void)getImageData:(NSString*)urlString withUIComponent:(id)uiComponent withNotificationName:(NSString*)notificationName{
+	DownloadThreadObject *o;
+	if(notificationName==nil || [notificationName isEqualToString:@""])
+		o=[DownloadThreadObject new];
+	else {
+		o=[[DownloadThreadObject alloc]initWithNotificationName:notificationName];
+	}
+
+    if ([uiComponent isKindOfClass:[UIImageView class]]){
+		[o start:urlString withTargetView:(UIImageView*)uiComponent];
+	}else if([uiComponent isKindOfClass:[UIButton class]]){
+		[o start:urlString withTargetButton:(UIButton*)uiComponent];
+	}else{
+		NSLog(@"uiComponent class is not supported!");
+	}
+	[o release];
+}
+-(NSString*)fastFetchValueUnderNode:(NSString*)nodeName withKey:(NSString*)key withIndex:(NSInteger)index{
+    return @"not implement!";
+}
+//You should not use this method.
+-(id) objectWithUrl:(NSURL *)url
+{
+	SBJsonParser *jsonParser = [SBJsonParser new];
+	NSString *jsonString = [self stringWithUrl:url];
+	
+	id returnObject=[jsonParser objectWithString:jsonString error:NULL];
+	[jsonParser release];
+	return returnObject;
+}
+
+//You should not use this method.
+-(NSString *)stringWithUrl:(NSURL *)url
+{
+	// Fetch the JSON response
+	NSData *urlData;
+	NSURLResponse *response;
+	NSError *error;
+	@try{
+		NSURLRequest *urlRequest = [NSURLRequest requestWithURL:url
+													cachePolicy:NSURLRequestReturnCacheDataElseLoad
+												timeoutInterval:30];	
+		// Make synchronous request
+		urlData = [NSURLConnection sendSynchronousRequest:urlRequest
+										returningResponse:&response
+													error:&error];
+	}@catch (id e) {
+		return @"{}";
+	}@finally {
+    }
+ 	// Construct a String around the Data from the response
+	return [[[NSString alloc] initWithData:urlData encoding:NSUTF8StringEncoding]autorelease];
+}
+
+-(void)uiValueBinding:(id)uiComponent withValue:(NSString*)value{
+	@try{
+		if([uiComponent isKindOfClass:[UILabel class]]){
+			[(UILabel*)uiComponent setText:value];
+		}else if([uiComponent isKindOfClass:[UITextField class]]){
+			[(UITextField*)uiComponent setText:value];
+		}else if([uiComponent isKindOfClass:[UITextView class]]){
+			[(UITextView*)uiComponent setText:value];
+		}else if([uiComponent isKindOfClass:[UIButton class]]){
+			if([value rangeOfString:@"http://"].length!=0)
+				[self getImageData:value withUIComponent:uiComponent withNotificationName:nil];
+			else 
+				[(UIButton*)uiComponent setTitle:value forState:UIControlStateNormal];
+		}else if([uiComponent isKindOfClass:[UIImageView class]])
+			[self getImageData:value withUIComponent:uiComponent withNotificationName:nil];
+	}@catch (NSException *e) {
+		NSLog(@"Value binding error!");
+	}
+}
+
+-(NSString*)getValueFromNodeString:(NSString*)nodeString{
+    id o=(id)jsonDic;
+    id p=o;
+    NSString *returnString;
+    NSArray *nodes=[nodeString componentsSeparatedByString:@"."];
+    for(NSString *node in nodes){
+        jsonDic=p;
+        if([node rangeOfString:@"["].length>0){
+            NSArray *s=[node componentsSeparatedByString:@"["];
+            p=[self getObjectUnderNode:(NSString*)[s objectAtIndex:0] withIndex:0];
+            NSInteger num=[[(NSString*)[s objectAtIndex:1] stringByReplacingOccurrencesOfString:@"]" withString:@""]intValue];
+            p=[(NSArray*)p objectAtIndex:num];
+        }else
+            p=[self getObjectUnderNode:node withIndex:0];
+    }
+    jsonDic=o;
+    returnString=(NSString*)p;
+    return returnString;
+}
+@end

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="25" height="25" tilewidth="64" tileheight="32">
+ <tileset firstgid="1" name="floor" tilewidth="64" tileheight="32">
+  <image source="32_flagstone_tiles.png"/>
+  <tile id="28">
+   <properties>
+    <property name="Collidable" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="33" name="wall" tilewidth="128" tileheight="128">
+  <image source="Iso_Dungeon_Walls_by_pfunked.png"/>
+ </tileset>
+ <layer name="Collision" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAXkAFkKMbF2UOK+UTsGxg5scUyqXkJphhI78NlNDTWjdozaMRB2UKvcHQWjYCgBAEawRkHECQAA
+  </data>
+ </layer>
+ <layer name="floor" width="25" height="25">
+  <properties>
+   <property name="cc_vertexz" value="-100"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+2T0QqDMAxF8yB7ctWtIG5Q3f9/5Vp2L8vG3GyNT2vgEFTM4ZZGpFZJHTay1hHUPwFcVpCTY3yjg2cGQXGM+MhU6OjBiDk3dI/ZbcSBXIf7gc7l0HMdfoEOff7wLdex9H5QM0/yOK9zgeObWzvSGQV55rJ0pPPiXSJXY4fDXGZIzy08lg7O5b3iXbdycAfp8js4Gnndc+6JdQ5m4WzLHLVq/WPdAY6VwXzECQAA
+  </data>
+ </layer>
+ <objectgroup name="WallObjects" width="25" height="25">
+  <object name="WallObject" x="100" y="99" width="25" height="219"/>
+  <object name="WallObject" x="132" y="98" width="461" height="28"/>
+  <object name="WallObject" x="129" y="293" width="191" height="26"/>
+  <object name="WallObject" x="292" y="325" width="26" height="247"/>
+  <object name="WallObject" x="582" y="132" width="21" height="439"/>
+  <object name="WallObject" x="327" y="551" width="249" height="18"/>
+ </objectgroup>
+ <layer name="WallLayer" width="25" height="25">
+  <properties>
+   <property name="cc_vertexz" value="automatic"/>
+  </properties>
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA2NgGAWDFegBsQ0QOwCxEhBbAbEFlG0HxEZQ2goqhoz1ibTDkgL3KROpzpAOdtDDH4qDyA4dINYk0w5dIFbBgtHN0wZiLTLtwAWsiVBDqR32dLDDlA52GNPBDnM62GFLBzuIyTeU2oEr3yBjAwrtGAWjgFQAAMblIq/ECQAA
+  </data>
+ </layer>
+ <layer name="PlayerLayer" width="25" height="25">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BAQ0AAADCoPdPbQ43oAAAeDP5i1XpxAkAAA==
+  </data>
+ </layer>
+</map>

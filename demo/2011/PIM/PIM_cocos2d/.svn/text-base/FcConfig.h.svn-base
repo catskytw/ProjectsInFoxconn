@@ -1,0 +1,21 @@
+//
+//  FcConfig.h
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/28.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+#define WheelLayer_NUM 1
+#define EventLayer_NUM 2
+#define MaskLayer_NUM 1000
+
+//Wheel使用之public參數
+#define TABLE_ORIGIN_POINT CGPointMake(57, 91)
+#define _SPACE 57.0f //每一輪之間距 
+#define _WIDTH 586.0f //正常半徑
+#define _MAXWHEELNUM 24.0f //總共有幾圈
+//Wheel使用之private參數
+#define _LargeCircleRaduis 1368
+#define _MinCircle 0.0051
+#define _InnerCircleRadius 44
+#define _BaseRate 0.0017

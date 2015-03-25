@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/Reach/!svn/ver/31/2011/XMPPProject/Core
+END
+XMPPMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPMessage.h
+END
+XMPPModule.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPModule.h
+END
+XMPPLogging.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPLogging.h
+END
+XMPPElement.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPElement.h
+END
+XMPPMessage.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPMessage.m
+END
+XMPPModule.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPModule.m
+END
+XMPPStream.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/31/2011/XMPPProject/Core/XMPPStream.h
+END
+XMPPParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPParser.h
+END
+XMPPElement.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPElement.m
+END
+XMPPStream.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Reach/!svn/ver/31/2011/XMPPProject/Core/XMPPStream.m
+END
+XMPPParser.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPParser.m
+END
+XMPPPresence.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPPresence.h
+END
+XMPPJID.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPJID.h
+END
+XMPPPresence.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPPresence.m
+END
+XMPPIQ.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPIQ.h
+END
+XMPPJID.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPJID.m
+END
+XMPPInternal.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPInternal.h
+END
+XMPPIQ.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPPIQ.m
+END
+XMPP.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Core/XMPP.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/2011/!svn/ver/28/FcJSONQueryLibrary
+END
+JSONCoreDataUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/29/FcJSONQueryLibrary/JSONCoreDataUtil.h
+END
+DownloadThreadObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/29/FcJSONQueryLibrary/DownloadThreadObject.m
+END
+JSONCoreDataUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/29/FcJSONQueryLibrary/JSONCoreDataUtil.m
+END
+DownloadThreadObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/29/FcJSONQueryLibrary/DownloadThreadObject.h
+END
+FoxconnQueryLib_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/2011/!svn/ver/29/FcJSONQueryLibrary/FoxconnQueryLib_Prefix.pch
+END
+QueryPattern.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/185/FcJSONQueryLibrary/QueryPattern.m
+END

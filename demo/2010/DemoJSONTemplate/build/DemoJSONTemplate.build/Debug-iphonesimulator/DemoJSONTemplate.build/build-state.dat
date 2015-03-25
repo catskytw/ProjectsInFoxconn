@@ -1,0 +1,536 @@
+TDemoJSONTemplate
+v7
+r0
+t316685165.785041
+cCheck dependencies
+cProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist DemoJSONTemplate-Info.plist
+cCompileXIB /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/MainWindow.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/DemoJSONTemplateViewController.xib
+cCpResource build/Debug-iphonesimulator/DemoJSONTemplate.app/indexui_img_firstimage.png "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png"
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch.gch DemoJSONTemplate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate normal i386
+cGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+cTouch /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png
+c000000004CD8D000000000000002A0E0
+t1289277440
+s172256
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004C5A4E0B00000000001D2EC0
+t1280986635
+s1912512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.h
+c000000004CF704F7000000000000020B
+t1291257079
+s523
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m
+c000000004CF704F70000000000000AAE
+t1291257079
+s2734
+i"DemoJSONTemplateAppDelegate.h"
+i"DemoJSONTemplateViewController.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.h
+c000000004D11DA2A00000000000002F5
+t1293015594
+s757
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m
+c000000004D11DAA40000000000000D2F
+t1293015716
+s3375
+i"DemoJSONTemplateViewController.h"
+i"QueryPattern.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/QueryPattern.h
+c000000004D3003E60000000000000979
+t1294992358
+s2425
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/DemoJSONTemplateViewController.xib
+c000000004D11DA4700000000000082BD
+t1293015623
+s33469
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/DemoJSONTemplate_Prefix.pch
+c000000004CF704F700000000000000C9
+t1291257079
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/MainWindow.xib
+c000000004CF704F70000000000004E95
+t1291257079
+s20117
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+t1294992365
+s272
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM
+t1294992365
+s102
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+t1294992365
+s63300
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplateViewController.nib
+t1293015648
+s5073
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist
+t1294974858
+s633
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/MainWindow.nib
+t1293009965
+s1699
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/PkgInfo
+t1294974858
+s8
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/indexui_img_firstimage.png
+t1294974858
+s172256
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplate.LinkFileList
+c000000004D3003EB0000000000000214
+t1294992363
+s532
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o
+t1294992365
+s48588
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o
+t1294992365
+s51788
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o
+t1294992365
+s6344
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/libFoxconnQueryLib.a
+c000000004D11DBFA0000000000030F78
+t1293016058
+s200568
+
+N/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m
+c000000004CF704F80000000000000168
+t1291257080
+s360
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/DemoJSONTemplate/../FoxconnQueryLib/build/Debug-iphonesimulator/libFoxconnQueryLib.a
+c000000004D11BDF20000000000030D88
+t1293008370
+s200072
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.h
+c000000004CF704F7000000000000020B
+t1291257079
+s523
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m
+c000000004CF704F70000000000000AAE
+t1291257079
+s2734
+i"DemoJSONTemplateAppDelegate.h"
+i"DemoJSONTemplateViewController.h"
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.h
+c000000004D11DA2A00000000000002F5
+t1293015594
+s757
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m
+c000000004D11DAA40000000000000D2F
+t1293015716
+s3375
+i"DemoJSONTemplateViewController.h"
+i"QueryPattern.h"
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/QueryPattern.h
+c000000004D11BBBC000000000000033F
+t1293007804
+s831
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/test.h
+c000000004CF7132D000000000000015B
+t1291260717
+s347
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/test.m
+c000000004CF7132D000000000000059F
+t1291260717
+s1439
+i"test.h"
+
+N/Users/change/Documents/DemoJSONTemplate/Classes/test.xib
+c000000004CF7132D0000000000002825
+t1291260717
+s10277
+
+N/Users/change/Documents/DemoJSONTemplate/DemoJSONTemplateViewController.xib
+c000000004D11DA4700000000000082BD
+t1293015623
+s33469
+
+N/Users/change/Documents/DemoJSONTemplate/DemoJSONTemplate_Prefix.pch
+c000000004CF704F700000000000000C9
+t1291257079
+s201
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/DemoJSONTemplate/MainWindow.xib
+c000000004CF704F70000000000004E95
+t1291257079
+s20117
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+t1294974861
+s272
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM
+t1294974861
+s102
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+t1294974861
+s63092
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplateViewController.nib
+t1293015648
+s5073
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist
+t1294974858
+s633
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/MainWindow.nib
+t1293009965
+s1699
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/PkgInfo
+t1294974858
+s8
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/indexui_img_firstimage.png
+t1294974858
+s172256
+
+N/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/test.nib
+t2
+s0
+
+N/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplate.LinkFileList
+c000000004D11C42C00000000000001DB
+t1293009964
+s475
+
+N/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o
+t1294974860
+s48552
+
+N/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o
+t1294974860
+s51748
+
+N/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o
+t1294974860
+s6308
+
+N/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/test.o
+t2
+s0
+
+N/Users/change/Documents/DemoJSONTemplate/libFoxconnQueryLib.a
+c000000004D11DBFA0000000000030F78
+t1293016058
+s200568
+
+N/Users/change/Documents/DemoJSONTemplate/main.m
+c000000004CF704F80000000000000168
+t1291257080
+s360
+i<UIKit/UIKit.h>
+
+N/Users/change/Documents/FoxconnQueryLib/build/Debug-iphoneos/libFoxconnQueryLib.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch.gch
+t1294992364
+s15211536
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch.gch
+t1294974860
+s15211536
+
+NDemoJSONTemplate-Info.plist
+c000000004CF704F7000000000000038D
+t1291257079
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies316685163#316685163#0(0"0(0#1#0"8601768768#0"0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316685164.909911
+e316685165.077780
+r1
+xCompileC
+xbuild/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@105"Compile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m316685164#316685165#0(0"0(0#0#97"/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m8612526848#2379"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m -o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o /Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316667660.469818
+e316667660.657697
+r1
+xCompileC
+xbuild/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o
+x/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m316667660#316667660#0(0"0(0#0#78"/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m8617137312#2170"    cd /Users/change/Documents/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch -c /Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateAppDelegate.m -o /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateAppDelegate.o0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316685165.076137
+e316685165.168156
+r1
+xCompileC
+xbuild/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@108"Compile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m316685165#316685165#0(0"0(0#0#100"/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m8602371200#2385"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m -o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o /Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316667660.624571
+e316667660.767212
+r1
+xCompileC
+xbuild/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o
+x/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m316667660#316667660#0(0"0(0#0#81"/Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m8612476000#2176"    cd /Users/change/Documents/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch -c /Users/change/Documents/DemoJSONTemplate/Classes/DemoJSONTemplateViewController.m -o /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplateViewController.o0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316685164.908688
+e316685165.075965
+r1
+xCompileC
+xbuild/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m316685164#316685165#0(0"0(0#0#66"/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m8590251232#2325"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/main.m -o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o /Users/change/Documents/DemoJSONTemplate/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s316667660.468248
+e316667660.624468
+r1
+xCompileC
+xbuild/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o
+x/Users/change/Documents/DemoJSONTemplate/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@55"Compile /Users/change/Documents/DemoJSONTemplate/main.m316667660#316667660#0(0"0(0#0#47"/Users/change/Documents/DemoJSONTemplate/main.m8619745024#2116"    cd /Users/change/Documents/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch -c /Users/change/Documents/DemoJSONTemplate/main.m -o /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/main.o0#
+
+CCompileC build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/test.o /Users/change/Documents/DemoJSONTemplate/Classes/test.m normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/DemoJSONTemplateViewController.xib
+r0
+
+CCompileXIB /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/MainWindow.xib
+r0
+
+CCompileXIB /Users/change/Documents/DemoJSONTemplate/Classes/test.xib
+r0
+
+CCompileXIB /Users/change/Documents/DemoJSONTemplate/DemoJSONTemplateViewController.xib
+s314708447.682623
+e314708448.284893
+r1
+xCompileXIB
+x/Users/change/Documents/DemoJSONTemplate/DemoJSONTemplateViewController.xib
+lSLF07#2@45"CompileXIB DemoJSONTemplateViewController.xib314708447#314708448#0(0"0(0#0#75"/Users/change/Documents/DemoJSONTemplate/DemoJSONTemplateViewController.xib8626526816#625"    cd /Users/change/Documents/DemoJSONTemplate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplateViewController.nib /Users/change/Documents/DemoJSONTemplate/DemoJSONTemplateViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/change/Documents/DemoJSONTemplate/MainWindow.xib
+s314702764.999232
+e314702765.416381
+r1
+xCompileXIB
+x/Users/change/Documents/DemoJSONTemplate/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib314702764#314702765#0(0"0(0#0#55"/Users/change/Documents/DemoJSONTemplate/MainWindow.xib8625214016#585"    cd /Users/change/Documents/DemoJSONTemplate    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/MainWindow.nib /Users/change/Documents/DemoJSONTemplate/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/DemoJSONTemplate.app/indexui_img_firstimage.png "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png"
+s316667658.625353
+e316667658.671183
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/DemoJSONTemplate.app/indexui_img_firstimage.png
+x/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png
+lSLF07#2@185"Copy /Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png316667658#316667658#0(0"0(0#0#180"/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png8616849728#614"    cd /Users/change/Documents/DemoJSONTemplate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Project Templates/Application/Foxconn View-based Application/View-based iPhone Application/indexui_img_firstimage.png" /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app0#
+
+CGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+s316685165.699284
+e316685165.758210
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate316685165#316685165#0(0"0(0#0#125"/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate8615197248#473"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate -o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM0#
+
+CGenerateDSYMFile /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+s316667661.270449
+e316667661.321020
+r1
+xGenerateDSYMFile
+x/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM
+x/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+lSLF07#2@136"GenerateDSYMFile build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate316667661#316667661#0(0"0(0#0#106"/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate8615350592#416"    cd /Users/change/Documents/DemoJSONTemplate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate -o /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app.dSYM0#
+
+CLd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate normal i386
+s316685165.168251
+e316685165.699184
+r1
+xLd
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+xnormal
+xi386
+lSLF07#2@130"Link /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate316685165#316685165#0(0"0(0#0#0"8622024704#1259"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator -L/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate -L/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/../FoxconnQueryLib/build/Debug-iphonesimulator -F/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator -filelist /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplate.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lFoxconnQueryLib -o /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate0#
+
+CLd /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate normal i386
+s316667660.767307
+e316667661.270334
+r1
+xLd
+x/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate
+xnormal
+xi386
+lSLF07#2@111"Link /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate316667660#316667661#0(0"0(0#0#0"8618781184#1126"    cd /Users/change/Documents/DemoJSONTemplate    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator -L/Users/change/Documents/DemoJSONTemplate -L/Users/change/Documents/DemoJSONTemplate/../FoxconnQueryLib/build/Debug-iphonesimulator -F/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator -filelist /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/Objects-normal/i386/DemoJSONTemplate.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -lFoxconnQueryLib -o /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/DemoJSONTemplate0#
+
+CProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist DemoJSONTemplate-Info.plist
+r0
+
+CProcessInfoPlistFile /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist DemoJSONTemplate-Info.plist
+s316667658.591061
+e316667658.625125
+r1
+xProcessInfoPlistFile
+x/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist
+xDemoJSONTemplate-Info.plist
+lSLF07#2@35"Process DemoJSONTemplate-Info.plist316667658#316667658#0(0"0(0#0#68"/Users/change/Documents/DemoJSONTemplate/DemoJSONTemplate-Info.plist27303270316048500#512"    cd /Users/change/Documents/DemoJSONTemplate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DemoJSONTemplate-Info.plist -genpkginfo /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app/Info.plist0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch.gch DemoJSONTemplate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316685163.418345
+e316685164.908571
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch.gch
+xDemoJSONTemplate_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile DemoJSONTemplate_Prefix.pch316685163#316685164#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/DemoJSONTemplate_Prefix.pch8622044224#2187"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -c /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/DemoJSONTemplate_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-cevspnqrfttgydekcdbdksnbkpgx/DemoJSONTemplate_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch.gch DemoJSONTemplate_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s316667658.671290
+e316667660.468009
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch.gch
+xDemoJSONTemplate_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@38"Precompile DemoJSONTemplate_Prefix.pch316667658#316667660#0(0"0(0#0#68"/Users/change/Documents/DemoJSONTemplate/DemoJSONTemplate_Prefix.pch8599690432#1997"    cd /Users/change/Documents/DemoJSONTemplate    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-generated-files.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-own-target-headers.hmap -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-all-target-headers.hmap -iquote /Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DemoJSONTemplate-project-headers.hmap -F/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator -I/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/include -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources/i386 -I/Users/change/Documents/DemoJSONTemplate/build/DemoJSONTemplate.build/Debug-iphonesimulator/DemoJSONTemplate.build/DerivedSources -c /Users/change/Documents/DemoJSONTemplate/DemoJSONTemplate_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DemoJSONTemplate_Prefix-dnwdmtdvfeeiqifwgfcjcdwxnipm/DemoJSONTemplate_Prefix.pch.gch0#
+
+CTouch /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+s316685165.758312
+e316685165.784985
+r1
+xTouch
+x/Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+lSLF07#2@114"Touch /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app316685165#316685165#0(0"0(0#0#0"8612349056#329"    cd /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/專案程式碼/demo/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app0#
+
+CTouch /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+s316667661.321107
+e316667661.339472
+r1
+xTouch
+x/Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app
+lSLF07#2@95"Touch /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app316667661#316667661#0(0"0(0#0#0"8612667616#291"    cd /Users/change/Documents/DemoJSONTemplate    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Documents/DemoJSONTemplate/build/Debug-iphonesimulator/DemoJSONTemplate.app0#
+

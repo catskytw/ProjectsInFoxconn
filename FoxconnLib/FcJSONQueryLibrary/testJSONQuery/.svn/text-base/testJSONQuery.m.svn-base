@@ -1,0 +1,43 @@
+//
+//  testJSONQuery.m
+//  testJSONQuery
+//
+//  Created by 廖 晨志 on 2011/5/31.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import "testJSONQuery.h"
+#import "QueryPattern.h"
+@interface testJSONQuery(PrivateMethod)
+-(void)testNofi:(NSNotification*)noti;
+@end
+@implementation testJSONQuery
+
+- (void)setUp
+{
+    [super setUp];
+    
+    // Set-up code here.
+}
+
+- (void)tearDown
+{
+    // Tear-down code here.
+    
+    [super tearDown];
+}
+-(void)testNofi:(NSNotification*)noti{
+    NSDictionary *dic=noti.userInfo;
+    QueryPattern *returnQuery=[dic valueForKey:@"QueryPatternSelf"];
+    NSLog(@"response:%@",[returnQuery getValue:@"response" withIndex:0]);
+}
+- (void)testExample
+{
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(testNofi:) name:@"testNoti" object:nil];
+    QueryPattern *myQuery=[[QueryPattern alloc] initWithStartNotificationName:nil withEndNotification:@"testNoti"];
+    [myQuery prepareDic:@"http://10.161.32.74:8080/service/accountService.login?loginId=Change&password=change"];
+    //STFail(@"Unit tests are not implemented yet in testJSONQuery");
+    [[NSNotificationCenter defaultCenter]removeObserver:self name:@"testNoti" object:nil];
+}
+
+@end

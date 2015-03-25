@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'iPhoneXMPP' target in the 'iPhoneXMPP' project
+//
+#import <Availability.h>
+#import <TargetConditionals.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+<<<<<<< .mine
+//For simulator can work, enable me if you need to run on device.
+#ifndef USE_DEVICE
+#define USE_DEVICE
+#endif
+
+=======
+>>>>>>> .r63
+#define kBufferDurationSeconds .5

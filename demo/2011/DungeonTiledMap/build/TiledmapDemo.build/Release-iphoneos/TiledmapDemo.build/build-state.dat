@@ -1,0 +1,1504 @@
+TTiledmapDemo
+v7
+r0
+t321957431.317483
+cCheck dependencies
+cCpResource build/Release-iphoneos/TiledmapDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Info.plist Resources/Info.plist
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Default.png Resources/Default.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/fps_images.png Resources/fps_images.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon.png Resources/Icon.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon@2x.png Resources/Icon@2x.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small.png Resources/Icon-Small.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small-50.png Resources/Icon-Small-50.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-72.png Resources/Icon-72.png
+cCpResource build/Release-iphoneos/TiledmapDemo.app/iTunesArtwork Resources/iTunesArtwork
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/32_flagstone_tiles.png Resources/32_flagstone_tiles.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Iso_Dungeon_Walls_by_pfunked.png Resources/Iso_Dungeon_Walls_by_pfunked.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NE.png Resources/Man-NE.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NW.png Resources/Man-NW.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SE.png Resources/Man-SE.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SW.png Resources/Man-SW.png
+cCpResource build/Release-iphoneos/TiledmapDemo.app/DungeonISOTiledMap.tmx Resources/DungeonISOTiledMap.tmx
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch.gch TiledmapDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/main.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemoAppDelegate.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/HelloWorldScene.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/RootViewController.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/zOrderSprite.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo normal armv6
+cGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app.dSYM /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo
+cProcessProductPackaging "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision
+cTouch /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent
+cCodeSign /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004CC10DCA00000000000022F0
+t1287720394
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004CC10DCA0000000000002650
+t1287720394
+s9808
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC10F3800000000000459B0
+t1287720760
+s285104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/inttypes.h
+c000000004CB3E4B800000000000027D1
+t1286857912
+s10193
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/objc/objc.h
+c000000004CC1098E0000000000000A2F
+t1287719310
+s2607
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stddef.h
+c000000004CB3E4B80000000000001404
+t1286857912
+s5124
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/GameConfig.h
+c000000004D2D6950000000000000021B
+t1294821712
+s539
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.h
+c000000004D66211C0000000000000309
+t1298538780
+s777
+i"cocos2d.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m
+c000000004D6623720000000000001336
+t1298539378
+s4918
+i"HelloWorldScene.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.h
+c000000004D2D695000000000000000E3
+t1294821712
+s227
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m
+c000000004D2D69500000000000001137
+t1294821712
+s4407
+i"cocos2d.h"
+i"RootViewController.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.h
+c000000004D2D69500000000000000182
+t1294821712
+s386
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m
+c000000004D65E1EA0000000000001206
+t1298522602
+s4614
+i"cocos2d.h"
+i"TiledmapDemoAppDelegate.h"
+i"GameConfig.h"
+i"HelloWorldScene.h"
+i"RootViewController.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.h
+c000000004D65D81300000000000000EC
+t1298520083
+s236
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m
+c000000004D65D8200000000000000138
+t1298520096
+s312
+i"zOrderSprite.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/32_flagstone_tiles.png
+c000000004D65FE26000000000001775A
+t1298529830
+s96090
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Default.png
+c000000004D2D695000000000000077AB
+t1294821712
+s30635
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/DungeonISOTiledMap.tmx
+c000000004D6624F20000000000000899
+t1298539762
+s2201
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-72.png
+c000000004D2D69500000000000002C96
+t1294821712
+s11414
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small-50.png
+c000000004D2D69500000000000001F2B
+t1294821712
+s7979
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small.png
+c000000004D2D6950000000000000135C
+t1294821712
+s4956
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small@2x.png
+c000000004D2D695000000000000024F9
+t1294821712
+s9465
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon.png
+c000000004D2D6950000000000000246F
+t1294821712
+s9327
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon@2x.png
+c000000004D2D69500000000000005375
+t1294821712
+s21365
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Iso_Dungeon_Walls_by_pfunked.png
+c000000004D65FC3A0000000000029151
+t1298529338
+s168273
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-NE.png
+c000000004D66032A00000000000018A2
+t1298531114
+s6306
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-NW.png
+c000000004D66033400000000000018EF
+t1298531124
+s6383
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-SE.png
+c000000004D66033C00000000000018E8
+t1298531132
+s6376
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-SW.png
+c000000004D66034400000000000018A3
+t1298531140
+s6307
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/fps_images.png
+c000000004D2D6950000000000000183B
+t1294821712
+s6203
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/iTunesArtwork
+c000000004D2D6950000000000000F21E
+t1294821712
+s61982
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/TiledmapDemo_Prefix.pch
+c000000004D2D695000000000000000BB
+t1294821712
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+t1300264631
+s850
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app.dSYM
+t1300264631
+s102
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/32_flagstone_tiles.png
+t1300264629
+s96090
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Default.png
+t1300264629
+s31932
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/DungeonISOTiledMap.tmx
+t1300264629
+s2201
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-72.png
+t1300264629
+s12252
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small-50.png
+t1300264629
+s8600
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small.png
+t1300264628
+s5241
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small@2x.png
+t1300264628
+s10151
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon.png
+t1300264628
+s10022
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon@2x.png
+t1300264628
+s23297
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Info.plist
+t1300264628
+s1049
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Iso_Dungeon_Walls_by_pfunked.png
+t1300264629
+s193129
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NE.png
+t1300264629
+s6874
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NW.png
+t1300264629
+s6997
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SE.png
+t1300264629
+s7023
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SW.png
+t1300264629
+s6819
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/PkgInfo
+t1300264628
+s8
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/ResourceRules.plist
+t1300264628
+s485
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo
+t1300264630
+s1155312
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision
+t1300264631
+s7289
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/fps_images.png
+t1300264628
+s7188
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/iTunesArtwork
+t1300264629
+s61982
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/libcocos2d libraries.a
+c000000004D8076B4000000000071ACA0
+t1300264628
+s7449760
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/HelloWorldScene.o
+t1300264630
+s67060
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/RootViewController.o
+t1300264630
+s45748
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemo.LinkFileList
+c000000004D8076B40000000000000318
+t1300264628
+s792
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemoAppDelegate.o
+t1300264630
+s64000
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/main.o
+t1300264630
+s3704
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/zOrderSprite.o
+t1300264630
+s10376
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent
+t1300264631
+s410
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCAction.h
+c000000004D2D6950000000000000167A
+t1294821712
+s5754
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionCamera.h
+c000000004D2D695000000000000009BC
+t1294821712
+s2492
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionEase.h
+c000000004D2D69500000000000001671
+t1294821712
+s5745
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionGrid.h
+c000000004D2D6950000000000000148B
+t1294821712
+s5259
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionGrid3D.h
+c000000004D2D69500000000000001A8A
+t1294821712
+s6794
+i"CCActionGrid.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionInstant.h
+c000000004D2D695000000000000013AA
+t1294821712
+s5034
+i"CCAction.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionInterval.h
+c000000004D2D69500000000000003265
+t1294821712
+s12901
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionManager.h
+c000000004D2D69510000000000001071
+t1294821713
+s4209
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionPageTurn3D.h
+c000000004D2D69510000000000000644
+t1294821713
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionProgressTimer.h
+c000000004D2D6951000000000000088D
+t1294821713
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionTiledGrid.h
+c000000004D2D69510000000000001A15
+t1294821713
+s6677
+i"CCActionGrid.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCActionTween.h
+c000000004D2D69510000000000000931
+t1294821713
+s2353
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCAnimation.h
+c000000004D2D6951000000000000126D
+t1294821713
+s4717
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCAnimationCache.h
+c000000004D2D695100000000000008DD
+t1294821713
+s2269
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCAtlasNode.h
+c000000004D2D69510000000000000C06
+t1294821713
+s3078
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCBlockSupport.h
+c000000004D2D6951000000000000066F
+t1294821713
+s1647
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCCamera.h
+c000000004D2D69510000000000000C84
+t1294821713
+s3204
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCCompatibility.h
+c000000004D2D69510000000000003891
+t1294821713
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCConfiguration.h
+c000000004D2D69510000000000000D36
+t1294821713
+s3382
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCDirector.h
+c000000004D2D695100000000000025C4
+t1294821713
+s9668
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCDrawingPrimitives.h
+c000000004D2D69510000000000000C32
+t1294821713
+s3122
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCGrabber.h
+c000000004D2D695100000000000005E4
+t1294821713
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCGrid.h
+c000000004D2D69510000000000000E5A
+t1294821713
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCLabelAtlas.h
+c000000004D2D69510000000000000B24
+t1294821713
+s2852
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCLabelBMFont.h
+c000000004D2D69510000000000001641
+t1294821713
+s5697
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCLabelTTF.h
+c000000004D2D69510000000000000A87
+t1294821713
+s2695
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCLayer.h
+c000000004D2D695100000000000020E9
+t1294821713
+s8425
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCMenu.h
+c000000004D2D69510000000000000B29
+t1294821713
+s2857
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCMenuItem.h
+c000000004D2D695100000000000033A8
+t1294821713
+s13224
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCMotionStreak.h
+c000000004D2D69510000000000000B2A
+t1294821713
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCNode.h
+c000000004D2D69510000000000004485
+t1294821713
+s17541
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCParallaxNode.h
+c000000004D2D6951000000000000075D
+t1294821713
+s1885
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCParticleExamples.h
+c000000004D2D69510000000000000AD0
+t1294821713
+s2768
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCParticleSystem.h
+c000000004D2D695100000000000037B8
+t1294821713
+s14264
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCParticleSystemPoint.h
+c000000004D2D69510000000000000846
+t1294821713
+s2118
+i<Availability.h>
+i"CCParticleSystem.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCParticleSystemQuad.h
+c000000004D2D695100000000000009F8
+t1294821713
+s2552
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCProgressTimer.h
+c000000004D2D69510000000000000B48
+t1294821713
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCProtocols.h
+c000000004D2D69510000000000000F9A
+t1294821713
+s3994
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCRenderTexture.h
+c000000004D2D69510000000000000F2A
+t1294821713
+s3882
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCRibbon.h
+c000000004D2D69510000000000000FCD
+t1294821713
+s4045
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCScene.h
+c000000004D2D69510000000000000676
+t1294821713
+s1654
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCScheduler.h
+c000000004D2D695100000000000019D7
+t1294821713
+s6615
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCSprite.h
+c000000004D2D6951000000000000345C
+t1294821713
+s13404
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCSpriteBatchNode.h
+c000000004D2D695100000000000018F8
+t1294821713
+s6392
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCSpriteFrame.h
+c000000004D2D69510000000000000D5A
+t1294821713
+s3418
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCSpriteFrameCache.h
+c000000004D2D69510000000000001394
+t1294821713
+s5012
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCSpriteSheet.h
+c000000004D2D695100000000000009FE
+t1294821713
+s2558
+i"CCSpriteBatchNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTMXLayer.h
+c000000004D2D6951000000000000182A
+t1294821713
+s6186
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTMXObjectGroup.h
+c000000004D2D695100000000000008D5
+t1294821713
+s2261
+i"CCSpriteSheet.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTMXTiledMap.h
+c000000004D2D695100000000000014D4
+t1294821713
+s5332
+i"CCSpriteSheet.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTMXXMLParser.h
+c000000004D2D695100000000000016B9
+t1294821713
+s5817
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTexture2D.h
+c000000004D2D69510000000000002C9A
+t1294821713
+s11418
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTextureAtlas.h
+c000000004D2D6951000000000000145B
+t1294821713
+s5211
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTextureCache.h
+c000000004D2D695100000000000014C2
+t1294821713
+s5314
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTexturePVR.h
+c000000004D2D69510000000000000FB9
+t1294821713
+s4025
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTextureCache.h"
+i"CCTexture2D.h"
+i"ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTileMapAtlas.h
+c000000004D2D69510000000000000B86
+t1294821713
+s2950
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTransition.h
+c000000004D2D69510000000000002134
+t1294821713
+s8500
+i"CCScene.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTransitionPageTurn.h
+c000000004D2D69510000000000000917
+t1294821713
+s2327
+i"CCTransition.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/CCTransitionRadial.h
+c000000004D2D69510000000000000630
+t1294821713
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/CCGL.h
+c000000004D2D69510000000000000BF8
+t1294821713
+s3064
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/CCNS.h
+c000000004D2D69510000000000000965
+t1294821713
+s2405
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004D2D69510000000000000C84
+t1294821713
+s3204
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004D2D69510000000000001AA7
+t1294821713
+s6823
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+i"../../ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004D2D69510000000000000B8C
+t1294821713
+s2956
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"../../ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004D2D69510000000000002B53
+t1294821713
+s11091
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004D2D69510000000000000BC3
+t1294821713
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004D2D695100000000000010CA
+t1294821713
+s4298
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004D2D69510000000000000D99
+t1294821713
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004D2D69510000000000001B69
+t1294821713
+s7017
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004D2D6951000000000000083A
+t1294821713
+s2106
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Platforms/iOS/glu.h
+c000000004D2D6951000000000000030D
+t1294821713
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/CCArray.h
+c000000004D2D69510000000000000BED
+t1294821713
+s3053
+i"ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/CCFileUtils.h
+c000000004D2D695100000000000007E8
+t1294821713
+s2024
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/CCProfiling.h
+c000000004D2D695100000000000006E9
+t1294821713
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/CGPointExtension.h
+c000000004D2D69510000000000001EAB
+t1294821713
+s7851
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004D2D695100000000000011A7
+t1294821713
+s4519
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/TGAlib.h
+c000000004D2D69510000000000000444
+t1294821713
+s1092
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/ccCArray.h
+c000000004D2D695100000000000030F3
+t1294821713
+s12531
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/ccUtils.h
+c000000004D2D69510000000000000204
+t1294821713
+s516
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/uthash.h
+c000000004D2D6951000000000000FB13
+t1294821713
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/Support/utlist.h
+c000000004D2D69510000000000009091
+t1294821713
+s37009
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/ccConfig.h
+c000000004D2D69510000000000002896
+t1294821713
+s10390
+i<Availability.h>
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/ccMacros.h
+c000000004D2D69510000000000001DFE
+t1294821713
+s7678
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/ccTypes.h
+c000000004D2D695100000000000016D2
+t1294821713
+s5842
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/libs/cocos2d/cocos2d.h
+c000000004D2D695200000000000010FF
+t1294821714
+s4351
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCAnimation.h"
+i"CCAnimationCache.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m
+c000000004D2D69520000000000000160
+t1294821714
+s352
+i<UIKit/UIKit.h>
+
+N/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision
+c000000004D806D930000000000001C79
+t1300262291
+s7289
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch.gch
+t1300264629
+s7517912
+
+NResources/Info.plist
+c000000004D80608E00000000000004F6
+t1300258958
+s1270
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321957428#321957428#0(89"[BWARN]warning: all apps should include an armv7 architecture (current ARCHS = "armv6").1(22@81"warning: all apps should include an armv7 architecture (current ARCHS = "armv6").321957428#18446744073709551615#0#0(1@0"0(0#1#0"8606948096#0"0#
+
+CCodeSign /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+s321957431.137749
+e321957431.317444
+r1
+xCodeSign
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+lSLF07#2@48"CodeSign build/Release-iphoneos/TiledmapDemo.app321957431#321957431#0(0"0(0#0#98"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app8608760704#760"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: CHICHEH HUANG (APG89JL82N)" --resource-rules=/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/ResourceRules.plist --entitlements /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app0#
+
+CCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/HelloWorldScene.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321957430.205545
+e321957430.497894
+r1
+xCompileC
+xbuild/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/HelloWorldScene.o
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':
+o/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: 'HelloWorld' may not respond to '-registerWithTouchDispatcher'
+o/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: (Messages without a matching method signature
+o/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: will be assumed to return 'id' and accept
+o/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: '...' as arguments.)
+lSLF07#2@92"Compile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m321957430#321957430#0(684"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m: In function '-[HelloWorld init]':/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: 'HelloWorld' may not respond to '-registerWithTouchDispatcher'/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: (Messages without a matching method signature/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: will be assumed to return 'id' and accept/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m:39: warning: '...' as arguments.)2(22@62"'HelloWorld' may not respond to '-registerWithTouchDispatcher'321957430#110#151#0(6@84"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m320232178#39#0#39#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321957430#261#134#0(6@84"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m320232178#39#0#39#0#0"0(0#0#84"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m8613197536#2201"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/include -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/HelloWorldScene.m -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/HelloWorldScene.o0#
+
+CCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/RootViewController.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321957430.345975
+e321957430.517689
+r1
+xCompileC
+xbuild/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/RootViewController.o
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m321957430#321957430#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m8614527072#2207"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/include -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/RootViewController.m -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemoAppDelegate.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321957430.131546
+e321957430.345866
+r1
+xCompileC
+xbuild/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemoAppDelegate.o
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@100"Compile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m321957430#321957430#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m8603626400#2217"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/include -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/TiledmapDemoAppDelegate.m -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemoAppDelegate.o0#
+
+CCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/main.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321957430.130170
+e321957430.205442
+r1
+xCompileC
+xbuild/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/main.o
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@73"Compile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m321957430#321957430#0(0"0(0#0#65"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m8615096064#2171"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/include -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/main.m -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/zOrderSprite.o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321957430.497995
+e321957430.607036
+r1
+xCompileC
+xbuild/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/zOrderSprite.o
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@89"Compile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m321957430#321957430#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m8604476704#2195"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/include -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Classes/zOrderSprite.m -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/zOrderSprite.o0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/32_flagstone_tiles.png Resources/32_flagstone_tiles.png
+s321957429.045485
+e321957429.087397
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/32_flagstone_tiles.png
+xResources/32_flagstone_tiles.png
+olibpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.
+lSLF07#2@107"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/32_flagstone_tiles.png Resources/32_flagstone_tiles.png321957429#321957429#0(143"libpng warning: Warning: Input PNG does not have an 8 bit input depth.  Please convert your PNG to 8-bit for optimal performance on iPhone OS.0(0#0#91"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/32_flagstone_tiles.png8603618240#661"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/32_flagstone_tiles.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/32_flagstone_tiles.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Default.png Resources/Default.png
+s321957428.691258
+e321957429.044040
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Default.png
+xResources/Default.png
+lSLF07#2@85"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Default.png Resources/Default.png321957428#321957429#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Default.png8614526880#639"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Default.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Default.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-72.png Resources/Icon-72.png
+s321957429.028232
+e321957429.073043
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@85"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Icon-72.png Resources/Icon-72.png321957429#321957429#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-72.png8610116288#639"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-72.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-72.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small-50.png Resources/Icon-Small-50.png
+s321957428.998921
+e321957429.028134
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small-50.png
+xResources/Icon-Small-50.png
+lSLF07#2@97"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Icon-Small-50.png Resources/Icon-Small-50.png321957428#321957429#0(0"0(0#0#86"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small-50.png8610509408#651"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small-50.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small-50.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small.png Resources/Icon-Small.png
+s321957428.972389
+e321957428.998829
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@91"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Icon-Small.png Resources/Icon-Small.png321957428#321957428#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small.png8610803744#645"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+s321957428.942716
+e321957428.972296
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@97"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Icon-Small@2x.png Resources/Icon-Small@2x.png321957428#321957428#0(0"0(0#0#86"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small@2x.png8611298176#651"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon-Small@2x.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon-Small@2x.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon.png Resources/Icon.png
+s321957428.771067
+e321957428.837523
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon.png
+xResources/Icon.png
+lSLF07#2@79"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Icon.png Resources/Icon.png321957428#321957428#0(0"0(0#0#77"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon.png8607109984#633"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon@2x.png Resources/Icon@2x.png
+s321957428.837610
+e321957428.942624
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@85"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Icon@2x.png Resources/Icon@2x.png321957428#321957428#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon@2x.png8607221728#639"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Icon@2x.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Iso_Dungeon_Walls_by_pfunked.png Resources/Iso_Dungeon_Walls_by_pfunked.png
+s321957429.073137
+e321957429.569845
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Iso_Dungeon_Walls_by_pfunked.png
+xResources/Iso_Dungeon_Walls_by_pfunked.png
+lSLF07#2@127"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Iso_Dungeon_Walls_by_pfunked.png Resources/Iso_Dungeon_Walls_by_pfunked.png321957429#321957429#0(0"0(0#0#101"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Iso_Dungeon_Walls_by_pfunked.png8601908352#681"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Iso_Dungeon_Walls_by_pfunked.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Iso_Dungeon_Walls_by_pfunked.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NE.png Resources/Man-NE.png
+s321957429.087490
+e321957429.148736
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NE.png
+xResources/Man-NE.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Man-NE.png Resources/Man-NE.png321957429#321957429#0(0"0(0#0#79"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-NE.png8607530304#637"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-NE.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NE.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NW.png Resources/Man-NW.png
+s321957429.148832
+e321957429.198496
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NW.png
+xResources/Man-NW.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Man-NW.png Resources/Man-NW.png321957429#321957429#0(0"0(0#0#79"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-NW.png8604097600#637"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-NW.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-NW.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SE.png Resources/Man-SE.png
+s321957429.198592
+e321957429.238191
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SE.png
+xResources/Man-SE.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Man-SE.png Resources/Man-SE.png321957429#321957429#0(0"0(0#0#79"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-SE.png8613177472#637"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-SE.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SE.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SW.png Resources/Man-SW.png
+s321957429.238291
+e321957429.278173
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SW.png
+xResources/Man-SW.png
+lSLF07#2@83"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/Man-SW.png Resources/Man-SW.png321957429#321957429#0(0"0(0#0#79"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-SW.png8610746528#637"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Man-SW.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Man-SW.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/fps_images.png Resources/fps_images.png
+s321957428.691946
+e321957428.770956
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@91"CopyPNGFile build/Release-iphoneos/TiledmapDemo.app/fps_images.png Resources/fps_images.png321957428#321957428#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/fps_images.png8608380256#645"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/fps_images.png /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/fps_images.png0#
+
+CCpResource build/Release-iphoneos/TiledmapDemo.app/DungeonISOTiledMap.tmx Resources/DungeonISOTiledMap.tmx
+s321957429.278274
+e321957429.283953
+r1
+xCpResource
+xbuild/Release-iphoneos/TiledmapDemo.app/DungeonISOTiledMap.tmx
+xResources/DungeonISOTiledMap.tmx
+lSLF07#2@37"Copy Resources/DungeonISOTiledMap.tmx321957429#321957429#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/DungeonISOTiledMap.tmx8608407040#564"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/DungeonISOTiledMap.tmx /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app0#
+
+CCpResource build/Release-iphoneos/TiledmapDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321957428.683556
+e321957428.691166
+r1
+xCpResource
+xbuild/Release-iphoneos/TiledmapDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321957428#321957428#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8603221120#562"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app0#
+
+CCpResource build/Release-iphoneos/TiledmapDemo.app/iTunesArtwork Resources/iTunesArtwork
+s321957429.044136
+e321957429.065392
+r1
+xCpResource
+xbuild/Release-iphoneos/TiledmapDemo.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork321957429#321957429#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/iTunesArtwork8607413312#555"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/iTunesArtwork /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app0#
+
+CGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app.dSYM /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo
+s321957430.916579
+e321957431.114517
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app.dSYM
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo
+lSLF07#2@114"GenerateDSYMFile build/Release-iphoneos/TiledmapDemo.app.dSYM build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo321957430#321957431#0(0"0(0#0#111"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo8593560064#441"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app.dSYM0#
+
+CLd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo normal armv6
+s321957430.607133
+e321957430.916470
+r1
+xLd
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo
+xnormal
+xarmv6
+lSLF07#2@116"Link /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo321957430#321957430#0(0"0(0#0#0"8602499712#1110"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -filelist /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/Objects-normal/armv6/TiledmapDemo.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=4.2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/TiledmapDemo0#
+
+CProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Info.plist Resources/Info.plist
+s321957428.684388
+e321957428.689094
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist321957428#321957428#0(0"0(0#0#79"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/Resources/Info.plist8601766688#665"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/ResourceRules.plist -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch.gch TiledmapDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321957429.569973
+e321957430.129935
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch.gch
+xTiledmapDemo_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@34"Precompile TiledmapDemo_Prefix.pch321957429#321957430#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/TiledmapDemo_Prefix.pch8603807520#2042"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/include -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/DerivedSources -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/TiledmapDemo_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TiledmapDemo_Prefix-dvoskrmtsskjisdkyrotkmtjakyp/TiledmapDemo_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision
+s321957431.114625
+e321957431.119207
+r1
+xProcessProductPackaging
+x/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision
+lSLF07#2@200"ProcessProductPackaging "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision321957431#321957431#0(0"0(0#0#123"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision8604289472#471"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent
+s321957431.123190
+e321957431.137674
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent
+lSLF07#2@192"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent321957431#321957431#0(0"0(0#0#138"/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent8603252384#489"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/TiledmapDemo.build/Release-iphoneos/TiledmapDemo.build/TiledmapDemo.xcent0#
+
+CTouch /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+s321957431.119295
+e321957431.123099
+r1
+xTouch
+x/Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app
+lSLF07#2@104"Touch /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app321957431#321957431#0(0"0(0#0#0"8601606272#311"    cd /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/專案程式碼/demo/DungeonTiledMap/build/Release-iphoneos/TiledmapDemo.app0#
+

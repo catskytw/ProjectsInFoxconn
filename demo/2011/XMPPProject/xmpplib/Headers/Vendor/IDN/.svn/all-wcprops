@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/IDN
+END
+libidn.a
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/IDN/libidn.a
+END
+stringprep.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/IDN/stringprep.h
+END
+idn-int.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/IDN/idn-int.h
+END

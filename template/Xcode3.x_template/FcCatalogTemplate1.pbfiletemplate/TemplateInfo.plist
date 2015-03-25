@@ -1,0 +1,8 @@
+{
+	Description = "\U9019\U662f\U4e00\U500b\U7531Foxconn PCEBG-IT\U88fd\U4f5c\U4e4b\U4e00\U500b\U5546\U54c1\U67e5\U8a62\U6a21\U7248. \U5305\U542b\U4e09\U500b\U5206\U985e\U67e5\U8a62\U6309\U9375\U4ee5\U53ca\U4e00\U500b\U5b8c\U6574\U4e4b\U67e5\U8a62\U7d50\U679c\U8868\U683c; \U4f7f\U7528\U672c\U6a21\U7248\U524d\U9808\U5c07\U5ba2\U88fd\U5316UITableViewCell\U52a0\U5165\U5c08\U6848\U8cc7\U6e90, \U4e26\U65bc\U76f8\U95dcdelegate method\U5b8c\U6210\U5176\U908f\U8f2f, \U503c\U4e4b\U6307\U5b9a.\U9019\U662f\U6e2c\U8a661\n\U9019\U662f\U6e2c\U8a662";
+	"ImplicitCounterpartTemplateFiles" = {
+		"FcCatalogTemplate1.xib" = "FcCatalogTemplate1.xib";
+		"FcCatalogTemplate1.h" = "FcCatalogTemplate1.h";
+		"FcCatalogTemplate1.m" = "FcCatalogTemplate1.m";
+	};
+}

@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CEBBEA413A0AD5E007DB3E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBBEA313A0AD5E007DB3E7 /* Foundation.framework */; };
+		0CEBBEAF13A0AD5E007DB3E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBBEAE13A0AD5E007DB3E7 /* UIKit.framework */; };
+		0CEBBEB013A0AD5E007DB3E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBBEA313A0AD5E007DB3E7 /* Foundation.framework */; };
+		0CEBBEB213A0AD5E007DB3E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBBEB113A0AD5E007DB3E7 /* CoreGraphics.framework */; };
+		0CEBBEB513A0AD5E007DB3E7 /* libWMBTWebServiceLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CEBBEA013A0AD5E007DB3E7 /* libWMBTWebServiceLib.a */; };
+		0CEBBEBB13A0AD5E007DB3E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CEBBEB913A0AD5E007DB3E7 /* InfoPlist.strings */; };
+		0CEBBEBE13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0CEBBEBD13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.h */; };
+		0CEBBEC013A0AD5E007DB3E7 /* WMBTWebServiceLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBBEBF13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.m */; };
+		0CEBBECB13A0AD8A007DB3E7 /* OrderDtlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBBEC913A0AD8A007DB3E7 /* OrderDtlObject.m */; };
+		0CEBBECC13A0AD8A007DB3E7 /* OrderDtlObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBBECA13A0AD8A007DB3E7 /* OrderDtlObject.h */; };
+		0CEBBECF13A0ADA3007DB3E7 /* WMBTWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBBECD13A0ADA3007DB3E7 /* WMBTWebService.h */; };
+		0CEBBED013A0ADA3007DB3E7 /* WMBTWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBBECE13A0ADA3007DB3E7 /* WMBTWebService.m */; };
+		0CEBBED313A0ADBE007DB3E7 /* XMLParserObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CEBBED113A0ADBE007DB3E7 /* XMLParserObject.m */; };
+		0CEBBED413A0ADBE007DB3E7 /* XMLParserObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CEBBED213A0ADBE007DB3E7 /* XMLParserObject.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CEBBEB313A0AD5E007DB3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CEBBE9713A0AD5E007DB3E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CEBBE9F13A0AD5E007DB3E7;
+			remoteInfo = WMBTWebServiceLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CEBBEA013A0AD5E007DB3E7 /* libWMBTWebServiceLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libWMBTWebServiceLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEBBEA313A0AD5E007DB3E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0CEBBEA713A0AD5E007DB3E7 /* WMBTWebServiceLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WMBTWebServiceLib-Prefix.pch"; sourceTree = "<group>"; };
+		0CEBBEAD13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WMBTWebServiceLibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CEBBEAE13A0AD5E007DB3E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0CEBBEB113A0AD5E007DB3E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0CEBBEB813A0AD5E007DB3E7 /* WMBTWebServiceLibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WMBTWebServiceLibTests-Info.plist"; sourceTree = "<group>"; };
+		0CEBBEBA13A0AD5E007DB3E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0CEBBEBC13A0AD5E007DB3E7 /* WMBTWebServiceLibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WMBTWebServiceLibTests-Prefix.pch"; sourceTree = "<group>"; };
+		0CEBBEBD13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMBTWebServiceLibTests.h; sourceTree = "<group>"; };
+		0CEBBEBF13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMBTWebServiceLibTests.m; sourceTree = "<group>"; };
+		0CEBBEC913A0AD8A007DB3E7 /* OrderDtlObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDtlObject.m; sourceTree = "<group>"; };
+		0CEBBECA13A0AD8A007DB3E7 /* OrderDtlObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDtlObject.h; sourceTree = "<group>"; };
+		0CEBBECD13A0ADA3007DB3E7 /* WMBTWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMBTWebService.h; sourceTree = "<group>"; };
+		0CEBBECE13A0ADA3007DB3E7 /* WMBTWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMBTWebService.m; sourceTree = "<group>"; };
+		0CEBBED113A0ADBE007DB3E7 /* XMLParserObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLParserObject.m; sourceTree = "<group>"; };
+		0CEBBED213A0ADBE007DB3E7 /* XMLParserObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLParserObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CEBBE9D13A0AD5E007DB3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBEA413A0AD5E007DB3E7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEBBEA913A0AD5E007DB3E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBEAF13A0AD5E007DB3E7 /* UIKit.framework in Frameworks */,
+				0CEBBEB013A0AD5E007DB3E7 /* Foundation.framework in Frameworks */,
+				0CEBBEB213A0AD5E007DB3E7 /* CoreGraphics.framework in Frameworks */,
+				0CEBBEB513A0AD5E007DB3E7 /* libWMBTWebServiceLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CEBBE9513A0AD5E007DB3E7 = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEA513A0AD5E007DB3E7 /* WMBTWebServiceLib */,
+				0CEBBEB613A0AD5E007DB3E7 /* WMBTWebServiceLibTests */,
+				0CEBBEA213A0AD5E007DB3E7 /* Frameworks */,
+				0CEBBEA113A0AD5E007DB3E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CEBBEA113A0AD5E007DB3E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEA013A0AD5E007DB3E7 /* libWMBTWebServiceLib.a */,
+				0CEBBEAD13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CEBBEA213A0AD5E007DB3E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEA313A0AD5E007DB3E7 /* Foundation.framework */,
+				0CEBBEAE13A0AD5E007DB3E7 /* UIKit.framework */,
+				0CEBBEB113A0AD5E007DB3E7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0CEBBEA513A0AD5E007DB3E7 /* WMBTWebServiceLib */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEA613A0AD5E007DB3E7 /* Supporting Files */,
+				0CEBBECD13A0ADA3007DB3E7 /* WMBTWebService.h */,
+				0CEBBECE13A0ADA3007DB3E7 /* WMBTWebService.m */,
+				0CEBBED113A0ADBE007DB3E7 /* XMLParserObject.m */,
+				0CEBBED213A0ADBE007DB3E7 /* XMLParserObject.h */,
+				0CEBBEC913A0AD8A007DB3E7 /* OrderDtlObject.m */,
+				0CEBBECA13A0AD8A007DB3E7 /* OrderDtlObject.h */,
+			);
+			path = WMBTWebServiceLib;
+			sourceTree = "<group>";
+		};
+		0CEBBEA613A0AD5E007DB3E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEA713A0AD5E007DB3E7 /* WMBTWebServiceLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CEBBEB613A0AD5E007DB3E7 /* WMBTWebServiceLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEBD13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.h */,
+				0CEBBEBF13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.m */,
+				0CEBBEB713A0AD5E007DB3E7 /* Supporting Files */,
+			);
+			path = WMBTWebServiceLibTests;
+			sourceTree = "<group>";
+		};
+		0CEBBEB713A0AD5E007DB3E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CEBBEB813A0AD5E007DB3E7 /* WMBTWebServiceLibTests-Info.plist */,
+				0CEBBEB913A0AD5E007DB3E7 /* InfoPlist.strings */,
+				0CEBBEBC13A0AD5E007DB3E7 /* WMBTWebServiceLibTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CEBBE9E13A0AD5E007DB3E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBECC13A0AD8A007DB3E7 /* OrderDtlObject.h in Headers */,
+				0CEBBECF13A0ADA3007DB3E7 /* WMBTWebService.h in Headers */,
+				0CEBBED413A0ADBE007DB3E7 /* XMLParserObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CEBBE9F13A0AD5E007DB3E7 /* WMBTWebServiceLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEBBEC313A0AD5E007DB3E7 /* Build configuration list for PBXNativeTarget "WMBTWebServiceLib" */;
+			buildPhases = (
+				0CEBBE9C13A0AD5E007DB3E7 /* Sources */,
+				0CEBBE9D13A0AD5E007DB3E7 /* Frameworks */,
+				0CEBBE9E13A0AD5E007DB3E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMBTWebServiceLib;
+			productName = WMBTWebServiceLib;
+			productReference = 0CEBBEA013A0AD5E007DB3E7 /* libWMBTWebServiceLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0CEBBEAC13A0AD5E007DB3E7 /* WMBTWebServiceLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CEBBEC613A0AD5E007DB3E7 /* Build configuration list for PBXNativeTarget "WMBTWebServiceLibTests" */;
+			buildPhases = (
+				0CEBBEA813A0AD5E007DB3E7 /* Sources */,
+				0CEBBEA913A0AD5E007DB3E7 /* Frameworks */,
+				0CEBBEAA13A0AD5E007DB3E7 /* Resources */,
+				0CEBBEAB13A0AD5E007DB3E7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CEBBEB413A0AD5E007DB3E7 /* PBXTargetDependency */,
+			);
+			name = WMBTWebServiceLibTests;
+			productName = WMBTWebServiceLibTests;
+			productReference = 0CEBBEAD13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CEBBE9713A0AD5E007DB3E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = foxconn;
+			};
+			buildConfigurationList = 0CEBBE9A13A0AD5E007DB3E7 /* Build configuration list for PBXProject "WMBTWebServiceLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CEBBE9513A0AD5E007DB3E7;
+			productRefGroup = 0CEBBEA113A0AD5E007DB3E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CEBBE9F13A0AD5E007DB3E7 /* WMBTWebServiceLib */,
+				0CEBBEAC13A0AD5E007DB3E7 /* WMBTWebServiceLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0CEBBEAA13A0AD5E007DB3E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBEBB13A0AD5E007DB3E7 /* InfoPlist.strings in Resources */,
+				0CEBBEBE13A0AD5E007DB3E7 /* WMBTWebServiceLibTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEBBEAB13A0AD5E007DB3E7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CEBBE9C13A0AD5E007DB3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBECB13A0AD8A007DB3E7 /* OrderDtlObject.m in Sources */,
+				0CEBBED013A0ADA3007DB3E7 /* WMBTWebService.m in Sources */,
+				0CEBBED313A0ADBE007DB3E7 /* XMLParserObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0CEBBEA813A0AD5E007DB3E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CEBBEC013A0AD5E007DB3E7 /* WMBTWebServiceLibTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CEBBEB413A0AD5E007DB3E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0CEBBE9F13A0AD5E007DB3E7 /* WMBTWebServiceLib */;
+			targetProxy = 0CEBBEB313A0AD5E007DB3E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CEBBEB913A0AD5E007DB3E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0CEBBEBA13A0AD5E007DB3E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0CEBBEC113A0AD5E007DB3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0CEBBEC213A0AD5E007DB3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0CEBBEC413A0AD5E007DB3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WMBTWebServiceLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WMBTWebServiceLib/WMBTWebServiceLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CEBBEC513A0AD5E007DB3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/WMBTWebServiceLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WMBTWebServiceLib/WMBTWebServiceLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0CEBBEC713A0AD5E007DB3E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WMBTWebServiceLibTests/WMBTWebServiceLibTests-Prefix.pch";
+				INFOPLIST_FILE = "WMBTWebServiceLibTests/WMBTWebServiceLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0CEBBEC813A0AD5E007DB3E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WMBTWebServiceLibTests/WMBTWebServiceLibTests-Prefix.pch";
+				INFOPLIST_FILE = "WMBTWebServiceLibTests/WMBTWebServiceLibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CEBBE9A13A0AD5E007DB3E7 /* Build configuration list for PBXProject "WMBTWebServiceLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEBBEC113A0AD5E007DB3E7 /* Debug */,
+				0CEBBEC213A0AD5E007DB3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CEBBEC313A0AD5E007DB3E7 /* Build configuration list for PBXNativeTarget "WMBTWebServiceLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEBBEC413A0AD5E007DB3E7 /* Debug */,
+				0CEBBEC513A0AD5E007DB3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0CEBBEC613A0AD5E007DB3E7 /* Build configuration list for PBXNativeTarget "WMBTWebServiceLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CEBBEC713A0AD5E007DB3E7 /* Debug */,
+				0CEBBEC813A0AD5E007DB3E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CEBBE9713A0AD5E007DB3E7 /* Project object */;
+}

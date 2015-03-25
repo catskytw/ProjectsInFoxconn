@@ -1,0 +1,16 @@
+//
+//  HelloWorldLayer.h
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/27.
+//  Copyright foxconn 2011年. All rights reserved.
+//
+
+
+// When you import this file, you import all the cocos2d classes
+#import "cocos2d.h"
+// HelloWorldLayer
+@interface WheelLayer : CCLayer
+{
+}
+@end

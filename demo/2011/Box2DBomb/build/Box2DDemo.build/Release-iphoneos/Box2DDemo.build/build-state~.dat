@@ -1,0 +1,1826 @@
+TBox2DDemo
+v7
+r0
+t321956390.747844
+cCheck dependencies
+cCpResource build/Release-iphoneos/Box2DDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Info.plist Resources/Info.plist
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/blocks.png Resources/blocks.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Default.png Resources/Default.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/fps_images.png Resources/fps_images.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon.png Resources/Icon.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon@2x.png Resources/Icon@2x.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small.png Resources/Icon-Small.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small-50.png Resources/Icon-Small-50.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-72.png Resources/Icon-72.png
+cCpResource build/Release-iphoneos/Box2DDemo.app/iTunesArtwork Resources/iTunesArtwork
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/future.png Resources/future.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/lump.png Resources/lump.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball1.png Resources/ball1.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball2.png Resources/ball2.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball3.png Resources/ball3.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball4.png Resources/ball4.png
+cCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball5.png Resources/ball5.png
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-biylyztffkioaqejlnwuikmdcmss/Box2DDemo_Prefix.pch.gch Box2DDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+cProcessPCH++ /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-cpvbcugvcqrydegowzhpdstwiihk/Box2DDemo_Prefix.pch.gch Box2DDemo_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/main.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemoAppDelegate.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/HelloWorldScene.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/GLES-Render.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+cCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/RootViewController.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo normal armv6
+cGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app.dSYM /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo
+cProcessProductPackaging "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision
+cTouch /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent
+cCodeSign /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
+c000000004CC7DC9E0000000000000110
+t1288166558
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+c000000004CB3DFCF00000000000001A7
+t1286856655
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+c000000004CB3DFCF00000000000001E5
+t1286856655
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC11C42000000000020BF30
+t1287724098
+s2146096
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC10EF400000000003B8CB0
+t1287720692
+s3902640
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC10EF500000000003532B0
+t1287720693
+s3486384
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004CC10DCA00000000000022F0
+t1287720394
+s8944
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004CC10DCA0000000000002650
+t1287720394
+s9808
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC10F4700000000003E1F20
+t1287720775
+s4071200
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC10F1C0000000000001466
+t1287720732
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC10F3800000000000459B0
+t1287720760
+s285104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC110BE000000000000094F
+t1287721150
+s2383
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC110BE0000000000000A61
+t1287721150
+s2657
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC110BE0000000000009369
+t1287721150
+s37737
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC110BE0000000000003C4A
+t1287721150
+s15434
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC110CB000000000002C650
+t1287721163
+s181840
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1111C00000000000000C4
+t1287721244
+s196
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC1127D0000000000267530
+t1287721597
+s2520368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC11AE60000000000000AA1
+t1287723750
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC11B750000000000C769F0
+t1287723893
+s13068784
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/Availability.h
+c000000004CB3FBB80000000000001ADD
+t1286863800
+s6877
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/inttypes.h
+c000000004CB3E4B800000000000027D1
+t1286857912
+s10193
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/math.h
+c000000004CB3E44400000000000004F1
+t1286857796
+s1265
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/objc/objc.h
+c000000004CC1098E0000000000000A2F
+t1287719310
+s2607
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stddef.h
+c000000004CB3E4B80000000000001404
+t1286857912
+s5124
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4B80000000000002DF5
+t1286857912
+s11765
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/string.h
+c000000004CB3E4B80000000000001731
+t1286857912
+s5937
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/sys/time.h
+c000000004CBFACD90000000000001E17
+t1287630041
+s7703
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/lib/libz.dylib
+c000000004CC105400000000000020FF0
+t1287718208
+s135152
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Box2DDemo_Prefix.pch
+c000000004D76DACB00000000000000B5
+t1299634891
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.h
+c000000004D76DACB0000000000000178
+t1299634891
+s376
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm
+c000000004D76DACB000000000000118F
+t1299634891
+s4495
+i"cocos2d.h"
+i"Box2DDemoAppDelegate.h"
+i"GameConfig.h"
+i"HelloWorldScene.h"
+i"RootViewController.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.h
+c000000004D76DACB0000000000000867
+t1299634891
+s2151
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"Box2D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm
+c000000004D76DACB0000000000001402
+t1299634891
+s5122
+i"GLES-Render.h"
+i<cstdio>
+i<cstdarg>
+i<cstring>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GameConfig.h
+c000000004D76DACB0000000000000217
+t1299634891
+s535
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.h
+c000000004D7DE1C40000000000000485
+t1300095428
+s1157
+i"cocos2d.h"
+i"Box2D.h"
+i"GLES-Render.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm
+c000000004D7F0DC000000000000022B4
+t1300172224
+s8884
+i"HelloWorldScene.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.h
+c000000004D76DACB00000000000000DF
+t1299634891
+s223
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m
+c000000004D76DACB0000000000001133
+t1299634891
+s4403
+i"cocos2d.h"
+i"RootViewController.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Default.png
+c000000004D76DACB00000000000077AB
+t1299634891
+s30635
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-72.png
+c000000004D76DACB0000000000002C96
+t1299634891
+s11414
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small-50.png
+c000000004D76DACB0000000000001F2B
+t1299634891
+s7979
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small.png
+c000000004D76DACB000000000000135C
+t1299634891
+s4956
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small@2x.png
+c000000004D76DACB00000000000024F9
+t1299634891
+s9465
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon.png
+c000000004D76DACB000000000000246F
+t1299634891
+s9327
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon@2x.png
+c000000004D76DACB0000000000005375
+t1299634891
+s21365
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball1.png
+c000000004CAEB6C4000000000000125A
+t1286518468
+s4698
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball2.png
+c000000004CAEB44800000000000012E5
+t1286517832
+s4837
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball3.png
+c000000004CB2C82C000000000000170F
+t1286785068
+s5903
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball4.png
+c000000004CAEB61E00000000000011B0
+t1286518302
+s4528
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball5.png
+c000000004CB2C8BE000000000000177C
+t1286785214
+s6012
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/blocks.png
+c000000004D76DACB00000000000007D1
+t1299634891
+s2001
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/fps_images.png
+c000000004D76DACB000000000000183B
+t1299634891
+s6203
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/future.png
+c000000004C7481A800000000000017E5
+t1282703784
+s6117
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/iTunesArtwork
+c000000004D76DACB000000000000F21E
+t1299634891
+s61982
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/lump.png
+c000000004D7F08100000000000000B06
+t1300170768
+s2822
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent
+t1300263590
+s430
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemo.LinkFileList
+c000000004D8072A400000000000002D8
+t1300263588
+s728
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemoAppDelegate.o
+t1300263589
+s61080
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/GLES-Render.o
+t1300263589
+s23856
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/HelloWorldScene.o
+t1300263589
+s123040
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/RootViewController.o
+t1300263589
+s45692
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/main.o
+t1300263588
+s3672
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/Box2DDemo.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/Box2DDemoAppDelegate.o
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/GLES-Render.o
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/HelloWorldScene.o
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/RootViewController.o
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+t1300263590
+s884
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app.dSYM
+t1300263590
+s102
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo
+t1300263590
+s1283932
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Default.png
+t1300263588
+s31932
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-72.png
+t1300263588
+s12252
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small-50.png
+t1300263588
+s8600
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small.png
+t1300263588
+s5241
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small@2x.png
+t1300263588
+s10151
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon.png
+t1300263588
+s10022
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon@2x.png
+t1300263588
+s23297
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Info.plist
+t1300263588
+s1050
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/PkgInfo
+t1300263588
+s8
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ResourceRules.plist
+t1300263588
+s485
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball1.png
+t1300263588
+s4908
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball2.png
+t1300263588
+s4997
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball3.png
+t1300263588
+s6164
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball4.png
+t1300263588
+s4829
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball5.png
+t1300263588
+s6157
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/blocks.png
+t1300263588
+s1734
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision
+t1300263590
+s7289
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/fps_images.png
+t1300263588
+s7188
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/future.png
+t1300263588
+s6190
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/iTunesArtwork
+t1300263588
+s61982
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/lump.png
+t1300263588
+s2822
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/libcocos2d libraries.a
+c000000004D8072A400000000004DF200
+t1300263588
+s5108224
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Box2D.h
+c000000004D76DACB000000000000088B
+t1299634891
+s2187
+i<Box2D/Common/b2Settings.h>
+i<Box2D/Collision/Shapes/b2CircleShape.h>
+i<Box2D/Collision/Shapes/b2PolygonShape.h>
+i<Box2D/Collision/b2BroadPhase.h>
+i<Box2D/Collision/b2Distance.h>
+i<Box2D/Collision/b2DynamicTree.h>
+i<Box2D/Collision/b2TimeOfImpact.h>
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Dynamics/b2Fixture.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+i<Box2D/Dynamics/b2TimeStep.h>
+i<Box2D/Dynamics/b2World.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/Joints/b2DistanceJoint.h>
+i<Box2D/Dynamics/Joints/b2FrictionJoint.h>
+i<Box2D/Dynamics/Joints/b2GearJoint.h>
+i<Box2D/Dynamics/Joints/b2LineJoint.h>
+i<Box2D/Dynamics/Joints/b2MouseJoint.h>
+i<Box2D/Dynamics/Joints/b2PrismaticJoint.h>
+i<Box2D/Dynamics/Joints/b2PulleyJoint.h>
+i<Box2D/Dynamics/Joints/b2RevoluteJoint.h>
+i<Box2D/Dynamics/Joints/b2WeldJoint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/Shapes/b2CircleShape.h
+c000000004D76DACB0000000000000982
+t1299634891
+s2434
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/Shapes/b2PolygonShape.h
+c000000004D76DACB0000000000000F38
+t1299634891
+s3896
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/Shapes/b2Shape.h
+c000000004D76DACB0000000000000CB9
+t1299634891
+s3257
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Collision.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/b2BroadPhase.h
+c000000004D76DACB0000000000001843
+t1299634891
+s6211
+i<Box2D/Common/b2Settings.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/b2DynamicTree.h>
+i<algorithm>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/b2Collision.h
+c000000004D76DACB0000000000001FA1
+t1299634891
+s8097
+i<Box2D/Common/b2Math.h>
+i<climits>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/b2Distance.h
+c000000004D76DACB0000000000000EB5
+t1299634891
+s3765
+i<Box2D/Common/b2Math.h>
+i<climits>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/b2DynamicTree.h
+c000000004D76DACB0000000000001C14
+t1299634891
+s7188
+i<Box2D/Collision/b2Collision.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Collision/b2TimeOfImpact.h
+c000000004D76DACB000000000000075D
+t1299634891
+s1885
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Distance.h>
+i<climits>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Common/b2BlockAllocator.h
+c000000004D76DACB00000000000006F3
+t1299634891
+s1779
+i<Box2D/Common/b2Settings.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Common/b2Math.h
+c000000004D76DACB00000000000038D1
+t1299634891
+s14545
+i<Box2D/Common/b2Settings.h>
+i<cmath>
+i<cfloat>
+i<cstddef>
+i<limits>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Common/b2Settings.h
+c000000004D76DACB000000000000149D
+t1299634891
+s5277
+i<cassert>
+i<cmath>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Common/b2StackAllocator.h
+c000000004D76DACB000000000000068B
+t1299634891
+s1675
+i<Box2D/Common/b2Settings.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Contacts/b2Contact.h
+c000000004D76DACB0000000000001A04
+t1299634891
+s6660
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+i<Box2D/Dynamics/Contacts/b2Contact.h>
+i<Box2D/Dynamics/b2Fixture.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2DistanceJoint.h
+c000000004D76DACB0000000000000EFD
+t1299634891
+s3837
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2FrictionJoint.h
+c000000004D76DACB0000000000000AD5
+t1299634891
+s2773
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2GearJoint.h
+c000000004D76DACB0000000000000C75
+t1299634891
+s3189
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2Joint.h
+c000000004D76DACB00000000000015B0
+t1299634891
+s5552
+i<Box2D/Common/b2Math.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2LineJoint.h
+c000000004D76DACB0000000000001367
+t1299634891
+s4967
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2MouseJoint.h
+c000000004D76DACB0000000000000D77
+t1299634891
+s3447
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2PrismaticJoint.h
+c000000004D76DACB0000000000001475
+t1299634891
+s5237
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2PulleyJoint.h
+c000000004D76DACB00000000000010B4
+t1299634891
+s4276
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2RevoluteJoint.h
+c000000004D76DACB00000000000014C0
+t1299634891
+s5312
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/Joints/b2WeldJoint.h
+c000000004D76DACB00000000000009D7
+t1299634891
+s2519
+i<Box2D/Dynamics/Joints/b2Joint.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/b2Body.h
+c000000004D76DACB0000000000005283
+t1299634891
+s21123
+i<Box2D/Common/b2Math.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+i<memory>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/b2ContactManager.h
+c000000004D76DACB0000000000000603
+t1299634891
+s1539
+i<Box2D/Collision/b2BroadPhase.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/b2Fixture.h
+c000000004D76DACB000000000000218D
+t1299634891
+s8589
+i<Box2D/Dynamics/b2Body.h>
+i<Box2D/Collision/b2Collision.h>
+i<Box2D/Collision/Shapes/b2Shape.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/b2TimeStep.h
+c000000004D76DACB00000000000004DB
+t1299634891
+s1243
+i<Box2D/Common/b2Settings.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/b2World.h
+c000000004D76DACB0000000000002229
+t1299634891
+s8745
+i<Box2D/Common/b2Math.h>
+i<Box2D/Common/b2BlockAllocator.h>
+i<Box2D/Common/b2StackAllocator.h>
+i<Box2D/Dynamics/b2ContactManager.h>
+i<Box2D/Dynamics/b2WorldCallbacks.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/Box2D/Dynamics/b2WorldCallbacks.h
+c000000004D76DACB0000000000001E03
+t1299634891
+s7683
+i<Box2D/Common/b2Settings.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCAction.h
+c000000004D76DACB000000000000167A
+t1299634891
+s5754
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionCamera.h
+c000000004D76DACB00000000000009BC
+t1299634891
+s2492
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionEase.h
+c000000004D76DACB0000000000001671
+t1299634891
+s5745
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionGrid.h
+c000000004D76DACB000000000000148B
+t1299634891
+s5259
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionGrid3D.h
+c000000004D76DACB0000000000001A8A
+t1299634891
+s6794
+i"CCActionGrid.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionInstant.h
+c000000004D76DACB00000000000013AA
+t1299634891
+s5034
+i"CCAction.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionInterval.h
+c000000004D76DACB0000000000003265
+t1299634891
+s12901
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionManager.h
+c000000004D76DACB0000000000001071
+t1299634891
+s4209
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionPageTurn3D.h
+c000000004D76DACB0000000000000644
+t1299634891
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionProgressTimer.h
+c000000004D76DACB000000000000088D
+t1299634891
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionTiledGrid.h
+c000000004D76DACB0000000000001A15
+t1299634891
+s6677
+i"CCActionGrid.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCActionTween.h
+c000000004D76DACB0000000000000931
+t1299634891
+s2353
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCAnimation.h
+c000000004D76DACB000000000000126D
+t1299634891
+s4717
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCAnimationCache.h
+c000000004D76DACB00000000000008DD
+t1299634891
+s2269
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCAtlasNode.h
+c000000004D76DACB0000000000000C06
+t1299634891
+s3078
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCBlockSupport.h
+c000000004D76DACB000000000000066F
+t1299634891
+s1647
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCCamera.h
+c000000004D76DACB0000000000000C84
+t1299634891
+s3204
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCCompatibility.h
+c000000004D76DACB0000000000003891
+t1299634891
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCConfiguration.h
+c000000004D76DACB0000000000000D36
+t1299634891
+s3382
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCDirector.h
+c000000004D76DACB00000000000025C4
+t1299634891
+s9668
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCDrawingPrimitives.h
+c000000004D76DACB0000000000000C32
+t1299634891
+s3122
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCGrabber.h
+c000000004D76DACB00000000000005E4
+t1299634891
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCGrid.h
+c000000004D76DACB0000000000000E5A
+t1299634891
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCLabelAtlas.h
+c000000004D76DACB0000000000000B24
+t1299634891
+s2852
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCLabelBMFont.h
+c000000004D76DACB0000000000001641
+t1299634891
+s5697
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCLabelTTF.h
+c000000004D76DACB0000000000000A87
+t1299634891
+s2695
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCLayer.h
+c000000004D76DACB00000000000020E9
+t1299634891
+s8425
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCMenu.h
+c000000004D76DACB0000000000000B29
+t1299634891
+s2857
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCMenuItem.h
+c000000004D76DACB00000000000033A8
+t1299634891
+s13224
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCMotionStreak.h
+c000000004D76DACB0000000000000B2A
+t1299634891
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCNode.h
+c000000004D76DACB0000000000004485
+t1299634891
+s17541
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCParallaxNode.h
+c000000004D76DACB000000000000075D
+t1299634891
+s1885
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCParticleExamples.h
+c000000004D76DACB0000000000000AD0
+t1299634891
+s2768
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCParticleSystem.h
+c000000004D76DACB00000000000037B8
+t1299634891
+s14264
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCParticleSystemPoint.h
+c000000004D76DACB0000000000000846
+t1299634891
+s2118
+i<Availability.h>
+i"CCParticleSystem.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCParticleSystemQuad.h
+c000000004D76DACB00000000000009F8
+t1299634891
+s2552
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCProgressTimer.h
+c000000004D76DACB0000000000000B48
+t1299634891
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCProtocols.h
+c000000004D76DACB0000000000000F9A
+t1299634891
+s3994
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCRenderTexture.h
+c000000004D76DACB0000000000000F2A
+t1299634891
+s3882
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCRibbon.h
+c000000004D76DACB0000000000000FCD
+t1299634891
+s4045
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCScene.h
+c000000004D76DACB0000000000000676
+t1299634891
+s1654
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCScheduler.h
+c000000004D76DACB00000000000019D7
+t1299634891
+s6615
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCSprite.h
+c000000004D76DACB000000000000345C
+t1299634891
+s13404
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCSpriteBatchNode.h
+c000000004D76DACB00000000000018F8
+t1299634891
+s6392
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCSpriteFrame.h
+c000000004D76DACB0000000000000D5A
+t1299634891
+s3418
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCSpriteFrameCache.h
+c000000004D76DACB0000000000001394
+t1299634891
+s5012
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCSpriteSheet.h
+c000000004D76DACB00000000000009FE
+t1299634891
+s2558
+i"CCSpriteBatchNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTMXLayer.h
+c000000004D76DACB000000000000182A
+t1299634891
+s6186
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTMXObjectGroup.h
+c000000004D76DACB00000000000008D5
+t1299634891
+s2261
+i"CCSpriteSheet.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTMXTiledMap.h
+c000000004D76DACB00000000000014D4
+t1299634891
+s5332
+i"CCSpriteSheet.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTMXXMLParser.h
+c000000004D76DACB00000000000016B9
+t1299634891
+s5817
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTexture2D.h
+c000000004D76DACB0000000000002C9A
+t1299634891
+s11418
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTextureAtlas.h
+c000000004D76DACB000000000000145B
+t1299634891
+s5211
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTextureCache.h
+c000000004D76DACB00000000000014C2
+t1299634891
+s5314
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTexturePVR.h
+c000000004D76DACB0000000000000FB9
+t1299634891
+s4025
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTextureCache.h"
+i"CCTexture2D.h"
+i"ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTileMapAtlas.h
+c000000004D76DACB0000000000000B86
+t1299634891
+s2950
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTransition.h
+c000000004D76DACB0000000000002134
+t1299634891
+s8500
+i"CCScene.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTransitionPageTurn.h
+c000000004D76DACB0000000000000917
+t1299634891
+s2327
+i"CCTransition.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/CCTransitionRadial.h
+c000000004D76DACB0000000000000630
+t1299634891
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/CCGL.h
+c000000004D76DACB0000000000000BF8
+t1299634891
+s3064
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/CCNS.h
+c000000004D76DACB0000000000000965
+t1299634891
+s2405
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004D76DACB0000000000000C84
+t1299634891
+s3204
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004D76DACB0000000000001AA7
+t1299634891
+s6823
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+i"../../ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004D76DACB0000000000000B8C
+t1299634891
+s2956
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"../../ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004D76DACB0000000000002B53
+t1299634891
+s11091
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004D76DACB0000000000000BC3
+t1299634891
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004D76DACB00000000000010CA
+t1299634891
+s4298
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004D76DACB0000000000000D99
+t1299634891
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004D76DACC0000000000001B69
+t1299634892
+s7017
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004D76DACC000000000000083A
+t1299634892
+s2106
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/glu.h
+c000000004D76DACC000000000000030D
+t1299634892
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/CCArray.h
+c000000004D76DACC0000000000000BED
+t1299634892
+s3053
+i"ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/CCFileUtils.h
+c000000004D76DACC00000000000007E8
+t1299634892
+s2024
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/CCProfiling.h
+c000000004D76DACC00000000000006E9
+t1299634892
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/CGPointExtension.h
+c000000004D76DACC0000000000001EAB
+t1299634892
+s7851
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004D76DACC00000000000011A7
+t1299634892
+s4519
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/TGAlib.h
+c000000004D76DACC0000000000000444
+t1299634892
+s1092
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/ccCArray.h
+c000000004D76DACC00000000000030F3
+t1299634892
+s12531
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/ccUtils.h
+c000000004D76DACC0000000000000204
+t1299634892
+s516
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/uthash.h
+c000000004D76DACC000000000000FB13
+t1299634892
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Support/utlist.h
+c000000004D76DACC0000000000009091
+t1299634892
+s37009
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/ccConfig.h
+c000000004D76DACC0000000000002896
+t1299634892
+s10390
+i<Availability.h>
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/ccMacros.h
+c000000004D76DACC0000000000001DFE
+t1299634892
+s7678
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/ccTypes.h
+c000000004D76DACC00000000000016D2
+t1299634892
+s5842
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/cocos2d.h
+c000000004D76DACC00000000000010FF
+t1299634892
+s4351
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCAnimation.h"
+i"CCAnimationCache.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m
+c000000004D76DACC0000000000000159
+t1299634892
+s345
+i<UIKit/UIKit.h>
+
+N/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision
+c000000004D806D930000000000001C79
+t1300262291
+s7289
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-biylyztffkioaqejlnwuikmdcmss/Box2DDemo_Prefix.pch.gch
+t1300263440
+s7517912
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-ckbvpgvigvedemdvqiohadeerxvw/Box2DDemo_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-cpvbcugvcqrydegowzhpdstwiihk/Box2DDemo_Prefix.pch.gch
+t1300263440
+s8337000
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-ephjuyovwsokhtemyyegacjrwcbk/Box2DDemo_Prefix.pch.gch
+t2
+s0
+
+NResources/Info.plist
+c000000004D80715E0000000000000500
+t1300263262
+s1280
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321956388#321956388#0(89"[BWARN]warning: all apps should include an armv7 architecture (current ARCHS = "armv6").1(22@81"warning: all apps should include an armv7 architecture (current ARCHS = "armv6").321956388#18446744073709551615#0#0(1@0"0(0#1#0"8623850624#0"0#
+
+CCodeSign /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+s321956390.526624
+e321956390.747799
+r1
+xCodeSign
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+lSLF07#2@45"CodeSign build/Release-iphoneos/Box2DDemo.app321956390#321956390#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app8631795648#721"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: CHICHEH HUANG (APG89JL82N)" --resource-rules=/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ResourceRules.plist --entitlements /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app0#
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemoAppDelegate.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s321956388.883716
+e321956389.489887
+r1
+xCompileC
+xbuild/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemoAppDelegate.o
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@92"Compile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm321956388#321956389#0(0"0(0#0#84"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm8633582752#1677"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/include -Ilibs -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources -fvisibility=hidden -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-cpvbcugvcqrydegowzhpdstwiihk/Box2DDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemoAppDelegate.o0#
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/GLES-Render.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s321956389.490071
+e321956389.897598
+r1
+xCompileC
+xbuild/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/GLES-Render.o
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@83"Compile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm321956389#321956389#0(0"0(0#0#75"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm8636043776#1659"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/include -Ilibs -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources -fvisibility=hidden -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-cpvbcugvcqrydegowzhpdstwiihk/Box2DDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/GLES-Render.o0#
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/HelloWorldScene.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+s321956388.968394
+e321956389.720169
+r1
+xCompileC
+xbuild/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/HelloWorldScene.o
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm
+xnormal
+xarmv6
+xobjective-c++
+xcom.apple.compilers.llvmgcc42
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'objc_object* -[HelloWorld init](HelloWorld*, objc_selector*)':
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: 'HelloWorld' may not respond to '-addMainSprite'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: (Messages without a matching method signature
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: will be assumed to return 'id' and accept
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: '...' as arguments.)
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:101: warning: 'HelloWorld' may not respond to '-addCircleSprite'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:104: warning: 'HelloWorld' may not respond to '-addChain'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'BOOL -[HelloWorld ccTouchesBegan:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:234: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h:69: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:242: warning: 'HelloWorld' may not respond to '-MouseDown:'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'void -[HelloWorld ccTouchesMoved:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:252: warning: 'HelloWorld' may not respond to '-MouseMove:'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'void -[HelloWorld ccTouchesEnded:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:262: warning: 'HelloWorld' may not respond to '-MouseUp:'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: At global scope:
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:358: warning: incomplete implementation of class 'HelloWorld'
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:358: warning: method definition for '-addNewSpriteWithCoords:' not found
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'BOOL -[HelloWorld ccTouchesBegan:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':
+o/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:245: warning: control reaches end of non-void function
+lSLF07#2@87"Compile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321956388#321956389#0(3067"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'objc_object* -[HelloWorld init](HelloWorld*, objc_selector*)':/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: 'HelloWorld' may not respond to '-addMainSprite'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: (Messages without a matching method signature/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: will be assumed to return 'id' and accept/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:100: warning: '...' as arguments.)/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:101: warning: 'HelloWorld' may not respond to '-addCircleSprite'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:104: warning: 'HelloWorld' may not respond to '-addChain'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'BOOL -[HelloWorld ccTouchesBegan:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:234: warning: conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h:69: warning: previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:242: warning: 'HelloWorld' may not respond to '-MouseDown:'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'void -[HelloWorld ccTouchesMoved:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:252: warning: 'HelloWorld' may not respond to '-MouseMove:'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'void -[HelloWorld ccTouchesEnded:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:262: warning: 'HelloWorld' may not respond to '-MouseUp:'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: At global scope:/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:358: warning: incomplete implementation of class 'HelloWorld'/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:358: warning: method definition for '-addNewSpriteWithCoords:' not found/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm: In function 'BOOL -[HelloWorld ccTouchesBegan:withEvent:](HelloWorld*, objc_selector*, NSSet*, UIEvent*)':/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm:245: warning: control reaches end of non-void function13(22@48"'HelloWorld' may not respond to '-addMainSprite'321956389#147#133#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#100#0#100#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)321956389#280#130#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#100#0#100#0#0"0(22@50"'HelloWorld' may not respond to '-addCircleSprite'321956389#641#135#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#101#0#101#0#26"'*' may not respond to '*'0(22@43"'HelloWorld' may not respond to '-addChain'321956389#776#128#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#104#0#104#0#26"'*' may not respond to '*'0(22@89"Conflicting types for '-(BOOL)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'321956389#1082#174#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#234#0#234#0#25"conflicting types for '*'0(22@91"Previous declaration of '-(void)ccTouchesBegan:(NSSet *)touches withEvent:(UIEvent *)event'321956389#1256#201#0(6@105"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h321327691#69#0#69#0#0"0(22@45"'HelloWorld' may not respond to '-MouseDown:'321956389#1457#130#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#242#0#242#0#26"'*' may not respond to '*'0(22@45"'HelloWorld' may not respond to '-MouseMove:'321956389#1765#130#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#252#0#252#0#26"'*' may not respond to '*'0(22@43"'HelloWorld' may not respond to '-MouseUp:'321956389#2073#128#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#262#0#262#0#26"'*' may not respond to '*'0(23@16"At global scope:321956389#2201#88#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#0#0#0#0#0"0(22@47"Incomplete implementation of class 'HelloWorld'321956389#2289#132#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#358#0#358#0#38"incomplete implementation of class '*'0(22@58"Method definition for '-addNewSpriteWithCoords:' not found321956389#2421#143#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#358#0#358#0#35"method definition for '*' not found0(22@40"Control reaches end of non-void function321956389#2742#125#0(6@79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm321865024#245#0#245#0#40"control reaches end of non-void function0(0#0#79"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm8628678848#1667"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c++ -arch armv6 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -fvisibility-inlines-hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/include -Ilibs -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources -fvisibility=hidden -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-cpvbcugvcqrydegowzhpdstwiihk/Box2DDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/HelloWorldScene.o0#
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/RootViewController.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321956389.720278
+e321956389.888847
+r1
+xCompileC
+xbuild/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/RootViewController.o
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@89"Compile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m321956389#321956389#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m8633046080#1651"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/include -Ilibs -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources -fvisibility=hidden -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-biylyztffkioaqejlnwuikmdcmss/Box2DDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/RootViewController.o0#
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/main.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m normal armv6 objective-c com.apple.compilers.llvmgcc42
+s321956388.882725
+e321956388.968288
+r1
+xCompileC
+xbuild/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/main.o
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@67"Compile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m321956388#321956388#0(0"0(0#0#59"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m8635254944#1615"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -Os -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -funroll-loops -fvisibility=hidden -gdwarf-2 -mno-thumb -miphoneos-version-min=4.2 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.hmap -Wall -F/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/include -Ilibs -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources/armv6 -I/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/DerivedSources -fvisibility=hidden -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-biylyztffkioaqejlnwuikmdcmss/Box2DDemo_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/Box2DDemoAppDelegate.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/Box2DDemoAppDelegate.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/GLES-Render.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/GLES-Render.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/HelloWorldScene.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/HelloWorldScene.mm normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/RootViewController.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCompileC build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv7/main.o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/main.m normal armv7 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Default.png Resources/Default.png
+s321956388.325593
+e321956388.724387
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Default.png
+xResources/Default.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Default.png Resources/Default.png321956388#321956388#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Default.png8640579552#618"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Default.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Default.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-72.png Resources/Icon-72.png
+s321956388.722724
+e321956388.786198
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-72.png
+xResources/Icon-72.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Icon-72.png Resources/Icon-72.png321956388#321956388#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-72.png8639646528#618"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-72.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-72.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small-50.png Resources/Icon-Small-50.png
+s321956388.674398
+e321956388.722622
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small-50.png
+xResources/Icon-Small-50.png
+lSLF07#2@94"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Icon-Small-50.png Resources/Icon-Small-50.png321956388#321956388#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small-50.png8640564736#630"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small-50.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small-50.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small.png Resources/Icon-Small.png
+s321956388.585989
+e321956388.674286
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small.png
+xResources/Icon-Small.png
+lSLF07#2@88"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Icon-Small.png Resources/Icon-Small.png321956388#321956388#0(0"0(0#0#77"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small.png8631752704#624"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small@2x.png Resources/Icon-Small@2x.png
+s321956388.553911
+e321956388.585896
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small@2x.png
+xResources/Icon-Small@2x.png
+lSLF07#2@94"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Icon-Small@2x.png Resources/Icon-Small@2x.png321956388#321956388#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small@2x.png8632553600#630"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon-Small@2x.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon-Small@2x.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon.png Resources/Icon.png
+s321956388.414106
+e321956388.454961
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon.png
+xResources/Icon.png
+lSLF07#2@76"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Icon.png Resources/Icon.png321956388#321956388#0(0"0(0#0#71"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon.png8620098912#612"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon@2x.png Resources/Icon@2x.png
+s321956388.455051
+e321956388.553820
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon@2x.png
+xResources/Icon@2x.png
+lSLF07#2@82"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/Icon@2x.png Resources/Icon@2x.png321956388#321956388#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon@2x.png8603226720#618"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Icon@2x.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Icon@2x.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball1.png Resources/ball1.png
+s321956388.786264
+e321956388.814417
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball1.png
+xResources/ball1.png
+lSLF07#2@78"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/ball1.png Resources/ball1.png321956388#321956388#0(0"0(0#0#72"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball1.png8618034208#614"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball1.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball1.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball2.png Resources/ball2.png
+s321956388.809399
+e321956388.838090
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball2.png
+xResources/ball2.png
+lSLF07#2@78"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/ball2.png Resources/ball2.png321956388#321956388#0(0"0(0#0#72"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball2.png8636994176#614"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball2.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball2.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball3.png Resources/ball3.png
+s321956388.814508
+e321956388.844056
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball3.png
+xResources/ball3.png
+lSLF07#2@78"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/ball3.png Resources/ball3.png321956388#321956388#0(0"0(0#0#72"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball3.png8636382464#614"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball3.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball3.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball4.png Resources/ball4.png
+s321956388.838185
+e321956388.876688
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball4.png
+xResources/ball4.png
+lSLF07#2@78"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/ball4.png Resources/ball4.png321956388#321956388#0(0"0(0#0#72"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball4.png8636225504#614"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball4.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball4.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball5.png Resources/ball5.png
+s321956388.844150
+e321956388.882512
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball5.png
+xResources/ball5.png
+lSLF07#2@78"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/ball5.png Resources/ball5.png321956388#321956388#0(0"0(0#0#72"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball5.png8635627264#614"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/ball5.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ball5.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/blocks.png Resources/blocks.png
+s321956388.324392
+e321956388.355934
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/blocks.png
+xResources/blocks.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/blocks.png Resources/blocks.png321956388#321956388#0(0"0(0#0#73"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/blocks.png8628406208#616"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/blocks.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/blocks.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/fps_images.png Resources/fps_images.png
+s321956388.356024
+e321956388.414011
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@88"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/fps_images.png Resources/fps_images.png321956388#321956388#0(0"0(0#0#77"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/fps_images.png8639731040#624"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/fps_images.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/fps_images.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/future.png Resources/future.png
+s321956388.725182
+e321956388.785105
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/future.png
+xResources/future.png
+lSLF07#2@80"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/future.png Resources/future.png321956388#321956388#0(0"0(0#0#73"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/future.png8637515712#616"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/future.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/future.png0#
+
+CCopyPNGFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/lump.png Resources/lump.png
+s321956388.785207
+e321956388.809305
+r1
+xCopyPNGFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/lump.png
+xResources/lump.png
+lSLF07#2@76"CopyPNGFile build/Release-iphoneos/Box2DDemo.app/lump.png Resources/lump.png321956388#321956388#0(0"0(0#0#71"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/lump.png8628433184#612"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/lump.png /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/lump.png0#
+
+CCpResource build/Release-iphoneos/Box2DDemo.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+s321956388.295842
+e321956388.323947
+r1
+xCpResource
+xbuild/Release-iphoneos/Box2DDemo.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist321956388#321956388#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist8631439072#547"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app0#
+
+CCpResource build/Release-iphoneos/Box2DDemo.app/iTunesArtwork Resources/iTunesArtwork
+s321956388.724471
+e321956388.730256
+r1
+xCpResource
+xbuild/Release-iphoneos/Box2DDemo.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork321956388#321956388#0(0"0(0#0#76"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/iTunesArtwork8638283424#534"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/iTunesArtwork /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app0#
+
+CGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app.dSYM /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo
+s321956390.279903
+e321956390.490399
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app.dSYM
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo
+lSLF07#2@105"GenerateDSYMFile build/Release-iphoneos/Box2DDemo.app.dSYM build/Release-iphoneos/Box2DDemo.app/Box2DDemo321956390#321956390#0(0"0(0#0#99"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo8637963392#414"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app.dSYM0#
+
+CLd /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo normal armv6
+s321956389.897691
+e321956390.279775
+r1
+xLd
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo
+xnormal
+xarmv6
+lSLF07#2@104"Link /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo321956389#321956390#0(0"0(0#0#0"8631492448#1065"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/llvm-g++-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -F/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos -filelist /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Objects-normal/armv6/Box2DDemo.LinkFileList -dead_strip -all_load -ObjC -miphoneos-version-min=4.2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo0#
+
+CLd /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Box2DDemo normal armv7
+r0
+
+CProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Info.plist Resources/Info.plist
+s321956388.299080
+e321956388.324311
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist321956388#321956388#0(0"0(0#0#73"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/Resources/Info.plist8631201792#632"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/ResourceRules.plist -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/Info.plist0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-biylyztffkioaqejlnwuikmdcmss/Box2DDemo_Prefix.pch.gch Box2DDemo_Prefix.pch normal armv6 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-ckbvpgvigvedemdvqiohadeerxvw/Box2DDemo_Prefix.pch.gch Box2DDemo_Prefix.pch normal armv7 objective-c com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH++ /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-cpvbcugvcqrydegowzhpdstwiihk/Box2DDemo_Prefix.pch.gch Box2DDemo_Prefix.pch normal armv6 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CProcessPCH++ /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Box2DDemo_Prefix-ephjuyovwsokhtemyyegacjrwcbk/Box2DDemo_Prefix.pch.gch Box2DDemo_Prefix.pch normal armv7 objective-c++ com.apple.compilers.llvmgcc42
+r0
+
+CProcessProductPackaging "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision
+s321956390.490505
+e321956390.501803
+r1
+xProcessProductPackaging
+x/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision
+lSLF07#2@197"ProcessProductPackaging "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision321956390#321956390#0(0"0(0#0#114"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision8636369184#456"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/change/Library/MobileDevice/Provisioning Profiles/9BE8F392-5E1A-42ED-A5E3-3810B6774D89.mobileprovision" -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent
+s321956390.506068
+e321956390.526559
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent
+lSLF07#2@183"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent321956390#321956390#0(0"0(0#0#123"/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent8632605824#468"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Box2DDemo.build/Release-iphoneos/Box2DDemo.build/Box2DDemo.xcent0#
+
+CTouch /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+s321956390.501889
+e321956390.505978
+r1
+xTouch
+x/Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app
+lSLF07#2@95"Touch /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app321956390#321956390#0(0"0(0#0#0"8635457600#296"    cd /Users/change/Desktop/專案程式碼/demo/Box2DDemo    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/專案程式碼/demo/Box2DDemo/build/Release-iphoneos/Box2DDemo.app0#
+

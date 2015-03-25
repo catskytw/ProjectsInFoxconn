@@ -1,0 +1,1591 @@
+THTML5ChartingTest
+v7
+r0
+t319949240.816435
+cCheck dependencies
+cProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist HTML5ChartingTest-Info.plist
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.src.js Classes/js/highcharts.src.js
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.js Classes/js/highcharts.js
+cCompileXIB /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/MainWindow.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/tokyo.json Classes/tokyo.json
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.csv Classes/analytics.csv
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.tsv Classes/analytics.tsv
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-basic.htm Classes/area-basic.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-inverted.htm Classes/area-inverted.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-missing.htm Classes/area-missing.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-negative.htm Classes/area-negative.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked-percent.htm Classes/area-stacked-percent.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked.htm Classes/area-stacked.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/areaspline.htm Classes/areaspline.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-basic.htm Classes/bar-basic.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-negative-stack.htm Classes/bar-negative-stack.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-stacked.htm Classes/bar-stacked.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-basic.htm Classes/column-basic.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-negative.htm Classes/column-negative.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-parsed.htm Classes/column-parsed.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-rotated-labels.htm Classes/column-rotated-labels.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-and-grouped.htm Classes/column-stacked-and-grouped.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-percent.htm Classes/column-stacked-percent.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked.htm Classes/column-stacked.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-dual-axes.htm Classes/combo-dual-axes.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-multi-axes.htm Classes/combo-multi-axes.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-regression.htm Classes/combo-regression.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo.htm Classes/combo.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-click-to-add.htm Classes/dynamic-click-to-add.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-master-detail.htm Classes/dynamic-master-detail.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-update.htm Classes/dynamic-update.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-ajax.htm Classes/line-ajax.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-basic.htm Classes/line-basic.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-labels.htm Classes/line-labels.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-time-series.htm Classes/line-time-series.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-basic.htm Classes/pie-basic.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-donut.htm Classes/pie-donut.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-legend.htm Classes/pie-legend.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/scatter.htm Classes/scatter.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-inverted.htm Classes/spline-inverted.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-plot-bands.htm Classes/spline-plot-bands.htm
+cCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-symbols.htm Classes/spline-symbols.htm
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch.gch HTML5ChartingTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest normal i386
+cGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+cTouch /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.h
+c000000004D2182DB0000000000000210
+t1294041819
+s528
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m
+c000000004D2182DB0000000000000AB2
+t1294041819
+s2738
+i"HTML5ChartingTestAppDelegate.h"
+i"HTML5ChartingTestViewController.h"
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.h
+c000000004D22BFF00000000000000165
+t1294122992
+s357
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m
+c000000004D22BFDC00000000000006ED
+t1294122972
+s1773
+i"HTML5ChartingTestViewController.h"
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/analytics.csv
+c000000004CEB4B560000000000000B83
+t1290488662
+s2947
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/analytics.tsv
+c000000004CF899D40000000000000AC7
+t1291360724
+s2759
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/area-basic.htm
+c000000004CF899C80000000000000CE2
+t1291360712
+s3298
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/area-inverted.htm
+c000000004CF899C80000000000000926
+t1291360712
+s2342
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/area-missing.htm
+c000000004CF899C8000000000000094D
+t1291360712
+s2381
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/area-negative.htm
+c000000004CF899C800000000000006C4
+t1291360712
+s1732
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/area-stacked-percent.htm
+c000000004CF899C8000000000000099C
+t1291360712
+s2460
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/area-stacked.htm
+c000000004CF899C800000000000009AE
+t1291360712
+s2478
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/areaspline.htm
+c000000004CF899C800000000000008EB
+t1291360712
+s2283
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/bar-basic.htm
+c000000004D21985F000000000000090B
+t1294047327
+s2315
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/bar-negative-stack.htm
+c000000004CF899C80000000000000B1A
+t1291360712
+s2842
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/bar-stacked.htm
+c000000004CF899C8000000000000078A
+t1291360712
+s1930
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-basic.htm
+c000000004CF899C80000000000000A22
+t1291360712
+s2594
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-negative.htm
+c000000004CF899C800000000000006C8
+t1291360712
+s1736
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-parsed.htm
+c000000004CF899C80000000000000D35
+t1291360712
+s3381
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-rotated-labels.htm
+c000000004CF899C80000000000000A93
+t1291360712
+s2707
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked-and-grouped.htm
+c000000004CF899C8000000000000085F
+t1291360712
+s2143
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked-percent.htm
+c000000004CF899C80000000000000768
+t1291360712
+s1896
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked.htm
+c000000004CF899C80000000000000868
+t1291360712
+s2152
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/combo-dual-axes.htm
+c000000004CF899C80000000000000AF2
+t1291360712
+s2802
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/combo-multi-axes.htm
+c000000004CF899C80000000000000DE5
+t1291360712
+s3557
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/combo-regression.htm
+c000000004CF899C800000000000006CB
+t1291360712
+s1739
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/combo.htm
+c000000004CF899C80000000000000A16
+t1291360712
+s2582
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-click-to-add.htm
+c000000004CF899C80000000000000939
+t1291360712
+s2361
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-master-detail.htm
+c000000004D2195310000000000003D77
+t1294046513
+s15735
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-update.htm
+c000000004D21977E00000000000009DF
+t1294047102
+s2527
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/js/highcharts.js
+c000000004CF899D40000000000012B98
+t1291360724
+s76696
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/js/highcharts.src.js
+c000000004CF899D40000000000040387
+t1291360724
+s263047
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/line-ajax.htm
+c000000004D2198B000000000000012BF
+t1294047408
+s4799
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/line-basic.htm
+c000000004CF899C800000000000009C3
+t1291360712
+s2499
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/line-labels.htm
+c000000004CF899C8000000000000082A
+t1291360712
+s2090
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/line-time-series.htm
+c000000004CF899C80000000000002F10
+t1291360712
+s12048
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/pie-basic.htm
+c000000004CF899C8000000000000085F
+t1291360712
+s2143
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/pie-donut.htm
+c000000004CF899C80000000000000AAD
+t1291360712
+s2733
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/pie-legend.htm
+c000000004CF899C800000000000007D3
+t1291360712
+s2003
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/scatter.htm
+c000000004CF899C80000000000002A8C
+t1291360712
+s10892
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/spline-inverted.htm
+c000000004CF899C80000000000000933
+t1291360712
+s2355
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/spline-plot-bands.htm
+c000000004CF899C80000000000001150
+t1291360712
+s4432
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/spline-symbols.htm
+c000000004CF899C8000000000000094D
+t1291360712
+s2381
+
+N/Users/change/Desktop/HTML5ChartingTest/Classes/tokyo.json
+c000000004CEB4A8E0000000000000044
+t1290488462
+s68
+
+N/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+c000000004D2190330000000000004322
+t1294045235
+s17186
+
+N/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch
+c000000004D2182DB00000000000000CB
+t1294041819
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+c000000004D2182DB0000000000004EA1
+t1294041819
+s20129
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+t1294047426
+s1598
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM
+t1294047426
+s102
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+t1294047426
+s18672
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTestViewController.nib
+t1294045490
+s1683
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist
+t1294041964
+s637
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/MainWindow.nib
+t1294041964
+s1701
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/PkgInfo
+t1294041964
+s8
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.csv
+t1294045490
+s2947
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.tsv
+t1294045490
+s2759
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-basic.htm
+t1294046530
+s3298
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-inverted.htm
+t1294046530
+s2342
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-missing.htm
+t1294046530
+s2381
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-negative.htm
+t1294046530
+s1732
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked-percent.htm
+t1294046530
+s2460
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked.htm
+t1294046530
+s2478
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/areaspline.htm
+t1294046530
+s2283
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-basic.htm
+t1294047349
+s2315
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-negative-stack.htm
+t1294046530
+s2842
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-stacked.htm
+t1294046530
+s1930
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-basic.htm
+t1294046530
+s2594
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-negative.htm
+t1294046530
+s1736
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-parsed.htm
+t1294046530
+s3381
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-rotated-labels.htm
+t1294046530
+s2707
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-and-grouped.htm
+t1294046530
+s2143
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-percent.htm
+t1294046530
+s1896
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked.htm
+t1294046530
+s2152
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-dual-axes.htm
+t1294046530
+s2802
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-multi-axes.htm
+t1294046530
+s3557
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-regression.htm
+t1294046530
+s1739
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo.htm
+t1294046530
+s2582
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-click-to-add.htm
+t1294046530
+s2361
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-master-detail.htm
+t1294046530
+s15735
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-update.htm
+t1294047106
+s2527
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.js
+t1294046200
+s76696
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.src.js
+t1294046199
+s263047
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-ajax.htm
+t1294047426
+s4799
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-basic.htm
+t1294046530
+s2499
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-labels.htm
+t1294046530
+s2090
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-time-series.htm
+t1294046530
+s12048
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-basic.htm
+t1294046329
+s2129
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-donut.htm
+t1294046530
+s2733
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-legend.htm
+t1294046530
+s2003
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/scatter.htm
+t1294046530
+s10892
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-inverted.htm
+t1294046530
+s2355
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-plot-bands.htm
+t1294046530
+s4432
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-symbols.htm
+t1294046530
+s2381
+
+N/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/tokyo.json
+t1294045490
+s68
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTest.LinkFileList
+c000000004D21836C00000000000001E0
+t1294041964
+s480
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o
+t1294041966
+s48528
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o
+t1294047426
+s39268
+
+N/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o
+t1294041966
+s6304
+
+N/Users/change/Desktop/HTML5ChartingTest/main.m
+c000000004D2182DB0000000000000168
+t1294041819
+s360
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.h
+c000000004D2182DB0000000000000210
+t1294041819
+s528
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m
+c000000004D2182DB0000000000000AB2
+t1294041819
+s2738
+i"HTML5ChartingTestAppDelegate.h"
+i"HTML5ChartingTestViewController.h"
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.h
+c000000004D22BFF00000000000000165
+t1294122992
+s357
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m
+c000000004D22BFDC00000000000006ED
+t1294122972
+s1773
+i"HTML5ChartingTestViewController.h"
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/analytics.csv
+c000000004CEB4B560000000000000B83
+t1290488662
+s2947
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/analytics.tsv
+c000000004CF899D40000000000000AC7
+t1291360724
+s2759
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/area-basic.htm
+c000000004CF899C80000000000000CE2
+t1291360712
+s3298
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/area-inverted.htm
+c000000004CF899C80000000000000926
+t1291360712
+s2342
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/area-missing.htm
+c000000004CF899C8000000000000094D
+t1291360712
+s2381
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/area-negative.htm
+c000000004CF899C800000000000006C4
+t1291360712
+s1732
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/area-stacked-percent.htm
+c000000004CF899C8000000000000099C
+t1291360712
+s2460
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/area-stacked.htm
+c000000004CF899C800000000000009AE
+t1291360712
+s2478
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/areaspline.htm
+c000000004CF899C800000000000008EB
+t1291360712
+s2283
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/bar-basic.htm
+c000000004D21985F000000000000090B
+t1294047327
+s2315
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/bar-negative-stack.htm
+c000000004CF899C80000000000000B1A
+t1291360712
+s2842
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/bar-stacked.htm
+c000000004CF899C8000000000000078A
+t1291360712
+s1930
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-basic.htm
+c000000004CF899C80000000000000A22
+t1291360712
+s2594
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-negative.htm
+c000000004CF899C800000000000006C8
+t1291360712
+s1736
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-parsed.htm
+c000000004CF899C80000000000000D35
+t1291360712
+s3381
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-rotated-labels.htm
+c000000004CF899C80000000000000A93
+t1291360712
+s2707
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-stacked-and-grouped.htm
+c000000004CF899C8000000000000085F
+t1291360712
+s2143
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-stacked-percent.htm
+c000000004CF899C80000000000000768
+t1291360712
+s1896
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/column-stacked.htm
+c000000004CF899C80000000000000868
+t1291360712
+s2152
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/combo-dual-axes.htm
+c000000004CF899C80000000000000AF2
+t1291360712
+s2802
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/combo-multi-axes.htm
+c000000004CF899C80000000000000DE5
+t1291360712
+s3557
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/combo-regression.htm
+c000000004CF899C800000000000006CB
+t1291360712
+s1739
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/combo.htm
+c000000004CF899C80000000000000A16
+t1291360712
+s2582
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/dynamic-click-to-add.htm
+c000000004CF899C80000000000000939
+t1291360712
+s2361
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/dynamic-master-detail.htm
+c000000004D2195310000000000003D77
+t1294046513
+s15735
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/dynamic-update.htm
+c000000004D21977E00000000000009DF
+t1294047102
+s2527
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/js/highcharts.js
+c000000004CF899D40000000000012B98
+t1291360724
+s76696
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/js/highcharts.src.js
+c000000004CF899D40000000000040387
+t1291360724
+s263047
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/line-ajax.htm
+c000000004D2198B000000000000012BF
+t1294047408
+s4799
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/line-basic.htm
+c000000004CF899C800000000000009C3
+t1291360712
+s2499
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/line-labels.htm
+c000000004CF899C8000000000000082A
+t1291360712
+s2090
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/line-time-series.htm
+c000000004CF899C80000000000002F10
+t1291360712
+s12048
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/pie-basic.htm
+c000000004CF899C8000000000000085F
+t1291360712
+s2143
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/pie-donut.htm
+c000000004CF899C80000000000000AAD
+t1291360712
+s2733
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/pie-legend.htm
+c000000004CF899C800000000000007D3
+t1291360712
+s2003
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/scatter.htm
+c000000004CF899C80000000000002A8C
+t1291360712
+s10892
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/spline-inverted.htm
+c000000004CF899C80000000000000933
+t1291360712
+s2355
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/spline-plot-bands.htm
+c000000004CF899C80000000000001150
+t1291360712
+s4432
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/spline-symbols.htm
+c000000004CF899C8000000000000094D
+t1291360712
+s2381
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/tokyo.json
+c000000004CEB4A8E0000000000000044
+t1290488462
+s68
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+c000000004D2190330000000000004322
+t1294045235
+s17186
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch
+c000000004D2182DB00000000000000CB
+t1294041819
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/MainWindow.xib
+c000000004D2182DB0000000000004EA1
+t1294041819
+s20129
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+t1298256440
+s1598
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM
+t1298256440
+s102
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+t1298256440
+s18800
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTestViewController.nib
+t1294045490
+s1683
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist
+t1294041964
+s637
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/MainWindow.nib
+t1294041964
+s1701
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/PkgInfo
+t1294041964
+s8
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.csv
+t1294045490
+s2947
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.tsv
+t1294045490
+s2759
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-basic.htm
+t1294046530
+s3298
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-inverted.htm
+t1294046530
+s2342
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-missing.htm
+t1294046530
+s2381
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-negative.htm
+t1294046530
+s1732
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked-percent.htm
+t1294046530
+s2460
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked.htm
+t1294046530
+s2478
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/areaspline.htm
+t1294046530
+s2283
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-basic.htm
+t1294047349
+s2315
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-negative-stack.htm
+t1294046530
+s2842
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-stacked.htm
+t1294046530
+s1930
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-basic.htm
+t1294046530
+s2594
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-negative.htm
+t1294046530
+s1736
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-parsed.htm
+t1294046530
+s3381
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-rotated-labels.htm
+t1294046530
+s2707
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-and-grouped.htm
+t1294046530
+s2143
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-percent.htm
+t1294046530
+s1896
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked.htm
+t1294046530
+s2152
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-dual-axes.htm
+t1294046530
+s2802
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-multi-axes.htm
+t1294046530
+s3557
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-regression.htm
+t1294046530
+s1739
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/combo.htm
+t1294046530
+s2582
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-click-to-add.htm
+t1294046530
+s2361
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-master-detail.htm
+t1294046530
+s15735
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-update.htm
+t1294047106
+s2527
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.js
+t1294046200
+s76696
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.src.js
+t1294046199
+s263047
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-ajax.htm
+t1294047426
+s4799
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-basic.htm
+t1294046530
+s2499
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-labels.htm
+t1294046530
+s2090
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/line-time-series.htm
+t1294046530
+s12048
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-basic.htm
+t1294046329
+s2129
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-donut.htm
+t1294046530
+s2733
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-legend.htm
+t1294046530
+s2003
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/scatter.htm
+t1294046530
+s10892
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-inverted.htm
+t1294046530
+s2355
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-plot-bands.htm
+t1294046530
+s4432
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-symbols.htm
+t1294046530
+s2381
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/tokyo.json
+t1294045490
+s68
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTest.LinkFileList
+c000000004D61D235000000000000021F
+t1298256437
+s543
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o
+t1298256440
+s51640
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o
+t1298256440
+s44268
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o
+t1298256440
+s6348
+
+N/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m
+c000000004D2182DB0000000000000168
+t1294041819
+s360
+i<UIKit/UIKit.h>
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch
+t1294041966
+s15211536
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch.gch
+t1298256440
+s15453392
+
+NHTML5ChartingTest-Info.plist
+c000000004D2182DB000000000000038D
+t1294041819
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319949237#319949237#0(1401"[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/adapters/mootools-adapter.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/adapters/mootools-adapter.src.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/highcharts.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/highcharts.src.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/modules/exporting.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/modules/exporting.src.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/dark-blue.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/dark-green.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/gray.js' of type sourcecode.javascript for architecture i386[WARN]warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/grid.js' of type sourcecode.javascript for architecture i38610(22@141"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/adapters/mootools-adapter.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@145"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/adapters/mootools-adapter.src.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@126"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/highcharts.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@130"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/highcharts.src.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@133"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/modules/exporting.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@137"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/modules/exporting.src.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@132"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/dark-blue.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@133"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/dark-green.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@127"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/gray.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(22@127"warning: no rule to process file '$(PROJECT_DIR)/Classes/js/themes/grid.js' of type sourcecode.javascript for architecture i386319949237#18446744073709551615#0#0(1@0"0(0#1#0"31525334837231728#0"0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734766.106530
+e315734766.329788
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o
+x/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@86"Compile /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m315734766#315734766#0(0"0(0#0#78"/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m8601756576#2181"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m -o /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319949240.132939
+e319949240.321973
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@107"Compile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m319949240#319949240#0(0"0(0#0#99"/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m8610128320#2412"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestAppDelegate.m -o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestAppDelegate.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315740226.396531
+e315740226.551018
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o
+x/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@89"Compile /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m315740226#315740226#0(0"0(0#0#81"/Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m8620763104#2187"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m -o /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319949240.320243
+e319949240.402549
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m319949240#319949240#0(0"0(0#0#102"/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m8609521184#2418"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/Classes/HTML5ChartingTestViewController.m -o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTestViewController.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o /Users/change/Desktop/HTML5ChartingTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734766.105207
+e315734766.310083
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/HTML5ChartingTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/change/Desktop/HTML5ChartingTest/main.m315734766#315734766#0(0"0(0#0#46"/Users/change/Desktop/HTML5ChartingTest/main.m8604965120#2125"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/HTML5ChartingTest/main.m -o /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o0#
+
+CCompileC build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319949240.131566
+e319949240.320128
+r1
+xCompileC
+xbuild/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m319949240#319949240#0(0"0(0#0#67"/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m8598459232#2356"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch -c /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/main.m -o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+s315738289.940649
+e315738290.475831
+r1
+xCompileXIB
+x/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+lSLF07#2@46"CompileXIB HTML5ChartingTestViewController.xib315738289#315738290#0(0"0(0#0#75"/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib8590255488#625"    cd /Users/change/Desktop/HTML5ChartingTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTestViewController.nib /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTestViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+s315734764.463029
+e315734764.905301
+r1
+xCompileXIB
+x/Users/change/Desktop/HTML5ChartingTest/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib315734764#315734764#0(0"0(0#0#54"/Users/change/Desktop/HTML5ChartingTest/MainWindow.xib8607702592#583"    cd /Users/change/Desktop/HTML5ChartingTest    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/MainWindow.nib /Users/change/Desktop/HTML5ChartingTest/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/HTML5ChartingTestViewController.xib
+r0
+
+CCompileXIB /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/MainWindow.xib
+r0
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.csv Classes/analytics.csv
+s315738289.972673
+e315738290.003777
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.csv
+xClasses/analytics.csv
+lSLF07#2@26"Copy Classes/analytics.csv315738289#315738290#0(0"0(0#0#61"/Users/change/Desktop/HTML5ChartingTest/Classes/analytics.csv8616585568#478"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/analytics.csv /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.tsv Classes/analytics.tsv
+s315738289.974529
+e315738290.003270
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/analytics.tsv
+xClasses/analytics.tsv
+lSLF07#2@26"Copy Classes/analytics.tsv315738289#315738290#0(0"0(0#0#61"/Users/change/Desktop/HTML5ChartingTest/Classes/analytics.tsv8616602944#478"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/analytics.tsv /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-basic.htm Classes/area-basic.htm
+s315739330.271981
+e315739330.328408
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/area-basic.htm
+xClasses/area-basic.htm
+lSLF07#2@27"Copy Classes/area-basic.htm315739330#315739330#0(0"0(0#0#62"/Users/change/Desktop/HTML5ChartingTest/Classes/area-basic.htm8625263808#479"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/area-basic.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-inverted.htm Classes/area-inverted.htm
+s315739330.272685
+e315739330.328589
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/area-inverted.htm
+xClasses/area-inverted.htm
+lSLF07#2@30"Copy Classes/area-inverted.htm315739330#315739330#0(0"0(0#0#65"/Users/change/Desktop/HTML5ChartingTest/Classes/area-inverted.htm8620656320#482"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/area-inverted.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-missing.htm Classes/area-missing.htm
+s315739330.273260
+e315739330.328716
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/area-missing.htm
+xClasses/area-missing.htm
+lSLF07#2@29"Copy Classes/area-missing.htm315739330#315739330#0(0"0(0#0#64"/Users/change/Desktop/HTML5ChartingTest/Classes/area-missing.htm8616703808#481"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/area-missing.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-negative.htm Classes/area-negative.htm
+s315739330.273842
+e315739330.328837
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/area-negative.htm
+xClasses/area-negative.htm
+lSLF07#2@30"Copy Classes/area-negative.htm315739330#315739330#0(0"0(0#0#65"/Users/change/Desktop/HTML5ChartingTest/Classes/area-negative.htm8617118848#482"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/area-negative.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked-percent.htm Classes/area-stacked-percent.htm
+s315739330.274425
+e315739330.328960
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked-percent.htm
+xClasses/area-stacked-percent.htm
+lSLF07#2@37"Copy Classes/area-stacked-percent.htm315739330#315739330#0(0"0(0#0#72"/Users/change/Desktop/HTML5ChartingTest/Classes/area-stacked-percent.htm8598716384#489"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/area-stacked-percent.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked.htm Classes/area-stacked.htm
+s315739330.275033
+e315739330.329079
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/area-stacked.htm
+xClasses/area-stacked.htm
+lSLF07#2@29"Copy Classes/area-stacked.htm315739330#315739330#0(0"0(0#0#64"/Users/change/Desktop/HTML5ChartingTest/Classes/area-stacked.htm8625770080#481"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/area-stacked.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/areaspline.htm Classes/areaspline.htm
+s315739330.277954
+e315739330.329200
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/areaspline.htm
+xClasses/areaspline.htm
+lSLF07#2@27"Copy Classes/areaspline.htm315739330#315739330#0(0"0(0#0#62"/Users/change/Desktop/HTML5ChartingTest/Classes/areaspline.htm8625217376#479"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/areaspline.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-basic.htm Classes/bar-basic.htm
+s315740149.101641
+e315740149.112998
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/bar-basic.htm
+xClasses/bar-basic.htm
+lSLF07#2@26"Copy Classes/bar-basic.htm315740149#315740149#0(0"0(0#0#61"/Users/change/Desktop/HTML5ChartingTest/Classes/bar-basic.htm8626126720#478"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/bar-basic.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-negative-stack.htm Classes/bar-negative-stack.htm
+s315739330.289112
+e315739330.329590
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/bar-negative-stack.htm
+xClasses/bar-negative-stack.htm
+lSLF07#2@35"Copy Classes/bar-negative-stack.htm315739330#315739330#0(0"0(0#0#70"/Users/change/Desktop/HTML5ChartingTest/Classes/bar-negative-stack.htm8626903648#487"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/bar-negative-stack.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/bar-stacked.htm Classes/bar-stacked.htm
+s315739330.304192
+e315739330.329720
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/bar-stacked.htm
+xClasses/bar-stacked.htm
+lSLF07#2@28"Copy Classes/bar-stacked.htm315739330#315739330#0(0"0(0#0#63"/Users/change/Desktop/HTML5ChartingTest/Classes/bar-stacked.htm8617042464#480"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/bar-stacked.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-basic.htm Classes/column-basic.htm
+s315739330.329797
+e315739330.359071
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-basic.htm
+xClasses/column-basic.htm
+lSLF07#2@29"Copy Classes/column-basic.htm315739330#315739330#0(0"0(0#0#64"/Users/change/Desktop/HTML5ChartingTest/Classes/column-basic.htm8626853024#481"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-basic.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-negative.htm Classes/column-negative.htm
+s315739330.330578
+e315739330.359254
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-negative.htm
+xClasses/column-negative.htm
+lSLF07#2@32"Copy Classes/column-negative.htm315739330#315739330#0(0"0(0#0#67"/Users/change/Desktop/HTML5ChartingTest/Classes/column-negative.htm8626499104#484"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-negative.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-parsed.htm Classes/column-parsed.htm
+s315739330.335738
+e315739330.359385
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-parsed.htm
+xClasses/column-parsed.htm
+lSLF07#2@30"Copy Classes/column-parsed.htm315739330#315739330#0(0"0(0#0#65"/Users/change/Desktop/HTML5ChartingTest/Classes/column-parsed.htm8626402464#482"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-parsed.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-rotated-labels.htm Classes/column-rotated-labels.htm
+s315739330.336520
+e315739330.359500
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-rotated-labels.htm
+xClasses/column-rotated-labels.htm
+lSLF07#2@38"Copy Classes/column-rotated-labels.htm315739330#315739330#0(0"0(0#0#73"/Users/change/Desktop/HTML5ChartingTest/Classes/column-rotated-labels.htm8626294560#490"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-rotated-labels.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-and-grouped.htm Classes/column-stacked-and-grouped.htm
+s315739330.338360
+e315739330.359609
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-and-grouped.htm
+xClasses/column-stacked-and-grouped.htm
+lSLF07#2@43"Copy Classes/column-stacked-and-grouped.htm315739330#315739330#0(0"0(0#0#78"/Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked-and-grouped.htm8626006784#495"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked-and-grouped.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-percent.htm Classes/column-stacked-percent.htm
+s315739330.341115
+e315739330.359725
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked-percent.htm
+xClasses/column-stacked-percent.htm
+lSLF07#2@39"Copy Classes/column-stacked-percent.htm315739330#315739330#0(0"0(0#0#74"/Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked-percent.htm8625824096#491"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked-percent.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked.htm Classes/column-stacked.htm
+s315739330.344804
+e315739330.359834
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/column-stacked.htm
+xClasses/column-stacked.htm
+lSLF07#2@31"Copy Classes/column-stacked.htm315739330#315739330#0(0"0(0#0#66"/Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked.htm8625676352#483"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/column-stacked.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-dual-axes.htm Classes/combo-dual-axes.htm
+s315739330.349222
+e315739330.359946
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/combo-dual-axes.htm
+xClasses/combo-dual-axes.htm
+lSLF07#2@32"Copy Classes/combo-dual-axes.htm315739330#315739330#0(0"0(0#0#67"/Users/change/Desktop/HTML5ChartingTest/Classes/combo-dual-axes.htm8625506976#484"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/combo-dual-axes.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-multi-axes.htm Classes/combo-multi-axes.htm
+s315739330.353533
+e315739330.382035
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/combo-multi-axes.htm
+xClasses/combo-multi-axes.htm
+lSLF07#2@33"Copy Classes/combo-multi-axes.htm315739330#315739330#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/Classes/combo-multi-axes.htm8625437152#485"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/combo-multi-axes.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo-regression.htm Classes/combo-regression.htm
+s315739330.355969
+e315739330.382142
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/combo-regression.htm
+xClasses/combo-regression.htm
+lSLF07#2@33"Copy Classes/combo-regression.htm315739330#315739330#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/Classes/combo-regression.htm8625245408#485"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/combo-regression.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/combo.htm Classes/combo.htm
+s315739330.360023
+e315739330.381363
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/combo.htm
+xClasses/combo.htm
+lSLF07#2@22"Copy Classes/combo.htm315739330#315739330#0(0"0(0#0#57"/Users/change/Desktop/HTML5ChartingTest/Classes/combo.htm8626039648#474"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/combo.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-click-to-add.htm Classes/dynamic-click-to-add.htm
+s315739330.362852
+e315739330.381486
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-click-to-add.htm
+xClasses/dynamic-click-to-add.htm
+lSLF07#2@37"Copy Classes/dynamic-click-to-add.htm315739330#315739330#0(0"0(0#0#72"/Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-click-to-add.htm8624760928#489"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-click-to-add.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-master-detail.htm Classes/dynamic-master-detail.htm
+s315739330.365678
+e315739330.381599
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-master-detail.htm
+xClasses/dynamic-master-detail.htm
+lSLF07#2@38"Copy Classes/dynamic-master-detail.htm315739330#315739330#0(0"0(0#0#73"/Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-master-detail.htm8617368384#490"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-master-detail.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-update.htm Classes/dynamic-update.htm
+s315739906.442478
+e315739906.453600
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/dynamic-update.htm
+xClasses/dynamic-update.htm
+lSLF07#2@31"Copy Classes/dynamic-update.htm315739906#315739906#0(0"0(0#0#66"/Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-update.htm8627177216#483"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/dynamic-update.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.js Classes/js/highcharts.js
+s315738999.979450
+e315739000.004455
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.js
+xClasses/js/highcharts.js
+lSLF07#2@29"Copy Classes/js/highcharts.js315738999#315739000#0(0"0(0#0#64"/Users/change/Desktop/HTML5ChartingTest/Classes/js/highcharts.js8625112416#481"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/js/highcharts.js /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.src.js Classes/js/highcharts.src.js
+s315738999.977146
+e315739000.004312
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/highcharts.src.js
+xClasses/js/highcharts.src.js
+lSLF07#2@33"Copy Classes/js/highcharts.src.js315738999#315739000#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/Classes/js/highcharts.src.js8620941408#485"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/js/highcharts.src.js /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-ajax.htm Classes/line-ajax.htm
+s315740226.385655
+e315740226.396123
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/line-ajax.htm
+xClasses/line-ajax.htm
+lSLF07#2@26"Copy Classes/line-ajax.htm315740226#315740226#0(0"0(0#0#61"/Users/change/Desktop/HTML5ChartingTest/Classes/line-ajax.htm8627263648#478"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/line-ajax.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-basic.htm Classes/line-basic.htm
+s315739330.372572
+e315739330.400115
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/line-basic.htm
+xClasses/line-basic.htm
+lSLF07#2@27"Copy Classes/line-basic.htm315739330#315739330#0(0"0(0#0#62"/Users/change/Desktop/HTML5ChartingTest/Classes/line-basic.htm8624993568#479"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/line-basic.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-labels.htm Classes/line-labels.htm
+s315739330.374865
+e315739330.381925
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/line-labels.htm
+xClasses/line-labels.htm
+lSLF07#2@28"Copy Classes/line-labels.htm315739330#315739330#0(0"0(0#0#63"/Users/change/Desktop/HTML5ChartingTest/Classes/line-labels.htm8620762912#480"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/line-labels.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/line-time-series.htm Classes/line-time-series.htm
+s315739330.380063
+e315739330.400230
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/line-time-series.htm
+xClasses/line-time-series.htm
+lSLF07#2@33"Copy Classes/line-time-series.htm315739330#315739330#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/Classes/line-time-series.htm8616615360#485"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/line-time-series.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-basic.htm Classes/pie-basic.htm
+s315739129.551760
+e315739129.557526
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/pie-basic.htm
+xClasses/pie-basic.htm
+lSLF07#2@26"Copy Classes/pie-basic.htm315739129#315739129#0(0"0(0#0#61"/Users/change/Desktop/HTML5ChartingTest/Classes/pie-basic.htm8618190368#478"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/pie-basic.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-donut.htm Classes/pie-donut.htm
+s315739330.382283
+e315739330.399635
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/pie-donut.htm
+xClasses/pie-donut.htm
+lSLF07#2@26"Copy Classes/pie-donut.htm315739330#315739330#0(0"0(0#0#61"/Users/change/Desktop/HTML5ChartingTest/Classes/pie-donut.htm8624994048#478"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/pie-donut.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/pie-legend.htm Classes/pie-legend.htm
+s315739330.386562
+e315739330.399810
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/pie-legend.htm
+xClasses/pie-legend.htm
+lSLF07#2@27"Copy Classes/pie-legend.htm315739330#315739330#0(0"0(0#0#62"/Users/change/Desktop/HTML5ChartingTest/Classes/pie-legend.htm8620759104#479"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/pie-legend.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/scatter.htm Classes/scatter.htm
+s315739330.388635
+e315739330.399926
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/scatter.htm
+xClasses/scatter.htm
+lSLF07#2@24"Copy Classes/scatter.htm315739330#315739330#0(0"0(0#0#59"/Users/change/Desktop/HTML5ChartingTest/Classes/scatter.htm8616920864#476"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/scatter.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-inverted.htm Classes/spline-inverted.htm
+s315739330.392017
+e315739330.400001
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/spline-inverted.htm
+xClasses/spline-inverted.htm
+lSLF07#2@32"Copy Classes/spline-inverted.htm315739330#315739330#0(0"0(0#0#67"/Users/change/Desktop/HTML5ChartingTest/Classes/spline-inverted.htm8626816480#484"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/spline-inverted.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-plot-bands.htm Classes/spline-plot-bands.htm
+s315739330.395613
+e315739330.403917
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/spline-plot-bands.htm
+xClasses/spline-plot-bands.htm
+lSLF07#2@34"Copy Classes/spline-plot-bands.htm315739330#315739330#0(0"0(0#0#69"/Users/change/Desktop/HTML5ChartingTest/Classes/spline-plot-bands.htm8625868608#486"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/spline-plot-bands.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/spline-symbols.htm Classes/spline-symbols.htm
+s315739330.398463
+e315739330.404916
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/spline-symbols.htm
+xClasses/spline-symbols.htm
+lSLF07#2@31"Copy Classes/spline-symbols.htm315739330#315739330#0(0"0(0#0#66"/Users/change/Desktop/HTML5ChartingTest/Classes/spline-symbols.htm8624963008#483"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/spline-symbols.htm /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CCpResource build/Debug-iphonesimulator/HTML5ChartingTest.app/tokyo.json Classes/tokyo.json
+s315738289.967169
+e315738290.003120
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/HTML5ChartingTest.app/tokyo.json
+xClasses/tokyo.json
+lSLF07#2@23"Copy Classes/tokyo.json315738289#315738290#0(0"0(0#0#58"/Users/change/Desktop/HTML5ChartingTest/Classes/tokyo.json8616569952#475"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/change/Desktop/HTML5ChartingTest/Classes/tokyo.json /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CGenerateDSYMFile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+s315740226.578583
+e315740226.596777
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest315740226#315740226#0(0"0(0#0#107"/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest8624790144#416"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest -o /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM0#
+
+CGenerateDSYMFile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+s319949240.725561
+e319949240.797185
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+lSLF07#2@139"GenerateDSYMFile build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest319949240#319949240#0(0"0(0#0#128"/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest8610524864#479"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest -o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app.dSYM0#
+
+CLd /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest normal i386
+s315740226.551315
+e315740226.578467
+r1
+xLd
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+xnormal
+xi386
+lSLF07#2@112"Link /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest315740226#315740226#0(0"0(0#0#0"8626788768#955"    cd /Users/change/Desktop/HTML5ChartingTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -filelist /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest0#
+
+CLd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest normal i386
+s319949240.402643
+e319949240.725470
+r1
+xLd
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest
+xnormal
+xi386
+lSLF07#2@133"Link /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest319949240#319949240#0(0"0(0#0#0"8609366240#1060"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator -F/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator -filelist /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/Objects-normal/i386/HTML5ChartingTest.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/HTML5ChartingTest0#
+
+CProcessInfoPlistFile /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist HTML5ChartingTest-Info.plist
+s315734764.422428
+e315734764.462921
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist
+xHTML5ChartingTest-Info.plist
+lSLF07#2@36"Process HTML5ChartingTest-Info.plist315734764#315734764#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest-Info.plist27303270317031540#512"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HTML5ChartingTest-Info.plist -genpkginfo /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app/Info.plist HTML5ChartingTest-Info.plist
+r0
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch HTML5ChartingTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s315734764.905509
+e315734766.105016
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch
+xHTML5ChartingTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HTML5ChartingTest_Prefix.pch315734764#315734766#0(0"0(0#0#68"/Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch8615928032#2006"    cd /Users/change/Desktop/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -c /Users/change/Desktop/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-bzmvbcmcfimtusguvymtgatqfxpn/HTML5ChartingTest_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch.gch HTML5ChartingTest_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319949237.789363
+e319949240.131321
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch.gch
+xHTML5ChartingTest_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile HTML5ChartingTest_Prefix.pch319949237#319949240#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch8390876156176714752#2216"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-generated-files.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/HTML5ChartingTest-project-headers.hmap -F/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/HTML5ChartingTest.build/Debug-iphonesimulator/HTML5ChartingTest.build/DerivedSources -c /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/HTML5ChartingTest_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HTML5ChartingTest_Prefix-dkmlpwjiahpmyggywkyghqmaltga/HTML5ChartingTest_Prefix.pch.gch0#
+
+CTouch /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+s315740226.596928
+e315740226.600278
+r1
+xTouch
+x/Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+lSLF07#2@95"Touch /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app315740226#315740226#0(0"0(0#0#0"8617119744#290"    cd /Users/change/Desktop/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+
+CTouch /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+s319949240.797277
+e319949240.816354
+r1
+xTouch
+x/Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app
+lSLF07#2@116"Touch /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app319949240#319949240#0(0"0(0#0#0"8609742624#332"    cd /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/專案程式碼/demo/HTML5ChartingTest/build/Debug-iphonesimulator/HTML5ChartingTest.app0#
+

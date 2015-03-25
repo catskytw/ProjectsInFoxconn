@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/17/trunk/Examples/MobileWebDAVTransporter
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/trunk/Examples/MobileWebDAVTransporter/main.m
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/Examples/MobileWebDAVTransporter/Info.plist
+END
+test.dat
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/17/trunk/Examples/MobileWebDAVTransporter/test.dat
+END
+TestOptionsView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/Examples/MobileWebDAVTransporter/TestOptionsView.xib
+END
+MobileWebDAVTransporter_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/Examples/MobileWebDAVTransporter/MobileWebDAVTransporter_Prefix.pch
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/trunk/Examples/MobileWebDAVTransporter/MainWindow.xib
+END

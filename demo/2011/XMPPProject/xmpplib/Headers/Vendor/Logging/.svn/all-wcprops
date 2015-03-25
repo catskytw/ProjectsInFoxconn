@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/Logging
+END
+DDLog.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/Logging/DDLog.h
+END
+DDASLLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/Logging/DDASLLogger.h
+END
+DDFileLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/Logging/DDFileLogger.h
+END
+DDTTYLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Reach/!svn/ver/39/2011/XMPPProject_use_lib/xmpplib/Headers/Vendor/Logging/DDTTYLogger.h
+END

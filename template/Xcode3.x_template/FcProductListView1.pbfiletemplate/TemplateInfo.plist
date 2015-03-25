@@ -1,0 +1,7 @@
+{
+	Description = "\U4e00\U500b\U7522\U54c1\U6e05\U55ae\U756b\U9762\U9078\U64c7. \U9808\U5305\U542b\U4e0b\U5217template:\n1.FcProductButtonView1\n2.FcProductDetailView1\n\n\U4e26\U586b\U5165\U61c9\U586b\U4e4b\U5b57\U4e32,\U5426\U5247\U7de8\U8b6f\U6703\U6709\U554f\U984c";
+	"ImplicitCounterpartTemplateFiles" = {
+		"FcProductListView1.h" = "FcProductListView1.h";
+		"FcProductListView1.m" = "FcProductListView1.m";
+	};
+}

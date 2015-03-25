@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C413F7613CE865100A34B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C413F7513CE865100A34B1C /* UIKit.framework */; };
+		0C413F7813CE865100A34B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C413F7713CE865100A34B1C /* Foundation.framework */; };
+		0C413F7A13CE865100A34B1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C413F7913CE865100A34B1C /* CoreGraphics.framework */; };
+		0C413F8013CE865100A34B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C413F7E13CE865100A34B1C /* InfoPlist.strings */; };
+		0C413F8313CE865100A34B1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413F8213CE865100A34B1C /* main.m */; };
+		0C413F8613CE865100A34B1C /* FcWebDavDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413F8513CE865100A34B1C /* FcWebDavDemoAppDelegate.m */; };
+		0C413F8913CE865100A34B1C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C413F8713CE865100A34B1C /* MainWindow.xib */; };
+		0C413F8C13CE865100A34B1C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413F8B13CE865100A34B1C /* RootViewController.m */; };
+		0C413F8F13CE865100A34B1C /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C413F8D13CE865100A34B1C /* RootViewController.xib */; };
+		0C413F9613CE865200A34B1C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C413F7513CE865100A34B1C /* UIKit.framework */; };
+		0C413F9713CE865200A34B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C413F7713CE865100A34B1C /* Foundation.framework */; };
+		0C413F9813CE865200A34B1C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C413F7913CE865100A34B1C /* CoreGraphics.framework */; };
+		0C413FA013CE865200A34B1C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C413F9E13CE865200A34B1C /* InfoPlist.strings */; };
+		0C413FA313CE865200A34B1C /* FcWebDavDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0C413FA213CE865200A34B1C /* FcWebDavDemoTests.h */; };
+		0C413FA513CE865200A34B1C /* FcWebDavDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413FA413CE865200A34B1C /* FcWebDavDemoTests.m */; };
+		0C413FB513CE867200A34B1C /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413FAF13CE867200A34B1C /* ISO8601DateFormatter.m */; };
+		0C413FB613CE867200A34B1C /* FMWebDAVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413FB113CE867200A34B1C /* FMWebDAVRequest.m */; };
+		0C413FB713CE867200A34B1C /* FMFileDAVRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C413FB313CE867200A34B1C /* FMFileDAVRequest.m */; };
+		0C413FF113CEB91A00A34B1C /* audio_0003.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0C413FF013CEB91A00A34B1C /* audio_0003.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C413F9913CE865200A34B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C413F6813CE865100A34B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C413F7013CE865100A34B1C;
+			remoteInfo = FcWebDavDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C413F7113CE865100A34B1C /* FcWebDavDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FcWebDavDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C413F7513CE865100A34B1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C413F7713CE865100A34B1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C413F7913CE865100A34B1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C413F7D13CE865100A34B1C /* FcWebDavDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FcWebDavDemo-Info.plist"; sourceTree = "<group>"; };
+		0C413F7F13CE865100A34B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C413F8113CE865100A34B1C /* FcWebDavDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FcWebDavDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0C413F8213CE865100A34B1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C413F8413CE865100A34B1C /* FcWebDavDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FcWebDavDemoAppDelegate.h; sourceTree = "<group>"; };
+		0C413F8513CE865100A34B1C /* FcWebDavDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FcWebDavDemoAppDelegate.m; sourceTree = "<group>"; };
+		0C413F8813CE865100A34B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		0C413F8A13CE865100A34B1C /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0C413F8B13CE865100A34B1C /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0C413F8E13CE865100A34B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		0C413F9513CE865200A34B1C /* FcWebDavDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FcWebDavDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C413F9D13CE865200A34B1C /* FcWebDavDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FcWebDavDemoTests-Info.plist"; sourceTree = "<group>"; };
+		0C413F9F13CE865200A34B1C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C413FA113CE865200A34B1C /* FcWebDavDemoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FcWebDavDemoTests-Prefix.pch"; sourceTree = "<group>"; };
+		0C413FA213CE865200A34B1C /* FcWebDavDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FcWebDavDemoTests.h; sourceTree = "<group>"; };
+		0C413FA413CE865200A34B1C /* FcWebDavDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FcWebDavDemoTests.m; sourceTree = "<group>"; };
+		0C413FAF13CE867200A34B1C /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+		0C413FB013CE867200A34B1C /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		0C413FB113CE867200A34B1C /* FMWebDAVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMWebDAVRequest.m; sourceTree = "<group>"; };
+		0C413FB213CE867200A34B1C /* FMWebDAVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMWebDAVRequest.h; sourceTree = "<group>"; };
+		0C413FB313CE867200A34B1C /* FMFileDAVRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFileDAVRequest.m; sourceTree = "<group>"; };
+		0C413FB413CE867200A34B1C /* FMFileDAVRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFileDAVRequest.h; sourceTree = "<group>"; };
+		0C413FD013CE8C0E00A34B1C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0C413FD213CE8C3200A34B1C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0C413FF013CEB91A00A34B1C /* audio_0003.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = audio_0003.mp4; path = FcWebDavDemoTests/audio_0003.mp4; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C413F6E13CE865100A34B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C413F7613CE865100A34B1C /* UIKit.framework in Frameworks */,
+				0C413F7813CE865100A34B1C /* Foundation.framework in Frameworks */,
+				0C413F7A13CE865100A34B1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C413F9113CE865200A34B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C413F9613CE865200A34B1C /* UIKit.framework in Frameworks */,
+				0C413F9713CE865200A34B1C /* Foundation.framework in Frameworks */,
+				0C413F9813CE865200A34B1C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C413F6613CE865100A34B1C = {
+			isa = PBXGroup;
+			children = (
+				0C413FD213CE8C3200A34B1C /* Security.framework */,
+				0C413FD013CE8C0E00A34B1C /* CoreData.framework */,
+				0C413FAE13CE866200A34B1C /* FlyingMeat */,
+				0C413F7B13CE865100A34B1C /* FcWebDavDemo */,
+				0C413F9B13CE865200A34B1C /* FcWebDavDemoTests */,
+				0C413F7413CE865100A34B1C /* Frameworks */,
+				0C413F7213CE865100A34B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C413F7213CE865100A34B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C413F7113CE865100A34B1C /* FcWebDavDemo.app */,
+				0C413F9513CE865200A34B1C /* FcWebDavDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C413F7413CE865100A34B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C413F7513CE865100A34B1C /* UIKit.framework */,
+				0C413F7713CE865100A34B1C /* Foundation.framework */,
+				0C413F7913CE865100A34B1C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C413F7B13CE865100A34B1C /* FcWebDavDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0C413F8413CE865100A34B1C /* FcWebDavDemoAppDelegate.h */,
+				0C413F8513CE865100A34B1C /* FcWebDavDemoAppDelegate.m */,
+				0C413F8713CE865100A34B1C /* MainWindow.xib */,
+				0C413F8A13CE865100A34B1C /* RootViewController.h */,
+				0C413F8B13CE865100A34B1C /* RootViewController.m */,
+				0C413F8D13CE865100A34B1C /* RootViewController.xib */,
+				0C413F7C13CE865100A34B1C /* Supporting Files */,
+			);
+			path = FcWebDavDemo;
+			sourceTree = "<group>";
+		};
+		0C413F7C13CE865100A34B1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C413FF013CEB91A00A34B1C /* audio_0003.mp4 */,
+				0C413F7D13CE865100A34B1C /* FcWebDavDemo-Info.plist */,
+				0C413F7E13CE865100A34B1C /* InfoPlist.strings */,
+				0C413F8113CE865100A34B1C /* FcWebDavDemo-Prefix.pch */,
+				0C413F8213CE865100A34B1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C413F9B13CE865200A34B1C /* FcWebDavDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C413FA213CE865200A34B1C /* FcWebDavDemoTests.h */,
+				0C413FA413CE865200A34B1C /* FcWebDavDemoTests.m */,
+				0C413F9C13CE865200A34B1C /* Supporting Files */,
+			);
+			path = FcWebDavDemoTests;
+			sourceTree = "<group>";
+		};
+		0C413F9C13CE865200A34B1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C413F9D13CE865200A34B1C /* FcWebDavDemoTests-Info.plist */,
+				0C413F9E13CE865200A34B1C /* InfoPlist.strings */,
+				0C413FA113CE865200A34B1C /* FcWebDavDemoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C413FAE13CE866200A34B1C /* FlyingMeat */ = {
+			isa = PBXGroup;
+			children = (
+				0C413FAF13CE867200A34B1C /* ISO8601DateFormatter.m */,
+				0C413FB013CE867200A34B1C /* ISO8601DateFormatter.h */,
+				0C413FB113CE867200A34B1C /* FMWebDAVRequest.m */,
+				0C413FB213CE867200A34B1C /* FMWebDAVRequest.h */,
+				0C413FB313CE867200A34B1C /* FMFileDAVRequest.m */,
+				0C413FB413CE867200A34B1C /* FMFileDAVRequest.h */,
+			);
+			name = FlyingMeat;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C413F7013CE865100A34B1C /* FcWebDavDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C413FA813CE865200A34B1C /* Build configuration list for PBXNativeTarget "FcWebDavDemo" */;
+			buildPhases = (
+				0C413F6D13CE865100A34B1C /* Sources */,
+				0C413F6E13CE865100A34B1C /* Frameworks */,
+				0C413F6F13CE865100A34B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FcWebDavDemo;
+			productName = FcWebDavDemo;
+			productReference = 0C413F7113CE865100A34B1C /* FcWebDavDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0C413F9413CE865200A34B1C /* FcWebDavDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C413FAB13CE865200A34B1C /* Build configuration list for PBXNativeTarget "FcWebDavDemoTests" */;
+			buildPhases = (
+				0C413F9013CE865200A34B1C /* Sources */,
+				0C413F9113CE865200A34B1C /* Frameworks */,
+				0C413F9213CE865200A34B1C /* Resources */,
+				0C413F9313CE865200A34B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C413F9A13CE865200A34B1C /* PBXTargetDependency */,
+			);
+			name = FcWebDavDemoTests;
+			productName = FcWebDavDemoTests;
+			productReference = 0C413F9513CE865200A34B1C /* FcWebDavDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C413F6813CE865100A34B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = foxconn;
+			};
+			buildConfigurationList = 0C413F6B13CE865100A34B1C /* Build configuration list for PBXProject "FcWebDavDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C413F6613CE865100A34B1C;
+			productRefGroup = 0C413F7213CE865100A34B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C413F7013CE865100A34B1C /* FcWebDavDemo */,
+				0C413F9413CE865200A34B1C /* FcWebDavDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C413F6F13CE865100A34B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C413F8013CE865100A34B1C /* InfoPlist.strings in Resources */,
+				0C413F8913CE865100A34B1C /* MainWindow.xib in Resources */,
+				0C413F8F13CE865100A34B1C /* RootViewController.xib in Resources */,
+				0C413FF113CEB91A00A34B1C /* audio_0003.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C413F9213CE865200A34B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C413FA013CE865200A34B1C /* InfoPlist.strings in Resources */,
+				0C413FA313CE865200A34B1C /* FcWebDavDemoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C413F9313CE865200A34B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C413F6D13CE865100A34B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C413F8313CE865100A34B1C /* main.m in Sources */,
+				0C413F8613CE865100A34B1C /* FcWebDavDemoAppDelegate.m in Sources */,
+				0C413F8C13CE865100A34B1C /* RootViewController.m in Sources */,
+				0C413FB513CE867200A34B1C /* ISO8601DateFormatter.m in Sources */,
+				0C413FB613CE867200A34B1C /* FMWebDAVRequest.m in Sources */,
+				0C413FB713CE867200A34B1C /* FMFileDAVRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C413F9013CE865200A34B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C413FA513CE865200A34B1C /* FcWebDavDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C413F9A13CE865200A34B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C413F7013CE865100A34B1C /* FcWebDavDemo */;
+			targetProxy = 0C413F9913CE865200A34B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C413F7E13CE865100A34B1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C413F7F13CE865100A34B1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C413F8713CE865100A34B1C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C413F8813CE865100A34B1C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		0C413F8D13CE865100A34B1C /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C413F8E13CE865100A34B1C /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		0C413F9E13CE865200A34B1C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C413F9F13CE865200A34B1C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C413FA613CE865200A34B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C413FA713CE865200A34B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0C413FA913CE865200A34B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcWebDavDemo/FcWebDavDemo-Prefix.pch";
+				INFOPLIST_FILE = "FcWebDavDemo/FcWebDavDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0C413FAA13CE865200A34B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcWebDavDemo/FcWebDavDemo-Prefix.pch";
+				INFOPLIST_FILE = "FcWebDavDemo/FcWebDavDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0C413FAC13CE865200A34B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FcWebDavDemo.app/FcWebDavDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcWebDavDemoTests/FcWebDavDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "FcWebDavDemoTests/FcWebDavDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0C413FAD13CE865200A34B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FcWebDavDemo.app/FcWebDavDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcWebDavDemoTests/FcWebDavDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "FcWebDavDemoTests/FcWebDavDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C413F6B13CE865100A34B1C /* Build configuration list for PBXProject "FcWebDavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C413FA613CE865200A34B1C /* Debug */,
+				0C413FA713CE865200A34B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C413FA813CE865200A34B1C /* Build configuration list for PBXNativeTarget "FcWebDavDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C413FA913CE865200A34B1C /* Debug */,
+				0C413FAA13CE865200A34B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C413FAB13CE865200A34B1C /* Build configuration list for PBXNativeTarget "FcWebDavDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C413FAC13CE865200A34B1C /* Debug */,
+				0C413FAD13CE865200A34B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C413F6813CE865100A34B1C /* Project object */;
+}

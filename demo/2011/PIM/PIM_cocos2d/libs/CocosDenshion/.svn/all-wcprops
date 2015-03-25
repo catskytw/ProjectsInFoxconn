@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion
+END
+CDConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CDConfig.h
+END
+CocosDenshion.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CocosDenshion.h
+END
+SimpleAudioEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/SimpleAudioEngine.h
+END
+CDOpenALSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CDOpenALSupport.h
+END
+CDAudioManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CDAudioManager.h
+END
+CocosDenshion.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CocosDenshion.m
+END
+SimpleAudioEngine.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/SimpleAudioEngine.m
+END
+CDOpenALSupport.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CDOpenALSupport.m
+END
+CDAudioManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/2011/!svn/ver/48/Demo/PIM/PIM_cocos2d/libs/CocosDenshion/CDAudioManager.m
+END

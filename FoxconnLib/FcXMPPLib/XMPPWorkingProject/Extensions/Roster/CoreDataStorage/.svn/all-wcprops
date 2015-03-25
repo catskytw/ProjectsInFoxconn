@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage
+END
+XMPPResourceCoreDataStorageObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPResourceCoreDataStorageObject.h
+END
+XMPPRosterCoreDataStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPRosterCoreDataStorage.h
+END
+XMPPGroupCoreDataStorageObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPGroupCoreDataStorageObject.h
+END
+XMPPResourceCoreDataStorageObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPResourceCoreDataStorageObject.m
+END
+XMPPRosterCoreDataStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPRosterCoreDataStorage.m
+END
+XMPPUserCoreDataStorageObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.h
+END
+XMPPGroupCoreDataStorageObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPGroupCoreDataStorageObject.m
+END
+XMPPUserCoreDataStorageObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/CoreDataStorage/XMPPUserCoreDataStorageObject.m
+END

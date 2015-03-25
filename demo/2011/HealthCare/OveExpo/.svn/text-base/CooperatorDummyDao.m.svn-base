@@ -1,0 +1,149 @@
+//
+//  CooperatorCategoryDAO.m
+//  HealthCare
+//
+//  Created by Liao Chen-chih on 2011/11/8.
+//  Copyright (c) 2011年 __MyCompanyName__. All rights reserved.
+//
+
+#import "CooperatorDummyDao.h"
+#import "CommonDataObject.h"
+#import "CooperatorDataObject.h"
+#import "Tool.h"
+#import "FcConfig.h"
+@implementation CooperatorDummyDao
+-(NSArray*)categoryData{
+    NSMutableArray *m_returnArray=[[NSMutableArray alloc] initWithObjects:
+    [[CommonDataObject alloc] initWithId:@"0" withName:@"醫療院所"],
+    [[CommonDataObject alloc] initWithId:@"1" withName:@"醫事檢驗所"],
+    [[CommonDataObject alloc] initWithId:@"2" withName:@"社福機構"],
+    [[CommonDataObject alloc] initWithId:@"3" withName:@"醫材製造商"]                           
+                                  ,nil];
+    return [m_returnArray autorelease];
+}
+
+-(NSArray*)cooperatorsData:(NSString*)_objId{
+    NSMutableArray *m_returnArray=nil;
+    NSInteger m_type=[_objId intValue];
+    switch (m_type) {
+        case 0:
+            m_returnArray=[[NSMutableArray alloc] initWithObjects:
+                           [[CommonDataObject alloc]initWithId:@"00" withName:@"高雄醫學大學附設中和紀念醫院"],
+                           [[CommonDataObject alloc]initWithId:@"01" withName:@"高雄市立小港醫院"],
+                           [[CommonDataObject alloc]initWithId:@"02" withName:@"台灣基督長老教會新樓醫療財團法人"],
+                           [[CommonDataObject alloc]initWithId:@"03" withName:@"行政院衛生署屏東醫院"],
+                           [[CommonDataObject alloc]initWithId:@"04" withName:@"惠德醫院"],
+                           nil];
+            break;
+        case 1:
+            m_returnArray=[[NSMutableArray alloc] initWithObjects:
+                           nil];
+            break;
+        case 2:
+            m_returnArray=[[NSMutableArray alloc] initWithObjects:
+                           [[CommonDataObject alloc]initWithId:@"20" withName:@"鴻佳啟能庇護中心"],
+                           [[CommonDataObject alloc]initWithId:@"21" withName:@"慈心護理之家"],
+                           [[CommonDataObject alloc]initWithId:@"22" withName:@"溫馨護理之家"],
+                           [[CommonDataObject alloc]initWithId:@"23" withName:@"惠德醫院附設護理之家"],
+                           [[CommonDataObject alloc]initWithId:@"24" withName:@"內政部南區老人之家"],
+                           nil];
+            break;
+        case 3:
+            m_returnArray=[[NSMutableArray alloc] initWithObjects:
+                           [[CommonDataObject alloc]initWithId:@"30" withName:@"優盛醫學科技股份有限公司"],
+                           [[CommonDataObject alloc]initWithId:@"31" withName:@"杏一醫療用品(股)公司"],
+                           [[CommonDataObject alloc]initWithId:@"32" withName:@"錠嵂保險經紀人股份有限公司"],
+                           nil];
+            break;
+    }
+    return [m_returnArray autorelease];
+}
+
+-(CooperatorDataObject*)getCooperatorData:(NSString*)_cooperatorId{
+    CooperatorDataObject *m_returnObject=[CooperatorDataObject new];
+    NSInteger m_type=[_cooperatorId intValue];
+    switch (m_type) {
+        case 0:
+            m_returnObject.objName=@"高雄醫學大學附設中和紀念醫院";
+            m_returnObject.phone=@"07-312-1101#6798 ";
+            m_returnObject.address=@"807高雄市三民區自由一路100號 ";
+            m_returnObject.email=@"980652@ms.kmuh.org.tw";
+            break;
+        case 1:
+            m_returnObject.objName=@"高雄市立小港醫院";
+            m_returnObject.phone=@"07-8036783#3885";
+            m_returnObject.address=@"高雄市小港區山明路482號";
+            m_returnObject.email=@"1006023@kmhk.org.tw";
+            break;
+        case 2:
+            m_returnObject.objName=@"台灣基督長老教會新樓醫療財團法人";
+            m_returnObject.phone=@"06-274-8316#1083";
+            m_returnObject.address=@"70142 台南市東門路一段57號";
+            m_returnObject.email=@"slh193@sinlau.org.tw";
+            break;
+        case 3:
+            m_returnObject.objName=@"台灣基督長老教會新樓醫療財團法人";
+            m_returnObject.phone=@"06-274-8316#1083";
+            m_returnObject.address=@"70142 台南市東門路一段57號";
+            m_returnObject.email=@"slh193@sinlau.org.tw";
+            break;
+        case 4:
+            m_returnObject.objName=@"行政院衛生署屏東醫院";
+            m_returnObject.phone=@"08-736-3011#4203";
+            m_returnObject.address=@"90054 屏東縣屏東市自由路270號 ";
+            m_returnObject.email=@"aul452@gmail.com";
+            break;
+        case 20:
+            m_returnObject.objName=@"鴻佳啟能庇護中心";
+            m_returnObject.phone=@"06-262-3456 ";
+            m_returnObject.address=@"台南市南區清水路222號   ";
+            m_returnObject.email=@"";
+            break;
+        case 21:
+            m_returnObject.objName=@"慈心護理之家";
+            m_returnObject.phone=@"06-366-3666 ";
+            m_returnObject.address=@"台南縣仁德鄉文賢路一段83號 ";
+            m_returnObject.email=@"wanhuilee@yahoo.com.tw";
+            break;
+        case 22:
+            m_returnObject.objName=@"溫馨護理之家";
+            m_returnObject.phone=@"08-723-5116";
+            m_returnObject.address=@"屏東市廣東路27-3號（原三愛醫院）";
+            m_returnObject.email=@"linlin2006tw@yahoo.com.tw";
+            break;
+        case 23:
+            m_returnObject.objName=@"惠德醫院附設護理之家";
+            m_returnObject.phone=@"07-812-6000";
+            m_returnObject.address=@"高雄縣鳳山市福祥街81號3-6樓「惠德護理之家」";
+            m_returnObject.email=@"";
+            break;
+        case 24:
+            m_returnObject.objName=@"內政部南區老人之家";
+            m_returnObject.phone=@"08-722-3434";
+            m_returnObject.address=@"90044屏東縣屏東市瑞光里香揚巷1號";
+            m_returnObject.email=@"";
+            break;
+        case 30:
+            m_returnObject.objName=@"優盛醫學科技股份有限公司";
+            m_returnObject.phone=@"0800-505810";
+            m_returnObject.address=@"台北市114內湖區港墘路189號12樓 ";
+            m_returnObject.email=@"info@rossmaxhealth.com";
+            break;
+        case 31:
+            m_returnObject.objName=@"杏一醫療用品（股）公司 ／高醫十全店";
+            m_returnObject.phone=@"07-3134897 ";
+            m_returnObject.address=@"高雄市三民區十全一路100號1樓";
+            m_returnObject.email=@"";
+            break;
+        case 32:
+            m_returnObject.objName=@"錠嵂保險經紀人股份有限公司／高雄營業處";
+            m_returnObject.phone=@"07-3301320 ";
+            m_returnObject.address=@"高雄市苓雅區新光路38號10樓之一 ";
+            m_returnObject.email=@"";
+            break;
+        default:
+            break;
+    }
+    return [m_returnObject autorelease];
+}
+@end

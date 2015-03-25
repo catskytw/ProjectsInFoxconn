@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage
+END
+XMPPResourceMemoryStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPResourceMemoryStorage.h
+END
+XMPPRosterMemoryStoragePrivate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPRosterMemoryStoragePrivate.h
+END
+XMPPResourceMemoryStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPResourceMemoryStorage.m
+END
+XMPPRosterMemoryStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPRosterMemoryStorage.h
+END
+XMPPUserMemoryStorage.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPUserMemoryStorage.h
+END
+XMPPRosterMemoryStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPRosterMemoryStorage.m
+END
+XMPPUserMemoryStorage.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Reach/!svn/ver/3/2011/XMPPProject/Extensions/Roster/MemoryStorage/XMPPUserMemoryStorage.m
+END

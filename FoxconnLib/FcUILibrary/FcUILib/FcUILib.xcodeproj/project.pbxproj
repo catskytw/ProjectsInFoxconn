@@ -1,0 +1,1298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		016FC4251404AAEC0096186D /* FcUILibUSL */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 016FC4261404AAEC0096186D /* Build configuration list for PBXAggregateTarget "FcUILibUSL" */;
+			buildPhases = (
+				016FC4291404C8C80096186D /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = FcUILibUSL;
+			productName = "FcUILib USL";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		016FC3DE1404A9D30096186D /* UIImage-TUNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687213F16D130077EBC9 /* UIImage-TUNinePatch.m */; };
+		016FC3DF1404A9D30096186D /* TUVerticalNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687413F16D130077EBC9 /* TUVerticalNinePatch.m */; };
+		016FC3E01404A9D30096186D /* TUNinePatchCachingCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687713F16D130077EBC9 /* TUNinePatchCachingCategories.m */; };
+		016FC3E11404A9D30096186D /* TUNinePatchCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687913F16D130077EBC9 /* TUNinePatchCache.m */; };
+		016FC3E21404A9D30096186D /* TUNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687B13F16D130077EBC9 /* TUNinePatch.m */; };
+		016FC3E31404A9D30096186D /* TUHorizontalNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687D13F16D130077EBC9 /* TUHorizontalNinePatch.m */; };
+		016FC3E41404A9D30096186D /* TUFullNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687F13F16D130077EBC9 /* TUFullNinePatch.m */; };
+		016FC3E51404A9D30096186D /* TUDebugLoggingAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688113F16D130077EBC9 /* TUDebugLoggingAssistant.m */; };
+		016FC3E61404A9D30096186D /* TUCachingNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688313F16D130077EBC9 /* TUCachingNinePatch.m */; };
+		016FC3E71404A9D30096186D /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688513F16D130077EBC9 /* Tools.m */; };
+		016FC3E81404A9D30096186D /* FcTabUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688813F16D130077EBC9 /* FcTabUIComponent.m */; };
+		016FC3E91404A9D30096186D /* FcDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688A13F16D130077EBC9 /* FcDrawing.m */; };
+		016FC3EB1404A9D30096186D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23684C13F16CE90077EBC9 /* Foundation.framework */; };
+		016FC3ED1404A9D30096186D /* UIImage-TUNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687313F16D130077EBC9 /* UIImage-TUNinePatch.h */; };
+		016FC3EE1404A9D30096186D /* TUVerticalNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687513F16D130077EBC9 /* TUVerticalNinePatch.h */; };
+		016FC3EF1404A9D30096186D /* TUNinePatchProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687613F16D130077EBC9 /* TUNinePatchProtocols.h */; };
+		016FC3F01404A9D30096186D /* TUNinePatchCachingCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687813F16D130077EBC9 /* TUNinePatchCachingCategories.h */; };
+		016FC3F11404A9D30096186D /* TUNinePatchCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687A13F16D130077EBC9 /* TUNinePatchCache.h */; };
+		016FC3F21404A9D30096186D /* TUNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687C13F16D130077EBC9 /* TUNinePatch.h */; };
+		016FC3F31404A9D30096186D /* TUHorizontalNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687E13F16D130077EBC9 /* TUHorizontalNinePatch.h */; };
+		016FC3F41404A9D30096186D /* TUFullNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688013F16D130077EBC9 /* TUFullNinePatch.h */; };
+		016FC3F51404A9D30096186D /* TUDebugLoggingAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688213F16D130077EBC9 /* TUDebugLoggingAssistant.h */; };
+		016FC3F61404A9D30096186D /* TUCachingNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688413F16D130077EBC9 /* TUCachingNinePatch.h */; };
+		016FC3F71404A9D30096186D /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688613F16D130077EBC9 /* Tools.h */; };
+		016FC3F81404A9D30096186D /* NinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688713F16D130077EBC9 /* NinePatch.h */; };
+		016FC3F91404A9D30096186D /* FcTabUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688913F16D130077EBC9 /* FcTabUIComponent.h */; };
+		016FC3FA1404A9D30096186D /* FcDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688B13F16D130077EBC9 /* FcDrawing.h */; };
+		016FC3FB1404A9D30096186D /* FcMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2368A713F16D640077EBC9 /* FcMacro.h */; };
+		016FC4031404AA610096186D /* UIImage-TUNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687213F16D130077EBC9 /* UIImage-TUNinePatch.m */; };
+		016FC4041404AA610096186D /* TUVerticalNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687413F16D130077EBC9 /* TUVerticalNinePatch.m */; };
+		016FC4051404AA610096186D /* TUNinePatchCachingCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687713F16D130077EBC9 /* TUNinePatchCachingCategories.m */; };
+		016FC4061404AA610096186D /* TUNinePatchCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687913F16D130077EBC9 /* TUNinePatchCache.m */; };
+		016FC4071404AA610096186D /* TUNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687B13F16D130077EBC9 /* TUNinePatch.m */; };
+		016FC4081404AA610096186D /* TUHorizontalNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687D13F16D130077EBC9 /* TUHorizontalNinePatch.m */; };
+		016FC4091404AA610096186D /* TUFullNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687F13F16D130077EBC9 /* TUFullNinePatch.m */; };
+		016FC40A1404AA610096186D /* TUDebugLoggingAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688113F16D130077EBC9 /* TUDebugLoggingAssistant.m */; };
+		016FC40B1404AA610096186D /* TUCachingNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688313F16D130077EBC9 /* TUCachingNinePatch.m */; };
+		016FC40C1404AA610096186D /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688513F16D130077EBC9 /* Tools.m */; };
+		016FC40D1404AA610096186D /* FcTabUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688813F16D130077EBC9 /* FcTabUIComponent.m */; };
+		016FC40E1404AA610096186D /* FcDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688A13F16D130077EBC9 /* FcDrawing.m */; };
+		016FC4101404AA610096186D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23684C13F16CE90077EBC9 /* Foundation.framework */; };
+		016FC4121404AA610096186D /* UIImage-TUNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687313F16D130077EBC9 /* UIImage-TUNinePatch.h */; };
+		016FC4131404AA610096186D /* TUVerticalNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687513F16D130077EBC9 /* TUVerticalNinePatch.h */; };
+		016FC4141404AA610096186D /* TUNinePatchProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687613F16D130077EBC9 /* TUNinePatchProtocols.h */; };
+		016FC4151404AA610096186D /* TUNinePatchCachingCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687813F16D130077EBC9 /* TUNinePatchCachingCategories.h */; };
+		016FC4161404AA610096186D /* TUNinePatchCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687A13F16D130077EBC9 /* TUNinePatchCache.h */; };
+		016FC4171404AA610096186D /* TUNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687C13F16D130077EBC9 /* TUNinePatch.h */; };
+		016FC4181404AA610096186D /* TUHorizontalNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687E13F16D130077EBC9 /* TUHorizontalNinePatch.h */; };
+		016FC4191404AA610096186D /* TUFullNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688013F16D130077EBC9 /* TUFullNinePatch.h */; };
+		016FC41A1404AA610096186D /* TUDebugLoggingAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688213F16D130077EBC9 /* TUDebugLoggingAssistant.h */; };
+		016FC41B1404AA610096186D /* TUCachingNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688413F16D130077EBC9 /* TUCachingNinePatch.h */; };
+		016FC41C1404AA610096186D /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688613F16D130077EBC9 /* Tools.h */; };
+		016FC41D1404AA610096186D /* NinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688713F16D130077EBC9 /* NinePatch.h */; };
+		016FC41E1404AA610096186D /* FcTabUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688913F16D130077EBC9 /* FcTabUIComponent.h */; };
+		016FC41F1404AA610096186D /* FcDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688B13F16D130077EBC9 /* FcDrawing.h */; };
+		016FC4201404AA610096186D /* FcMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2368A713F16D640077EBC9 /* FcMacro.h */; };
+		0193B975140DD2FD0035BC0A /* StepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B96D140DD2FD0035BC0A /* StepView.h */; };
+		0193B976140DD2FD0035BC0A /* StepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B96D140DD2FD0035BC0A /* StepView.h */; };
+		0193B977140DD2FD0035BC0A /* StepView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B96D140DD2FD0035BC0A /* StepView.h */; };
+		0193B978140DD2FD0035BC0A /* StepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B96E140DD2FD0035BC0A /* StepView.m */; };
+		0193B979140DD2FD0035BC0A /* StepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B96E140DD2FD0035BC0A /* StepView.m */; };
+		0193B97A140DD2FD0035BC0A /* StepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B96E140DD2FD0035BC0A /* StepView.m */; };
+		0193B97B140DD2FD0035BC0A /* StepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B96F140DD2FD0035BC0A /* StepViewController.h */; };
+		0193B97C140DD2FD0035BC0A /* StepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B96F140DD2FD0035BC0A /* StepViewController.h */; };
+		0193B97D140DD2FD0035BC0A /* StepViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B96F140DD2FD0035BC0A /* StepViewController.h */; };
+		0193B97E140DD2FD0035BC0A /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B970140DD2FD0035BC0A /* StepViewController.m */; };
+		0193B97F140DD2FD0035BC0A /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B970140DD2FD0035BC0A /* StepViewController.m */; };
+		0193B980140DD2FD0035BC0A /* StepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B970140DD2FD0035BC0A /* StepViewController.m */; };
+		0193B981140DD2FD0035BC0A /* StepIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B972140DD2FD0035BC0A /* StepIcon.h */; };
+		0193B982140DD2FD0035BC0A /* StepIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B972140DD2FD0035BC0A /* StepIcon.h */; };
+		0193B983140DD2FD0035BC0A /* StepIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B972140DD2FD0035BC0A /* StepIcon.h */; };
+		0193B984140DD2FD0035BC0A /* StepIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B973140DD2FD0035BC0A /* StepIcon.m */; };
+		0193B985140DD2FD0035BC0A /* StepIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B973140DD2FD0035BC0A /* StepIcon.m */; };
+		0193B986140DD2FD0035BC0A /* StepIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B973140DD2FD0035BC0A /* StepIcon.m */; };
+		0193B9A0140DDABB0035BC0A /* FcTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B989140DD3510035BC0A /* FcTextField.h */; };
+		0193B9A1140DDABB0035BC0A /* FcTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B989140DD3510035BC0A /* FcTextField.h */; };
+		0193B9A2140DDABC0035BC0A /* FcTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 0193B989140DD3510035BC0A /* FcTextField.h */; };
+		0193B9A3140DDAC10035BC0A /* FcTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B98A140DD3510035BC0A /* FcTextField.m */; };
+		0193B9A4140DDAC20035BC0A /* FcTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B98A140DD3510035BC0A /* FcTextField.m */; };
+		0193B9A5140DDAC20035BC0A /* FcTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0193B98A140DD3510035BC0A /* FcTextField.m */; };
+		0193B9E2140DE5460035BC0A /* menubg_frame.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0193B9DE140DE5460035BC0A /* menubg_frame.9.png */; };
+		0193B9E3140DE5460035BC0A /* menubg_line.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0193B9DF140DE5460035BC0A /* menubg_line.9.png */; };
+		0193B9E4140DE5460035BC0A /* menubg_mask.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0193B9E0140DE5460035BC0A /* menubg_mask.9.png */; };
+		0193B9E5140DE5460035BC0A /* menubg_material.png in Resources */ = {isa = PBXBuildFile; fileRef = 0193B9E1140DE5460035BC0A /* menubg_material.png */; };
+		01B46376140F84FB00CBEC43 /* ThreeContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46366140F84FB00CBEC43 /* ThreeContentViewController.h */; };
+		01B46377140F84FB00CBEC43 /* ThreeContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46366140F84FB00CBEC43 /* ThreeContentViewController.h */; };
+		01B46378140F84FB00CBEC43 /* ThreeContentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46366140F84FB00CBEC43 /* ThreeContentViewController.h */; };
+		01B46379140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46367140F84FB00CBEC43 /* ThreeContentViewController.m */; };
+		01B4637A140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46367140F84FB00CBEC43 /* ThreeContentViewController.m */; };
+		01B4637B140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46367140F84FB00CBEC43 /* ThreeContentViewController.m */; };
+		01B4637C140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46367140F84FB00CBEC43 /* ThreeContentViewController.m */; };
+		01B4637D140F84FB00CBEC43 /* ContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46368140F84FB00CBEC43 /* ContentView.h */; };
+		01B4637E140F84FB00CBEC43 /* ContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46368140F84FB00CBEC43 /* ContentView.h */; };
+		01B4637F140F84FB00CBEC43 /* ContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46368140F84FB00CBEC43 /* ContentView.h */; };
+		01B46380140F84FB00CBEC43 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46369140F84FB00CBEC43 /* ContentView.m */; };
+		01B46381140F84FB00CBEC43 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46369140F84FB00CBEC43 /* ContentView.m */; };
+		01B46382140F84FB00CBEC43 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46369140F84FB00CBEC43 /* ContentView.m */; };
+		01B46383140F84FB00CBEC43 /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46369140F84FB00CBEC43 /* ContentView.m */; };
+		01B46384140F84FB00CBEC43 /* FcContent1View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636A140F84FB00CBEC43 /* FcContent1View.h */; };
+		01B46385140F84FB00CBEC43 /* FcContent1View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636A140F84FB00CBEC43 /* FcContent1View.h */; };
+		01B46386140F84FB00CBEC43 /* FcContent1View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636A140F84FB00CBEC43 /* FcContent1View.h */; };
+		01B46387140F84FB00CBEC43 /* FcContent1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636B140F84FB00CBEC43 /* FcContent1View.m */; };
+		01B46388140F84FB00CBEC43 /* FcContent1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636B140F84FB00CBEC43 /* FcContent1View.m */; };
+		01B46389140F84FB00CBEC43 /* FcContent1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636B140F84FB00CBEC43 /* FcContent1View.m */; };
+		01B4638A140F84FB00CBEC43 /* FcContent1View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636B140F84FB00CBEC43 /* FcContent1View.m */; };
+		01B4638B140F84FB00CBEC43 /* FcContent2View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636C140F84FB00CBEC43 /* FcContent2View.h */; };
+		01B4638C140F84FB00CBEC43 /* FcContent2View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636C140F84FB00CBEC43 /* FcContent2View.h */; };
+		01B4638D140F84FB00CBEC43 /* FcContent2View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636C140F84FB00CBEC43 /* FcContent2View.h */; };
+		01B4638E140F84FB00CBEC43 /* FcContent2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636D140F84FB00CBEC43 /* FcContent2View.m */; };
+		01B4638F140F84FB00CBEC43 /* FcContent2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636D140F84FB00CBEC43 /* FcContent2View.m */; };
+		01B46390140F84FB00CBEC43 /* FcContent2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636D140F84FB00CBEC43 /* FcContent2View.m */; };
+		01B46391140F84FB00CBEC43 /* FcContent2View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636D140F84FB00CBEC43 /* FcContent2View.m */; };
+		01B46392140F84FB00CBEC43 /* FcContent3View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636E140F84FB00CBEC43 /* FcContent3View.h */; };
+		01B46393140F84FB00CBEC43 /* FcContent3View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636E140F84FB00CBEC43 /* FcContent3View.h */; };
+		01B46394140F84FB00CBEC43 /* FcContent3View.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B4636E140F84FB00CBEC43 /* FcContent3View.h */; };
+		01B46395140F84FB00CBEC43 /* FcContent3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636F140F84FB00CBEC43 /* FcContent3View.m */; };
+		01B46396140F84FB00CBEC43 /* FcContent3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636F140F84FB00CBEC43 /* FcContent3View.m */; };
+		01B46397140F84FB00CBEC43 /* FcContent3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636F140F84FB00CBEC43 /* FcContent3View.m */; };
+		01B46398140F84FB00CBEC43 /* FcContent3View.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4636F140F84FB00CBEC43 /* FcContent3View.m */; };
+		01B46399140F84FB00CBEC43 /* ContentXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46370140F84FB00CBEC43 /* ContentXibView.h */; };
+		01B4639A140F84FB00CBEC43 /* ContentXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46370140F84FB00CBEC43 /* ContentXibView.h */; };
+		01B4639B140F84FB00CBEC43 /* ContentXibView.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46370140F84FB00CBEC43 /* ContentXibView.h */; };
+		01B4639C140F84FB00CBEC43 /* ContentXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46371140F84FB00CBEC43 /* ContentXibView.m */; };
+		01B4639D140F84FB00CBEC43 /* ContentXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46371140F84FB00CBEC43 /* ContentXibView.m */; };
+		01B4639E140F84FB00CBEC43 /* ContentXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46371140F84FB00CBEC43 /* ContentXibView.m */; };
+		01B4639F140F84FB00CBEC43 /* ContentXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46371140F84FB00CBEC43 /* ContentXibView.m */; };
+		01B463A0140F84FB00CBEC43 /* FcTableCellStyle1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46372140F84FB00CBEC43 /* FcTableCellStyle1.h */; };
+		01B463A1140F84FB00CBEC43 /* FcTableCellStyle1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46372140F84FB00CBEC43 /* FcTableCellStyle1.h */; };
+		01B463A2140F84FB00CBEC43 /* FcTableCellStyle1.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46372140F84FB00CBEC43 /* FcTableCellStyle1.h */; };
+		01B463A3140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46373140F84FB00CBEC43 /* FcTableCellStyle1.m */; };
+		01B463A4140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46373140F84FB00CBEC43 /* FcTableCellStyle1.m */; };
+		01B463A5140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46373140F84FB00CBEC43 /* FcTableCellStyle1.m */; };
+		01B463A6140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46373140F84FB00CBEC43 /* FcTableCellStyle1.m */; };
+		01B463A7140F84FB00CBEC43 /* FcTableCellStyle2.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46374140F84FB00CBEC43 /* FcTableCellStyle2.h */; };
+		01B463A8140F84FB00CBEC43 /* FcTableCellStyle2.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46374140F84FB00CBEC43 /* FcTableCellStyle2.h */; };
+		01B463A9140F84FB00CBEC43 /* FcTableCellStyle2.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B46374140F84FB00CBEC43 /* FcTableCellStyle2.h */; };
+		01B463AA140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46375140F84FB00CBEC43 /* FcTableCellStyle2.m */; };
+		01B463AB140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46375140F84FB00CBEC43 /* FcTableCellStyle2.m */; };
+		01B463AC140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46375140F84FB00CBEC43 /* FcTableCellStyle2.m */; };
+		01B463AD140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B46375140F84FB00CBEC43 /* FcTableCellStyle2.m */; };
+		01B463B1140F855D00CBEC43 /* ThreeContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B0140F855D00CBEC43 /* ThreeContentViewController.xib */; };
+		01B463BA140F857A00CBEC43 /* line_step1.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B2140F857A00CBEC43 /* line_step1.9.png */; };
+		01B463BB140F857A00CBEC43 /* btn_step1_orange_mask_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B3140F857A00CBEC43 /* btn_step1_orange_mask_1.png */; };
+		01B463BC140F857A00CBEC43 /* btn_step1_orange_material.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B4140F857A00CBEC43 /* btn_step1_orange_material.png */; };
+		01B463BD140F857A00CBEC43 /* btn_step1_orangemask.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B5140F857A00CBEC43 /* btn_step1_orangemask.9.png */; };
+		01B463BE140F857A00CBEC43 /* btn_step1_orange_i.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B6140F857A00CBEC43 /* btn_step1_orange_i.9.png */; };
+		01B463BF140F857A00CBEC43 /* step1_frame.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B7140F857A00CBEC43 /* step1_frame.9.png */; };
+		01B463C0140F857A00CBEC43 /* step1_mask.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B8140F857A00CBEC43 /* step1_mask.9.png */; };
+		01B463C1140F857A00CBEC43 /* step1_material.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463B9140F857A00CBEC43 /* step1_material.png */; };
+		01B463C9140F85A800CBEC43 /* line_step2.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463C3140F85A800CBEC43 /* line_step2.9.png */; };
+		01B463CA140F85A800CBEC43 /* img_step3_line_triangle_mask.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463C4140F85A800CBEC43 /* img_step3_line_triangle_mask.9.png */; };
+		01B463CB140F85A800CBEC43 /* img_step3_line_triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463C5140F85A800CBEC43 /* img_step3_line_triangle.png */; };
+		01B463CC140F85A800CBEC43 /* step2_frame.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463C6140F85A800CBEC43 /* step2_frame.9.png */; };
+		01B463CD140F85A800CBEC43 /* step2_mask.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463C7140F85A800CBEC43 /* step2_mask.9.png */; };
+		01B463CE140F85A800CBEC43 /* step2_material.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463C8140F85A800CBEC43 /* step2_material.png */; };
+		01B463D3140F867600CBEC43 /* bg_step3.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463D0140F867600CBEC43 /* bg_step3.9.png */; };
+		01B463D4140F867600CBEC43 /* line_step3.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463D1140F867600CBEC43 /* line_step3.9.png */; };
+		01B463D5140F867600CBEC43 /* step3_white_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B463D2140F867600CBEC43 /* step3_white_line.png */; };
+		01DA9E2D1407A57B0077A359 /* FcUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA9E2B1407A57A0077A359 /* FcUIComponent.h */; };
+		01DA9E2E1407A57B0077A359 /* FcUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA9E2C1407A57A0077A359 /* FcUIComponent.m */; };
+		01DA9E381407A5E70077A359 /* FcPopWindows.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA9E351407A5E70077A359 /* FcPopWindows.h */; };
+		01DA9E391407A5E70077A359 /* FcPopWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA9E361407A5E70077A359 /* FcPopWindows.m */; };
+		01FB6738140C78C1002CDFD6 /* FcUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA9E2B1407A57A0077A359 /* FcUIComponent.h */; };
+		01FB6739140C78C2002CDFD6 /* FcUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA9E2B1407A57A0077A359 /* FcUIComponent.h */; };
+		01FB673A140C78C9002CDFD6 /* FcPopWindows.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA9E351407A5E70077A359 /* FcPopWindows.h */; };
+		01FB673B140C78CA002CDFD6 /* FcPopWindows.h in Headers */ = {isa = PBXBuildFile; fileRef = 01DA9E351407A5E70077A359 /* FcPopWindows.h */; };
+		01FB673E140C79A1002CDFD6 /* FcUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA9E2C1407A57A0077A359 /* FcUIComponent.m */; };
+		01FB673F140C79A2002CDFD6 /* FcUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA9E2C1407A57A0077A359 /* FcUIComponent.m */; };
+		01FB6740140C79AB002CDFD6 /* FcPopWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA9E361407A5E70077A359 /* FcPopWindows.m */; };
+		01FB6741140C79AC002CDFD6 /* FcPopWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DA9E361407A5E70077A359 /* FcPopWindows.m */; };
+		0C23684D13F16CE90077EBC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23684C13F16CE90077EBC9 /* Foundation.framework */; };
+		0C23685813F16CE90077EBC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23685713F16CE90077EBC9 /* UIKit.framework */; };
+		0C23685913F16CE90077EBC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23684C13F16CE90077EBC9 /* Foundation.framework */; };
+		0C23685B13F16CE90077EBC9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23685A13F16CE90077EBC9 /* CoreGraphics.framework */; };
+		0C23685E13F16CE90077EBC9 /* libFcUILib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C23684913F16CE90077EBC9 /* libFcUILib.a */; };
+		0C23686413F16CE90077EBC9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C23686213F16CE90077EBC9 /* InfoPlist.strings */; };
+		0C23686713F16CE90077EBC9 /* FcUILibTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 0C23686613F16CE90077EBC9 /* FcUILibTests.h */; };
+		0C23686913F16CE90077EBC9 /* FcUILibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23686813F16CE90077EBC9 /* FcUILibTests.m */; };
+		0C23688C13F16D130077EBC9 /* UIImage-TUNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687213F16D130077EBC9 /* UIImage-TUNinePatch.m */; };
+		0C23688D13F16D130077EBC9 /* UIImage-TUNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687313F16D130077EBC9 /* UIImage-TUNinePatch.h */; };
+		0C23688E13F16D130077EBC9 /* TUVerticalNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687413F16D130077EBC9 /* TUVerticalNinePatch.m */; };
+		0C23688F13F16D130077EBC9 /* TUVerticalNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687513F16D130077EBC9 /* TUVerticalNinePatch.h */; };
+		0C23689013F16D130077EBC9 /* TUNinePatchProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687613F16D130077EBC9 /* TUNinePatchProtocols.h */; };
+		0C23689113F16D130077EBC9 /* TUNinePatchCachingCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687713F16D130077EBC9 /* TUNinePatchCachingCategories.m */; };
+		0C23689213F16D130077EBC9 /* TUNinePatchCachingCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687813F16D130077EBC9 /* TUNinePatchCachingCategories.h */; };
+		0C23689313F16D130077EBC9 /* TUNinePatchCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687913F16D130077EBC9 /* TUNinePatchCache.m */; };
+		0C23689413F16D130077EBC9 /* TUNinePatchCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687A13F16D130077EBC9 /* TUNinePatchCache.h */; };
+		0C23689513F16D130077EBC9 /* TUNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687B13F16D130077EBC9 /* TUNinePatch.m */; };
+		0C23689613F16D130077EBC9 /* TUNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687C13F16D130077EBC9 /* TUNinePatch.h */; };
+		0C23689713F16D130077EBC9 /* TUHorizontalNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687D13F16D130077EBC9 /* TUHorizontalNinePatch.m */; };
+		0C23689813F16D130077EBC9 /* TUHorizontalNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23687E13F16D130077EBC9 /* TUHorizontalNinePatch.h */; };
+		0C23689913F16D130077EBC9 /* TUFullNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23687F13F16D130077EBC9 /* TUFullNinePatch.m */; };
+		0C23689A13F16D130077EBC9 /* TUFullNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688013F16D130077EBC9 /* TUFullNinePatch.h */; };
+		0C23689B13F16D130077EBC9 /* TUDebugLoggingAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688113F16D130077EBC9 /* TUDebugLoggingAssistant.m */; };
+		0C23689C13F16D130077EBC9 /* TUDebugLoggingAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688213F16D130077EBC9 /* TUDebugLoggingAssistant.h */; };
+		0C23689D13F16D130077EBC9 /* TUCachingNinePatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688313F16D130077EBC9 /* TUCachingNinePatch.m */; };
+		0C23689E13F16D130077EBC9 /* TUCachingNinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688413F16D130077EBC9 /* TUCachingNinePatch.h */; };
+		0C23689F13F16D130077EBC9 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688513F16D130077EBC9 /* Tools.m */; };
+		0C2368A013F16D130077EBC9 /* Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688613F16D130077EBC9 /* Tools.h */; };
+		0C2368A113F16D130077EBC9 /* NinePatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688713F16D130077EBC9 /* NinePatch.h */; };
+		0C2368A213F16D130077EBC9 /* FcTabUIComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688813F16D130077EBC9 /* FcTabUIComponent.m */; };
+		0C2368A313F16D130077EBC9 /* FcTabUIComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688913F16D130077EBC9 /* FcTabUIComponent.h */; };
+		0C2368A413F16D130077EBC9 /* FcDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C23688A13F16D130077EBC9 /* FcDrawing.m */; };
+		0C2368A513F16D130077EBC9 /* FcDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C23688B13F16D130077EBC9 /* FcDrawing.h */; };
+		0C2368A813F16D640077EBC9 /* FcMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C2368A713F16D640077EBC9 /* FcMacro.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C23685C13F16CE90077EBC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C23684013F16CE90077EBC9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C23684813F16CE90077EBC9;
+			remoteInfo = FcUILib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		016FC3FF1404A9D30096186D /* libFcUILib Device.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libFcUILib Device.a"; path = libFcUILibDevice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		016FC4241404AA610096186D /* libFcUILib Simulator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libFcUILib Simulator.a"; path = libFcUILibSimulator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0193B96D140DD2FD0035BC0A /* StepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepView.h; sourceTree = "<group>"; };
+		0193B96E140DD2FD0035BC0A /* StepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepView.m; sourceTree = "<group>"; };
+		0193B96F140DD2FD0035BC0A /* StepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepViewController.h; sourceTree = "<group>"; };
+		0193B970140DD2FD0035BC0A /* StepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepViewController.m; sourceTree = "<group>"; };
+		0193B971140DD2FD0035BC0A /* StepViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepViewController.xib; sourceTree = "<group>"; };
+		0193B972140DD2FD0035BC0A /* StepIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepIcon.h; sourceTree = "<group>"; };
+		0193B973140DD2FD0035BC0A /* StepIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepIcon.m; sourceTree = "<group>"; };
+		0193B974140DD2FD0035BC0A /* StepIcon.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepIcon.xib; sourceTree = "<group>"; };
+		0193B988140DD3510035BC0A /* FcTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FcTextField.xib; sourceTree = "<group>"; };
+		0193B989140DD3510035BC0A /* FcTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcTextField.h; sourceTree = "<group>"; };
+		0193B98A140DD3510035BC0A /* FcTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcTextField.m; sourceTree = "<group>"; };
+		0193B991140DD9CA0035BC0A /* top_step_frame.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_step_frame.9.png; sourceTree = "<group>"; };
+		0193B992140DD9CA0035BC0A /* top_step_mask.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_step_mask.9.png; sourceTree = "<group>"; };
+		0193B993140DD9CA0035BC0A /* top_step_final_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_step_final_mask.png; sourceTree = "<group>"; };
+		0193B994140DD9CA0035BC0A /* top_step_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top_step_bg.png; sourceTree = "<group>"; };
+		0193B995140DD9CA0035BC0A /* line_top_step.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_top_step.9.png; sourceTree = "<group>"; };
+		0193B996140DD9CA0035BC0A /* btn_step.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_step.png; sourceTree = "<group>"; };
+		0193B997140DD9CA0035BC0A /* btn_step_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_step_i.png; sourceTree = "<group>"; };
+		0193B99B140DDA850035BC0A /* editbox_search_i.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbox_search_i.9.png; sourceTree = "<group>"; };
+		0193B99C140DDA850035BC0A /* editbox_search_ico_i.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbox_search_ico_i.png; sourceTree = "<group>"; };
+		0193B99D140DDA850035BC0A /* editbox_search_ico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbox_search_ico.png; sourceTree = "<group>"; };
+		0193B99E140DDA850035BC0A /* editbox_search.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editbox_search.9.png; sourceTree = "<group>"; };
+		0193B9DE140DE5460035BC0A /* menubg_frame.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubg_frame.9.png; sourceTree = "<group>"; };
+		0193B9DF140DE5460035BC0A /* menubg_line.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubg_line.9.png; sourceTree = "<group>"; };
+		0193B9E0140DE5460035BC0A /* menubg_mask.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubg_mask.9.png; sourceTree = "<group>"; };
+		0193B9E1140DE5460035BC0A /* menubg_material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menubg_material.png; sourceTree = "<group>"; };
+		01B46366140F84FB00CBEC43 /* ThreeContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeContentViewController.h; sourceTree = "<group>"; };
+		01B46367140F84FB00CBEC43 /* ThreeContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeContentViewController.m; sourceTree = "<group>"; };
+		01B46368140F84FB00CBEC43 /* ContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		01B46369140F84FB00CBEC43 /* ContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+		01B4636A140F84FB00CBEC43 /* FcContent1View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcContent1View.h; sourceTree = "<group>"; };
+		01B4636B140F84FB00CBEC43 /* FcContent1View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcContent1View.m; sourceTree = "<group>"; };
+		01B4636C140F84FB00CBEC43 /* FcContent2View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcContent2View.h; sourceTree = "<group>"; };
+		01B4636D140F84FB00CBEC43 /* FcContent2View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcContent2View.m; sourceTree = "<group>"; };
+		01B4636E140F84FB00CBEC43 /* FcContent3View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcContent3View.h; sourceTree = "<group>"; };
+		01B4636F140F84FB00CBEC43 /* FcContent3View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcContent3View.m; sourceTree = "<group>"; };
+		01B46370140F84FB00CBEC43 /* ContentXibView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentXibView.h; sourceTree = "<group>"; };
+		01B46371140F84FB00CBEC43 /* ContentXibView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentXibView.m; sourceTree = "<group>"; };
+		01B46372140F84FB00CBEC43 /* FcTableCellStyle1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcTableCellStyle1.h; sourceTree = "<group>"; };
+		01B46373140F84FB00CBEC43 /* FcTableCellStyle1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcTableCellStyle1.m; sourceTree = "<group>"; };
+		01B46374140F84FB00CBEC43 /* FcTableCellStyle2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcTableCellStyle2.h; sourceTree = "<group>"; };
+		01B46375140F84FB00CBEC43 /* FcTableCellStyle2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcTableCellStyle2.m; sourceTree = "<group>"; };
+		01B463B0140F855D00CBEC43 /* ThreeContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreeContentViewController.xib; sourceTree = "<group>"; };
+		01B463B2140F857A00CBEC43 /* line_step1.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_step1.9.png; sourceTree = "<group>"; };
+		01B463B3140F857A00CBEC43 /* btn_step1_orange_mask_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_step1_orange_mask_1.png; sourceTree = "<group>"; };
+		01B463B4140F857A00CBEC43 /* btn_step1_orange_material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_step1_orange_material.png; sourceTree = "<group>"; };
+		01B463B5140F857A00CBEC43 /* btn_step1_orangemask.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_step1_orangemask.9.png; sourceTree = "<group>"; };
+		01B463B6140F857A00CBEC43 /* btn_step1_orange_i.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_step1_orange_i.9.png; sourceTree = "<group>"; };
+		01B463B7140F857A00CBEC43 /* step1_frame.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1_frame.9.png; sourceTree = "<group>"; };
+		01B463B8140F857A00CBEC43 /* step1_mask.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1_mask.9.png; sourceTree = "<group>"; };
+		01B463B9140F857A00CBEC43 /* step1_material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step1_material.png; sourceTree = "<group>"; };
+		01B463C3140F85A800CBEC43 /* line_step2.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_step2.9.png; sourceTree = "<group>"; };
+		01B463C4140F85A800CBEC43 /* img_step3_line_triangle_mask.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_step3_line_triangle_mask.9.png; sourceTree = "<group>"; };
+		01B463C5140F85A800CBEC43 /* img_step3_line_triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_step3_line_triangle.png; sourceTree = "<group>"; };
+		01B463C6140F85A800CBEC43 /* step2_frame.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2_frame.9.png; sourceTree = "<group>"; };
+		01B463C7140F85A800CBEC43 /* step2_mask.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2_mask.9.png; sourceTree = "<group>"; };
+		01B463C8140F85A800CBEC43 /* step2_material.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step2_material.png; sourceTree = "<group>"; };
+		01B463D0140F867600CBEC43 /* bg_step3.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_step3.9.png; sourceTree = "<group>"; };
+		01B463D1140F867600CBEC43 /* line_step3.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_step3.9.png; sourceTree = "<group>"; };
+		01B463D2140F867600CBEC43 /* step3_white_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = step3_white_line.png; sourceTree = "<group>"; };
+		01DA9E2B1407A57A0077A359 /* FcUIComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcUIComponent.h; sourceTree = "<group>"; };
+		01DA9E2C1407A57A0077A359 /* FcUIComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcUIComponent.m; sourceTree = "<group>"; };
+		01DA9E351407A5E70077A359 /* FcPopWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcPopWindows.h; sourceTree = "<group>"; };
+		01DA9E361407A5E70077A359 /* FcPopWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcPopWindows.m; sourceTree = "<group>"; };
+		01DA9E371407A5E70077A359 /* FcPopWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FcPopWindows.xib; sourceTree = "<group>"; };
+		0C23684913F16CE90077EBC9 /* libFcUILib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFcUILib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C23684C13F16CE90077EBC9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C23685013F16CE90077EBC9 /* FcUILib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FcUILib-Prefix.pch"; sourceTree = "<group>"; };
+		0C23685613F16CE90077EBC9 /* FcUILibTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FcUILibTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C23685713F16CE90077EBC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0C23685A13F16CE90077EBC9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0C23686113F16CE90077EBC9 /* FcUILibTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FcUILibTests-Info.plist"; sourceTree = "<group>"; };
+		0C23686313F16CE90077EBC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C23686513F16CE90077EBC9 /* FcUILibTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FcUILibTests-Prefix.pch"; sourceTree = "<group>"; };
+		0C23686613F16CE90077EBC9 /* FcUILibTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FcUILibTests.h; sourceTree = "<group>"; };
+		0C23686813F16CE90077EBC9 /* FcUILibTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FcUILibTests.m; sourceTree = "<group>"; };
+		0C23687213F16D130077EBC9 /* UIImage-TUNinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage-TUNinePatch.m"; sourceTree = "<group>"; };
+		0C23687313F16D130077EBC9 /* UIImage-TUNinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage-TUNinePatch.h"; sourceTree = "<group>"; };
+		0C23687413F16D130077EBC9 /* TUVerticalNinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUVerticalNinePatch.m; sourceTree = "<group>"; };
+		0C23687513F16D130077EBC9 /* TUVerticalNinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUVerticalNinePatch.h; sourceTree = "<group>"; };
+		0C23687613F16D130077EBC9 /* TUNinePatchProtocols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUNinePatchProtocols.h; sourceTree = "<group>"; };
+		0C23687713F16D130077EBC9 /* TUNinePatchCachingCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUNinePatchCachingCategories.m; sourceTree = "<group>"; };
+		0C23687813F16D130077EBC9 /* TUNinePatchCachingCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUNinePatchCachingCategories.h; sourceTree = "<group>"; };
+		0C23687913F16D130077EBC9 /* TUNinePatchCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUNinePatchCache.m; sourceTree = "<group>"; };
+		0C23687A13F16D130077EBC9 /* TUNinePatchCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUNinePatchCache.h; sourceTree = "<group>"; };
+		0C23687B13F16D130077EBC9 /* TUNinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUNinePatch.m; sourceTree = "<group>"; };
+		0C23687C13F16D130077EBC9 /* TUNinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUNinePatch.h; sourceTree = "<group>"; };
+		0C23687D13F16D130077EBC9 /* TUHorizontalNinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUHorizontalNinePatch.m; sourceTree = "<group>"; };
+		0C23687E13F16D130077EBC9 /* TUHorizontalNinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUHorizontalNinePatch.h; sourceTree = "<group>"; };
+		0C23687F13F16D130077EBC9 /* TUFullNinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUFullNinePatch.m; sourceTree = "<group>"; };
+		0C23688013F16D130077EBC9 /* TUFullNinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUFullNinePatch.h; sourceTree = "<group>"; };
+		0C23688113F16D130077EBC9 /* TUDebugLoggingAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUDebugLoggingAssistant.m; sourceTree = "<group>"; };
+		0C23688213F16D130077EBC9 /* TUDebugLoggingAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUDebugLoggingAssistant.h; sourceTree = "<group>"; };
+		0C23688313F16D130077EBC9 /* TUCachingNinePatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TUCachingNinePatch.m; sourceTree = "<group>"; };
+		0C23688413F16D130077EBC9 /* TUCachingNinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TUCachingNinePatch.h; sourceTree = "<group>"; };
+		0C23688513F16D130077EBC9 /* Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		0C23688613F16D130077EBC9 /* Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		0C23688713F16D130077EBC9 /* NinePatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NinePatch.h; sourceTree = "<group>"; };
+		0C23688813F16D130077EBC9 /* FcTabUIComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcTabUIComponent.m; sourceTree = "<group>"; };
+		0C23688913F16D130077EBC9 /* FcTabUIComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcTabUIComponent.h; sourceTree = "<group>"; };
+		0C23688A13F16D130077EBC9 /* FcDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FcDrawing.m; sourceTree = "<group>"; };
+		0C23688B13F16D130077EBC9 /* FcDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcDrawing.h; sourceTree = "<group>"; };
+		0C2368A713F16D640077EBC9 /* FcMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FcMacro.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016FC3EA1404A9D30096186D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016FC3EB1404A9D30096186D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016FC40F1404AA610096186D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016FC4101404AA610096186D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C23684613F16CE90077EBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C23684D13F16CE90077EBC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C23685213F16CE90077EBC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C23685813F16CE90077EBC9 /* UIKit.framework in Frameworks */,
+				0C23685913F16CE90077EBC9 /* Foundation.framework in Frameworks */,
+				0C23685B13F16CE90077EBC9 /* CoreGraphics.framework in Frameworks */,
+				0C23685E13F16CE90077EBC9 /* libFcUILib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0193B96B140DD21F0035BC0A /* StepController */ = {
+			isa = PBXGroup;
+			children = (
+				0193B96D140DD2FD0035BC0A /* StepView.h */,
+				0193B96E140DD2FD0035BC0A /* StepView.m */,
+				0193B96F140DD2FD0035BC0A /* StepViewController.h */,
+				0193B970140DD2FD0035BC0A /* StepViewController.m */,
+				0193B972140DD2FD0035BC0A /* StepIcon.h */,
+				0193B973140DD2FD0035BC0A /* StepIcon.m */,
+			);
+			name = StepController;
+			sourceTree = "<group>";
+		};
+		0193B987140DD3200035BC0A /* UIComponent */ = {
+			isa = PBXGroup;
+			children = (
+				0193B989140DD3510035BC0A /* FcTextField.h */,
+				0193B98A140DD3510035BC0A /* FcTextField.m */,
+				01DA9E351407A5E70077A359 /* FcPopWindows.h */,
+				0C23688813F16D130077EBC9 /* FcTabUIComponent.m */,
+				0C23688913F16D130077EBC9 /* FcTabUIComponent.h */,
+				01DA9E361407A5E70077A359 /* FcPopWindows.m */,
+			);
+			name = UIComponent;
+			sourceTree = "<group>";
+		};
+		0193B999140DDA040035BC0A /* step */ = {
+			isa = PBXGroup;
+			children = (
+				0193B971140DD2FD0035BC0A /* StepViewController.xib */,
+				0193B974140DD2FD0035BC0A /* StepIcon.xib */,
+				0193B991140DD9CA0035BC0A /* top_step_frame.9.png */,
+				0193B992140DD9CA0035BC0A /* top_step_mask.9.png */,
+				0193B993140DD9CA0035BC0A /* top_step_final_mask.png */,
+				0193B994140DD9CA0035BC0A /* top_step_bg.png */,
+				0193B995140DD9CA0035BC0A /* line_top_step.9.png */,
+				0193B996140DD9CA0035BC0A /* btn_step.png */,
+				0193B997140DD9CA0035BC0A /* btn_step_i.png */,
+			);
+			name = step;
+			sourceTree = "<group>";
+		};
+		0193B99F140DDA8A0035BC0A /* FcTextField */ = {
+			isa = PBXGroup;
+			children = (
+				0193B988140DD3510035BC0A /* FcTextField.xib */,
+				0193B99B140DDA850035BC0A /* editbox_search_i.9.png */,
+				0193B99C140DDA850035BC0A /* editbox_search_ico_i.png */,
+				0193B99D140DDA850035BC0A /* editbox_search_ico.png */,
+				0193B99E140DDA850035BC0A /* editbox_search.9.png */,
+			);
+			name = FcTextField;
+			sourceTree = "<group>";
+		};
+		0193B9B3140DE1490035BC0A /* ContentController */ = {
+			isa = PBXGroup;
+			children = (
+				01B46366140F84FB00CBEC43 /* ThreeContentViewController.h */,
+				01B46367140F84FB00CBEC43 /* ThreeContentViewController.m */,
+				01B46368140F84FB00CBEC43 /* ContentView.h */,
+				01B46369140F84FB00CBEC43 /* ContentView.m */,
+				01B4636A140F84FB00CBEC43 /* FcContent1View.h */,
+				01B4636B140F84FB00CBEC43 /* FcContent1View.m */,
+				01B4636C140F84FB00CBEC43 /* FcContent2View.h */,
+				01B4636D140F84FB00CBEC43 /* FcContent2View.m */,
+				01B4636E140F84FB00CBEC43 /* FcContent3View.h */,
+				01B4636F140F84FB00CBEC43 /* FcContent3View.m */,
+				01B46370140F84FB00CBEC43 /* ContentXibView.h */,
+				01B46371140F84FB00CBEC43 /* ContentXibView.m */,
+				01B46372140F84FB00CBEC43 /* FcTableCellStyle1.h */,
+				01B46373140F84FB00CBEC43 /* FcTableCellStyle1.m */,
+				01B46374140F84FB00CBEC43 /* FcTableCellStyle2.h */,
+				01B46375140F84FB00CBEC43 /* FcTableCellStyle2.m */,
+			);
+			name = ContentController;
+			sourceTree = "<group>";
+		};
+		0193B9E6140DE54E0035BC0A /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				01DA9E371407A5E70077A359 /* FcPopWindows.xib */,
+				0193B9DE140DE5460035BC0A /* menubg_frame.9.png */,
+				0193B9DF140DE5460035BC0A /* menubg_line.9.png */,
+				0193B9E0140DE5460035BC0A /* menubg_mask.9.png */,
+				0193B9E1140DE5460035BC0A /* menubg_material.png */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		01B463AF140F853A00CBEC43 /* ContentController */ = {
+			isa = PBXGroup;
+			children = (
+				01B463B0140F855D00CBEC43 /* ThreeContentViewController.xib */,
+				01B463C2140F858300CBEC43 /* content_1 */,
+				01B463CF140F85FC00CBEC43 /* content_2 */,
+				01B463D6140F870500CBEC43 /* content_3 */,
+			);
+			name = ContentController;
+			sourceTree = "<group>";
+		};
+		01B463C2140F858300CBEC43 /* content_1 */ = {
+			isa = PBXGroup;
+			children = (
+				01B463B2140F857A00CBEC43 /* line_step1.9.png */,
+				01B463B3140F857A00CBEC43 /* btn_step1_orange_mask_1.png */,
+				01B463B4140F857A00CBEC43 /* btn_step1_orange_material.png */,
+				01B463B5140F857A00CBEC43 /* btn_step1_orangemask.9.png */,
+				01B463B6140F857A00CBEC43 /* btn_step1_orange_i.9.png */,
+				01B463B7140F857A00CBEC43 /* step1_frame.9.png */,
+				01B463B8140F857A00CBEC43 /* step1_mask.9.png */,
+				01B463B9140F857A00CBEC43 /* step1_material.png */,
+			);
+			name = content_1;
+			sourceTree = "<group>";
+		};
+		01B463CF140F85FC00CBEC43 /* content_2 */ = {
+			isa = PBXGroup;
+			children = (
+				01B463C3140F85A800CBEC43 /* line_step2.9.png */,
+				01B463C4140F85A800CBEC43 /* img_step3_line_triangle_mask.9.png */,
+				01B463C5140F85A800CBEC43 /* img_step3_line_triangle.png */,
+				01B463C6140F85A800CBEC43 /* step2_frame.9.png */,
+				01B463C7140F85A800CBEC43 /* step2_mask.9.png */,
+				01B463C8140F85A800CBEC43 /* step2_material.png */,
+			);
+			name = content_2;
+			sourceTree = "<group>";
+		};
+		01B463D6140F870500CBEC43 /* content_3 */ = {
+			isa = PBXGroup;
+			children = (
+				01B463D0140F867600CBEC43 /* bg_step3.9.png */,
+				01B463D1140F867600CBEC43 /* line_step3.9.png */,
+				01B463D2140F867600CBEC43 /* step3_white_line.png */,
+			);
+			name = content_3;
+			sourceTree = "<group>";
+		};
+		01DA9E3A1407A7800077A359 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				01B463AF140F853A00CBEC43 /* ContentController */,
+				0193B9E6140DE54E0035BC0A /* menu */,
+				0193B99F140DDA8A0035BC0A /* FcTextField */,
+				0193B999140DDA040035BC0A /* step */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0C23683E13F16CE90077EBC9 = {
+			isa = PBXGroup;
+			children = (
+				0C23684E13F16CE90077EBC9 /* FcUILib */,
+				0C23685F13F16CE90077EBC9 /* FcUILibTests */,
+				0C23684B13F16CE90077EBC9 /* Frameworks */,
+				0C23684A13F16CE90077EBC9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C23684A13F16CE90077EBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C23684913F16CE90077EBC9 /* libFcUILib.a */,
+				0C23685613F16CE90077EBC9 /* FcUILibTests.octest */,
+				016FC3FF1404A9D30096186D /* libFcUILib Device.a */,
+				016FC4241404AA610096186D /* libFcUILib Simulator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C23684B13F16CE90077EBC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C23684C13F16CE90077EBC9 /* Foundation.framework */,
+				0C23685713F16CE90077EBC9 /* UIKit.framework */,
+				0C23685A13F16CE90077EBC9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C23684E13F16CE90077EBC9 /* FcUILib */ = {
+			isa = PBXGroup;
+			children = (
+				0193B9B3140DE1490035BC0A /* ContentController */,
+				0193B987140DD3200035BC0A /* UIComponent */,
+				0193B96B140DD21F0035BC0A /* StepController */,
+				01DA9E3A1407A7800077A359 /* Resource */,
+				0C2368A613F16D180077EBC9 /* Nine-patch */,
+				0C23688513F16D130077EBC9 /* Tools.m */,
+				0C23688613F16D130077EBC9 /* Tools.h */,
+				0C23688A13F16D130077EBC9 /* FcDrawing.m */,
+				0C23688B13F16D130077EBC9 /* FcDrawing.h */,
+				01DA9E2B1407A57A0077A359 /* FcUIComponent.h */,
+				01DA9E2C1407A57A0077A359 /* FcUIComponent.m */,
+				0C23684F13F16CE90077EBC9 /* Supporting Files */,
+			);
+			path = FcUILib;
+			sourceTree = "<group>";
+		};
+		0C23684F13F16CE90077EBC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C23685013F16CE90077EBC9 /* FcUILib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C23685F13F16CE90077EBC9 /* FcUILibTests */ = {
+			isa = PBXGroup;
+			children = (
+				0C23686613F16CE90077EBC9 /* FcUILibTests.h */,
+				0C23686813F16CE90077EBC9 /* FcUILibTests.m */,
+				0C23686013F16CE90077EBC9 /* Supporting Files */,
+			);
+			path = FcUILibTests;
+			sourceTree = "<group>";
+		};
+		0C23686013F16CE90077EBC9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C23686113F16CE90077EBC9 /* FcUILibTests-Info.plist */,
+				0C23686213F16CE90077EBC9 /* InfoPlist.strings */,
+				0C23686513F16CE90077EBC9 /* FcUILibTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C2368A613F16D180077EBC9 /* Nine-patch */ = {
+			isa = PBXGroup;
+			children = (
+				0C23688713F16D130077EBC9 /* NinePatch.h */,
+				0C23687213F16D130077EBC9 /* UIImage-TUNinePatch.m */,
+				0C23687313F16D130077EBC9 /* UIImage-TUNinePatch.h */,
+				0C23687413F16D130077EBC9 /* TUVerticalNinePatch.m */,
+				0C23687513F16D130077EBC9 /* TUVerticalNinePatch.h */,
+				0C23687613F16D130077EBC9 /* TUNinePatchProtocols.h */,
+				0C23687713F16D130077EBC9 /* TUNinePatchCachingCategories.m */,
+				0C23687813F16D130077EBC9 /* TUNinePatchCachingCategories.h */,
+				0C23687913F16D130077EBC9 /* TUNinePatchCache.m */,
+				0C23687A13F16D130077EBC9 /* TUNinePatchCache.h */,
+				0C23687B13F16D130077EBC9 /* TUNinePatch.m */,
+				0C23687C13F16D130077EBC9 /* TUNinePatch.h */,
+				0C23687D13F16D130077EBC9 /* TUHorizontalNinePatch.m */,
+				0C23687E13F16D130077EBC9 /* TUHorizontalNinePatch.h */,
+				0C23687F13F16D130077EBC9 /* TUFullNinePatch.m */,
+				0C23688013F16D130077EBC9 /* TUFullNinePatch.h */,
+				0C23688113F16D130077EBC9 /* TUDebugLoggingAssistant.m */,
+				0C23688213F16D130077EBC9 /* TUDebugLoggingAssistant.h */,
+				0C23688313F16D130077EBC9 /* TUCachingNinePatch.m */,
+				0C23688413F16D130077EBC9 /* TUCachingNinePatch.h */,
+				0C2368A713F16D640077EBC9 /* FcMacro.h */,
+			);
+			name = "Nine-patch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		016FC3EC1404A9D30096186D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016FC3ED1404A9D30096186D /* UIImage-TUNinePatch.h in Headers */,
+				016FC3EE1404A9D30096186D /* TUVerticalNinePatch.h in Headers */,
+				016FC3EF1404A9D30096186D /* TUNinePatchProtocols.h in Headers */,
+				016FC3F01404A9D30096186D /* TUNinePatchCachingCategories.h in Headers */,
+				016FC3F11404A9D30096186D /* TUNinePatchCache.h in Headers */,
+				016FC3F21404A9D30096186D /* TUNinePatch.h in Headers */,
+				016FC3F31404A9D30096186D /* TUHorizontalNinePatch.h in Headers */,
+				016FC3F41404A9D30096186D /* TUFullNinePatch.h in Headers */,
+				016FC3F51404A9D30096186D /* TUDebugLoggingAssistant.h in Headers */,
+				016FC3F61404A9D30096186D /* TUCachingNinePatch.h in Headers */,
+				016FC3F71404A9D30096186D /* Tools.h in Headers */,
+				016FC3F81404A9D30096186D /* NinePatch.h in Headers */,
+				016FC3F91404A9D30096186D /* FcTabUIComponent.h in Headers */,
+				016FC3FA1404A9D30096186D /* FcDrawing.h in Headers */,
+				016FC3FB1404A9D30096186D /* FcMacro.h in Headers */,
+				01FB6738140C78C1002CDFD6 /* FcUIComponent.h in Headers */,
+				01FB673A140C78C9002CDFD6 /* FcPopWindows.h in Headers */,
+				0193B976140DD2FD0035BC0A /* StepView.h in Headers */,
+				0193B97C140DD2FD0035BC0A /* StepViewController.h in Headers */,
+				0193B982140DD2FD0035BC0A /* StepIcon.h in Headers */,
+				0193B9A0140DDABB0035BC0A /* FcTextField.h in Headers */,
+				01B46377140F84FB00CBEC43 /* ThreeContentViewController.h in Headers */,
+				01B4637E140F84FB00CBEC43 /* ContentView.h in Headers */,
+				01B46385140F84FB00CBEC43 /* FcContent1View.h in Headers */,
+				01B4638C140F84FB00CBEC43 /* FcContent2View.h in Headers */,
+				01B46393140F84FB00CBEC43 /* FcContent3View.h in Headers */,
+				01B4639A140F84FB00CBEC43 /* ContentXibView.h in Headers */,
+				01B463A1140F84FB00CBEC43 /* FcTableCellStyle1.h in Headers */,
+				01B463A8140F84FB00CBEC43 /* FcTableCellStyle2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016FC4111404AA610096186D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016FC4121404AA610096186D /* UIImage-TUNinePatch.h in Headers */,
+				016FC4131404AA610096186D /* TUVerticalNinePatch.h in Headers */,
+				016FC4141404AA610096186D /* TUNinePatchProtocols.h in Headers */,
+				016FC4151404AA610096186D /* TUNinePatchCachingCategories.h in Headers */,
+				016FC4161404AA610096186D /* TUNinePatchCache.h in Headers */,
+				016FC4171404AA610096186D /* TUNinePatch.h in Headers */,
+				016FC4181404AA610096186D /* TUHorizontalNinePatch.h in Headers */,
+				016FC4191404AA610096186D /* TUFullNinePatch.h in Headers */,
+				016FC41A1404AA610096186D /* TUDebugLoggingAssistant.h in Headers */,
+				016FC41B1404AA610096186D /* TUCachingNinePatch.h in Headers */,
+				016FC41C1404AA610096186D /* Tools.h in Headers */,
+				016FC41D1404AA610096186D /* NinePatch.h in Headers */,
+				016FC41E1404AA610096186D /* FcTabUIComponent.h in Headers */,
+				016FC41F1404AA610096186D /* FcDrawing.h in Headers */,
+				016FC4201404AA610096186D /* FcMacro.h in Headers */,
+				01FB6739140C78C2002CDFD6 /* FcUIComponent.h in Headers */,
+				01FB673B140C78CA002CDFD6 /* FcPopWindows.h in Headers */,
+				0193B977140DD2FD0035BC0A /* StepView.h in Headers */,
+				0193B97D140DD2FD0035BC0A /* StepViewController.h in Headers */,
+				0193B983140DD2FD0035BC0A /* StepIcon.h in Headers */,
+				0193B9A1140DDABB0035BC0A /* FcTextField.h in Headers */,
+				01B46378140F84FB00CBEC43 /* ThreeContentViewController.h in Headers */,
+				01B4637F140F84FB00CBEC43 /* ContentView.h in Headers */,
+				01B46386140F84FB00CBEC43 /* FcContent1View.h in Headers */,
+				01B4638D140F84FB00CBEC43 /* FcContent2View.h in Headers */,
+				01B46394140F84FB00CBEC43 /* FcContent3View.h in Headers */,
+				01B4639B140F84FB00CBEC43 /* ContentXibView.h in Headers */,
+				01B463A2140F84FB00CBEC43 /* FcTableCellStyle1.h in Headers */,
+				01B463A9140F84FB00CBEC43 /* FcTableCellStyle2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C23684713F16CE90077EBC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C23688D13F16D130077EBC9 /* UIImage-TUNinePatch.h in Headers */,
+				0C23688F13F16D130077EBC9 /* TUVerticalNinePatch.h in Headers */,
+				0C23689013F16D130077EBC9 /* TUNinePatchProtocols.h in Headers */,
+				0C23689213F16D130077EBC9 /* TUNinePatchCachingCategories.h in Headers */,
+				0C23689413F16D130077EBC9 /* TUNinePatchCache.h in Headers */,
+				0C23689613F16D130077EBC9 /* TUNinePatch.h in Headers */,
+				0C23689813F16D130077EBC9 /* TUHorizontalNinePatch.h in Headers */,
+				0C23689A13F16D130077EBC9 /* TUFullNinePatch.h in Headers */,
+				0C23689C13F16D130077EBC9 /* TUDebugLoggingAssistant.h in Headers */,
+				0C23689E13F16D130077EBC9 /* TUCachingNinePatch.h in Headers */,
+				0C2368A013F16D130077EBC9 /* Tools.h in Headers */,
+				0C2368A113F16D130077EBC9 /* NinePatch.h in Headers */,
+				0C2368A313F16D130077EBC9 /* FcTabUIComponent.h in Headers */,
+				0C2368A513F16D130077EBC9 /* FcDrawing.h in Headers */,
+				0C2368A813F16D640077EBC9 /* FcMacro.h in Headers */,
+				01DA9E2D1407A57B0077A359 /* FcUIComponent.h in Headers */,
+				01DA9E381407A5E70077A359 /* FcPopWindows.h in Headers */,
+				0193B975140DD2FD0035BC0A /* StepView.h in Headers */,
+				0193B97B140DD2FD0035BC0A /* StepViewController.h in Headers */,
+				0193B981140DD2FD0035BC0A /* StepIcon.h in Headers */,
+				0193B9A2140DDABC0035BC0A /* FcTextField.h in Headers */,
+				01B46376140F84FB00CBEC43 /* ThreeContentViewController.h in Headers */,
+				01B4637D140F84FB00CBEC43 /* ContentView.h in Headers */,
+				01B46384140F84FB00CBEC43 /* FcContent1View.h in Headers */,
+				01B4638B140F84FB00CBEC43 /* FcContent2View.h in Headers */,
+				01B46392140F84FB00CBEC43 /* FcContent3View.h in Headers */,
+				01B46399140F84FB00CBEC43 /* ContentXibView.h in Headers */,
+				01B463A0140F84FB00CBEC43 /* FcTableCellStyle1.h in Headers */,
+				01B463A7140F84FB00CBEC43 /* FcTableCellStyle2.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		016FC3DC1404A9D30096186D /* FcUILib Device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016FC3FC1404A9D30096186D /* Build configuration list for PBXNativeTarget "FcUILib Device" */;
+			buildPhases = (
+				016FC3DD1404A9D30096186D /* Sources */,
+				016FC3EA1404A9D30096186D /* Frameworks */,
+				016FC3EC1404A9D30096186D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FcUILib Device";
+			productName = FcUILib;
+			productReference = 016FC3FF1404A9D30096186D /* libFcUILib Device.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		016FC4011404AA610096186D /* FcUILib Simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016FC4211404AA610096186D /* Build configuration list for PBXNativeTarget "FcUILib Simulator" */;
+			buildPhases = (
+				016FC4021404AA610096186D /* Sources */,
+				016FC40F1404AA610096186D /* Frameworks */,
+				016FC4111404AA610096186D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FcUILib Simulator";
+			productName = FcUILib;
+			productReference = 016FC4241404AA610096186D /* libFcUILib Simulator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0C23684813F16CE90077EBC9 /* FcUILib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C23686C13F16CE90077EBC9 /* Build configuration list for PBXNativeTarget "FcUILib" */;
+			buildPhases = (
+				0C23684513F16CE90077EBC9 /* Sources */,
+				0C23684613F16CE90077EBC9 /* Frameworks */,
+				0C23684713F16CE90077EBC9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FcUILib;
+			productName = FcUILib;
+			productReference = 0C23684913F16CE90077EBC9 /* libFcUILib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		0C23685513F16CE90077EBC9 /* FcUILibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C23686F13F16CE90077EBC9 /* Build configuration list for PBXNativeTarget "FcUILibTests" */;
+			buildPhases = (
+				0C23685113F16CE90077EBC9 /* Sources */,
+				0C23685213F16CE90077EBC9 /* Frameworks */,
+				0C23685313F16CE90077EBC9 /* Resources */,
+				0C23685413F16CE90077EBC9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C23685D13F16CE90077EBC9 /* PBXTargetDependency */,
+			);
+			name = FcUILibTests;
+			productName = FcUILibTests;
+			productReference = 0C23685613F16CE90077EBC9 /* FcUILibTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C23684013F16CE90077EBC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = foxconn;
+			};
+			buildConfigurationList = 0C23684313F16CE90077EBC9 /* Build configuration list for PBXProject "FcUILib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C23683E13F16CE90077EBC9;
+			productRefGroup = 0C23684A13F16CE90077EBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C23684813F16CE90077EBC9 /* FcUILib */,
+				0C23685513F16CE90077EBC9 /* FcUILibTests */,
+				016FC3DC1404A9D30096186D /* FcUILib Device */,
+				016FC4011404AA610096186D /* FcUILib Simulator */,
+				016FC4251404AAEC0096186D /* FcUILibUSL */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C23685313F16CE90077EBC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C23686413F16CE90077EBC9 /* InfoPlist.strings in Resources */,
+				0C23686713F16CE90077EBC9 /* FcUILibTests.h in Resources */,
+				0193B9E2140DE5460035BC0A /* menubg_frame.9.png in Resources */,
+				0193B9E3140DE5460035BC0A /* menubg_line.9.png in Resources */,
+				0193B9E4140DE5460035BC0A /* menubg_mask.9.png in Resources */,
+				0193B9E5140DE5460035BC0A /* menubg_material.png in Resources */,
+				01B463B1140F855D00CBEC43 /* ThreeContentViewController.xib in Resources */,
+				01B463BA140F857A00CBEC43 /* line_step1.9.png in Resources */,
+				01B463BB140F857A00CBEC43 /* btn_step1_orange_mask_1.png in Resources */,
+				01B463BC140F857A00CBEC43 /* btn_step1_orange_material.png in Resources */,
+				01B463BD140F857A00CBEC43 /* btn_step1_orangemask.9.png in Resources */,
+				01B463BE140F857A00CBEC43 /* btn_step1_orange_i.9.png in Resources */,
+				01B463BF140F857A00CBEC43 /* step1_frame.9.png in Resources */,
+				01B463C0140F857A00CBEC43 /* step1_mask.9.png in Resources */,
+				01B463C1140F857A00CBEC43 /* step1_material.png in Resources */,
+				01B463C9140F85A800CBEC43 /* line_step2.9.png in Resources */,
+				01B463CA140F85A800CBEC43 /* img_step3_line_triangle_mask.9.png in Resources */,
+				01B463CB140F85A800CBEC43 /* img_step3_line_triangle.png in Resources */,
+				01B463CC140F85A800CBEC43 /* step2_frame.9.png in Resources */,
+				01B463CD140F85A800CBEC43 /* step2_mask.9.png in Resources */,
+				01B463CE140F85A800CBEC43 /* step2_material.png in Resources */,
+				01B463D3140F867600CBEC43 /* bg_step3.9.png in Resources */,
+				01B463D4140F867600CBEC43 /* line_step3.9.png in Resources */,
+				01B463D5140F867600CBEC43 /* step3_white_line.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		016FC4291404C8C80096186D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "rm -rf ${BUILF_PRODUCTS_DIR}/../UniveraslStaticLib/libFcUILibUSL.a\n\nlipo -create \"${BUILT_PRODUCTS_DIR}/../Release-iphonesimulator/libFcUILibSimulator.a\" \\\n\"${BUILT_PRODUCTS_DIR}/libFcUILibDevice.a\" -output \\\n\"${BUILT_PRODUCTS_DIR}/libFcUILibUSL.a\"";
+		};
+		0C23685413F16CE90077EBC9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016FC3DD1404A9D30096186D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016FC3DE1404A9D30096186D /* UIImage-TUNinePatch.m in Sources */,
+				016FC3DF1404A9D30096186D /* TUVerticalNinePatch.m in Sources */,
+				016FC3E01404A9D30096186D /* TUNinePatchCachingCategories.m in Sources */,
+				016FC3E11404A9D30096186D /* TUNinePatchCache.m in Sources */,
+				016FC3E21404A9D30096186D /* TUNinePatch.m in Sources */,
+				016FC3E31404A9D30096186D /* TUHorizontalNinePatch.m in Sources */,
+				016FC3E41404A9D30096186D /* TUFullNinePatch.m in Sources */,
+				016FC3E51404A9D30096186D /* TUDebugLoggingAssistant.m in Sources */,
+				016FC3E61404A9D30096186D /* TUCachingNinePatch.m in Sources */,
+				016FC3E71404A9D30096186D /* Tools.m in Sources */,
+				016FC3E81404A9D30096186D /* FcTabUIComponent.m in Sources */,
+				016FC3E91404A9D30096186D /* FcDrawing.m in Sources */,
+				01FB673E140C79A1002CDFD6 /* FcUIComponent.m in Sources */,
+				01FB6740140C79AB002CDFD6 /* FcPopWindows.m in Sources */,
+				0193B979140DD2FD0035BC0A /* StepView.m in Sources */,
+				0193B97F140DD2FD0035BC0A /* StepViewController.m in Sources */,
+				0193B985140DD2FD0035BC0A /* StepIcon.m in Sources */,
+				0193B9A4140DDAC20035BC0A /* FcTextField.m in Sources */,
+				01B4637B140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */,
+				01B46382140F84FB00CBEC43 /* ContentView.m in Sources */,
+				01B46389140F84FB00CBEC43 /* FcContent1View.m in Sources */,
+				01B46390140F84FB00CBEC43 /* FcContent2View.m in Sources */,
+				01B46397140F84FB00CBEC43 /* FcContent3View.m in Sources */,
+				01B4639E140F84FB00CBEC43 /* ContentXibView.m in Sources */,
+				01B463A5140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */,
+				01B463AC140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		016FC4021404AA610096186D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016FC4031404AA610096186D /* UIImage-TUNinePatch.m in Sources */,
+				016FC4041404AA610096186D /* TUVerticalNinePatch.m in Sources */,
+				016FC4051404AA610096186D /* TUNinePatchCachingCategories.m in Sources */,
+				016FC4061404AA610096186D /* TUNinePatchCache.m in Sources */,
+				016FC4071404AA610096186D /* TUNinePatch.m in Sources */,
+				016FC4081404AA610096186D /* TUHorizontalNinePatch.m in Sources */,
+				016FC4091404AA610096186D /* TUFullNinePatch.m in Sources */,
+				016FC40A1404AA610096186D /* TUDebugLoggingAssistant.m in Sources */,
+				016FC40B1404AA610096186D /* TUCachingNinePatch.m in Sources */,
+				016FC40C1404AA610096186D /* Tools.m in Sources */,
+				016FC40D1404AA610096186D /* FcTabUIComponent.m in Sources */,
+				016FC40E1404AA610096186D /* FcDrawing.m in Sources */,
+				01FB673F140C79A2002CDFD6 /* FcUIComponent.m in Sources */,
+				01FB6741140C79AC002CDFD6 /* FcPopWindows.m in Sources */,
+				0193B97A140DD2FD0035BC0A /* StepView.m in Sources */,
+				0193B980140DD2FD0035BC0A /* StepViewController.m in Sources */,
+				0193B986140DD2FD0035BC0A /* StepIcon.m in Sources */,
+				0193B9A5140DDAC20035BC0A /* FcTextField.m in Sources */,
+				01B4637C140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */,
+				01B46383140F84FB00CBEC43 /* ContentView.m in Sources */,
+				01B4638A140F84FB00CBEC43 /* FcContent1View.m in Sources */,
+				01B46391140F84FB00CBEC43 /* FcContent2View.m in Sources */,
+				01B46398140F84FB00CBEC43 /* FcContent3View.m in Sources */,
+				01B4639F140F84FB00CBEC43 /* ContentXibView.m in Sources */,
+				01B463A6140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */,
+				01B463AD140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C23684513F16CE90077EBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C23688C13F16D130077EBC9 /* UIImage-TUNinePatch.m in Sources */,
+				0C23688E13F16D130077EBC9 /* TUVerticalNinePatch.m in Sources */,
+				0C23689113F16D130077EBC9 /* TUNinePatchCachingCategories.m in Sources */,
+				0C23689313F16D130077EBC9 /* TUNinePatchCache.m in Sources */,
+				0C23689513F16D130077EBC9 /* TUNinePatch.m in Sources */,
+				0C23689713F16D130077EBC9 /* TUHorizontalNinePatch.m in Sources */,
+				0C23689913F16D130077EBC9 /* TUFullNinePatch.m in Sources */,
+				0C23689B13F16D130077EBC9 /* TUDebugLoggingAssistant.m in Sources */,
+				0C23689D13F16D130077EBC9 /* TUCachingNinePatch.m in Sources */,
+				0C23689F13F16D130077EBC9 /* Tools.m in Sources */,
+				0C2368A213F16D130077EBC9 /* FcTabUIComponent.m in Sources */,
+				0C2368A413F16D130077EBC9 /* FcDrawing.m in Sources */,
+				01DA9E2E1407A57B0077A359 /* FcUIComponent.m in Sources */,
+				01DA9E391407A5E70077A359 /* FcPopWindows.m in Sources */,
+				0193B978140DD2FD0035BC0A /* StepView.m in Sources */,
+				0193B97E140DD2FD0035BC0A /* StepViewController.m in Sources */,
+				0193B984140DD2FD0035BC0A /* StepIcon.m in Sources */,
+				0193B9A3140DDAC10035BC0A /* FcTextField.m in Sources */,
+				01B46379140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */,
+				01B46380140F84FB00CBEC43 /* ContentView.m in Sources */,
+				01B46387140F84FB00CBEC43 /* FcContent1View.m in Sources */,
+				01B4638E140F84FB00CBEC43 /* FcContent2View.m in Sources */,
+				01B46395140F84FB00CBEC43 /* FcContent3View.m in Sources */,
+				01B4639C140F84FB00CBEC43 /* ContentXibView.m in Sources */,
+				01B463A3140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */,
+				01B463AA140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C23685113F16CE90077EBC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C23686913F16CE90077EBC9 /* FcUILibTests.m in Sources */,
+				01B4637A140F84FB00CBEC43 /* ThreeContentViewController.m in Sources */,
+				01B46381140F84FB00CBEC43 /* ContentView.m in Sources */,
+				01B46388140F84FB00CBEC43 /* FcContent1View.m in Sources */,
+				01B4638F140F84FB00CBEC43 /* FcContent2View.m in Sources */,
+				01B46396140F84FB00CBEC43 /* FcContent3View.m in Sources */,
+				01B4639D140F84FB00CBEC43 /* ContentXibView.m in Sources */,
+				01B463A4140F84FB00CBEC43 /* FcTableCellStyle1.m in Sources */,
+				01B463AB140F84FB00CBEC43 /* FcTableCellStyle2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C23685D13F16CE90077EBC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C23684813F16CE90077EBC9 /* FcUILib */;
+			targetProxy = 0C23685C13F16CE90077EBC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0C23686213F16CE90077EBC9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C23686313F16CE90077EBC9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016FC3FD1404A9D30096186D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FcUILib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILib/FcUILib-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = FcUILibDevice;
+			};
+			name = Debug;
+		};
+		016FC3FE1404A9D30096186D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FcUILib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILib/FcUILib-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = FcUILibDevice;
+			};
+			name = Release;
+		};
+		016FC4221404AA610096186D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FcUILib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILib/FcUILib-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = FcUILibSimulator;
+			};
+			name = Debug;
+		};
+		016FC4231404AA610096186D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FcUILib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILib/FcUILib-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = FcUILibSimulator;
+			};
+			name = Release;
+		};
+		016FC4271404AAEC0096186D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		016FC4281404AAEC0096186D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C23686A13F16CE90077EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C23686B13F16CE90077EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		0C23686D13F16CE90077EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FcUILib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILib/FcUILib-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C23686E13F16CE90077EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/FcUILib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILib/FcUILib-Prefix.pch";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0C23687013F16CE90077EBC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILibTests/FcUILibTests-Prefix.pch";
+				INFOPLIST_FILE = "FcUILibTests/FcUILibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0C23687113F16CE90077EBC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FcUILibTests/FcUILibTests-Prefix.pch";
+				INFOPLIST_FILE = "FcUILibTests/FcUILibTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016FC3FC1404A9D30096186D /* Build configuration list for PBXNativeTarget "FcUILib Device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016FC3FD1404A9D30096186D /* Debug */,
+				016FC3FE1404A9D30096186D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016FC4211404AA610096186D /* Build configuration list for PBXNativeTarget "FcUILib Simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016FC4221404AA610096186D /* Debug */,
+				016FC4231404AA610096186D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016FC4261404AAEC0096186D /* Build configuration list for PBXAggregateTarget "FcUILibUSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016FC4271404AAEC0096186D /* Debug */,
+				016FC4281404AAEC0096186D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C23684313F16CE90077EBC9 /* Build configuration list for PBXProject "FcUILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C23686A13F16CE90077EBC9 /* Debug */,
+				0C23686B13F16CE90077EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C23686C13F16CE90077EBC9 /* Build configuration list for PBXNativeTarget "FcUILib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C23686D13F16CE90077EBC9 /* Debug */,
+				0C23686E13F16CE90077EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C23686F13F16CE90077EBC9 /* Build configuration list for PBXNativeTarget "FcUILibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C23687013F16CE90077EBC9 /* Debug */,
+				0C23687113F16CE90077EBC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C23684013F16CE90077EBC9 /* Project object */;
+}

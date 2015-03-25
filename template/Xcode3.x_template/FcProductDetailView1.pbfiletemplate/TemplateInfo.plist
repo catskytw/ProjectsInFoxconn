@@ -1,0 +1,8 @@
+{
+	Description = "\U7522\U54c1\U8a73\U7d30\U5167\U5bb9. \U5305\U542b\U4e0b\U5217\U5167\U5bb9\Uff1a\n1.\U7522\U54c1\U5716\U7247\n2.\U7522\U54c1\U540d\U7a31\n3.\U4eba\U6c23\U5ea6(\U6295\U7968\U7387,\U5f97\U5206\U7a0b\U5ea6)\n4.\U8aaa\U660e\n\n\U9808\U4f7f\U7528Tools.\U88e1\U4e4b\U8a08\U7b97\U5b57\U4e32\U9577\U5ea6\U5927\U5c0f\U4e4b\U529f\U80fd.";
+	"ImplicitCounterpartTemplateFiles" = {
+		"FcProductDetailView1.xib" = "FcProductDetailView1.xib";
+		"FcProductDetailView1.h" = "FcProductDetailView1.h";
+		"FcProductDetailView1.m" = "FcProductDetailView1.m";
+	};
+}

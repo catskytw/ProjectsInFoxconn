@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/2011/!svn/ver/40/SpeakHere/Classes
+END
+NSData+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/2011/!svn/ver/40/SpeakHere/Classes/NSData+base64.h
+END
+brhist.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/2011/!svn/ver/40/SpeakHere/Classes/brhist.h
+END
+get_audio.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/40/SpeakHere/Classes/get_audio.c
+END
+misc.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/2011/!svn/ver/40/SpeakHere/Classes/misc.h
+END
+portableio.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/40/SpeakHere/Classes/portableio.c
+END
+SpeakHereController.mm
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/40/SpeakHere/Classes/SpeakHereController.mm
+END
+lametime.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/2011/!svn/ver/40/SpeakHere/Classes/lametime.h
+END
+timestatus.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/40/SpeakHere/Classes/timestatus.c
+END
+NSData+base64.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/2011/!svn/ver/40/SpeakHere/Classes/NSData+base64.m
+END
+AQPlayer.mm
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/40/SpeakHere/Classes/AQPlayer.mm
+END
+get_audio.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/40/SpeakHere/Classes/get_audio.h
+END
+portableio.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/40/SpeakHere/Classes/portableio.h
+END
+timestatus.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/40/SpeakHere/Classes/timestatus.h
+END
+SpeakHereAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/40/SpeakHere/Classes/SpeakHereAppDelegate.h
+END
+SpeakHereViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/40/SpeakHere/Classes/SpeakHereViewController.h
+END
+SpeakHereAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/40/SpeakHere/Classes/SpeakHereAppDelegate.m
+END
+AQRecorder.mm
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/2011/!svn/ver/40/SpeakHere/Classes/AQRecorder.mm
+END
+SpeakHereViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/40/SpeakHere/Classes/SpeakHereViewController.m
+END
+SpeakHereController.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/2011/!svn/ver/40/SpeakHere/Classes/SpeakHereController.h
+END
+AQPlayer.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/2011/!svn/ver/40/SpeakHere/Classes/AQPlayer.h
+END
+MeterTable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/2011/!svn/ver/40/SpeakHere/Classes/MeterTable.cpp
+END
+MeterTable.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/40/SpeakHere/Classes/MeterTable.h
+END
+brhist.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/2011/!svn/ver/40/SpeakHere/Classes/brhist.c
+END
+AQRecorder.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/40/SpeakHere/Classes/AQRecorder.h
+END
+lametime.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/2011/!svn/ver/40/SpeakHere/Classes/lametime.c
+END

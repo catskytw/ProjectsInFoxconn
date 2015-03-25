@@ -1,0 +1,33 @@
+//common
+"back"="返回";
+//首頁
+"tab_home"="Home";
+"tab_login"="登入";
+"accountInfo"="用戶資料";
+"registryHistory"="掛號紀錄";
+"sos"="SOS";
+<<<<<<< .mine
+"distanceCare"="遠距照護";
+"serviceIntro"="服務簡介";
+"register"="線上掛號";
+"cooperators"="合作機構";
+
+//合作機構
+=======
+//首頁
+"DistanceCare"="遠距照護";
+"ServiceIntro"="服務簡介";
+"Register"="線上掛號";
+"Cooperation"="合作機構";
+
+"back"="返回";
+"registerRec"="掛號紀錄";
+
+"Register_Hospital"="掛號院區";
+"Register_Time"="看診時間";
+"Register_AMPM"="崁診時段";
+"Register_Depart"="看診科別";
+"Register_Room"="看診診間";
+"Register_Doctor"="看診醫師";
+"Register_Number"="你的掛號";
+"Register_Progress"="目前進度";>>>>>>> .r194

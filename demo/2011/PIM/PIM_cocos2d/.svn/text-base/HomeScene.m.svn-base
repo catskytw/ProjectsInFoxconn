@@ -1,0 +1,32 @@
+//
+//  HomeScene.m
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/27.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import "HomeScene.h"
+#import "WheelDisk.h"
+#import "HelloWorldLayer.h"
+#import "FcConfig.h"
+#import "MaskLayer.h"
+#import "EventLayer.h"
+@implementation HomeScene
+-(id)init{
+    if((self=[super init])){
+        HelloWorldLayer *layer = [HelloWorldLayer node];
+        MaskLayer *maskLayer=[[MaskLayer node]retain];
+        [maskLayer addTimeMeter];
+        EventLayer *eventLayer=[EventLayer node];
+        [eventLayer test_Add_Event];
+        [self addChild: layer z:WheelLayer_NUM];
+        [self addChild: eventLayer z:EventLayer_NUM];
+        [self addChild: maskLayer z:MaskLayer_NUM];
+    }
+    return self;
+}
+-(void)dealloc{
+    [super dealloc];
+}
+@end
