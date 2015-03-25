@@ -1,0 +1,120 @@
+//
+//  EagleViewController.m
+//  FlowerGuide
+//
+//  Created by Liao Change on 9/13/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "EagleViewController.h"
+#import "MapIdxCtrl.h"
+#import "Vars.h"
+@implementation EagleViewController
+-(id)init{
+	if((self=[super initWithNowPosition:0])){
+	}
+	return self;
+}
+// The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:@"MapViewController" bundle:nibBundleOrNil]) {
+    }
+    return self;
+}
+-(void)viewDidLoad{
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+	[self baseViewControllerSetting];
+	[rightBtn setHidden:NO];
+	double scaleRate=0.45; //由美工製訂的倍率
+	MapIdxCtrl *regionIdxCtrl=featureCtrl.regionIdxCtrl;
+
+	CGRect eagleMapWorldRect=CGRectMake(regionIdxCtrl.startX, regionIdxCtrl.startY, regionIdxCtrl.cellColumn*regionIdxCtrl.cellWidth, regionIdxCtrl.cellHeight*regionIdxCtrl.cellRow+200);
+	
+	viewPortViewWidth=round(eagleMapWorldRect.size.width*scaleRate);
+	viewPortViewHeight=round(eagleMapWorldRect.size.height*scaleRate);
+	[thisMapDrawer release];
+	thisMapDrawer=[[MapDrawer alloc]initWithWorldRect:eagleMapWorldRect with3D:NO withMonitorWidth:viewPortViewWidth withMonitorHeight:viewPortViewHeight withFeatureCollection:featureCtrl withShortestPathArray:nil];
+	thisMapDrawer.isDrawTree=NO;
+
+	[self drawMap:eagleMapWorldRect]; 
+	UIImage *eagleMap=[[UIImage alloc]initWithCGImage:thisMapDrawer.mapImageRef];
+	[mapImageView setImage:eagleMap];
+	[mapImageView setFrame:CGRectMake(0, 0, viewPortViewWidth, viewPortViewHeight)];
+
+	UIScrollView *tmpScrollView=[[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, 320, 382)];
+	[tmpScrollView setContentSize:CGSizeMake(mapImageView.frame.size.width,mapImageView.frame.size.height)];
+	[tmpScrollView addSubview:mapImageView];
+	[viewPortView addSubview:tmpScrollView];
+	[eagleMap release];
+	[tmpScrollView release];
+	
+	[self resetRightBtn];
+#ifdef SHOWMEM
+	[ToolsFunction report_memory];
+#endif
+}
+-(void)drawPOIBtn{
+	[super drawPOIBtn];
+	for(MapFeature *thisFeature in thisMapDrawer.pointArray){
+		if(thisFeature.featureId==nowPosition){
+			UIImageView *personView=[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"mapui_icon_nowposition.png"]];
+			CGPoint thisLocation=[[thisFeature.drawingArray objectAtIndex:0]CGPointValue];
+			NSInteger btnX=thisLocation.x-20;
+			NSInteger btnY=(viewPortViewHeight-thisLocation.y)-48;
+			[personView setFrame:CGRectMake(btnX,btnY, personView.frame.size.width, personView.frame.size.height)];
+			[mapImageView addSubview:personView];
+			[personView release];
+			break;
+		}
+	}
+}
+-(void)resetRightBtn{
+	[rightBtn setBackgroundImage:[UIImage imageNamed:@"greenbarui_btn_back.png"] forState:UIControlStateNormal];
+	[rightBtn setBackgroundImage:[UIImage imageNamed:@"greenbarui_btn_back_i.png"] forState:UIControlStateHighlighted];
+	[rightBtn removeTarget:self action:@selector(runEagleView:) forControlEvents:UIControlEventTouchUpInside];
+	[rightBtn addTarget:self action:@selector(rightBtnAction:) forControlEvents:UIControlEventTouchUpInside];
+}
+-(void)prepareWalk:(NSInteger)startPointFeatureId withEndPointFeatureId:(NSInteger)endPointFeatureId{
+}
+-(void)startWalking{
+}
+-(void)stopWalking{
+}
+
+-(void)endWalking{
+}
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+    [super dealloc];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+	if(buttonIndex==0){
+		[self.navigationController popViewControllerAnimated:YES];
+		NSMutableDictionary *dataDic=[NSMutableDictionary dictionaryWithObject:[NSString stringWithFormat:@"%i",destPosition] forKey:@"destinationId"];
+		[[NSNotificationCenter defaultCenter]postNotificationName:MapDrawingNotificationName object:nil userInfo:dataDic];	
+	}
+}
+@end

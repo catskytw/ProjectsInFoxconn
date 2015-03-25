@@ -1,0 +1,2191 @@
+TTenKHorse
+v7
+r0
+t319519630.135606
+cCheck dependencies
+cProcessInfoPlistFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist TenKHorse-Info.plist
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/MainWindow.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/SecondView.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/FirstView.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.xib
+cCopyStringsFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/English.lproj/Localizable.strings English.lproj/Localizable.strings
+cCopyStringsFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/zh_TW.lproj/Localizable.strings zh_TW.lproj/Localizable.strings
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_button.png content_ui/content_ui_button.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_button_i.png content_ui/content_ui_button_i.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_limits.png content_ui/content_ui_limits.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_half.png content_ui/content_ui_star_half.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_off.png content_ui/content_ui_star_off.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_on.png content_ui/content_ui_star_on.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_title_bar.png content_ui/content_ui_title_bar.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar.png content_ui/content_ui_underbar.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/product_diary_brand_search.png "product_ diary/product_diary_brand_search.png"
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search.png "product_ diary/product_diary_set_search.png"
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search_i.png "product_ diary/product_diary_set_search_i.png"
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_110X110.png product_img/110X110/casico_pillow_110X110.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_250x250.png product_img/250X250/casico_pillow_250x250.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_45x45.png product_img/46X46/casico_pillow_45x45.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary_i.png content_ui_underbar_diary_i.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary.png content_ui_underbar_diary.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login_i.png content_ui_underbar_login_i.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login.png content_ui_underbar_login.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member_i.png content_ui_underbar_member_i.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member.png content_ui_underbar_member.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales_i.png content_ui_underbar_sales_i.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales.png content_ui_underbar_sales.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_page_off.png content_ui/content_ui_page_off.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_page_on.png content_ui/content_ui_page_on.png
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.xib
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/contentui_btn_commons_push.9.png contentui_btn_commons_push.9.png
+cCpResource build/Debug-iphonesimulator/TenKHorse.app/amendedNinePatchSolidBorder.9.png amendedNinePatchSolidBorder.9.png
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch.gch TenKHorse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/LocalizationSystem.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/Tools.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcTabBarItem.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPageController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionListCell1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionTemplate1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/PopWindows1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FourViewController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse normal i386
+cGenerateDSYMFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+cTouch /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
+c000000004CC121DB00000000000004FE
+t1287725531
+s1278
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.h
+c000000004D3CF78100000000000004DF
+t1295841153
+s1247
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.m
+c000000004D3D18E30000000000001681
+t1295849699
+s5761
+i"FcCatalogTemplate1.h"
+i"FcProductListView1.h"
+i"FcCategorySelectionView1.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.xib
+c000000004D3D0CBB000000000000A8D9
+t1295846587
+s43225
+
+N/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.h
+c000000004D3CF7810000000000000325
+t1295841153
+s805
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.m
+c000000004D3CF7810000000000000518
+t1295841153
+s1304
+i"FcCategorySelectionView1.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.xib
+c000000004D3CED9A0000000000007B49
+t1295838618
+s31561
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.h
+c000000004D3CF7810000000000000216
+t1295841153
+s534
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.m
+c000000004D3CF781000000000000010E
+t1295841153
+s270
+i"FcProductButtonView1.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.xib
+c000000004D3CEDB3000000000000630F
+t1295838643
+s25359
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.h
+c000000004D3CF7810000000000000378
+t1295841153
+s888
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.m
+c000000004D3CF781000000000000055E
+t1295841153
+s1374
+i"FcProductDetailView1.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.xib
+c000000004D3CEDA700000000000092A4
+t1295838631
+s37540
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductListView1.h
+c000000004D3CF7810000000000000130
+t1295841153
+s304
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/FcProductListView1.m
+c000000004D3CF78100000000000008E0
+t1295841153
+s2272
+i"FcProductListView1.h"
+i"FcProductButtonView1.h"
+i"FcProductDetailView1.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/FirstViewController.h
+c000000004D3CF71700000000000000E2
+t1295841047
+s226
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/FirstViewController.m
+c000000004D3CF7170000000000000393
+t1295841047
+s915
+i"FirstViewController.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/ProductListView.h
+c000000004D3CF781000000000000012B
+t1295841153
+s299
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"FcCatalogTemplate1.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/ProductListView.m
+c000000004D3CF781000000000000011A
+t1295841153
+s282
+i"ProductListView.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/SecondViewController.h
+c000000004D3CF71700000000000000E4
+t1295841047
+s228
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/SecondViewController.m
+c000000004D3CF7170000000000000396
+t1295841047
+s918
+i"SecondViewController.h"
+
+N/Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.h
+c000000004D3CF71700000000000001D5
+t1295841047
+s469
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.m
+c000000004D3CF7170000000000000927
+t1295841047
+s2343
+i"TenKHorseAppDelegate.h"
+
+N/Users/change/Desktop/TenKHorse/FirstView.xib
+c000000004D3CF717000000000000561F
+t1295841047
+s22047
+
+N/Users/change/Desktop/TenKHorse/MainWindow.xib
+c000000004D3D172E00000000000087FB
+t1295849262
+s34811
+
+N/Users/change/Desktop/TenKHorse/SecondView.xib
+c000000004D3CF7170000000000005C4B
+t1295841047
+s23627
+
+N/Users/change/Desktop/TenKHorse/TenKHorse_Prefix.pch
+c000000004D3CF71700000000000000BB
+t1295841047
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+t1295849265
+s408
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM
+t1295849208
+s102
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCatalogTemplate1.nib
+t1295846594
+s3700
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCategorySelectionView1.nib
+t1295841621
+s2581
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductButtonView1.nib
+t1295841621
+s2166
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductDetailView1.nib
+t1295841621
+s3818
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FirstView.nib
+t1295841621
+s1854
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist
+t1295841620
+s806
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/MainWindow.nib
+t1295849265
+s1831
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/PkgInfo
+t1295841620
+s8
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/SecondView.nib
+t1295841620
+s1928
+
+N/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+t1295849208
+s58216
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o
+t1295849208
+s65132
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o
+t1295841623
+s50364
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o
+t1295841623
+s40576
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o
+t1295841623
+s52160
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o
+t1295841623
+s45128
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o
+t1295841623
+s37972
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o
+t1295841623
+s36768
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o
+t1295841623
+s37996
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorse.LinkFileList
+c000000004D3CF9540000000000000530
+t1295841620
+s1328
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o
+t1295841623
+s53628
+
+N/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o
+t1295841623
+s6288
+
+N/Users/change/Desktop/TenKHorse/libFoxconnQueryLib.a
+c000000004D11DBFA0000000000030F78
+t1293016058
+s200568
+
+N/Users/change/Desktop/TenKHorse/main.m
+c000000004D3CF717000000000000015D
+t1295841047
+s349
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/tortuga22-Tortuga22-NinePatch-fbb57e4/tortuga22-Tortuga22-NinePatch-fbb57e4/xcode/NinePatch/build/Debug-iphonesimulator/libNinePatch.a
+c000000004D5A6AE40000000000047768
+t1297771236
+s292712
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Configure.h
+c000000004D5B40A000000000000007BC
+t1297825952
+s1980
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.h
+c000000004D40CEA50000000000000640
+t1296092837
+s1600
+i<UIKit/UIKit.h>
+i"QueryPattern.h"
+i"FcPageController.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m
+c000000004D5B37EE0000000000003221
+t1297823726
+s12833
+i"FcCatalogTemplate1.h"
+i"FcProductListView1.h"
+i"FcCategorySelectionView1.h"
+i"QueryPattern.h"
+i"Configure.h"
+i"LocalizationSystem.h"
+i"FcTabBarItem.h"
+i"Tools.h"
+i"TUNinePatch.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.xib
+c000000004D5952A6000000000000B6B7
+t1297699494
+s46775
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.h
+c000000004D3E692A00000000000003F5
+t1295935786
+s1013
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m
+c000000004D4257320000000000001AD2
+t1296193330
+s6866
+i"FcCategorySelectionView1.h"
+i"QueryPattern.h"
+i"Configure.h"
+i"LocalizationSystem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.xib
+c000000004D3EEE470000000000007E34
+t1295969863
+s32308
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.h
+c000000004D3FECB30000000000000191
+t1296034995
+s401
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m
+c000000004D3FFB4D000000000000069E
+t1296038733
+s1694
+i"FcPageController.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.h
+c000000004D3E73470000000000000214
+t1295938375
+s532
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m
+c000000004D3E7350000000000000010D
+t1295938384
+s269
+i"FcProductButtonView1.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.xib
+c000000004D4285400000000000006578
+t1296205120
+s25976
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.h
+c000000004D5B43F70000000000000566
+t1297826807
+s1382
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m
+c000000004D5B4402000000000000156D
+t1297826818
+s5485
+i"FcProductDetailView1.h"
+i"LocalizationSystem.h"
+i"Configure.h"
+i"Tools.h"
+i"QueryPattern.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.xib
+c000000004D5B402C000000000000CA1A
+t1297825836
+s51738
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.h
+c000000004D42264200000000000001CA
+t1296180802
+s458
+i<UIKit/UIKit.h>
+i"QueryPattern.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m
+c000000004D5B42C20000000000001524
+t1297826498
+s5412
+i"FcProductListView1.h"
+i"FcProductButtonView1.h"
+i"FcProductDetailView1.h"
+i"QueryPattern.h"
+i"Configure.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.h
+c000000004D592E2B00000000000001F4
+t1297690155
+s500
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m
+c000000004D592E3500000000000002BE
+t1297690165
+s702
+i"FcPromotionListCell1.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.xib
+c000000004D427B920000000000005D9E
+t1296202642
+s23966
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.h
+c000000004D42789A00000000000005D8
+t1296201882
+s1496
+i<UIKit/UIKit.h>
+i"QueryPattern.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m
+c000000004D5957FF0000000000002EAF
+t1297700863
+s11951
+i"FcPromotionTemplate1.h"
+i"FcProductListView1.h"
+i"FcPromotionListCell1.h"
+i"PopWindows1.h"
+i"Configure.h"
+i"LocalizationSystem.h"
+i"FcTabBarItem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.xib
+c000000004D423E4B000000000000B235
+t1296186955
+s45621
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.h
+c000000004D3F8CB00000000000000193
+t1296010416
+s403
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m
+c000000004D3F8CB9000000000000022F
+t1296010425
+s559
+i"FcTabBarItem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.h
+c000000004D3CF71700000000000000E2
+t1295841047
+s226
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m
+c000000004D5956A200000000000004EC
+t1297700514
+s1260
+i"FirstViewController.h"
+i"FcTabBarItem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.h
+c000000004D59EE1700000000000000E0
+t1297739287
+s224
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m
+c000000004D5A33F600000000000006F0
+t1297757174
+s1776
+i"FourViewController.h"
+i"FcTabBarItem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.h
+c000000004BE660FC0000000000000438
+t1273389308
+s1080
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m
+c000000004BE660FC00000000000009CA
+t1273389308
+s2506
+i"LocalizationSystem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.h
+c000000004D5A5E2000000000000001EA
+t1297767968
+s490
+i<UIKit/UIKit.h>
+i"TUNinePatch.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.m
+c000000004D5A693C0000000000000541
+t1297770812
+s1345
+i"NPNinePatchBackedView.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.h
+c000000004D593EE40000000000000439
+t1297694436
+s1081
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m
+c000000004D5947B30000000000001228
+t1297696691
+s4648
+i"PopWindows1.h"
+i"LocalizationSystem.h"
+i"Tools.h"
+i"QueryPattern.h"
+i"Configure.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.xib
+c000000004D5938F4000000000000980A
+t1297692916
+s38922
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.h
+c000000004D3CF781000000000000012B
+t1295841153
+s299
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"FcCatalogTemplate1.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m
+c000000004D3CF781000000000000011A
+t1295841153
+s282
+i"ProductListView.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/QueryPattern.h
+c000000004D3FDB330000000000000A58
+t1296030515
+s2648
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.h
+c000000004D3CF71700000000000000E4
+t1295841047
+s228
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m
+c000000004D59562A00000000000004EE
+t1297700394
+s1262
+i"SecondViewController.h"
+i"FcTabBarItem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TUNinePatch.h
+c000000004D452122000000000000194F
+t1296376098
+s6479
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<CoreGraphics/CoreGraphics.h>
+i"TUNinePatchProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TUNinePatchCache.h
+c000000004D452122000000000000132C
+t1296376098
+s4908
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"TUNinePatchProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TUNinePatchProtocols.h
+c000000004D4521220000000000001627
+t1296376098
+s5671
+i<UIKit/UIKit.h>
+i<CoreGraphics/CoreGraphics.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.h
+c000000004D3CF71700000000000001D5
+t1295841047
+s469
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m
+c000000004D595A340000000000000988
+t1297701428
+s2440
+i"TenKHorseAppDelegate.h"
+i"LocalizationSystem.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.h
+c000000004D4283200000000000000187
+t1296204576
+s391
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m
+c000000004D4282FE00000000000002CE
+t1296204542
+s718
+i"Tools.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/UIImage-TUNinePatch.h
+c000000004D4521220000000000000997
+t1296376098
+s2455
+i<UIKit/UIKit.h>
+i<CoreGraphics/CoreGraphics.h>
+i"TUNinePatchProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/English.lproj/Localizable.strings
+c000000004D3E8D740000000000000084
+t1295945076
+s132
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/FirstView.xib
+c000000004D59546F0000000000005247
+t1297699951
+s21063
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Localizable.strings
+c000000004D3E8D740000000000000084
+t1295945076
+s132
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/MainWindow.xib
+c000000004D59EE8F000000000000AEEB
+t1297739407
+s44779
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/SecondView.xib
+c000000004D59544D0000000000005929
+t1297699917
+s22825
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/TenKHorse_Prefix.pch
+c000000004D3CF71700000000000000BB
+t1295841047
+s187
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/amendedNinePatchSolidBorder.9.png
+c000000004D452122000000000000031B
+t1296376098
+s795
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/blackbarui_btn_home_i 拷貝.png
+c000000004CD215690000000000000F1D
+t1288836457
+s3869
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+t1297826830
+s1462
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM
+t1297826830
+s102
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/English.lproj/Localizable.strings
+t1297826827
+s42
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCatalogTemplate1.nib
+t1297826827
+s3973
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCategorySelectionView1.nib
+t1297826826
+s2680
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductButtonView1.nib
+t1297826826
+s2235
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductDetailView1.nib
+t1297826826
+s4469
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcPromotionListCell1.nib
+t1297826827
+s2709
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcPromotionTemplate1.nib
+t1297826828
+s4000
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FirstView.nib
+t1297826826
+s1846
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist
+t1297826825
+s806
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Localizable.strings
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/MainWindow.nib
+t1297826825
+s2343
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/PkgInfo
+t1297826825
+s8
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/PopWindows1.nib
+t1297826828
+s3402
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/SecondView.nib
+t1297826825
+s1926
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+t1297826830
+s196412
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Thumbs.db
+t1296096163
+s15872
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/amendedNinePatchSolidBorder.9.png
+t1297826828
+s795
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/blackbarui_btn_home_i 拷貝.png
+t2
+s0
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_110X110.png
+t1297826827
+s18080
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_250x250.png
+t1297826827
+s64610
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_45x45.png
+t1297826827
+s6876
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png
+t1295965927
+s6876
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_button.png
+t1297826827
+s4794
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_button_i.png
+t1297826827
+s5116
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_limits.png
+t1297826827
+s258
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_page_off.png
+t1297826827
+s3038
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_page_on.png
+t1297826827
+s3038
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_half.png
+t1297826827
+s3195
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_off.png
+t1297826827
+s3049
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_on.png
+t1297826827
+s3203
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_title_bar.png
+t1297826827
+s388
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar.png
+t1297826827
+s58802
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary.png
+t1297826827
+s3740
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary_i.png
+t1297826827
+s3749
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login.png
+t1297826827
+s3213
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login_i.png
+t1297826827
+s3217
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member.png
+t1297826827
+s3544
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member_i.png
+t1297826827
+s3586
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales.png
+t1297826827
+s3767
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales_i.png
+t1297826827
+s3714
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/contentui_btn_commons_push.9.png
+t1297826828
+s2422
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/product_diary_brand_search.png
+t1297826827
+s3874
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search.png
+t1297826827
+s4782
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search_i.png
+t1297826827
+s5119
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/testBarIcon.png
+t1296007518
+s3869
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/zh_TW.lproj/Localizable.strings
+t1297826827
+s654
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o
+t1297826829
+s94052
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o
+t1297826829
+s72364
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPageController.o
+t1297826829
+s46056
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o
+t1297826829
+s40624
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o
+t1297826829
+s73452
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o
+t1297826829
+s55936
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionListCell1.o
+t1297826829
+s43292
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionTemplate1.o
+t1297826830
+s92620
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcTabBarItem.o
+t1297826829
+s40356
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o
+t1297826829
+s40552
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FourViewController.o
+t1297826830
+s40728
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/LocalizationSystem.o
+t1297826829
+s14676
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/NPNinePatchBackedView.o
+t1297771245
+s42128
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/PopWindows1.o
+t1297826829
+s67392
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o
+t1297826829
+s37244
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o
+t1297826829
+s40580
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorse.LinkFileList
+c000000004D5B44090000000000000B4A
+t1297826825
+s2890
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o
+t1297826829
+s54804
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/Tools.o
+t1297826829
+s9216
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o
+t1297826829
+s6348
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/Thumbs.db
+c000000004D3D54820000000000003E00
+t1295864962
+s15872
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_button.png
+c000000004D3CCC6600000000000012BA
+t1295830118
+s4794
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_button_i.png
+c000000004D3CCC8000000000000013FC
+t1295830144
+s5116
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_limits.png
+c000000004D3CCA720000000000000102
+t1295829618
+s258
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_page_off.png
+c000000004D3FE8320000000000000BDE
+t1296033842
+s3038
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_page_on.png
+c000000004D3FE82E0000000000000BDE
+t1296033838
+s3038
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_half.png
+c000000004D3E2A6C0000000000000C7B
+t1295919724
+s3195
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_off.png
+c000000004D3E2A460000000000000BE9
+t1295919686
+s3049
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_on.png
+c000000004D3E2A300000000000000C83
+t1295919664
+s3203
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_title_bar.png
+c000000004D3D54840000000000000184
+t1295864964
+s388
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar.png
+c000000004D3CCE68000000000000E5B2
+t1295830632
+s58802
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_diary.png
+c000000004D3CCDAA00000000000016E4
+t1295830442
+s5860
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_login.png
+c000000004D3CCE300000000000000F21
+t1295830576
+s3873
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_member.png
+c000000004D3CCDFC000000000000158A
+t1295830524
+s5514
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_sales.png
+c000000004D3CCD680000000000001537
+t1295830376
+s5431
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_diary.png
+c000000004D3F94700000000000000E9C
+t1296012400
+s3740
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_diary_i.png
+c000000004D3F94960000000000000EA5
+t1296012438
+s3749
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_login.png
+c000000004D3F950C0000000000000C8D
+t1296012556
+s3213
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_login_i.png
+c000000004D3F95320000000000000C91
+t1296012594
+s3217
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_member.png
+c000000004D3F94C40000000000000DD8
+t1296012484
+s3544
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_member_i.png
+c000000004D3F94E80000000000000E02
+t1296012520
+s3586
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_sales.png
+c000000004D3F93B80000000000000EB7
+t1296012216
+s3767
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_sales_i.png
+c000000004D3F942A0000000000000E82
+t1296012330
+s3714
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/contentui_btn_commons_push.9.png
+c000000004D5A1AB20000000000000976
+t1297750706
+s2422
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/libFoxconnQueryLib.a
+c000000004D42706C0000000000034120
+t1296199788
+s213280
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/libNinePatch.a
+c000000004D5B191B0000000000047768
+t1297815835
+s292712
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m
+c000000004D3CF717000000000000015D
+t1295841047
+s349
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_brand_search.png
+c000000004D3CC9A40000000000000F22
+t1295829412
+s3874
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_set_search.png
+c000000004D3E295000000000000012AE
+t1295919440
+s4782
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_set_search_i.png
+c000000004D3E297000000000000013FF
+t1295919472
+s5119
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/110X110/casico_pillow_110X110.png
+c000000004D3CCB8A00000000000046A0
+t1295829898
+s18080
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/110X110/casico_pillow_a11111.png
+c000000004D3CCB8A00000000000046A0
+t1295829898
+s18080
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/250X250/casico_pillow_250x250.png
+c000000004D3E2AF0000000000000FC62
+t1295919856
+s64610
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/250X250/casico_pillow_a11111.png
+c000000004D3E2AF0000000000000FC62
+t1295919856
+s64610
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/46X46/casico_pillow_45x45.png
+c000000004D3CD0760000000000001ADC
+t1295831158
+s6876
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/46X46/casico_pillow_a11111.png
+c000000004D3CD0760000000000001ADC
+t1295831158
+s6876
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/testBarIcon.png
+c000000004CD215690000000000000F1D
+t1288836457
+s3869
+
+N/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/zh_TW.lproj/Localizable.strings
+c000000004D5951DD000000000000034C
+t1297699293
+s844
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch.gch
+t1295841623
+s15453392
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch.gch
+t1297826828
+s15453392
+
+NTenKHorse-Info.plist
+c000000004D3CF71700000000000004D6
+t1295841047
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319519625#319519625#0(0"0(0#1#0"8623967104#0"0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o /Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317542007.933057
+e317542008.123477
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o
+x/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.m317542007#317542008#0(0"0(0#0#60"/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.m8603316864#1913"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.349429
+e319519629.610140
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m319519629#319519629#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m8607230080#2232"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCatalogTemplate1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o /Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.250165
+e317534423.344449
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o
+x/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.m317534423#317534423#0(0"0(0#0#66"/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.m8603106400#1925"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.177537
+e319519629.349328
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@103"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m319519629#319519629#0(0"0(0#0#95"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m8623116320#2244"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcCategorySelectionView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPageController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.689112
+e319519629.797179
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPageController.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m319519629#319519629#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m8622550272#2228"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPageController.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPageController.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o /Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.498457
+e317534423.568405
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o
+x/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.m317534423#317534423#0(0"0(0#0#62"/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.m8605944384#1917"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.475662
+e319519629.550958
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m319519629#319519629#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m8624209376#2236"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductButtonView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o /Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.305737
+e317534423.415850
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o
+x/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.m317534423#317534423#0(0"0(0#0#62"/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.m8600661056#1917"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.200575
+e319519629.373691
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m319519629#319519629#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m8622367680#2236"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductDetailView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o /Users/change/Desktop/TenKHorse/Classes/FcProductListView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.415956
+e317534423.516993
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o
+x/Users/change/Desktop/TenKHorse/Classes/FcProductListView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/change/Desktop/TenKHorse/Classes/FcProductListView1.m317534423#317534423#0(0"0(0#0#60"/Users/change/Desktop/TenKHorse/Classes/FcProductListView1.m8602254368#1913"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/FcProductListView1.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.373800
+e319519629.475541
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m: In function '-[FcProductListView1 buttonSelectedAction:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: 'FcProductDetailView1' may not respond to '-tuneLayout'
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: (Messages without a matching method signature
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: will be assumed to return 'id' and accept
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: '...' as arguments.)
+lSLF07#2@97"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m319519629#319519629#0(727"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m: In function '-[FcProductListView1 buttonSelectedAction:]':/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: 'FcProductDetailView1' may not respond to '-tuneLayout'/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: (Messages without a matching method signature/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: will be assumed to return 'id' and accept/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m:68: warning: '...' as arguments.)2(22@55"'FcProductDetailView1' may not respond to '-tuneLayout'319519629#132#141#0(6@89"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m319519298#68#0#68#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)319519629#273#131#0(6@89"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m319519298#68#0#68#0#0"0(0#0#89"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m8625124768#2232"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductListView1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcProductListView1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionListCell1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.694022
+e319519629.795667
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionListCell1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m319519629#319519629#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m8621973088#2236"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionListCell1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionTemplate1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.795777
+e319519630.029706
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionTemplate1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 reloadProductData:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:60: warning: unused variable 'dataDic'
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 brandAction:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:91: warning: unused variable 'btn'
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 leftBtnAction:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:98: warning: unused variable 'btn'
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 middleBtnAction:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:105: warning: unused variable 'btn'
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 rightBtnAction:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:112: warning: unused variable 'btn'
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m319519629#319519630#0(1381"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 reloadProductData:]':/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:60: warning: unused variable 'dataDic'/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 brandAction:]':/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:91: warning: unused variable 'btn'/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 leftBtnAction:]':/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:98: warning: unused variable 'btn'/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 middleBtnAction:]':/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:105: warning: unused variable 'btn'/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m: In function '-[FcPromotionTemplate1 rightBtnAction:]':/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m:112: warning: unused variable 'btn'5(22@25"Unused variable 'dataDic'319519629#133#113#0(6@91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m319393663#60#0#60#0#19"unused variable '*'0(22@21"Unused variable 'btn'319519629#373#109#0(6@91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m319393663#91#0#91#0#19"unused variable '*'0(22@21"Unused variable 'btn'319519629#611#109#0(6@91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m319393663#98#0#98#0#19"unused variable '*'0(22@21"Unused variable 'btn'319519629#851#110#0(6@91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m319393663#105#0#105#0#19"unused variable '*'0(22@21"Unused variable 'btn'319519629#1091#110#0(6@91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m319393663#112#0#112#0#19"unused variable '*'0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m8621057920#2236"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcPromotionTemplate1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcTabBarItem.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.620134
+e319519629.693905
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcTabBarItem.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@91"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m319519629#319519629#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m8623203136#2220"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcTabBarItem.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FcTabBarItem.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o /Users/change/Desktop/TenKHorse/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.145147
+e317534423.226438
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o
+x/Users/change/Desktop/TenKHorse/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/change/Desktop/TenKHorse/Classes/FirstViewController.m317534423#317534423#0(0"0(0#0#61"/Users/change/Desktop/TenKHorse/Classes/FirstViewController.m8606162880#1915"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/FirstViewController.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.032097
+e319519629.110731
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@98"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m319519629#319519629#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m8621763040#2234"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FirstViewController.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FirstViewController.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FourViewController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.926863
+e319519630.005295
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FourViewController.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m319519629#319519630#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m8625544640#2232"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FourViewController.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/FourViewController.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/LocalizationSystem.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.551055
+e319519629.620028
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/LocalizationSystem.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@97"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m319519629#319519629#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m8624729440#2232"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/LocalizationSystem.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/LocalizationSystem.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/NPNinePatchBackedView.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319464044.934842
+e319464045.028048
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/NPNinePatchBackedView.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@100"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.m319464044#319464045#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.m8626026048#2238"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/NPNinePatchBackedView.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/NPNinePatchBackedView.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/PopWindows1.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.797266
+e319519629.926764
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/PopWindows1.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@90"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m319519629#319519630#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m8620858560#2218"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/PopWindows1.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o /Users/change/Desktop/TenKHorse/Classes/ProductListView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.226561
+e317534423.305632
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o
+x/Users/change/Desktop/TenKHorse/Classes/ProductListView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/change/Desktop/TenKHorse/Classes/ProductListView.m317534423#317534423#0(0"0(0#0#57"/Users/change/Desktop/TenKHorse/Classes/ProductListView.m8604187904#1907"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/ProductListView.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.110836
+e319519629.200468
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@94"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m319519629#319519629#0(0"0(0#0#86"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m8624175104#2226"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/ProductListView.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/ProductListView.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o /Users/change/Desktop/TenKHorse/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.176890
+e317534423.250054
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o
+x/Users/change/Desktop/TenKHorse/Classes/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/change/Desktop/TenKHorse/Classes/SecondViewController.m317534423#317534423#0(0"0(0#0#62"/Users/change/Desktop/TenKHorse/Classes/SecondViewController.m8605401600#1917"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/SecondViewController.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.077636
+e319519629.177432
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m319519629#319519629#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m8624715680#2236"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/SecondViewController.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/SecondViewController.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o /Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.089374
+e317534423.176790
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o
+x/Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.m317534423#317534423#0(0"0(0#0#62"/Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.m8603705600#1917"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/Classes/TenKHorseAppDelegate.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519628.973031
+e319519629.077526
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m319519628#319519629#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m8622347424#2236"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/TenKHorseAppDelegate.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorseAppDelegate.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/Tools.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519629.610249
+e319519629.689006
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/Tools.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m319519629#319519629#0(0"0(0#0#76"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m8623699840#2206"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/Tools.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/Tools.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o /Users/change/Desktop/TenKHorse/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534423.088065
+e317534423.145005
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/TenKHorse/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/change/Desktop/TenKHorse/main.m317534423#317534423#0(0"0(0#0#38"/Users/change/Desktop/TenKHorse/main.m8605448544#1877"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch -c /Users/change/Desktop/TenKHorse/main.m -o /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o0#
+
+CCompileC build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519628.971604
+e319519629.031986
+r1
+xCompileC
+xbuild/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m319519628#319519629#0(0"0(0#0#67"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m8622736416#2196"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/main.m -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.xib
+s317539393.825252
+e317539394.333289
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.xib
+lSLF07#2@41"CompileXIB Classes/FcCatalogTemplate1.xib317539393#317539394#0(0"0(0#0#62"/Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.xib8604979040#575"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCatalogTemplate1.nib /Users/change/Desktop/TenKHorse/Classes/FcCatalogTemplate1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.xib
+s317534421.113781
+e317534421.629043
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.xib
+lSLF07#2@47"CompileXIB Classes/FcCategorySelectionView1.xib317534421#317534421#0(0"0(0#0#68"/Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.xib8602409088#587"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCategorySelectionView1.nib /Users/change/Desktop/TenKHorse/Classes/FcCategorySelectionView1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.xib
+s317534421.206200
+e317534421.710651
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.xib
+lSLF07#2@43"CompileXIB Classes/FcProductButtonView1.xib317534421#317534421#0(0"0(0#0#64"/Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.xib8602159072#579"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductButtonView1.nib /Users/change/Desktop/TenKHorse/Classes/FcProductButtonView1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.xib
+s317534420.636684
+e317534421.206108
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.xib
+lSLF07#2@43"CompileXIB Classes/FcProductDetailView1.xib317534420#317534421#0(0"0(0#0#64"/Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.xib8603539872#579"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductDetailView1.nib /Users/change/Desktop/TenKHorse/Classes/FcProductDetailView1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/FirstView.xib
+s317534420.629716
+e317534421.113685
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib317534420#317534421#0(0"0(0#0#45"/Users/change/Desktop/TenKHorse/FirstView.xib8603936608#549"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FirstView.nib /Users/change/Desktop/TenKHorse/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/MainWindow.xib
+s317542064.726998
+e317542065.137269
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib317542064#317542065#0(0"0(0#0#46"/Users/change/Desktop/TenKHorse/MainWindow.xib8606294944#551"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/MainWindow.nib /Users/change/Desktop/TenKHorse/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/TenKHorse/SecondView.xib
+s317534420.016494
+e317534420.636576
+r1
+xCompileXIB
+x/Users/change/Desktop/TenKHorse/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib317534420#317534420#0(0"0(0#0#46"/Users/change/Desktop/TenKHorse/SecondView.xib8605754752#551"    cd /Users/change/Desktop/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/SecondView.nib /Users/change/Desktop/TenKHorse/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.xib
+s319519626.871169
+e319519627.545068
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.xib
+lSLF07#2@41"CompileXIB Classes/FcCatalogTemplate1.xib319519626#319519627#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.xib8624345952#662"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCatalogTemplate1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCatalogTemplate1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.xib
+s319519626.278343
+e319519626.871003
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.xib
+lSLF07#2@47"CompileXIB Classes/FcCategorySelectionView1.xib319519626#319519626#0(0"0(0#0#97"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.xib8603782112#674"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcCategorySelectionView1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcCategorySelectionView1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.xib
+s319519626.441306
+e319519627.027554
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.xib
+lSLF07#2@43"CompileXIB Classes/FcProductButtonView1.xib319519626#319519627#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.xib8602865344#666"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductButtonView1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductButtonView1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.xib
+s319519625.835698
+e319519626.441216
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.xib
+lSLF07#2@43"CompileXIB Classes/FcProductDetailView1.xib319519625#319519626#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.xib8607680448#666"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcProductDetailView1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcProductDetailView1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.xib
+s319519627.162303
+e319519627.646084
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.xib
+lSLF07#2@43"CompileXIB Classes/FcPromotionListCell1.xib319519627#319519627#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.xib8621328576#666"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcPromotionListCell1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionListCell1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.xib
+s319519627.545162
+e319519628.104212
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.xib
+lSLF07#2@43"CompileXIB Classes/FcPromotionTemplate1.xib319519627#319519628#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.xib8624616768#666"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FcPromotionTemplate1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/FcPromotionTemplate1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.xib
+s319519627.646178
+e319519628.184453
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.xib
+lSLF07#2@34"CompileXIB Classes/PopWindows1.xib319519627#319519628#0(0"0(0#0#84"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.xib8624356352#648"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/PopWindows1.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/Classes/PopWindows1.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/FirstView.xib
+s319519625.804300
+e319519626.278258
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/FirstView.xib
+lSLF07#2@24"CompileXIB FirstView.xib319519625#319519626#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/FirstView.xib8608602016#636"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/FirstView.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/FirstView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/MainWindow.xib
+s319519625.307831
+e319519625.835607
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib319519625#319519625#0(0"0(0#0#75"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/MainWindow.xib8626847680#638"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/MainWindow.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/SecondView.xib
+s319519625.308605
+e319519625.804208
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/SecondView.xib
+lSLF07#2@25"CompileXIB SecondView.xib319519625#319519625#0(0"0(0#0#75"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/SecondView.xib8625700384#638"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/SecondView.nib /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/SecondView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyStringsFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/English.lproj/Localizable.strings English.lproj/Localizable.strings
+s319519627.027649
+e319519627.059797
+r1
+xCopyStringsFile
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/English.lproj/Localizable.strings
+xEnglish.lproj/Localizable.strings
+lSLF07#2@38"Copy English.lproj/Localizable.strings319519627#319519627#0(0"0(0#0#94"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/English.lproj/Localizable.strings8626912864#541"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary English.lproj/Localizable.strings --outdir /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/English.lproj0#
+
+CCopyStringsFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Localizable.strings Localizable.strings
+r0
+
+CCopyStringsFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/zh_TW.lproj/Localizable.strings zh_TW.lproj/Localizable.strings
+s319519627.059892
+e319519627.092223
+r1
+xCopyStringsFile
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/zh_TW.lproj/Localizable.strings
+xzh_TW.lproj/Localizable.strings
+lSLF07#2@36"Copy zh_TW.lproj/Localizable.strings319519627#319519627#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/zh_TW.lproj/Localizable.strings8625805344#537"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv ICONV /usr/bin/iconv    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding binary zh_TW.lproj/Localizable.strings --outdir /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/zh_TW.lproj0#
+
+CCpResource "build/Debug-iphonesimulator/TenKHorse.app/blackbarui_btn_home_i 拷貝.png" "blackbarui_btn_home_i 拷貝.png"
+r0
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/Thumbs.db content_ui/Thumbs.db
+s317788963.030997
+e317788963.052079
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/Thumbs.db
+xcontent_ui/Thumbs.db
+lSLF07#2@25"Copy content_ui/Thumbs.db317788963#317788963#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/Thumbs.db8613512992#546"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/Thumbs.db /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/amendedNinePatchSolidBorder.9.png amendedNinePatchSolidBorder.9.png
+s319519628.105316
+e319519628.113581
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/amendedNinePatchSolidBorder.9.png
+xamendedNinePatchSolidBorder.9.png
+lSLF07#2@38"Copy amendedNinePatchSolidBorder.9.png319519628#319519628#0(0"0(0#0#94"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/amendedNinePatchSolidBorder.9.png8623956480#559"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/amendedNinePatchSolidBorder.9.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_110X110.png product_img/110X110/casico_pillow_110X110.png
+s319519627.120504
+e319519627.141070
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/casico_pillow_110X110.png
+xproduct_img/110X110/casico_pillow_110X110.png
+lSLF07#2@50"Copy product_img/110X110/casico_pillow_110X110.png319519627#319519627#0(0"0(0#0#106"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/110X110/casico_pillow_110X110.png8623313056#571"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/110X110/casico_pillow_110X110.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_250x250.png product_img/250X250/casico_pillow_250x250.png
+s319519627.123235
+e319519627.141181
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/casico_pillow_250x250.png
+xproduct_img/250X250/casico_pillow_250x250.png
+lSLF07#2@50"Copy product_img/250X250/casico_pillow_250x250.png319519627#319519627#0(0"0(0#0#106"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/250X250/casico_pillow_250x250.png8623153600#571"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/250X250/casico_pillow_250x250.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_45x45.png product_img/46X46/casico_pillow_45x45.png
+s319519627.125030
+e319519627.141293
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/casico_pillow_45x45.png
+xproduct_img/46X46/casico_pillow_45x45.png
+lSLF07#2@46"Copy product_img/46X46/casico_pillow_45x45.png319519627#319519627#0(0"0(0#0#102"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/46X46/casico_pillow_45x45.png8622962176#567"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/46X46/casico_pillow_45x45.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png product_img/110X110/casico_pillow_a11111.png
+s317658727.033716
+e317658727.048260
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png
+xproduct_img/110X110/casico_pillow_a11111.png
+lSLF07#2@49"Copy product_img/110X110/casico_pillow_a11111.png317658727#317658727#0(0"0(0#0#105"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/110X110/casico_pillow_a11111.png8616691392#570"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/110X110/casico_pillow_a11111.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png product_img/250X250/casico_pillow_a11111.png
+s317658727.040608
+e317658727.055647
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png
+xproduct_img/250X250/casico_pillow_a11111.png
+lSLF07#2@49"Copy product_img/250X250/casico_pillow_a11111.png317658727#317658727#0(0"0(0#0#105"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/250X250/casico_pillow_a11111.png8616705664#570"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/250X250/casico_pillow_a11111.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png product_img/46X46/casico_pillow_a11111.png
+s317658727.048339
+e317658727.055510
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/casico_pillow_a11111.png
+xproduct_img/46X46/casico_pillow_a11111.png
+lSLF07#2@47"Copy product_img/46X46/casico_pillow_a11111.png317658727#317658727#0(0"0(0#0#103"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/46X46/casico_pillow_a11111.png8616742112#568"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_img/46X46/casico_pillow_a11111.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_button.png content_ui/content_ui_button.png
+s319519627.092335
+e319519627.116025
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_button.png
+xcontent_ui/content_ui_button.png
+lSLF07#2@37"Copy content_ui/content_ui_button.png319519627#319519627#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_button.png8625257408#558"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_button.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_button_i.png content_ui/content_ui_button_i.png
+s319519627.093111
+e319519627.116159
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_button_i.png
+xcontent_ui/content_ui_button_i.png
+lSLF07#2@39"Copy content_ui/content_ui_button_i.png319519627#319519627#0(0"0(0#0#95"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_button_i.png8624911296#560"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_button_i.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_limits.png content_ui/content_ui_limits.png
+s319519627.093888
+e319519627.116283
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_limits.png
+xcontent_ui/content_ui_limits.png
+lSLF07#2@37"Copy content_ui/content_ui_limits.png319519627#319519627#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_limits.png8624626848#558"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_limits.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_page_off.png content_ui/content_ui_page_off.png
+s319519627.158629
+e319519627.170361
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_page_off.png
+xcontent_ui/content_ui_page_off.png
+lSLF07#2@39"Copy content_ui/content_ui_page_off.png319519627#319519627#0(0"0(0#0#95"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_page_off.png8621577856#560"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_page_off.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_page_on.png content_ui/content_ui_page_on.png
+s319519627.160523
+e319519627.170499
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_page_on.png
+xcontent_ui/content_ui_page_on.png
+lSLF07#2@38"Copy content_ui/content_ui_page_on.png319519627#319519627#0(0"0(0#0#94"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_page_on.png8621515520#559"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_page_on.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_half.png content_ui/content_ui_star_half.png
+s319519627.096829
+e319519627.116396
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_star_half.png
+xcontent_ui/content_ui_star_half.png
+lSLF07#2@40"Copy content_ui/content_ui_star_half.png319519627#319519627#0(0"0(0#0#96"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_half.png8624508928#561"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_half.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_off.png content_ui/content_ui_star_off.png
+s319519627.100068
+e319519627.116508
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_star_off.png
+xcontent_ui/content_ui_star_off.png
+lSLF07#2@39"Copy content_ui/content_ui_star_off.png319519627#319519627#0(0"0(0#0#95"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_off.png8624370144#560"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_off.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_star_on.png content_ui/content_ui_star_on.png
+s319519627.100960
+e319519627.116624
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_star_on.png
+xcontent_ui/content_ui_star_on.png
+lSLF07#2@38"Copy content_ui/content_ui_star_on.png319519627#319519627#0(0"0(0#0#94"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_on.png8624265280#559"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_star_on.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_title_bar.png content_ui/content_ui_title_bar.png
+s319519627.102327
+e319519627.116735
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_title_bar.png
+xcontent_ui/content_ui_title_bar.png
+lSLF07#2@40"Copy content_ui/content_ui_title_bar.png319519627#319519627#0(0"0(0#0#96"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_title_bar.png8624070464#561"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_title_bar.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar.png content_ui/content_ui_underbar.png
+s319519627.106557
+e319519627.116849
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar.png
+xcontent_ui/content_ui_underbar.png
+lSLF07#2@39"Copy content_ui/content_ui_underbar.png319519627#319519627#0(0"0(0#0#95"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar.png8623987136#560"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary.png content_ui/content_ui_underbar_diary.png
+s317658863.514988
+e317658863.548083
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary.png
+xcontent_ui/content_ui_underbar_diary.png
+lSLF07#2@45"Copy content_ui/content_ui_underbar_diary.png317658863#317658863#0(0"0(0#0#101"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_diary.png8616406656#566"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_diary.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary.png content_ui_underbar_diary.png
+s319519627.135217
+e319519627.141515
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary.png
+xcontent_ui_underbar_diary.png
+lSLF07#2@34"Copy content_ui_underbar_diary.png319519627#319519627#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_diary.png8622711872#555"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_diary.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary_i.png content_ui_underbar_diary_i.png
+s319519627.130128
+e319519627.141404
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_diary_i.png
+xcontent_ui_underbar_diary_i.png
+lSLF07#2@36"Copy content_ui_underbar_diary_i.png319519627#319519627#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_diary_i.png8622746688#557"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_diary_i.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login.png content_ui/content_ui_underbar_login.png
+s317658863.518920
+e317658863.547314
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login.png
+xcontent_ui/content_ui_underbar_login.png
+lSLF07#2@45"Copy content_ui/content_ui_underbar_login.png317658863#317658863#0(0"0(0#0#101"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_login.png8616208512#566"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_login.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login.png content_ui_underbar_login.png
+s319519627.141823
+e319519627.166218
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login.png
+xcontent_ui_underbar_login.png
+lSLF07#2@34"Copy content_ui_underbar_login.png319519627#319519627#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_login.png8622305088#555"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_login.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login_i.png content_ui_underbar_login_i.png
+s319519627.136224
+e319519627.166699
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_login_i.png
+xcontent_ui_underbar_login_i.png
+lSLF07#2@36"Copy content_ui_underbar_login_i.png319519627#319519627#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_login_i.png8622483552#557"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_login_i.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member.png content_ui/content_ui_underbar_member.png
+s317658863.522682
+e317658863.547446
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member.png
+xcontent_ui/content_ui_underbar_member.png
+lSLF07#2@46"Copy content_ui/content_ui_underbar_member.png317658863#317658863#0(0"0(0#0#102"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_member.png8616012992#567"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_member.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member.png content_ui_underbar_member.png
+s319519627.144292
+e319519627.166471
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member.png
+xcontent_ui_underbar_member.png
+lSLF07#2@35"Copy content_ui_underbar_member.png319519627#319519627#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_member.png8621994272#556"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_member.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member_i.png content_ui_underbar_member_i.png
+s319519627.143467
+e319519627.166356
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_member_i.png
+xcontent_ui_underbar_member_i.png
+lSLF07#2@37"Copy content_ui_underbar_member_i.png319519627#319519627#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_member_i.png8622096512#558"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_member_i.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales.png content_ui/content_ui_underbar_sales.png
+s317658863.527972
+e317658863.569231
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales.png
+xcontent_ui/content_ui_underbar_sales.png
+lSLF07#2@45"Copy content_ui/content_ui_underbar_sales.png317658863#317658863#0(0"0(0#0#101"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_sales.png8615935040#566"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui/content_ui_underbar_sales.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales.png content_ui_underbar_sales.png
+s319519627.157321
+e319519627.166834
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales.png
+xcontent_ui_underbar_sales.png
+lSLF07#2@34"Copy content_ui_underbar_sales.png319519627#319519627#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_sales.png8621677504#555"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_sales.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales_i.png content_ui_underbar_sales_i.png
+s319519627.152184
+e319519627.166587
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/content_ui_underbar_sales_i.png
+xcontent_ui_underbar_sales_i.png
+lSLF07#2@36"Copy content_ui_underbar_sales_i.png319519627#319519627#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_sales_i.png8621825952#557"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/content_ui_underbar_sales_i.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/contentui_btn_commons_push.9.png contentui_btn_commons_push.9.png
+s319519628.104304
+e319519628.111639
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/contentui_btn_commons_push.9.png
+xcontentui_btn_commons_push.9.png
+lSLF07#2@37"Copy contentui_btn_commons_push.9.png319519628#319519628#0(0"0(0#0#93"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/contentui_btn_commons_push.9.png8624080160#558"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/contentui_btn_commons_push.9.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/product_diary_brand_search.png "product_ diary/product_diary_brand_search.png"
+s319519627.110387
+e319519627.141633
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/product_diary_brand_search.png
+xproduct_ diary/product_diary_brand_search.png
+lSLF07#2@50"Copy product_ diary/product_diary_brand_search.png319519627#319519627#0(0"0(0#0#106"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_brand_search.png8623909536#573"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_brand_search.png" /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search.png "product_ diary/product_diary_set_search.png"
+s319519627.116934
+e319519627.140809
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search.png
+xproduct_ diary/product_diary_set_search.png
+lSLF07#2@48"Copy product_ diary/product_diary_set_search.png319519627#319519627#0(0"0(0#0#104"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_set_search.png8623724544#571"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_set_search.png" /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search_i.png "product_ diary/product_diary_set_search_i.png"
+s319519627.118076
+e319519627.140954
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/product_diary_set_search_i.png
+xproduct_ diary/product_diary_set_search_i.png
+lSLF07#2@50"Copy product_ diary/product_diary_set_search_i.png319519627#319519627#0(0"0(0#0#106"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_set_search_i.png8623576992#573"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks "/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/product_ diary/product_diary_set_search_i.png" /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CCpResource build/Debug-iphonesimulator/TenKHorse.app/testBarIcon.png testBarIcon.png
+s317700318.175171
+e317700318.288302
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/TenKHorse.app/testBarIcon.png
+xtestBarIcon.png
+lSLF07#2@20"Copy testBarIcon.png317700318#317700318#0(0"0(0#0#76"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/testBarIcon.png8629147680#541"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/testBarIcon.png /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CGenerateDSYMFile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+s317542008.273916
+e317542008.331820
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM
+x/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TenKHorse.app.dSYM build/Debug-iphonesimulator/TenKHorse.app/TenKHorse317542008#317542008#0(0"0(0#0#83"/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse8602255296#368"    cd /Users/change/Desktop/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse -o /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM0#
+
+CGenerateDSYMFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+s319519630.077508
+e319519630.130410
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+lSLF07#2@115"GenerateDSYMFile build/Debug-iphonesimulator/TenKHorse.app.dSYM build/Debug-iphonesimulator/TenKHorse.app/TenKHorse319519630#319519630#0(0"0(0#0#112"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse8617973696#455"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app.dSYM0#
+
+CLd /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse normal i386
+s317542008.123574
+e317542008.273604
+r1
+xLd
+x/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+xnormal
+xi386
+lSLF07#2@88"Link /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse317542008#317542008#0(0"0(0#0#0"8610432928#875"    cd /Users/change/Desktop/TenKHorse    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -filelist /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorse.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse0#
+
+CLd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse normal i386
+s319519630.029803
+e319519630.077392
+r1
+xLd
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse
+xnormal
+xi386
+lSLF07#2@117"Link /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse319519630#319519630#0(0"0(0#0#0"8623770816#1113"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -L/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -filelist /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/Objects-normal/i386/TenKHorse.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lFoxconnQueryLib -lNinePatch -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/TenKHorse0#
+
+CProcessInfoPlistFile /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist TenKHorse-Info.plist
+s317534420.005255
+e317534420.015685
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist
+xTenKHorse-Info.plist
+lSLF07#2@28"Process TenKHorse-Info.plist317534420#317534420#0(0"0(0#0#52"/Users/change/Desktop/TenKHorse/TenKHorse-Info.plist8605103648#464"    cd /Users/change/Desktop/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TenKHorse-Info.plist -genpkginfo /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist0#
+
+CProcessInfoPlistFile /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist TenKHorse-Info.plist
+s319519625.289179
+e319519625.307735
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist
+xTenKHorse-Info.plist
+lSLF07#2@28"Process TenKHorse-Info.plist319519625#319519625#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/TenKHorse-Info.plist8625116736#551"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility TenKHorse-Info.plist -genpkginfo /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app/Info.plist0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch.gch TenKHorse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s317534422.154834
+e317534423.087930
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch.gch
+xTenKHorse_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile TenKHorse_Prefix.pch317534422#317534423#0(0"0(0#0#52"/Users/change/Desktop/TenKHorse/TenKHorse_Prefix.pch8604114688#1774"    cd /Users/change/Desktop/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -c /Users/change/Desktop/TenKHorse/TenKHorse_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-fairdnurwrfiypccoggejakaownc/TenKHorse_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch.gch TenKHorse_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s319519628.184579
+e319519628.971345
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch.gch
+xTenKHorse_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@31"Precompile TenKHorse_Prefix.pch319519628#319519628#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/TenKHorse_Prefix.pch8623699328#2064"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/TenKHorse-project-headers.hmap -F/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/TenKHorse.build/Debug-iphonesimulator/TenKHorse.build/DerivedSources -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/TenKHorse_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/TenKHorse_Prefix-ghmqyabrinvwzoabsvsxsuskyjgj/TenKHorse_Prefix.pch.gch0#
+
+CTouch /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+s317542065.138364
+e317542065.140988
+r1
+xTouch
+x/Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+lSLF07#2@79"Touch /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app317542065#317542065#0(0"0(0#0#0"8603978496#266"    cd /Users/change/Desktop/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+
+CTouch /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+s319519630.130498
+e319519630.135556
+r1
+xTouch
+x/Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app
+lSLF07#2@108"Touch /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app319519630#319519630#0(0"0(0#0#0"8615430976#324"    cd /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/專案程式碼/客戶專案/TenKHorse/build/Debug-iphonesimulator/TenKHorse.app0#
+

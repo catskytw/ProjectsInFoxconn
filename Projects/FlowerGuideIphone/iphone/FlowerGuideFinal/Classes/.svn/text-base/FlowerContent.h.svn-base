@@ -1,0 +1,31 @@
+
+//
+//  FlowerContentTemplate.h
+//  iphoneFlowerProject
+//
+//  Created by Change Liao on 5/17/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+
+@interface FlowerContent : UIViewController {
+	CGAffineTransform originTransform;
+	CGAffineTransform afterTransform;
+	BOOL isBigFlowerImage;
+	IBOutlet UIImageView *flowerImage;
+	IBOutlet UIButton *switchSizeBtn;
+	IBOutlet UILabel *titleLabel,*contentLabel,*areaTitle;
+	IBOutlet UIScrollView *mainScrollView;
+	
+	NSInteger screenWidth;
+}
+@property(nonatomic,retain) UIImageView *flowerImage;
+@property(nonatomic,retain) UIButton *switchSizeBtn;
+@property(nonatomic,retain) UILabel *titleLabel,*contentLabel,*areaTitle;
+@property(nonatomic,retain) UIScrollView *mainScrollView;
+
+-(id)initWithScreenWidth:(NSInteger)width;
+-(IBAction)changeImageSizeAnimation:(id)sender;
+-(void)setFlowerImageLocation;
+@end

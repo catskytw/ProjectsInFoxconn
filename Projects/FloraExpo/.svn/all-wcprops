@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/Change/!svn/ver/128/trunk/FloraExpo
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/Change/!svn/ver/129/trunk/FloraExpo/main.m
+END
+TrafficRootTableCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Change/!svn/ver/129/trunk/FloraExpo/TrafficRootTableCell.h
+END
+TrafficRootTableCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Change/!svn/ver/129/trunk/FloraExpo/TrafficRootTableCell.m
+END
+FloraExpo2010-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Change/!svn/ver/132/trunk/FloraExpo/FloraExpo2010-Info.plist
+END
+GoogleMapBaseViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Change/!svn/ver/129/trunk/FloraExpo/GoogleMapBaseViewController.xib
+END
+callout_center.png
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Change/!svn/ver/129/trunk/FloraExpo/callout_center.png
+END
+FloraExpo2010_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Change/!svn/ver/129/trunk/FloraExpo/FloraExpo2010_Prefix.pch
+END
+lifeinfoui_mapic_transit.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_transit.png
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/Change/!svn/ver/131/trunk/FloraExpo/MainWindow.xib
+END
+NewsTableViewCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Change/!svn/ver/129/trunk/FloraExpo/NewsTableViewCell.xib
+END
+MRTInfoStation.xib
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MRTInfoStation.xib
+END
+MyFavoriteLifeCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MyFavoriteLifeCell.xib
+END
+lifeinfoui_mapic_hobby.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_hobby.png
+END
+MyLifeTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MyLifeTableCell.xib
+END
+MyFavoriteTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MyFavoriteTableCell.xib
+END
+MRTListCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MRTListCell.xib
+END
+MyFavorite.plist
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MyFavorite.plist
+END
+MyFavoriteBusCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MyFavoriteBusCell.xib
+END
+ExhibitionMapViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Change/!svn/ver/129/trunk/FloraExpo/ExhibitionMapViewController.xib
+END
+FloraExpoCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Change/!svn/ver/129/trunk/FloraExpo/FloraExpoCell.xib
+END
+lifeinfoui_mapic_education.png
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_education.png
+END
+callout_right.png
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Change/!svn/ver/129/trunk/FloraExpo/callout_right.png
+END
+MyFavoriteParkCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MyFavoriteParkCell.xib
+END
+Thumbs.db
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/Change/!svn/ver/129/trunk/FloraExpo/Thumbs.db
+END
+lifeinfoui_mapic_other.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_other.png
+END
+FloraExpoTableViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/Change/!svn/ver/129/trunk/FloraExpo/FloraExpoTableViewController.xib
+END
+lifeinfoui_mapic_government.png
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_government.png
+END
+MapSearchSetting.plist
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Change/!svn/ver/129/trunk/FloraExpo/MapSearchSetting.plist
+END
+lifeinfoui_mapic_food.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_food.png
+END
+BusInfoStationCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Change/!svn/ver/129/trunk/FloraExpo/BusInfoStationCell.h
+END
+callout_left.png
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/Change/!svn/ver/129/trunk/FloraExpo/callout_left.png
+END
+BusSearchCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/Change/!svn/ver/129/trunk/FloraExpo/BusSearchCell.xib
+END
+test.xib
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/Change/!svn/ver/129/trunk/FloraExpo/test.xib
+END
+BusInfoStationCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/Change/!svn/ver/129/trunk/FloraExpo/BusInfoStationCell.m
+END
+RootViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/Change/!svn/ver/131/trunk/FloraExpo/RootViewController.xib
+END
+DescriptionViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Change/!svn/ver/129/trunk/FloraExpo/DescriptionViewController.xib
+END
+TrainInfoListCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/Change/!svn/ver/129/trunk/FloraExpo/TrainInfoListCell.xib
+END
+TrafficRootTableCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/Change/!svn/ver/129/trunk/FloraExpo/TrafficRootTableCell.xib
+END
+lifeinfoui_mapic_banking.png
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Change/!svn/ver/129/trunk/FloraExpo/lifeinfoui_mapic_banking.png
+END

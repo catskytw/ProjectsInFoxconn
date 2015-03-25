@@ -1,0 +1,141 @@
+
+/* 
+   Localizable.strings
+   TenKHorse
+
+   Created by 廖 晨志 on 2011/1/25.
+   Copyright 2011 foxconn. All rights reserved.
+ */
+ 
+ 
+ /*
+ common
+ */
+"Search"="搜尋";
+"Cancel"="取消";
+"coinName"="RMB";
+"PleaseWait"="資料取得中,請稍候...";
+"illegalNum"="請勿填入非數字之符號";
+"lessZero"="請填入大於 0 之數字";
+"BadNetworkTransfer"="可能因網路環境不穩定造成資料錯誤,請回前頁再試一次";
+ /*
+ 產品資訊
+ */
+"ProductDetailInfo"="商品資訊";
+"LowerPriceString"="會員價  ";
+"UpperPriceString"="建議售價  ";
+"RatingString"="人氣度  ";
+"ProductDescription"="商品描述 \n";
+"ProductSpec"="商品規格\n";
+"ProductAcc"="配件 \n";
+"ProductService"="維修服務 \n";
+"Return"="返回";
+"ProductSearch"="產品搜尋";
+/*
+產品型錄
+*/
+"ProductCatalog"="產品型錄";
+"CatalogLeftSearchBtnString"="依名稱";
+"CatalogMiddleSearchBtnString"="依價格";
+"CatalogRightSearchBtnString"="依上架時間";
+"filter"="過濾條件";
+"filter1"="品牌";
+"filter2"="價格";
+"filter3"="顏色";
+"Catelog_Compare"="比較模式";
+/*
+促銷專區
+*/
+"PromotionArea"="促銷專區";
+"PromotionAction"="特惠活動";
+"SpecialPriceArea"="人氣排行榜";
+"place"="地點";
+"time"="時間";
+"ActionDescription"="活動說明";
+"ActionBrief"="說明";
+"close"="關閉";
+"hot"="今日特殺!!";
+"PromotionDetailLable"="看詳細內容";
+/*
+會員專區
+*/
+"MemberTitle"="會員專區";
+"AccountPwdSpace"="須填入帳號或密碼";
+"AccountPwdError"="您輸入的帳號或密碼有誤!";
+"dataStringPrefix1"="會員編號：";
+"dataStringPrefix2"="姓名：";
+"dataStringPrefix3"="性別：";
+"dataStringPrefix4"="生日：";
+"dataStringPrefix5"="電話：";
+"dataStringPrefix6"="手機：";
+"dataStringPrefix7"="地址：";
+"dataStringPrefix8"="郵箱：";
+"dataStringPrefix9"="年收入：";
+"dataStringPrefix10"="職稱：";
+"dataStringPrefix11"="婚姻：";
+"dataStringPrefix12"="興趣：";
+"dataStringPrefix13"="註冊門店：";
+"login"="登入";
+"logout"="登出";
+"activeMsg"="帳號激活成功!!";
+"OrderNum"="訂單編號";
+"Member_OrderDate"="訂購日期";
+"Member_Status"="狀態";
+"Member_Discount"="折扣";
+"Member_Total"="總價";
+"Member_Store"="購買門店";
+"Member_OrderId"="訂單編號";
+/*登入
+ */
+"account"="帳號：";
+"password"="密碼：";
+"cardNumber"="會員卡號：";
+"phoneNumber"="電話號碼：";
+"loginErrorResponse"="S0102"; //登入失敗代號
+"activeErrorResponse"="S0101"; //激活失敗代號
+"sendActivation"="己送出激活資訊";
+"sendForgetPwd"="己重新取得密碼";
+"ConfirmFailure"="新密碼不一致,請重新輸入";
+"ChangePwdSuccess"="會員登入密碼修改成功";
+/*
+購物車
+*/
+"NamePostfix"=" 您好";
+"Description1"=" 您好！您的購買清單如下：";
+"OrderDelete"="編輯";
+"OrderDeleteComplete"="完成";
+"preString"="將「";
+"postString"="」加入購物清單";
+"OrderSuccessString"="下單成功";
+"OrderFailure"="下單失敗";
+"EmployeeCantBuy"="員工無法下單";
+"ShoppingCart_Quantity"="數量";
+"ShoppingCart_ProductName"="商品名稱";
+"ShoppingCart_Title"="購物車";
+"ShoppingCart_UnitPrice"="單價";
+"ShoppingCart_SubTotal"="小計";
+"ShoppingCart_Total"="總計";
+"ShoppingCart_Store"="取貨門店：";
+
+/*修改密碼*/
+"ChangePwd_OriginPwd"="原密碼：";
+"ChangePwd_NaviBar"="會員專區";
+"ChangePwd_NewPwd"="新密碼：";
+"ChangePwd_ConfirmPwd"="再次輸入密碼：";
+
+"BuyPop_Quantity"="數量：";
+
+/* 購物表單 */
+"OrderList_PrdouctName"="商品名稱";
+"OrderList_Quantity"="數量";
+"OrderList_UnitPrice"="單價";
+"OrderList_SubTotal"="小計";
+"OrderList_TotalQty"="總數量";
+"OrderList_totalAmt"="總金額";
+"OrderList_Discount"="折扣：";
+"OrderList_Accountable"="應付金額：";
+
+/*產品型錄*/
+"FullCategory_Title"="產品型錄";
+"MainCategory"="主分類";
+"SubCategory"="次分類";

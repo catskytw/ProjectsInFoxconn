@@ -1,0 +1,74 @@
+//
+//  AllContentProperties.m
+//  iphoneFlowerProject
+//
+//  Created by Change Liao on 5/27/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+#import "Vars.h"
+#import "AllContentPointProperties.h"
+#import "MapDataCtrl.h"
+#import "FeatureCtrlCollections.h"
+#import "IndicatePointPassObject.h"
+static AllContentPointProperties *allContentPointProperties=nil;
+@implementation AllContentPointProperties
+@synthesize allPoint;
++(AllContentPointProperties*)current{
+	if(allContentPointProperties==nil){
+		allContentPointProperties=[AllContentPointProperties new];
+		
+		//give all content point
+		MapDataCtrl *pointDataCtrl=[FeatureCtrlCollections current].pointDataCtrl;
+		for(int i=0;i<pointDataCtrl.featureCount;i++){
+			MapFeature *thisFeature=[pointDataCtrl getFeatureObject:i withFeatureType:FeatureTypePoint];
+			IndicatePointPassObject *thisContentPoint=[[[IndicatePointPassObject alloc]initWithFeatureId:thisFeature.featureId]autorelease];
+			[allContentPointProperties.allPoint addObject:thisContentPoint];
+		}
+	}
+	return allContentPointProperties;
+}
+-(id)init{
+	if((self=[super init])){
+		allPoint=[[NSMutableArray arrayWithObjects:nil]retain];
+	}
+	return self;
+}
+-(BOOL)setPassed:(NSInteger)featureId{
+	BOOL success=NO;
+	for(IndicatePointPassObject *tmpInd in allPoint){
+		if(tmpInd.featureId==featureId){
+			tmpInd.isPassed=YES;
+			success=YES;
+			break;
+		}
+	}
+	return success;
+}
+
+-(BOOL)setScaned:(NSInteger)featureId{
+	BOOL success=NO;
+	for(IndicatePointPassObject *tmpInd in allPoint){
+		if(tmpInd.featureId==featureId){
+			tmpInd.isScaned=YES;
+			success=YES;
+			break;
+		}
+	}
+	return success;
+}
+
+-(IndicatePointPassObject*)getFeaturePass:(NSInteger)featureId{
+	IndicatePointPassObject *thisInd=nil;
+	for(IndicatePointPassObject *tmpInd in allPoint){
+		if(tmpInd.featureId==featureId){
+			thisInd=tmpInd;
+			break;
+		}
+	}
+	return thisInd;
+}
+-(void)dealloc{
+	[allPoint release];
+	[super dealloc];
+}
+@end

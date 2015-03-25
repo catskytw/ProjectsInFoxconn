@@ -1,0 +1,54 @@
+8
+
+dir
+108
+http://10.62.13.2:8080/svn/Change/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/reedsolomon
+http://10.62.13.2:8080/svn/Change
+
+
+
+2010-10-07T00:34:54.018430Z
+108
+Change
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c545920d-0100-534b-b10f-cc99ad5d9f7a
+
+ReedSolomonTest.cpp
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+61fc17f50614588f91731fa52e90aaf5
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+ReedSolomonTest.h
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+d7dffbc7b15433d55406bd5125c78ffc
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+

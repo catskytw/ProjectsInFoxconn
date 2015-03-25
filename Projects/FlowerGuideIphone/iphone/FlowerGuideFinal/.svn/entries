@@ -1,0 +1,263 @@
+8
+
+dir
+108
+http://10.62.13.2:8080/svn/Change/trunk/FlowerGuide_iphone/iphone/FlowerGuideFinal
+http://10.62.13.2:8080/svn/Change
+
+
+
+2010-10-07T00:34:54.018430Z
+108
+Change
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c545920d-0100-534b-b10f-cc99ad5d9f7a
+
+main.m
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+7e6155a38f0aeaffb33bb0a9ca9ed498
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+zh_TW.lproj
+dir
+
+route.idx
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+73875e1defe149ad68a70306ddf09f8f
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+greenbar_ui
+dir
+
+region.dat
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+9cbf43c411bc90cc4df2923dd46d4de5
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+MapViewController.xib
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+4c95e033653cb5ac971c65e85053d820
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+MainWindow.xib
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+117f669aa9192e67add7900d6e5fbbef
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+Classes
+dir
+
+FlowerGuide-Info.plist
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+f78934a3c6fbe774ff8fe29bf08d88f2
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+build
+dir
+
+ExhibitionScrollMap.xib
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+07fc83a8d18d1aa56589ebe655a4383c
+2010-10-07T00:34:54.018430Z
+108
+Change
+
+point.dat
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+5e254915eda67c4c057f99de6bf0d2b8
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+test.xib
+file
+110
+
+
+
+2010-10-11T06:45:02.000000Z
+74d72cfa27765d02a4113cd38551a2b2
+2010-10-12T08:44:50.362500Z
+110
+Change
+
+content_img_museum
+dir
+
+FlowerGuide_Prefix.pch
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+1d4e5947409e6afd52492240203f8342
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+index_ui
+dir
+
+route.dat
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+e3c2b0caa64043fc394f4485a0f2498b
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+phone_ui
+dir
+
+region.idx
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+4072b478a6938953e323138736d6b683
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+plant_data
+dir
+
+content_ui
+dir
+
+libiconv.dylib
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+961ac0fcc41e4e264d077681686573cf
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+
+svn:special
+
+FlowerGuide.xcodeproj
+dir
+
+map_ui
+dir
+
+traffic_ui
+dir
+
+point.idx
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+9d445da95a63ad8c1249c53daf12e9be
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+route.txt
+file
+
+
+
+
+2010-10-07T00:36:52.000000Z
+a0cb7923c34eb7338405f3b78058381e
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+English.lproj
+dir
+

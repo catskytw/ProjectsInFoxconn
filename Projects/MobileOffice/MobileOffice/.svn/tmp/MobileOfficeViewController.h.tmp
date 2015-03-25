@@ -1,0 +1,56 @@
+//
+//  MobileOfficeViewController.h
+//  MobileOffice
+//
+//  Created by 廖 晨志 on 2011/8/18.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "DateButton.h"
+#import "BasicViewController.h"
+#import "SyncAction.h"
+@interface MobileOfficeViewController : BasicViewController <UIScrollViewDelegate,UITableViewDelegate,UITableViewDataSource,UIPopoverControllerDelegate>{
+    IBOutlet UIScrollView *h_timeMeter;
+    IBOutlet UIScrollView *v_timeMeter;
+    IBOutlet UIImageView *wheelImage;
+    IBOutlet UIView *eventView;
+    IBOutlet UITableView *todayEventTable;
+    IBOutlet UILabel *todayEventTitle;
+    IBOutlet UIView *backgroundSuperView;
+    //local var for timeMeter
+    CGFloat diff;
+    CGFloat xOffset,yOffset;
+
+    //local var for wheel-rotation
+    CGPoint _tmpPoint;
+    //local event var
+    NSMutableArray *_tmpEvents;
+    NSMutableArray *_eventsForDrawing;
+    NSInteger _drawCounter;
+    
+    
+    //wheel var
+    NSMutableArray *datesByWheelArray;
+    
+    //mics
+    IBOutlet UIButton *addEventBtn;
+    
+    
+    //同步Event
+    SyncAction *syncEvent;
+}
+@property(nonatomic,retain)UIScrollView *h_timeMeter,*v_timeMeter;
+@property(nonatomic,retain)UIImageView *wheelImage;
+@property(nonatomic,retain)UIView *eventView;
+@property(nonatomic,retain)UITableView *todayEventTable;
+@property(nonatomic,retain)UILabel *todayEventTitle;
+
+@property(nonatomic,retain)UIView *backgroundSuperView;
+@property(nonatomic,retain)UIButton *addEventBtn;
+
+-(IBAction)slideLeftCalendarBar:(id)sender;
+-(IBAction)slideRightCalendarBar:(id)sender;
+-(IBAction)addEventAction:(id)sender;
+-(IBAction)squrePopoverAction:(id)sender;
+@end

@@ -1,0 +1,13 @@
+//
+//  DataObjectProtoType.m
+//  MobileOffice
+//
+//  Created by Liao Chen-chih on 2011/11/30.
+//  Copyright (c) 2011年 foxconn. All rights reserved.
+//
+
+#import "DataObjectProtoType.h"
+
+@implementation DataObjectProtoType
+@synthesize cname,workNo;
+@end

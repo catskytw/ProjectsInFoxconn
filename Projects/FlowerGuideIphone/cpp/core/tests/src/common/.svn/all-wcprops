@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common
+END
+BlackPointEstimatorTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BlackPointEstimatorTest.cpp
+END
+BitSourceTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BitSourceTest.cpp
+END
+CountedTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/CountedTest.cpp
+END
+BitArrayTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BitArrayTest.h
+END
+BitMatrixTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BitMatrixTest.cpp
+END
+BlackPointEstimatorTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BlackPointEstimatorTest.h
+END
+BitSourceTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BitSourceTest.h
+END
+PerspectiveTransformTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/PerspectiveTransformTest.cpp
+END
+CountedTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/CountedTest.h
+END
+BitMatrixTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BitMatrixTest.h
+END
+PerspectiveTransformTest.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/PerspectiveTransformTest.h
+END
+BitArrayTest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/tests/src/common/BitArrayTest.cpp
+END

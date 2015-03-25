@@ -1,0 +1,45 @@
+//
+//  SignOffViewController.m
+//  MobileOffice
+//
+//  Created by Liao Chen-chih on 2011/9/13.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import "SignOffViewController.h"
+
+@implementation SignOffViewController
+#pragma mark - View lifecycle
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    contentVC = [[ThreeContentViewController alloc] initWithNibName:nil bundle:nil];
+    NSMutableArray *contentViewsName = [[NSMutableArray arrayWithObjects:@"SignOffContent1View", @"SignOffContent2View", @"SignOffContent3View",nil]retain];
+    NSArray *contentPosition = [[NSArray arrayWithObjects:[NSValue valueWithCGRect:CGRectMake(0, 0,122, 651)],
+                                 [NSValue valueWithCGRect:CGRectMake(112, 0, 244, 651)],
+                                 [NSValue valueWithCGRect:CGRectMake(355, 0, 663, 651)],nil]retain];
+    [contentVC initWithXibNames:contentViewsName withPosition:contentPosition];
+    [contentVC.view setFrame:CGRectMake(5, 45, 1014, 651)];
+    [self.view addSubview:contentVC.view];
+    [contentViewsName release];
+    [contentPosition release];
+<<<<<<< .mine
+    [self tuneTitleLayout:NO];
+=======
+    
+    NSLog(@"screen size:%f , %f",[[UIScreen mainScreen] bounds].size.height, [[UIScreen mainScreen] bounds].size.width);
+    CGRect Screenframe =  [[UIScreen mainScreen] applicationFrame];
+    NSLog(@"screen Screenframe:%f , %f",Screenframe.size.height, Screenframe.size.width);
+>>>>>>> .r229
+}
+
+
+- (void)viewDidUnload
+{
+    [super viewDidUnload];
+    // Release any retained subviews of the main view.
+    // e.g. self.myOutlet = nil;
+}
+
+@end

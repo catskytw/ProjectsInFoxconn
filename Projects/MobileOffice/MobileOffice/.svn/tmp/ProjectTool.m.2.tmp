@@ -1,0 +1,160 @@
+//
+//  ProjectTool.m
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/8/17.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+
+#import "ProjectTool.h"
+#import "FcConfig.h"
+
+@implementation ProjectTool
++(CGContextRef)createBitmapContext:(NSInteger)pixelsWide withHeight:(NSInteger)pixelsHigh{
+	CGContextRef    context = NULL; 
+    CGColorSpaceRef colorSpace; 
+    int             bitmapByteCount; 
+    int             bitmapBytesPerRow; 
+    bitmapBytesPerRow   = (pixelsWide * 4); 
+    bitmapByteCount     = (bitmapBytesPerRow * pixelsHigh); 
+    colorSpace = CGColorSpaceCreateDeviceRGB();	
+    context = CGBitmapContextCreate (NULL, 
+									 pixelsWide, 
+									 pixelsHigh, 
+									 8,      // bits per component 
+									 bitmapBytesPerRow, 
+									 colorSpace, 
+									 kCGImageAlphaPremultipliedFirst); 
+    if (context== NULL) 
+    { 
+        fprintf (stderr, "Context not created!"); 
+        return NULL; 
+    } 
+    CGColorSpaceRelease( colorSpace ); 
+	colorSpace=NULL;
+    return context; 	
+}
+
++(NSTimeInterval)parseTimeIntervalFromJSONFormat:(NSString*)fcJsonFormat{
+//    NSLog(@"%@",fcJsonFormat);
+    NSString *timeString=(NSString*)[[(NSString*)[[fcJsonFormat componentsSeparatedByString:@"("]objectAtIndex:1]componentsSeparatedByString:@")"]objectAtIndex:0];
+    return [timeString doubleValue]/1000;
+}
++(NSString*)getEventTypeFromEventForJson:(EKEvent*)event{
+    NSArray *_tmpArray=[event.location componentsSeparatedByString:Seperator];
+    int idx = 0;
+    if ([_tmpArray count]>1) {
+        idx = [ProjectTool parseEventTypeIndex:[[_tmpArray objectAtIndex:1]intValue]];
+    }
+    return [NSString stringWithFormat:@"%d", idx];
+}
+/*repeat type
+ 0:僅有一次
+ 1:每週
+ 2:每兩週
+ 3:每月
+ 4:每年
+ */
++(EKRecurrenceRule*)recurrenceRuleForType:(NSInteger)type{
+    NSInteger m_type=EKRecurrenceFrequencyWeekly,m_interval;
+    switch (type) {
+        case 0:
+            m_type=EKRecurrenceFrequencyYearly;
+            m_interval=1000;
+            break;
+        case 1:
+            m_type=EKRecurrenceFrequencyWeekly;
+            m_interval=1;
+            break;
+        case 2:
+            m_type=EKRecurrenceFrequencyWeekly;
+            m_interval=2;
+            break;
+        case 3:
+            m_type=EKRecurrenceFrequencyMonthly;
+            m_interval=1;
+            break;
+        case 4:
+            m_type=EKRecurrenceFrequencyYearly;
+            m_interval=1;
+            break;
+    }
+    EKRecurrenceRule *rule=[[[EKRecurrenceRule alloc] initRecurrenceWithFrequency:m_type interval:m_interval end:nil]autorelease];
+    return rule;
+}
++(NSInteger)parseRepeatIndex:(EKRecurrenceRule*)recurrenceRule{
+    NSInteger r;
+    if (recurrenceRule.interval==0 || (recurrenceRule.frequency==EKRecurrenceFrequencyYearly && recurrenceRule.interval==1000)) 
+        r=0;
+    else if(recurrenceRule.frequency==EKRecurrenceFrequencyWeekly && recurrenceRule.interval==1)
+        r=1;
+    else if(recurrenceRule.frequency==EKRecurrenceFrequencyWeekly && recurrenceRule.interval==2)
+        r=2;
+    else if(recurrenceRule.frequency==EKRecurrenceFrequencyMonthly)
+        r=3;
+    else if(recurrenceRule.frequency==EKRecurrenceFrequencyYearly)
+        r=4;
+    return r;
+}
++(NSString*)getLocationFromEvent:(EKEvent*)event{
+    return [[event.location componentsSeparatedByString:Seperator] objectAtIndex:0];
+}
++(NSString*)getEventTypeFromEvent:(EKEvent*)event{
+    NSArray *_tmpArray=[event.location componentsSeparatedByString:Seperator];
+    return ([_tmpArray count]>1)?[_tmpArray objectAtIndex:1]:[NSString stringWithFormat:@"%i",FcEventTypeDefault];
+}
+
++(FcEventType)transEventTypeIndexToEventType:(NSInteger)i_typeIndex{
+    FcEventType returnType;
+    switch (i_typeIndex) {
+        case 0:
+            returnType=FcEventTypeDefault;
+            break;
+        case 1:
+            returnType=FcEventTypeBusiness;
+            break;
+        case 2:
+            returnType=FcEventTypeLunch;
+            break;
+        case 3:
+            returnType=FcEventTypeMeeting;
+            break;
+        case 4:
+            returnType=FcEventTypePersonal;
+            break;
+        default:
+            returnType=FcEventTypeDefault;
+            break;
+    }
+    return returnType;
+}
+
++(NSInteger)parseEventTypeIndex:(FcEventType)i_eventType{
+    NSInteger index=-1;
+    switch (i_eventType) {
+        case FcEventTypeDefault:
+            index=0;
+            break;
+        case FcEventTypeBusiness:
+            index=1;
+            break;
+        case FcEventTypeLunch:
+            index=2;
+            break;
+        case FcEventTypeMeeting:
+            index=3;
+            break;
+        case FcEventTypePersonal:
+            index=4;
+            break;
+        default:
+            index=0;
+            break;
+    }
+    return index;
+}
++(NSString*) getTimestamp:(NSString*)timestampString withKey:(NSString*) skey{
+    NSString *dateString = [timestampString substringFromIndex:skey.length+1];
+    return [dateString substringToIndex:(dateString.length - 1)];
+}
+@end

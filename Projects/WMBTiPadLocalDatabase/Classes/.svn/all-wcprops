@@ -1,0 +1,689 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/2011/!svn/ver/37/10KHorseProject/ipad/Classes
+END
+FcPageController.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FcPageController.h
+END
+OrderItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/24/10KHorseProject/ipad/Classes/OrderItem.h
+END
+FullCategorySelectView.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/FullCategorySelectView.h
+END
+FcCatalogTemplate1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/FcCatalogTemplate1.xib
+END
+FirstViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FirstViewController.m
+END
+FcProductButtonView1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/34/10KHorseProject/ipad/Classes/FcProductButtonView1.xib
+END
+TenKHorseAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/TenKHorseAppDelegate.h
+END
+FcPageController.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FcPageController.m
+END
+LoginView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/LoginView.xib
+END
+OrderItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/24/10KHorseProject/ipad/Classes/OrderItem.m
+END
+FullCategorySelectView.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/44/10KHorseProject/ipad/Classes/FullCategorySelectView.m
+END
+Tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/Tools.h
+END
+FcProductButtonView1.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/FcProductButtonView1.h
+END
+PopoverContentTemplate1.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/PopoverContentTemplate1.h
+END
+QueryPattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/QueryPattern.h
+END
+TenKHorseAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/37/10KHorseProject/ipad/Classes/TenKHorseAppDelegate.m
+END
+LoginView.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/LoginView.h
+END
+FcCategorySelectionView1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcCategorySelectionView1.xib
+END
+Tools.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/Tools.m
+END
+FcProductButtonView1.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcProductButtonView1.m
+END
+ProductListView.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/ProductListView.h
+END
+PopoverContentTemplate1.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/PopoverContentTemplate1.m
+END
+UIViewClearSubViews.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/UIViewClearSubViews.h
+END
+LoginView.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/LoginView.m
+END
+HistoryOrderDetailCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HistoryOrderDetailCell.xib
+END
+ProductListView.m
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/ProductListView.m
+END
+UIViewClearSubViews.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/UIViewClearSubViews.m
+END
+OrderListPopViewCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/OrderListPopViewCell.xib
+END
+CompareObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/CompareObject.h
+END
+FcPopWindows.xib
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/FcPopWindows.xib
+END
+SignInObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/SignInObject.h
+END
+OrderListPopViewCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/24/10KHorseProject/ipad/Classes/OrderListPopViewCell.h
+END
+TUNinePatch.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/TUNinePatch.h
+END
+CompareObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/CompareObject.m
+END
+SignInObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/36/10KHorseProject/ipad/Classes/SignInObject.m
+END
+FcTabBarItem.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FcTabBarItem.h
+END
+HistoryOrderListCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HistoryOrderListCell.xib
+END
+OrderListPopViewCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/24/10KHorseProject/ipad/Classes/OrderListPopViewCell.m
+END
+FcTabBarItem.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FcTabBarItem.m
+END
+HistoryOrderListCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HistoryOrderListCell.h
+END
+PopWindows1.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/PopWindows1.h
+END
+HistoryOrderListCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HistoryOrderListCell.m
+END
+PopWindows1.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/PopWindows1.m
+END
+FcProductListView1.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/FcProductListView1.h
+END
+ProductContentView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/ProductContentView.xib
+END
+ChangePasswordViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/ChangePasswordViewController.xib
+END
+NSStringSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/NSStringSupport.h
+END
+OrderDtlObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/2011/!svn/ver/24/10KHorseProject/ipad/Classes/OrderDtlObject.h
+END
+FcProductListView1.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcProductListView1.m
+END
+MemberViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/MemberViewController.h
+END
+ChangePasswordViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/ChangePasswordViewController.h
+END
+FcPromotionListCell1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/FcPromotionListCell1.xib
+END
+MCPBtnView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/MCPBtnView.xib
+END
+NSStringSupport.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/NSStringSupport.m
+END
+MemberViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/MemberViewController.m
+END
+ChangePasswordViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/ChangePasswordViewController.m
+END
+FcPromotionTemplate1.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcPromotionTemplate1.h
+END
+OrderListPopView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/OrderListPopView.xib
+END
+FcPromotionTemplate1.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/FcPromotionTemplate1.m
+END
+OrderListPopView.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/OrderListPopView.h
+END
+OrderListPopView.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/OrderListPopView.m
+END
+WMBTWebService.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/2011/!svn/ver/34/10KHorseProject/ipad/Classes/WMBTWebService.h
+END
+FcProductDetailView1.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcProductDetailView1.h
+END
+FcNSArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcNSArray.h
+END
+StoreNamePickerViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/StoreNamePickerViewController.h
+END
+ShoppingCartView.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/ShoppingCartView.h
+END
+FcProductDetailView1.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/44/10KHorseProject/ipad/Classes/FcProductDetailView1.m
+END
+PopoverContentTemplate1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/PopoverContentTemplate1.xib
+END
+AllCategoryObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/AllCategoryObject.h
+END
+FcNSArray.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcNSArray.m
+END
+StoreNamePickerViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/StoreNamePickerViewController.m
+END
+FcCatalogTemplate1.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/FcCatalogTemplate1.h
+END
+ShoppingCartView.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/2011/!svn/ver/42/10KHorseProject/ipad/Classes/ShoppingCartView.m
+END
+AllCategoryObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/AllCategoryObject.m
+END
+FcCatalogTemplate1.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/FcCatalogTemplate1.m
+END
+FcCategorySelectionView1.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/2011/!svn/ver/20/10KHorseProject/ipad/Classes/FcCategorySelectionView1.h
+END
+FcCategorySelectionView1.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/2011/!svn/ver/42/10KHorseProject/ipad/Classes/FcCategorySelectionView1.m
+END
+HishtoryOrderDetailView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HishtoryOrderDetailView.xib
+END
+HistoryOrderDetailCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HistoryOrderDetailCell.h
+END
+FcPopWindows.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/FcPopWindows.h
+END
+HishtoryOrderDetailView.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HishtoryOrderDetailView.h
+END
+PopWindows1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/21/10KHorseProject/ipad/Classes/PopWindows1.xib
+END
+HistoryOrderDetailCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/HistoryOrderDetailCell.m
+END
+TUNinePatchProtocols.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/TUNinePatchProtocols.h
+END
+FcPopWindows.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/FcPopWindows.m
+END
+HishtoryOrderDetailView.m
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/HishtoryOrderDetailView.m
+END
+LocalizationSystem.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/LocalizationSystem.h
+END
+Orders.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/41/10KHorseProject/ipad/Classes/Orders.h
+END
+FcTabUIComponent.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/FcTabUIComponent.h
+END
+UIImage+Alpha.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/UIImage+Alpha.h
+END
+LocalizationSystem.m
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/LocalizationSystem.m
+END
+Orders.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/41/10KHorseProject/ipad/Classes/Orders.m
+END
+BuyPopView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/BuyPopView.xib
+END
+ProductContentView.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/ProductContentView.h
+END
+UIImage+Alpha.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/UIImage+Alpha.m
+END
+FcPromotionTemplate1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/FcPromotionTemplate1.xib
+END
+BuyPopView.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/BuyPopView.h
+END
+FourViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FourViewController.h
+END
+ProductContentView.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/ProductContentView.m
+END
+CompareView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/26/10KHorseProject/ipad/Classes/CompareView.xib
+END
+FcPromotionListCell1.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/FcPromotionListCell1.h
+END
+BuyPopView.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/BuyPopView.m
+END
+MCPBtnView.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/MCPBtnView.h
+END
+FourViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/FourViewController.m
+END
+CompareView.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/22/10KHorseProject/ipad/Classes/CompareView.h
+END
+Configure.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/Configure.h
+END
+FcPromotionListCell1.m
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/FcPromotionListCell1.m
+END
+FcProductDetailView1.xib
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/2011/!svn/ver/34/10KHorseProject/ipad/Classes/FcProductDetailView1.xib
+END
+MCPBtnView.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/MCPBtnView.m
+END
+StoreNamePickerViewController.xib
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/2011/!svn/ver/25/10KHorseProject/ipad/Classes/StoreNamePickerViewController.xib
+END
+CompareView.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/27/10KHorseProject/ipad/Classes/CompareView.m
+END
+FirstViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/8/10KHorseProject/ipad/Classes/FirstViewController.h
+END
+FullCategorySelectView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/2011/!svn/ver/35/10KHorseProject/ipad/Classes/FullCategorySelectView.xib
+END
+ShoppingCartView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/2011/!svn/ver/38/10KHorseProject/ipad/Classes/ShoppingCartView.xib
+END

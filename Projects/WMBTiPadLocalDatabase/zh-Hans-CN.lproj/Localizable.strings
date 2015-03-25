@@ -1,0 +1,144 @@
+
+/* 
+ Localizable.strings
+ TenKHorse
+ 
+ Created by 廖 晨志 on 2011/1/25.
+ Copyright 2011 foxconn. All rights reserved.
+ */
+
+
+/*
+ common
+ */
+"Search"="搜寻";
+"Cancel"="取消";
+"coinName"="RMB";
+"PleaseWait"="资料取得中,请稍候...";
+"illegalNum"="请勿填入非数字之符号";
+"lessZero"="请填入大於 0 之数字";
+"BadNetworkTransfer"="请回前页再试一次";
+"NotOfferThisFunction"="离线版本不提供此功能";
+"sync"="同步";
+/*
+ 产品资讯
+ */
+"ProductDetailInfo"="商品资讯";
+"LowerPriceString"="会员价  ";
+"UpperPriceString"="建议售价  ";
+"RatingString"="人气度  ";
+"ProductDescription"="商品描述 \n";
+"ProductSpec"="商品规格\n";
+"ProductAcc"="配件 \n";
+"ProductService"="维修服务 \n";
+"Return"="返回";
+"ProductSearch"="产品搜寻";
+"Cannot_buy"="离线版本不提供购买功能";
+/*
+ 产品型录
+ */
+"ProductCatalog"="产品型录";
+"CatalogLeftSearchBtnString"="依名称";
+"CatalogMiddleSearchBtnString"="依价格";
+"CatalogRightSearchBtnString"="依上架时间";
+"filter"="过滤条件";
+"filter1"="品牌";
+"filter2"="价格";
+"filter3"="颜色";
+"Catelog_Compare"="比较模式";
+/*
+ 促销专区
+ */
+"PromotionArea"="促销专区";
+"PromotionAction"="特惠活动";
+"SpecialPriceArea"="人气排行榜";
+"place"="地点";
+"time"="时间";
+"ActionDescription"="活动说明";
+"ActionBrief"="说明";
+"close"="关闭";
+"hot"="今日特杀!!";
+"PromotionDetailLable"="看详细内容";
+/*
+ 会员专区
+ */
+"MemberTitle"="会员专区";
+"AccountPwdSpace"="须填入帐号或密码";
+"AccountPwdError"="您输入的帐号或密码有误!";
+"dataStringPrefix1"="会员编号：";
+"dataStringPrefix2"="姓名：";
+"dataStringPrefix3"="性别：";
+"dataStringPrefix4"="生日：";
+"dataStringPrefix5"="电话：";
+"dataStringPrefix6"="手机：";
+"dataStringPrefix7"="地址：";
+"dataStringPrefix8"="邮箱：";
+"dataStringPrefix9"="年收入：";
+"dataStringPrefix10"="职称：";
+"dataStringPrefix11"="婚姻：";
+"dataStringPrefix12"="兴趣：";
+"dataStringPrefix13"="注册门店：";
+"login"="登入";
+"logout"="登出";
+"activeMsg"="帐号激活成功!!";
+"OrderNum"="订单编号";
+"Member_OrderDate"="订购日期";
+"Member_Status"="状态";
+"Member_Discount"="折扣";
+"Member_Total"="总价";
+"Member_Store"="购买门店";
+"Member_OrderId"="订单编号";
+/*登入
+ */
+"account"="帐号：";
+"password"="密码：";
+"cardNumber"="会员卡号：";
+"phoneNumber"="电话号码：";
+"loginErrorResponse"="S0102"; //登入失败代号
+"activeErrorResponse"="S0101"; //激活失败代号
+"sendActivation"="己送出激活资讯";
+"sendForgetPwd"="己重新取得密码";	
+"ConfirmFailure"="新密码不一致,请重新输入";
+"ChangePwdSuccess"="会员登入密码修改成功";
+/*
+ 购物车
+ */
+"NamePostfix"=" 您好";
+"Description1"=" 您好！您的购买清单如下：";
+"OrderDelete"="编辑";
+"OrderDeleteComplete"="完成";
+"preString"="将「";
+"postString"="」加入购物清单";
+"OrderSuccessString"="下单成功";
+"OrderFailure"="下单失败";
+"EmployeeCantBuy"="员工无法下单";
+"ShoppingCart_Quantity"="数量";
+"ShoppingCart_ProductName"="商品名称";
+"ShoppingCart_Title"="购物车";
+"ShoppingCart_UnitPrice"="单价";
+"ShoppingCart_SubTotal"="小计";
+"ShoppingCart_Total"="总计";
+"ShoppingCart_Store"="取货门店：";
+
+/*修改密码*/
+"ChangePwd_OriginPwd"="原密码：";
+"ChangePwd_NaviBar"="会员专区";
+"ChangePwd_NewPwd"="新密码：";
+"ChangePwd_ConfirmPwd"="再次输入密码：";
+
+"BuyPop_Quantity"="数量：";
+
+/* 购物表单 */
+"OrderList_PrdouctName"="商品名称";
+"OrderList_Quantity"="数量";
+"OrderList_UnitPrice"="单价";
+"OrderList_SubTotal"="小计";
+"OrderList_TotalQty"="总数量：";
+"OrderList_totalAmt"="总金额：";
+"OrderList_Discount"="折扣：";
+"OrderList_Accountable"="应付金额：";
+
+/*产品型录*/
+"FullCategory_Title"="产品型录";
+"MainCategory"="主分类";
+"SubCategory"="次分类";

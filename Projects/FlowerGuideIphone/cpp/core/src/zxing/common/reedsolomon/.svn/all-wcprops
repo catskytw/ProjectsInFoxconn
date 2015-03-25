@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon
+END
+GF256.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/GF256.h
+END
+ReedSolomonDecoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.h
+END
+GF256Poly.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/GF256Poly.h
+END
+ReedSolomonException.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.cpp
+END
+GF256.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/GF256.cpp
+END
+ReedSolomonException.h
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/ReedSolomonException.h
+END
+ReedSolomonDecoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/ReedSolomonDecoder.cpp
+END
+GF256Poly.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/common/reedsolomon/GF256Poly.cpp
+END

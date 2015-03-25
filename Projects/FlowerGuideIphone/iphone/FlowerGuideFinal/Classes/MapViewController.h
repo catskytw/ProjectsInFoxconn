@@ -1,0 +1,70 @@
+//
+//  MapViewController.h
+//  FlowerGuide
+//
+//  Created by Change Liao on 9/10/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+#import <QuartzCore/QuartzCore.h>
+#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+#import "FeatureCtrlCollections.h"
+#import "MapDrawer.h"
+#import "TopControlPanel.h"
+#import "BottomControlPanel.h"
+@interface MapViewController : BaseViewController <UIActionSheetDelegate,UIAlertViewDelegate>{
+	FeatureCtrlCollections *featureCtrl;
+	MapDrawer *thisMapDrawer;
+	
+	UIImageView *mapImageView;
+	
+	NSInteger nowPosition;
+	NSInteger destPosition;
+	
+	CADisplayLink *displayLink;
+	//width,height paramter
+	NSInteger viewPortViewWidth,viewPortViewHeight;
+	
+	//上下之Panel
+	TopControlPanel *myTopPanel;
+	BottomControlPanel *myBottomPanel;
+	
+	//工具array
+	NSMutableArray *allMovePoints;
+	NSMutableArray *shortestPathEdgeArray;
+	NSMutableArray *facilityArray;
+	
+	NSInteger movePointsArrayPointer; //在shortest array中,目前是取哪個座標來繪製
+	//地圖的倍率,設定28代表1公尺為28pixcel
+	NSInteger scale;
+	//展館資料
+	ExhibitionInfoObject *thisExhibitionInfoObject;
+	//是否show出箭頭
+	BOOL isShowArrow;
+	//是否執行地圖中
+	BOOL isRunningMap;
+}
+@property(nonatomic)BOOL isShowArrow;
+//取得資料物件
+-(void)getExhibitionInfo:(NSInteger)tmpDestPosition;
+-(void)drawPOIBtn;
+-(void)drawMap:(CGRect)r;
+-(void)drawPerson;
+-(void)removeAllBtn;
+-(void)removeAllSubViews;
+-(void)giveTopBottomPanelValue;
+-(void)PausePointInfo;
+-(IBAction)runEagleView:(id)sender;
+
+-(void)prepareWalk:(NSInteger)startPointFeatureId withEndPointFeatureId:(NSInteger)endPointFeatureId;
+-(void)startWalking;
+-(void)stopWalking;
+-(void)endWalking;
+-(NSInteger)getTotalValueByEndPointFeatureId:(NSString*)featureId;
+-(NSString*)getAlertMessageContent:(NSInteger)nowPositionFeatureId;
+
+-(void)setNowPosition:(NSInteger)positionValue;
+-(IBAction)testAction:(id)sender;
+-(id)initWithNowPosition:(NSInteger)position;
+-(void)productShortestPathPoint:(NSInteger)targetPosition;
+@end

@@ -1,0 +1,122 @@
+//
+//  FcConfig.h
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/28.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+#import "NSFormatterExtend.h"
+
+#define WheelLayer_NUM 1
+#define EventLayer_NUM 2
+#define MaskLayer_NUM 1000
+
+//Wheel使用之public參數
+#define TABLE_ORIGIN_POINT CGPointMake(50, 86)
+#define _SPACE 53 //每一輪之間距 
+#define _WIDTH 586.0f //正常半徑
+#define _MAXWHEELNUM 24.0f //總共有幾圈
+//Wheel使用之private參數
+#define _LargeCircleRaduis 1368
+#define _MinCircle 0.0051
+#define _InnerCircleRadius 44
+#define _BaseRate 0.0017
+
+#define USE_QUARTZ 1
+#define REDRAW_MOVE @"redraw_move"
+#define ccp(__X__,__Y__) CGPointMake(__X__,__Y__)
+#define ccs(__X__,__Y__) CGSizeMake(__X__,__Y__)
+#define DefaultFontName @"STHeitiTC-Light"
+#define AngleSpace 11.6129f
+#define Seperator @"FcSeperator"
+//#define TESTDATA 1
+
+//project url
+#define URLPREFIX @"http://10.62.13.2:8080"
+#define CalendarService [NSString stringWithFormat:@"%@/service/calendarService.",URLPREFIX]
+#define workflowService [NSString stringWithFormat:@"%@/service/workflowService.",URLPREFIX]
+#define AddEventURL(jsonString) [NSString stringWithFormat:@"%@addEvent?workNo=%@&json=%@",CalendarService,@"16455",jsonString] //TODO change sessionId
+
+#define updateEventURL(jsonString) [NSString stringWithFormat:@"%@updateEvent?workNo=%@&json=%@",CalendarService,jsonString]
+
+#define fetchEventsURL(dateString) [NSString stringWithFormat:@"%@getEventList?lastMotifyDate=Timestamp(%@)&workNo=16455",CalendarService,dateString]
+
+#define deleteEventURL(eventId) [NSString stringWithFormat:@"%@removeEvent?workNo=16455&eventId=%@",CalendarService,eventId]
+
+<<<<<<< .mine
+#define loginURL(workNo, password) [NSString stringWithFormat:@"%@login?workNo=%@&password=%@",CalendarService,workNo,password] //XXXX Reach : for user login
+#define queryPasswordURL(address) [NSString stringWithFormat:@"%@queryPassword?address=%@",CalendarService,address] //XXXX Reach : for user forget password
+
+#define workService [NSString stringWithFormat:@"%@/service/workflowService.",URLPREFIX]
+#define getFlowTaskList(x,y) [NSString stringWithFormat:@"%@getFlowTaskList?workNo=%@&flowType=%@",workService,x,y]
+#define getFlowTaskContent(taskId,flowType) [NSString stringWithFormat:@"%@getFlowTaskContent?taskId=%@?flowType=%@",workService,taskId,flowType]
+#define completeFlowTask(taskId,eventMode,remark) [NSString stringWithFormat:@"%@completeFlowTask?taskId=%@&eventMode=%@&remark=%@",workService,taskId,eventMode,remark]
+
+=======
+#define getFlowTaskList(workNo,type) [NSString stringWithFormat:@"%@getFlowTaskList?workNo=%@&type=%@",workflowService,workNo,type]
+#define getFlowTaskContent(taskId, flowType) [NSString stringWithFormat:@"%@getFlowTaskContent?taskId=%@&flowType=%@",workflowService,taskId,flowType]
+
+#define completeFlowTask(taskId,eventMode,remark) [NSString stringWithFormat:@"%@getFlowTaskContent?taskId=%@&eventMode=%d&remark=%@",workflowService,taskId,eventMode,remark]
+
+#define loginURL(workNo, password) [NSString stringWithFormat:@"%@getFlowTaskList?workNo=%@&type=%@",workflowService,workNo,password]
+
+#define queryPasswordURL(address) [NSString stringWithFormat:@"%@getFlowTaskList?workNo=%@",workflowService,address]
+
+
+>>>>>>> .r92
+//Notification name
+#define DrawTodayEvents @"DrawTodayEvents"
+#define DrawWheelEvents @"DrawWheelEvents"
+#define FlowTypeNotification @"FlowTypeNotification"
+#define TaskIdNotification @"TaskIdNotification"
+#define CheckedTaskIdNotification @"CheckedTaskIdNotification"
+#define FlowEnumNotification @"FlowEnumNotification"
+ 
+//typedef section
+typedef enum {
+    FcEventTypePersonal=5,
+    FcEventTypeBusiness=6,
+    FcEventTypeMeeting=7,
+    FcEventTypeLunch=8,
+    //FcEventTypeTrip=9,
+    FcEventTypeMulti=10,
+    FcEventTypeDefault=11,
+    //FcEventTypeOverTime=12,
+    //FcEventTypeAttendance=13
+} FcEventType;
+
+typedef enum{
+    FLOWTYPE_CONFIRMLEAVE = 0, //銷假
+    FLOWTYPE_ASKLEAVE = 1,     //請假
+    FLOWTYPE_CONFIRMWORK = 2,   //出勤
+    FLOWTYPE_BUSSINESSTRIP = 3, //出差
+}FlowTypeEnum;
+
+
+static inline CGPoint
+ccpAdd(const CGPoint v1, const CGPoint v2)
+{
+	return ccp(v1.x + v2.x, v1.y + v2.y);
+}
+
+static inline CGPoint
+ccpSub(const CGPoint v1, const CGPoint v2)
+{
+	return ccp(v1.x - v2.x, v1.y - v2.y);
+}
+
+static inline CGRect
+ccRectShift(const CGRect v1, const CGPoint v2)
+{
+    return CGRectMake(v1.origin.x+v2.x, v1.origin.y+v2.y, v1.size.width, v1.size.height);
+}
+
+static inline CGFloat
+realRadian(CGFloat _radian)
+{
+    if (_radian>2*M_PI)
+        return realRadian(_radian-(2*M_PI));
+    else if(_radian<0)
+        return realRadian(_radian+(2*M_PI));
+    return _radian;
+}

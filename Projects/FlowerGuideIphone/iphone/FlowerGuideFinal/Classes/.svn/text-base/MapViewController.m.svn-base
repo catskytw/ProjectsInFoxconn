@@ -1,0 +1,434 @@
+//
+//  MapViewController.m
+//  FlowerGuide
+//
+//  Created by Change Liao on 9/10/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+
+#import "MapViewController.h"
+#import "MapPicNamePicker.h"
+#import "Queue.h"
+#import "EagleViewController.h"
+#import "AStar.h"
+#import "MoveController.h"
+#import "AllContentPointProperties.h"
+#import "GoFutureModel.h"
+#import "Vars.h"
+#import "LocalizationSystem.h"
+#import "ExhibitPtObject.h"
+#import "DirectionArrowViewController.h"
+@implementation MapViewController
+@synthesize isShowArrow;
+-(id)initWithNowPosition:(NSInteger)position{
+	if((self=[super init])){		
+		featureCtrl=[FeatureCtrlCollections current];
+		allMovePoints=[[NSMutableArray arrayWithObjects:nil]retain];
+		shortestPathEdgeArray=[[NSMutableArray arrayWithObjects:nil]retain];
+		mapImageView=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 320, 382)];
+		mapImageView.userInteractionEnabled=YES;
+		isRunningMap=NO;
+		thisMapDrawer=[[MapDrawer alloc]initWithWorldRect:CGRectMake(0, 0, 320, 382) with3D:YES withMonitorWidth:320 withMonitorHeight:382 withFeatureCollection:featureCtrl withShortestPathArray:nil];
+		myTopPanel=[[TopControlPanel alloc]init];
+		myBottomPanel=[[BottomControlPanel alloc]init];
+		nowPosition=position;
+		scale=28;
+		[self getExhibitionInfo:nowPosition];
+	}
+	return self;
+}
+
+- (void)dealloc {
+	[thisExhibitionInfoObject release];
+	[allMovePoints release];
+	[shortestPathEdgeArray release];
+	[mapImageView release];
+	[thisMapDrawer release];
+	[myTopPanel release];
+	[myBottomPanel release];
+    [super dealloc];
+}
+-(void)getExhibitionInfo:(NSInteger)tmpDestPosition{
+	if(thisExhibitionInfoObject!=nil){
+		[thisExhibitionInfoObject release];
+		thisExhibitionInfoObject==nil;
+	}
+	thisExhibitionInfoObject=[[GoFutureModel getExhibitPointInfo:[NSString stringWithFormat:@"%i",tmpDestPosition]]retain];
+	[self giveTopBottomPanelValue];
+}
+-(void)viewDidDisappear:(BOOL)animated{
+	[self removeAllSubViews];
+	[super viewDidDisappear:animated];
+}
+-(void)viewDidLoad{
+	[super viewDidLoad];
+	[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(prepareAndStartWalk:) name:MapDrawingNotificationName object:nil];
+	[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(cancelWalk:) name:MapCancelWalking object:nil];
+	[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(forwardWalk:) name:MapForwardWalking object:nil];
+}
+-(void)viewDidUnload{
+	[super viewDidUnload];
+	//- (void)removeObserver:(id)observer name:(NSString *)aName object:(id)anObject;
+	[[NSNotificationCenter defaultCenter]removeObserver:self name:MapDrawingNotificationName object:nil];
+	[[NSNotificationCenter defaultCenter]removeObserver:self name:MapCancelWalking object:nil];
+	[[NSNotificationCenter defaultCenter]removeObserver:self name:MapForwardWalking object:nil];
+}
+-(void)viewWillAppear:(BOOL)animated{
+	[super viewWillAppear:animated];
+	[rightBtn setHidden:NO];
+	
+	viewPortViewHeight=self.viewPortView.frame.size.height;
+	viewPortViewWidth=self.viewPortView.frame.size.width;
+	
+	MapDataCtrl *dataCtrl=featureCtrl.pointDataCtrl;
+	MapFeature *nineFeature=[dataCtrl getFeatureObject:nowPosition];
+	Coordination *point=(Coordination*)[nineFeature.points objectAtIndex:0];
+	//若為全區地圖,應該全區繪製出來	
+	[self drawMap:CGRectMake(point.x, point.y, viewPortViewWidth, viewPortViewHeight)];
+	UIImage *mapBitmap=[[UIImage alloc]initWithCGImage:thisMapDrawer.mapImageRef];
+	[mapImageView setImage:mapBitmap];
+	[viewPortView addSubview:mapImageView];
+	[viewPortView addSubview:myTopPanel.view];
+	[myTopPanel switchContentMode];
+	
+	[viewPortView addSubview:myBottomPanel.view];
+	[self giveTopBottomPanelValue];
+	[self drawPerson];
+	
+	if(isShowArrow){
+		DirectionArrowViewController *arrowViewController=[DirectionArrowViewController new];
+		[viewPortView addSubview:arrowViewController.view];
+		//不需要release,由arrowViewController的按鍵自行決定release
+		//[arrowViewController release];
+		isShowArrow=NO;
+	}
+	[mapBitmap release];
+}
+
+-(void)drawPerson{
+	UIButton *person=[UIButton buttonWithType:UIButtonTypeCustom];
+	//x=160-40/2
+	//y=191-49/2
+	[person setFrame:CGRectMake(140, 166, 40, 49)];
+	UIImage *personBitmap=[[UIImage alloc]initWithContentsOfFile:[[NSBundle mainBundle]pathForResource:@"mapui_icon_position" ofType:@"png"]];
+	[person setBackgroundImage:personBitmap forState:UIControlStateNormal];
+	[person addTarget:self action:@selector(pointPersionAction:) forControlEvents:UIControlEventTouchUpInside];
+	[self.viewPortView addSubview:person];
+	[personBitmap release];
+}
+
+//給予世界框繪製地圖
+-(void)drawMap:(CGRect)r{
+	//參數設置
+	//point.x-160+20, point.y-191-90
+	[thisMapDrawer.pointArray removeAllObjects];
+	thisMapDrawer.worldRect=CGRectMake(r.origin.x-160+20, r.origin.y-191-90, r.size.width, r.size.height);
+#ifdef DEBUG_MODE
+	NSLog(@"start drawing map:%@",[ToolsFunction currentMillionSec]);
+#endif
+	[thisMapDrawer redraw];
+#ifdef DEBUG_MODE
+	NSLog(@"finish drawing map:%@",[ToolsFunction currentMillionSec]);
+#endif
+	[self drawPOIBtn];
+}
+
+//繪製地圖上眉牌點位
+-(void)drawPOIBtn{
+	
+	[self removeAllBtn];
+	[thisMapDrawer.pointArray sortUsingDescriptors:[ToolsFunction getOneDeascSortDescriptor:@"yValue"]];
+	//TODO draw person point
+	NSAutoreleasePool *myPool=[NSAutoreleasePool new];
+	for(MapFeature *thisFeature in thisMapDrawer.pointArray){
+		MapPoint *mp=(MapPoint*)thisFeature.styleObject;
+		
+		NSString *picName=[MapPicNamePicker getPointPicName:mp.bmpId withFeatureId:thisFeature.featureId];
+		if(picName==nil) continue;
+		Coordination *thisLocation=(Coordination*)[thisFeature.points objectAtIndex:0];
+		
+		UIButton *tmpBtn=[UIButton buttonWithType:UIButtonTypeCustom];
+		[tmpBtn setBackgroundImage:[UIImage imageNamed:picName] forState:UIControlStateNormal];
+		NSInteger btnX=thisLocation.x-24;
+		NSInteger btnY=(viewPortViewHeight-thisLocation.y)-55;
+		[tmpBtn setFrame:CGRectMake(btnX,btnY, 48, 60)];
+		[tmpBtn addTarget:self action:@selector(buttonAction:) forControlEvents:UIControlEventTouchUpInside];
+		
+		NSString *tmpString=(thisFeature.featureId>9)?[NSString stringWithFormat:@"%i",thisFeature.featureId]:[NSString stringWithFormat:@"0%i",thisFeature.featureId];
+		[tmpBtn setTitle:tmpString forState:UIControlStateNormal];
+		[tmpBtn setTitle:tmpString forState:UIControlStateHighlighted];
+		tmpBtn.contentEdgeInsets=UIEdgeInsetsMake(0, 0, 25, 0);
+		if(mp.bmpId==0){
+			[tmpBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+			[tmpBtn setTitleColor:[UIColor yellowColor] forState:UIControlStateHighlighted];
+		}else{
+			[tmpBtn setTitleColor:[UIColor clearColor] forState:UIControlStateNormal];
+			[tmpBtn setTitleColor:[UIColor clearColor] forState:UIControlStateHighlighted];
+		}
+		[mapImageView addSubview:tmpBtn];
+	}
+	[myPool drain];
+}
+
+-(void)removeAllBtn{
+	for(UIButton *thisBtn in mapImageView.subviews)
+		[thisBtn removeFromSuperview];
+}
+-(void)removeAllSubViews{
+	for(UIView *thisView in viewPortView.subviews)
+		[thisView removeFromSuperview];
+}
+
+-(void)giveTopBottomPanelValue{
+	myTopPanel.nowPositionId=nowPosition;
+	[myTopPanel changeValue:thisExhibitionInfoObject];
+	[myBottomPanel changeValue:thisExhibitionInfoObject];
+}
+-(IBAction)runEagleView:(id)sender{
+	EagleViewController *evc=[EagleViewController new];
+	//給予下個頁面nowposition
+	[evc setNowPosition:nowPosition];
+	[self.navigationController pushViewController:evc animated:YES];
+	[evc release];
+}
+
+/**********************
+ 點選人物之後的反應
+ */
+-(IBAction)pointPersionAction:(id)sender{
+	if(isRunningMap) return;
+	facilityArray=[[NSArray arrayWithArray: [GoFutureModel getExhibitPtFacilityList]]retain];
+	UIActionSheet *sheet=[[UIActionSheet alloc]initWithTitle:AMLocalizedString(@"WantToGo",nil) delegate:self cancelButtonTitle:nil destructiveButtonTitle:nil otherButtonTitles:nil];
+	for(int i=0;i<[facilityArray count];i++){
+		ExhibitPtObject *selectedObject=(ExhibitPtObject*)[facilityArray objectAtIndex:i];
+		[sheet addButtonWithTitle:selectedObject.exhibitPtName];
+	}
+	[sheet addButtonWithTitle:AMLocalizedString(@"Cancel",nil)];
+	[sheet showInView:self.view];
+}
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{
+	if(buttonIndex>=[facilityArray count]) return;
+	ExhibitPtObject *selectedObject=(ExhibitPtObject*)[facilityArray objectAtIndex:buttonIndex];
+	[self prepareWalk:nowPosition withEndPointFeatureId:[selectedObject.exhibitPtId intValue]];
+	[self startWalking];
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex{
+	[facilityArray release];
+	[actionSheet release];
+}
+
+/*********************
+ notifiction method
+ */
+-(void)prepareAndStartWalk:(NSNotification*)notification{
+	NSDictionary *dataDic=(NSDictionary*)notification.userInfo;
+	NSInteger destinationId=[((NSString*)[dataDic objectForKey:@"destinationId"]) intValue];
+	destPosition=destinationId;
+	if(nowPosition==destPosition) return;
+	[self prepareWalk:nowPosition withEndPointFeatureId:destPosition];
+	[self startWalking];
+}
+
+//接到取消往前走的notification
+-(void)cancelWalk:(NSNotification*)notification{
+	[self endWalking];
+	[self getExhibitionInfo:nowPosition];
+}
+
+//接到繼續往前走的notification
+-(void)forwardWalk:(NSNotification*)notification{
+	[self startWalking];
+}
+
+-(IBAction)buttonAction:(id)sender{
+	UIButton *btn=(UIButton*)sender;
+	destPosition=[btn.titleLabel.text intValue];
+	if(!isRunningMap){
+		if(nowPosition==destPosition){
+			UIAlertView *samePointAlert=[[UIAlertView alloc]initWithTitle:AMLocalizedString(@"Warning",nil) message:AMLocalizedString(@"SamePointAlert",nil) delegate:nil cancelButtonTitle:AMLocalizedString(@"Confirm",nil) otherButtonTitles:nil];
+			[samePointAlert show];
+			[samePointAlert release];
+			return;
+		}else{
+			[shortestPathEdgeArray removeAllObjects];
+			[self getExhibitionInfo:destPosition];
+			AStar *a=[[AStar alloc]initWithStartpoint:[NSString stringWithFormat:@"%i",nowPosition] withEndpoint:[NSString stringWithFormat:@"%i",destPosition]];
+			[shortestPathEdgeArray addObjectsFromArray:[a runAstar]];
+			
+			NSMutableString *contentString=[NSMutableString stringWithFormat:@"%@%@\n%@%@",AMLocalizedString(@"point",nil),thisExhibitionInfoObject.ptDesc,AMLocalizedString(@"point",nil),[self getAlertMessageContent:nowPosition]];
+			UIAlertView *alert=[[UIAlertView alloc]initWithTitle:thisExhibitionInfoObject.ptName 
+														 message:contentString 
+														delegate:self cancelButtonTitle:nil otherButtonTitles:AMLocalizedString(@"StartToMove",nil),AMLocalizedString(@"Cancel",nil),nil];
+			[alert show];
+			((UILabel*)[[alert subviews]objectAtIndex:1]).textAlignment=UITextAlignmentLeft;
+			[a release];
+			[alert release];
+		}
+	}
+}
+/*************************
+ walking code
+ */
+-(void)prepareWalk:(NSInteger)startPointFeatureId withEndPointFeatureId:(NSInteger)endPointFeatureId{
+	[allMovePoints removeAllObjects];
+	[shortestPathEdgeArray removeAllObjects];
+	if(displayLink!=nil){
+		[displayLink invalidate];
+		displayLink=nil;
+	}
+
+	//取得所有點位
+	AStar *a=[[AStar alloc]initWithStartpoint:[NSString stringWithFormat:@"%i",startPointFeatureId] withEndpoint:[NSString stringWithFormat:@"%i",endPointFeatureId]];
+	MoveController *mc=[[MoveController alloc]init];
+	//將shortestPath之array切段
+	[shortestPathEdgeArray addObjectsFromArray:[a runAstar]];
+	[thisMapDrawer.shortestPathArray removeAllObjects];
+	[thisMapDrawer.shortestPathArray addObjectsFromArray:shortestPathEdgeArray];
+	[allMovePoints addObjectsFromArray:[mc caculateMovePoints:shortestPathEdgeArray]];
+	[mc release];
+	[a release];
+	
+	movePointsArrayPointer=0;
+	[self getExhibitionInfo:endPointFeatureId];
+	displayLink=[CADisplayLink displayLinkWithTarget:self selector:@selector(keepWalking)];
+	[displayLink setFrameInterval:1];
+	[displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];	
+	displayLink.paused=YES;
+}
+-(void)startWalking{
+	[myTopPanel setButtonDisable];
+	[myBottomPanel setButtonDisable];
+	isRunningMap=YES;
+	displayLink.paused=NO;
+}
+-(void)stopWalking{
+	[myTopPanel setButtonEnable];
+	[myBottomPanel setButtonEnable];
+	isRunningMap=NO;
+	displayLink.paused=YES;
+}
+
+-(void)endWalking{
+	[self stopWalking];
+	if(displayLink!=nil){
+		[displayLink invalidate];
+		displayLink=nil;
+	}
+	myTopPanel.isForwardingMode=NO;
+	[myTopPanel switchContentMode];
+	[thisMapDrawer.shortestPathArray removeAllObjects];
+	[allMovePoints removeAllObjects];
+	movePointsArrayPointer=0;
+	
+	//TODO gc
+}
+-(void)keepWalking{
+#ifdef SHOWMEM
+	[ToolsFunction report_memory];
+#endif
+	FeatureCoordination *eachPoint=(FeatureCoordination*)[allMovePoints objectAtIndex:movePointsArrayPointer];
+
+	CGRect worldRect=CGRectMake(eachPoint.x, eachPoint.y, 320, 382);
+	[self drawMap:worldRect];
+	[mapImageView setImage:[UIImage imageWithCGImage:thisMapDrawer.mapImageRef]];
+	//需停下之點位
+	
+	if(eachPoint.featureId!=-1 ){
+		MapDataCtrl *ctrl=featureCtrl.pointDataCtrl;
+		MapFeature *thisFeature=[ctrl getFeatureObject:eachPoint.featureId];
+		MapPoint *thisFeatureStyle=(MapPoint*)thisFeature.styleObject;
+		if(thisFeatureStyle.bmpId==0 || thisFeatureStyle.bmpId==1 || thisFeatureStyle.bmpId==2 || thisFeatureStyle.bmpId==3){
+			nowPosition=eachPoint.featureId;
+			[myTopPanel.distanceLabel setText:[self getAlertMessageContent:nowPosition]];
+			myTopPanel.nowPositionId=nowPosition;
+			if(movePointsArrayPointer>=[allMovePoints count]-1){
+				[self endWalking];
+				return;
+			}else{
+				[self PausePointInfo];
+				[self stopWalking];
+			}
+		}
+		 
+		
+	}
+	movePointsArrayPointer++;
+}
+
+-(void)PausePointInfo{
+	myTopPanel.isForwardingMode=YES;
+	[myTopPanel switchContentMode];
+}
+-(IBAction)testAction:(id)sender{
+	[GoFutureModel getExhibitPointInfo:@"1"];
+}
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+	if(buttonIndex==0){
+		[self prepareWalk:nowPosition withEndPointFeatureId:destPosition];
+		[self startWalking];
+	}
+}
+
+/**
+ 取得至目前內容點應說明之文字
+ */
+-(NSString*)getAlertMessageContent:(NSInteger)nowPositionFeatureId{
+	Edge *lastEdge=(Edge*)[shortestPathEdgeArray objectAtIndex:[shortestPathEdgeArray count]-1];
+	int totalLengthOfShortestPath=[self getTotalValueByEndPointFeatureId:lastEdge.endPoint];
+	int distance=totalLengthOfShortestPath-[self getTotalValueByEndPointFeatureId:[NSString stringWithFormat:@"%i",nowPositionFeatureId]];
+	int range=round((double)distance/scale);
+	return [NSString stringWithFormat:@"距離:%i公尺",range];
+}
+
+/**
+ 取得至目前feaureId,走了多遠距離
+ */
+-(NSInteger)getTotalValueByEndPointFeatureId:(NSString*)featureId{
+	NSInteger result=0;
+	for(Edge *thisEdge in shortestPathEdgeArray){
+		//僅第一條edge有可能
+		if([thisEdge.startPoint compare:featureId]==NSOrderedSame)
+			break;
+		result+=thisEdge.hValue;
+		
+		if([thisEdge.endPoint compare:featureId]==NSOrderedSame){
+			break;
+		}
+	}
+	return result;
+}
+
+-(void)setNowPosition:(NSInteger)positionValue{
+	nowPosition=positionValue;
+}
+/*************************
+ test code
+ deprecated!
+ */
+/*
+-(void)testMap:(id)sender{
+	displayLink=[CADisplayLink displayLinkWithTarget:self selector:@selector(testRefesh)];
+	[displayLink setFrameInterval:1];
+	[displayLink addToRunLoop:[NSRunLoop currentRunLoop] forMode:NSDefaultRunLoopMode];
+}
+-(void)testRefesh{
+	if(count<500){
+		[self drawMap:CGRectMake(startX, startY, 320, 382)];
+		[mapImageView setImage:[UIImage imageWithCGImage:thisMapDrawer.mapImageRef]];
+		
+	}else{
+		[displayLink invalidate];
+		startX=500;
+		startY=500;
+		count=0;
+		return;
+	}
+	
+	startY++;
+	startX++;
+	count++;
+}
+ */
+@end

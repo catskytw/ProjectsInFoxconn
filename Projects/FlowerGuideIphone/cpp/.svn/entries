@@ -1,0 +1,121 @@
+8
+
+dir
+108
+http://10.62.13.2:8080/svn/Change/trunk/FlowerGuide_iphone/cpp
+http://10.62.13.2:8080/svn/Change
+
+
+
+2010-10-07T00:34:54.018430Z
+108
+Change
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c545920d-0100-534b-b10f-cc99ad5d9f7a
+
+build
+dir
+
+osx.xcodeproj
+dir
+
+scons
+dir
+
+SConscript
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+c7eb13287b1aeb08dd219893084453eb
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+SConstruct
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+6c86d7fe07a2eea9f591fcf3510a0efa
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+core
+dir
+
+format
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+698a35ce51999fbaf807c0499514a9b0
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+astyle-options
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+fca0ef925425c63661f84fd854c6df48
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+magick
+dir
+
+README
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+8775296747df5de1e5153abe35ece15e
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+blackboxtest.sh
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+81c8e160aeb40f79e0bca3445ffb6193
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+

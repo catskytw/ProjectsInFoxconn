@@ -1,0 +1,248 @@
+//
+//  BusDescriptionViewController.m
+//  FloraExpo2010
+//
+//  Created by Change Liao on 6/29/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "BusDescriptionViewController.h"
+#import "TrafficDataModel.h"
+#import "BusInfoStationCell.h"
+#import "StationInfoObject.h"
+#import "Vars.h"
+#import "TrafficTabViewController.h"
+#import "GoogleMapBaseViewController.h"
+#import "SearchBusLineViewController.h"
+#import "MRTMapViewController.h"
+#import "MyfavoritePListTool.h"
+#import "BusInfoStationCell.h"
+#import "MyFavoriteDirectoryPickerView.h"
+#import "MyFavoriteDirectoryPickerActionSheet.h"
+#import "BusSearchCategoryList.h"
+#import "GoogleMapRoutePlainViewController.h"
+@implementation BusDescriptionViewController
+@synthesize busLineName;
+@synthesize busScheduleString;
+@synthesize busCategoryImageView;
+@synthesize thisContentTable;
+@synthesize leaveModeSeg;
+@synthesize actionButton;
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+-(id)initWithDataObject:(BusLineDescriptionObject*)thisDataObject{
+	if((self=[super init])){
+		isLeave=YES;
+		thisBusDescription=[thisDataObject retain];
+		selectedIndexPath=nil;
+		//thisBusDescription=[[TrafficDataModel getMRTStationInfoObject:key]retain];
+	}
+	return self;
+}
+
+/*
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        // Custom initialization
+		
+    }
+    return self;
+}
+*/
+/*
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+*/
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+	if(selectedIndexPath!=nil) [selectedIndexPath release];
+	[thisBusDescription release];
+	[queryKey release];
+    [super dealloc];
+}
+
+
+-(void)busLineSearch:(id)sender{
+	StationInfoObject *startStation=(StationInfoObject*)[thisBusDescription.stationInfoArray objectAtIndex:0];
+	StationInfoObject *endStation=(StationInfoObject*)[thisBusDescription.stationInfoArray objectAtIndex:[thisBusDescription.stationInfoArray count]-1];
+	
+	SearchBusLineViewController *sblvc=[[SearchBusLineViewController alloc]init];
+	[sblvc.startStation setText:startStation.stationName];
+	[sblvc.endStation setText:endStation.stationName];
+	[self.navigationController pushViewController:sblvc animated:YES];
+	[sblvc release];
+}
+-(void)enterMRTMap:(id)sender{
+	MRTMapViewController *mvc=[MRTMapViewController new];
+	[self.navigationController pushViewController:mvc animated:YES];
+	[mvc release];
+}
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];	
+	UIBarButtonItem *rightButton;
+
+	rightButton=[[UIBarButtonItem alloc]initWithTitle:AMLocalizedString(@"RouteSearch",nil) style:UIBarButtonItemStylePlain target:self action:@selector(busLineSearch:)];
+
+	[self.navigationItem setRightBarButtonItem:rightButton animated:NO];
+	[rightButton release];
+	[self setDescriptionValue];
+}
+
+-(void)setDescriptionValue{
+	[self.navigationItem setTitle:thisBusDescription.busLineName];
+	[busLineName setText:thisBusDescription.busLineName];
+	[busScheduleString setText:thisBusDescription.busLineScheduleString];
+	[busCategoryImageView setImage:[UIImage imageNamed:thisBusDescription.busLinePic]];	
+}
+- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section{
+	return [thisBusDescription.stationInfoArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+	BusInfoStationCell *thisCell=(BusInfoStationCell*)[tableView dequeueReusableCellWithIdentifier:@"BusInfoStationCell"];
+	if(thisCell==nil){
+		NSArray *nib=[[NSBundle mainBundle]loadNibNamed:@"BusInfoStationCell" owner:nil options:nil];
+		for(id currentObject in  nib){
+			if([currentObject isKindOfClass:[BusInfoStationCell class]]){
+				thisCell=(BusInfoStationCell*)currentObject;
+				break;
+			}
+		}
+		thisCell.selectedBackgroundView=[[[UIImageView alloc]initWithImage:[UIImage imageNamed:DefaultCellSelectedBackground]]autorelease];
+	}
+	int myIndex=[indexPath row];
+	StationInfoObject *station=	(StationInfoObject*)[thisBusDescription.stationInfoArray objectAtIndex:myIndex];
+	//設定站牌名稱
+	[thisCell.stationName setText:station.stationName];
+	[thisCell.lineView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@.png",station.stationLineIcon]]];
+	[thisCell.pointView setImage:[UIImage imageNamed:[NSString stringWithFormat:@"%@.png",station.stationPassIcon]]];
+	[thisCell.timeNum setText:[NSString stringWithFormat:@"%i",station.timeMin]];
+	[thisCell.unitString setText:[NSString stringWithString:station.timeUnit]];
+	[thisCell.stationId setText:[NSString stringWithString:station.stationId]];
+	if(station.isUrgent){
+		[thisCell.timeNum setTextColor:[UIColor redColor]];
+		[thisCell.unitString setTextColor:[UIColor redColor]];
+	}
+	return thisCell;
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+	//trafficui_ic_buslist_blue.png的高度
+	return 64.0;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+	selectedIndexPath=[[indexPath copy]retain];
+	UIActionSheet *menu=[[UIActionSheet alloc]
+						 initWithTitle:AMLocalizedString(@"ThisEntryData",nil) delegate:self cancelButtonTitle:AMLocalizedString(@"Cancel",nil) destructiveButtonTitle:AMLocalizedString(@"AddMyFavorite",nil) otherButtonTitles:AMLocalizedString(@"viewMap",nil),AMLocalizedString(@"AllBusOnThisStation",nil),AMLocalizedString(@"StartRoutePlan",nil),nil];
+	[menu showInView:self.parentViewController.tabBarController.view];
+}
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex{	
+	GoogleMapBaseViewController *gmbvc;
+	BusSearchCategoryList *busLines;
+	GoogleMapRoutePlainViewController *routePlanView;
+	int rowIndex=[selectedIndexPath row];
+	StationInfoObject *stationInfo=[(NSArray*)thisBusDescription.stationInfoArray objectAtIndex:rowIndex];
+	CLLocationCoordinate2D thisPostition=[Vars locationWithLat:stationInfo.latitude withLong:stationInfo.longitude]; 
+	MyFavoriteDirectoryPickerActionSheet *pickAction;
+	NSMutableArray *thisDataArray;
+	switch (buttonIndex) {
+			//加入我的最愛
+		case 0:
+			pickAction=[[MyFavoriteDirectoryPickerActionSheet alloc]initWithTitle:AMLocalizedString(@"PleaseChoose",nil) delegate:nil cancelButtonTitle:AMLocalizedString(@"Cancel",nil) destructiveButtonTitle:AMLocalizedString(@"Complete",nil) otherButtonTitles:nil];
+			pickAction.delegate=pickAction;
+			pickAction.queryType=busQuery;
+			pickAction.itemId=thisBusDescription.busLineId;
+			pickAction.busStationId=stationInfo.stationId;
+			pickAction.leaveMode=thisBusDescription.leaveMode;
+			MyFavoriteDirectoryPickerView *pickerView=
+			[[MyFavoriteDirectoryPickerView alloc]initWithFrame:CGRectMake(0, 185, 0, 0) withFavoriteType:busQuery];
+			pickAction.selectedPicker=pickerView;
+			pickerView.destLabel=pickAction.destLabel;
+			pickerView.showsSelectionIndicator=YES;
+			
+			[pickAction addSubview:pickerView];
+			[pickAction showInView:self.view];
+			[pickAction setBounds:CGRectMake(0, 0, 320, 720)];
+			
+			[pickerView release];
+			[pickAction release];
+			break;
+		//瀏覽地圖
+		case 1:
+			gmbvc=[[GoogleMapBaseViewController alloc]initWithAnnotationClickFlag:NO withStartLocation:thisPostition withType:busQuery];
+			[self.navigationController pushViewController:gmbvc animated:YES];
+			[gmbvc release];
+			break;
+			//站點行經公車
+		case 2:
+			thisDataArray=[TrafficDataModel getBusSearchCategoryByStationName:stationInfo.stationName];
+			busLines=[BusSearchCategoryList new];
+			busLines.contentData=thisDataArray;
+			[self.navigationController pushViewController:busLines animated:YES];
+			[busLines release];
+			break;
+			//路線規畫
+		case 3:
+			routePlanView=[GoogleMapRoutePlainViewController new];
+			routePlanView.startPOILocation=NullPOIPosition;
+			routePlanView.endStationString=[NSString stringWithString:stationInfo.stationName];
+			[self.navigationController pushViewController:routePlanView animated:YES];
+			[routePlanView release];
+			break;
+		default:
+			break;
+	}
+	//TODO 依不同的動作做出不同的反應
+	[actionSheet release];
+}
+- (void)actionSheetCancel:(UIActionSheet *)actionSheet{
+	[actionSheet release];
+}
+
+-(void)showRightBarButtonItem:(BOOL)isShow{
+	if(!isShow){
+		self.navigationItem.rightBarButtonItem=nil;
+	}
+}
+
+-(IBAction)changeDeparture:(id)sender{
+	UISegmentedControl *thisSeg=(UISegmentedControl*)sender;
+	isLeave=(thisSeg.selectedSegmentIndex==0)?YES:NO;
+	
+	BusLineDescriptionObject *tmpDataObject=[TrafficDataModel getBusStationInfoObject:thisBusDescription.busLineId withLeaveMode:isLeave?@"true":@"false"];
+	[thisBusDescription release];
+	thisBusDescription=[tmpDataObject retain];
+	[self setDescriptionValue];
+	[thisContentTable reloadData];
+}
+
+-(IBAction)clickActionButton:(id)sender{
+	BusLineDescriptionObject *tmpDataObject=[TrafficDataModel getBusStationInfoObject:thisBusDescription.busLineId withLeaveMode:isLeave?@"true":@"false"];
+	[thisBusDescription release];
+	thisBusDescription=[tmpDataObject retain];
+	[self setDescriptionValue];
+	[thisContentTable reloadData];
+}
+@end

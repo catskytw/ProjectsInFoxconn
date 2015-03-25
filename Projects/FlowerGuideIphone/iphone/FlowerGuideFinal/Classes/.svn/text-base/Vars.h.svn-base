@@ -1,0 +1,79 @@
+//
+//  Vars.h
+//  FlowerGuide
+//
+//  Created by Change Liao on 9/10/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#define DEBUG_MODE 1
+#define QRCODE 1
+#define SHOWMEM 1
+//notification name
+#define MapDrawingNotificationName @"mapdrawNotification"
+#define MapCancelWalking @"cancelWalk"
+#define MapForwardWalking @"forwardWalk"
+#define ResetBackgroundView @"resetBackgroundView"
+
+#define PopupWindow @"popupWindow"
+//#define DefaultUrlString @"http://betafloraexpo.no-ip.info/testWeb/Query.aspx?method="
+#define DefaultUrlString @"http://betafloraexpo.no-ip.info:8080/pavilionService."
+
+/***
+ * area id
+ */
+#define PreciousAreaId @"AF8EDFFC-DFE3-4390-8BAD-7159C5613778" //珍稀植物區
+#define TropicsAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9602" //熱帶植物區
+#define SubTropicsAreaId @"36F27A05-D00D-46E9-A825-3BA99E881B2E" //亞熱帶植物區
+#define FocusAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9603" //焦點植物區
+#define FarmTechAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9604" //農業科技區
+#define ImmortalFlowerAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9605" //永生花植物區
+#define CactusAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A97C2" //多肉植物區
+#define TemperateAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9606" //溫帶植物區
+#define SpecialAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9607" //特展區
+#define MountainAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9608" //高山植物區
+#define FlowerAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9609" //花卉主題區
+#define FutureAreaId @"EDFC233F-07D2-4676-AD9B-F444BC2A9610" //未來庭園區
+#define OrchisAreaId @"7616EF85-404E-4D6E-BA2D-8E4B34A4A275" //蘭花共生區
+ 
+enum MapDataTypeNum {
+	MapDataTypeIdx=1,
+	MapDataTypeDat=2
+};
+
+enum FeatureTypeNum{
+	FeatureTypePoint=0,
+	FeatureTypeLine=1,
+	FeatureTypeRegion=2
+};
+
+enum pointType{
+	regionPointType=0,
+	pointPointType=1,
+	plantPointType=2
+};
+
+enum directionPoint{
+	directionNone=0,
+	directionLeft=1,
+	directionUp=2,
+	directionRight=3,
+	directionDown=4
+};
+
+enum DescriptionType{
+	DescriptionTypeSubject=0,
+	DescriptionTypeContent=1
+};
+
+enum CellHeightStyle{
+	CellHeightStyleMedium=54,
+	CellHeightStyleHuge=110
+};
+
+@interface Vars : NSObject {
+
+}
+
+@end

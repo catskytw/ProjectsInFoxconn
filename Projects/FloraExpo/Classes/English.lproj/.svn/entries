@@ -1,0 +1,42 @@
+8
+
+dir
+129
+http://10.62.13.2:8080/svn/Change/trunk/FloraExpo/Classes/English.lproj
+http://10.62.13.2:8080/svn/Change
+
+
+
+2010-11-01T02:05:09.946482Z
+129
+Change
+
+
+svn:special svn:externals svn:needs-lock
+
+TrainSearchViewController.xib
+file
+
+
+
+
+2010-09-09T08:41:08.000000Z
+c6a61d6c9e5a8b1e283f6e7420d99b37
+2010-11-01T02:05:09.946482Z
+129
+Change
+has-props
+
+BusDescriptionViewController.xib
+file
+
+
+
+
+2010-09-09T07:54:28.000000Z
+491f961fd4d186b52f571560807d5257
+2010-11-01T02:05:09.946482Z
+129
+Change
+has-props
+

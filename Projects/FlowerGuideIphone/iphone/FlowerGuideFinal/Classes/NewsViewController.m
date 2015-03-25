@@ -1,0 +1,164 @@
+//
+//  NewsViewController.m
+//  FlowerGuide
+//
+//  Created by Liao Change on 9/21/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "NewsViewController.h"
+#import "AboutFutureModel.h"
+#import "NewsCell.h"
+#import "NewsListObject.h"
+#import "Vars.h"
+#import "LocalizationSystem.h"
+#import "CommonContentDescriptionView.h"
+#import "ToolsFunction.h"
+@implementation NewsViewController
+-(id)init{
+	if((self=[super init])){
+		newsArray=[[AboutFutureModel getNewsList]retain];
+		marquees=[[AboutFutureModel getMarquees]retain];
+		thisContentTable=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, 320, 343)];
+		isRunMarquee=YES;
+		tmpLabel=[[UILabel alloc]initWithFrame:CGRectMake(320, 340, 320, 16)];
+
+	}
+	return self;
+}
+
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:@"BaseViewController" bundle:nibBundleOrNil]) {
+        // Custom initialization
+    }
+    return self;
+}
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	thisContentTable.delegate=self;
+	thisContentTable.dataSource=self;
+	[thisContentTable setBackgroundColor:[UIColor clearColor]];
+	[viewPortView addSubview:thisContentTable];
+	[titleLabel setText:AMLocalizedString(@"News",nil)];
+	//加入跑馬燈背景底色
+	UILabel *backgrounLabel=[[UILabel alloc]initWithFrame:CGRectMake(0,343-44,320,44)];
+	[backgrounLabel setBackgroundColor:[UIColor colorWithRed:(CGFloat)245/256 green:(CGFloat)120/256 blue:(CGFloat)47/256 alpha:1]];
+	[viewPortView addSubview:backgrounLabel];
+	[backgrounLabel release];
+	[tmpLabel setFont:[UIFont fontWithName:@"Arial" size:16]];
+	[tmpLabel setTextColor:[UIColor whiteColor]];
+	[tmpLabel setBackgroundColor:[UIColor clearColor]];
+	[viewPortView addSubview:tmpLabel];
+}
+
+-(void)viewWillAppear:(BOOL)animated{
+	[super viewWillAppear:animated];
+	[rightBtn setHidden:NO];
+	[viewPortView bringSubviewToFront:tmpLabel];
+	isRunMarquee=YES;
+	[self startRunMarquee];
+}
+-(void)viewWillDisappear:(BOOL)animated{
+	[super viewWillDisappear:animated];
+	[self stopRunMarquee];
+}
+-(void)animationDidStop:(NSString*)animationID finished:(NSString*)finished content:(void*)context{
+	[self startRunMarquee];
+}
+-(void)startRunMarquee{
+	int yValue=314;
+	if(isRunMarquee&&[marquees count]>0){
+		int selectedIndex=arc4random()%[marquees count];
+		NSString *marqueeString=(NSString*)[marquees objectAtIndex:selectedIndex];
+		CGSize marqueeSize=[ToolsFunction getContentTextWidthSize:marqueeString withHeight:16 withFontSize:16];
+		[tmpLabel setText:(NSString*)[marquees objectAtIndex:selectedIndex]];
+		[tmpLabel setFrame:CGRectMake(320, yValue, marqueeSize.width, 16)];
+		[UIView beginAnimations:nil context:nil];
+		[UIView setAnimationCurve:UIViewAnimationCurveLinear];
+		[UIView setAnimationDelegate:self];
+		[UIView setAnimationDuration:10*marqueeSize.width/320];
+		[UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:content:)];
+		[tmpLabel setFrame:CGRectMake(0-marqueeSize.width, yValue, marqueeSize.width, 16)];
+		[UIView commitAnimations];
+	}
+}
+
+-(void)stopRunMarquee{
+	isRunMarquee=NO;
+}
+/*
+// Implement loadView to create a view hierarchy programmatically, without using a nib.
+- (void)loadView {
+}
+*/
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+}
+
+
+- (void)dealloc {
+	[tmpLabel release];
+	[thisContentTable release];
+	[newsArray release];
+    [super dealloc];
+}
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+	return CellHeightStyleMedium;
+}
+
+- (NSInteger)tableView:(UITableView *)table numberOfRowsInSection:(NSInteger)section{
+	return [newsArray count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+	int row=[indexPath row];
+	NewsCell *thisCell=(NewsCell*)[tableView dequeueReusableCellWithIdentifier:@"NewsCell"];
+	if(thisCell==nil){
+		NSArray *nib=[[NSBundle mainBundle]loadNibNamed:@"NewsCell" owner:nil options:nil];
+		for(id currentObject in  nib){
+			if([currentObject isKindOfClass:[NewsCell class]]){
+				thisCell=(NewsCell*)currentObject;
+				break;
+			}
+		}
+		[thisCell setBackgroundView:[[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"contentui_btn_menu_green.png"]]autorelease]];
+		[thisCell setSelectedBackgroundView:[[[UIImageView alloc]initWithImage:[UIImage imageNamed:@"contentui_btn_menu_green_i.png"]]autorelease]];
+	}
+	NewsListObject *thisDataObject=(NewsListObject*)[newsArray objectAtIndex:row];
+	[thisCell.newsId setText:thisDataObject.newsId];
+	[thisCell.date setText:thisDataObject.date];
+	[thisCell.subject setText:thisDataObject.subject];
+	return thisCell;
+}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+	if([ToolsFunction hasConnected]){
+		int row=[indexPath row];
+		NewsListObject *selected=(NewsListObject*)[newsArray objectAtIndex:row];
+		NSString *newsKey=[NSString stringWithString:selected.newsId];
+		ContentObject *dataObject=(ContentObject*)[AboutFutureModel getNewsContent:newsKey];
+		CommonContentDescriptionView *nextController=[[CommonContentDescriptionView alloc]initWithDataObject:dataObject];
+		[self.navigationController pushViewController:nextController animated:YES];
+		[nextController release];
+	}
+}
+
+@end

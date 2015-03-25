@@ -1,0 +1,65 @@
+﻿/* 
+   Localizable.strings
+   FlowerGuide
+
+   Created by Liao Change on 9/15/10.
+   Copyright 2010 __MyCompanyName__. All rights reserved.
+ */
+ 
+ //main page
+ "NoExhibitContent"="此區域內無展示點!";
+ "SelecteExhibit"="你想觀看的展示點是:";
+ //Map
+"test"="測試字串";
+"WantToGo"="你想前往...";
+"Cancel"="取消";
+"Entrance"="入口區";
+"Exit"="出口區";
+"Information"="服務台";
+"Rest"="休息區";
+"Toilet"="廁所";
+"StartToMove"="開始前往";
+"Confirm"="確認";
+"FlowerInfo"="花卉資訊";
+"point"="●";
+"Warning"="注意";
+"SamePointAlert"="起始點與終點為同一點!";
+"FacilityTitle"="此方向設施包含";
+
+//Exhibition
+"News"="最新消息";
+"Future"="展館風貌";
+"ExhibitIntro"="展區介紹";
+"Ticket"="票價資訊";
+"VisitNotice"="參觀須知";
+"ContactInfo"="聯絡資訊";
+
+"AboutFuture"="關於未來館";
+"NewsContent"="消息內容";
+
+"IconInfo"="圖示";
+"ListInfo"="列表";
+
+"FlowerSearchInfo"="花卉資料查詢";
+"FlowerData"="花卉資料";
+"NoData"="查無此資料...";
+"SearchResult"="查詢結果";
+"trafficMode"="交通方式";
+
+"NoConnectionMessage"="網路目前無法連線,請檢查網路連結設定並關閉飛航模式後,再試一次.";
+"InCorrectJSONMessage"="網路傳回數值錯誤,請再試一次;若仍持續出現請檢查網路設定.";
+//flower description
+"f_alias"="●別名:";
+"f_category"="●園藝分類:";
+"f_color"="●花色:";
+"f_description"="●花卉描述:";
+"f_duration"="●花期:";
+"f_family"="●科別:";
+"f_fusage"="●用途:";
+"f_langOfFlower"="●花語:";
+"f_memo"="●備註:";
+"f_nameEng"="●英文名:";
+"f_shapeDesc"="●性狀描述:";
+"f_scientificName"="●學名:";
+"f_source"="●來源:";
+"f_specialDesc"="●特別描述:";

@@ -1,0 +1,86 @@
+8
+
+dir
+108
+http://10.62.13.2:8080/svn/Change/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix
+http://10.62.13.2:8080/svn/Change
+
+
+
+2010-10-07T00:34:54.018430Z
+108
+Change
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c545920d-0100-534b-b10f-cc99ad5d9f7a
+
+DataMatrixReader.cpp
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+81165932ad1a6c515e7facc6943f5900
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+decoder
+dir
+
+Version.cpp
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+d6cd451504896caa0e7926403a598a02
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+DataMatrixReader.h
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+3bf31abe303fe3b21584e142b4062fb3
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+detector
+dir
+
+Version.h
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+bc86b91d2c6f410eb0d64db4fb892618
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+

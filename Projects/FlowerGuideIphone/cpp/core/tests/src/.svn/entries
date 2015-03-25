@@ -1,0 +1,47 @@
+8
+
+dir
+108
+http://10.62.13.2:8080/svn/Change/trunk/FlowerGuide_iphone/cpp/core/tests/src
+http://10.62.13.2:8080/svn/Change
+
+
+
+2010-10-07T00:34:54.018430Z
+108
+Change
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+c545920d-0100-534b-b10f-cc99ad5d9f7a
+
+common
+dir
+
+TestRunner.cpp
+file
+
+
+
+
+2010-10-07T00:36:37.000000Z
+656fa71495a3949d29223c770dca1938
+2010-10-07T00:34:54.018430Z
+108
+Change
+has-props
+
+qrcode
+dir
+

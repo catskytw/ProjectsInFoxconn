@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  MobileOffice
+
+  Created by 廖 晨志 on 2011/8/22.
+  Copyright 2011年 foxconn. All rights reserved.
+*/
+"test"="測試";
+"none"="無";
+"weekly"="每週";
+"twoweekly"="每兩週";
+"monthly"="月";
+"yearly"="年";
+
+"before_5mins"="5分鐘前";
+"before_15mins"="15分鐘前";
+"before_30mins"="30分鐘前";
+"before_1hr"="1小時前";
+"before_2hrs"="2小時前";
+"before_1day"="1天前";
+"before_2days"="2天前";
+"before_endDate"="事件到期日";
+
+"Default"="預設";
+"Busniess"="商業";
+"lunch"="聚餐";
+"meeting"="會議";
+"overtime"="加班";
+"personal"="私人";
+"trip"="出差";
+"attendance"="出勤";
+"calendar"="行事曆";
+"chat"="聊天";
+"sign"="簽核";
+"takeLeave"="請假";
+
+"year"="年";
+"month"="月";
+"day"="日";
+"start:"="啟始：";
+"end:"="結束：";
+"comment"="附記：";
+"confirmLeave"="銷假";
+"askLeave"="請假";
+"confirmWork"="出勤";
+"bussinessTrip"="出差";
+"flowTaskComplete"="表單已簽核完畢並送出";
+"cancel"="關閉";
+"error"="錯誤";
+"agree"="同意";
+"reject"="拒絕";
+"comentPlaceHolder"="意見：";
+"id"="編號條件：";
+"uid"="工號：";
+"dept"="單位：";
+"jobTitle"="職稱：";

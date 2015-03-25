@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/2011/!svn/ver/13/Lottery/Classes
+END
+ParametersObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/16/Lottery/Classes/ParametersObject.h
+END
+LotteryProjectAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/13/Lottery/Classes/LotteryProjectAppDelegate.m
+END
+LotteryMainScene.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/19/Lottery/Classes/LotteryMainScene.m
+END
+DataModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/2011/!svn/ver/14/Lottery/Classes/DataModel.h
+END
+LotteryCell.xib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/2011/!svn/ver/17/Lottery/Classes/LotteryCell.xib
+END
+LuckyGuyListView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/2011/!svn/ver/17/Lottery/Classes/LuckyGuyListView.xib
+END
+FirstPriceParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/2011/!svn/ver/13/Lottery/Classes/FirstPriceParameters.h
+END
+GameConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/2011/!svn/ver/19/Lottery/Classes/GameConfig.h
+END
+DataModel.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/2011/!svn/ver/14/Lottery/Classes/DataModel.m
+END
+ParametersObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/16/Lottery/Classes/ParametersObject.m
+END
+Tools.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/2011/!svn/ver/17/Lottery/Classes/Tools.h
+END
+LotteryCell.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/17/Lottery/Classes/LotteryCell.h
+END
+LuckyGuyListView.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/16/Lottery/Classes/LuckyGuyListView.h
+END
+FirstPriceParameters.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/2011/!svn/ver/15/Lottery/Classes/FirstPriceParameters.m
+END
+SettingView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/2011/!svn/ver/19/Lottery/Classes/SettingView.xib
+END
+Tools.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/2011/!svn/ver/19/Lottery/Classes/Tools.m
+END
+LotteryCell.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/17/Lottery/Classes/LotteryCell.m
+END
+SettingView.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/17/Lottery/Classes/SettingView.h
+END
+LuckyGuyListView.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/17/Lottery/Classes/LuckyGuyListView.m
+END
+SettingView.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/19/Lottery/Classes/SettingView.m
+END
+PresidentParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/13/Lottery/Classes/PresidentParameters.h
+END
+ManagerPriceParameters.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/14/Lottery/Classes/ManagerPriceParameters.h
+END
+RootViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/2011/!svn/ver/13/Lottery/Classes/RootViewController.h
+END
+LotteryProjectAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/13/Lottery/Classes/LotteryProjectAppDelegate.h
+END
+LotteryMainScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/2011/!svn/ver/19/Lottery/Classes/LotteryMainScene.h
+END
+PresidentParameters.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/16/Lottery/Classes/PresidentParameters.m
+END
+ManagerPriceParameters.m
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/2011/!svn/ver/16/Lottery/Classes/ManagerPriceParameters.m
+END
+RootViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/2011/!svn/ver/17/Lottery/Classes/RootViewController.m
+END

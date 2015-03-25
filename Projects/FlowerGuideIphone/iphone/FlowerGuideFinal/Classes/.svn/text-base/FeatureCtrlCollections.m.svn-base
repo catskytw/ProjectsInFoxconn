@@ -1,0 +1,51 @@
+//
+//  FeatureCtrlCollections.m
+//  iphoneFlowerProject
+//
+//  Created by Change Liao on 5/10/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "FeatureCtrlCollections.h"
+static FeatureCtrlCollections *currentFeatureCtrlCollections;
+@implementation FeatureCtrlCollections
+@synthesize regionIdxCtrl;
+@synthesize regionDataCtrl;
+@synthesize plantpointIdxCtrl;
+@synthesize plantpointDataCtrl;
+@synthesize pointIdxCtrl;
+@synthesize pointDataCtrl;
+@synthesize routeIdxCtrl;
+@synthesize routeDataCtrl;
++(FeatureCtrlCollections*)current{
+	if(currentFeatureCtrlCollections==nil)
+		currentFeatureCtrlCollections=[FeatureCtrlCollections new];
+	return currentFeatureCtrlCollections;
+}
+-(id)init{
+	if((self=[super init])){
+		regionDataCtrl=[[MapDataCtrl alloc]initWithFileName:@"region"];
+		regionIdxCtrl=[[MapIdxCtrl alloc]initWithFileName:@"region"];
+		pointDataCtrl=[[MapDataCtrl alloc]initWithFileName:@"point"];
+		pointIdxCtrl=[[MapIdxCtrl alloc]initWithFileName:@"point"];
+		routeDataCtrl=[[MapDataCtrl alloc]initWithFileName:@"route"];
+		routeIdxCtrl=[[MapIdxCtrl alloc]initWithFileName:@"route"];
+		plantpointDataCtrl=[[MapDataCtrl alloc]initWithFileName:@"plantpoint"];
+		plantpointIdxCtrl=[[MapIdxCtrl alloc]initWithFileName:@"plantpoint"];
+	}
+	return self;
+}
+
+-(void)dealloc{
+	currentFeatureCtrlCollections=nil;
+	[regionIdxCtrl release];
+	[regionDataCtrl release];
+	[pointIdxCtrl release];
+	[pointDataCtrl release];
+	[plantpointIdxCtrl release];
+	[plantpointDataCtrl release];
+	[routeIdxCtrl release];
+	[routeDataCtrl release];	
+	[super dealloc];
+}
+@end

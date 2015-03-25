@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/SConscript
+END
+SConstruct
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/SConstruct
+END
+format
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/format
+END
+astyle-options
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/astyle-options
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/README
+END
+blackboxtest.sh
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/blackboxtest.sh
+END

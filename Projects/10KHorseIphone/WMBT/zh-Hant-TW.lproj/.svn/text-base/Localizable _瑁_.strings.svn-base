@@ -1,0 +1,39 @@
+/* 
+  Localizable.strings
+  WMBT
+
+  Created by link on 2011/5/31.
+  Copyright 2011年 __MyCompanyName__. All rights reserved.
+*/
+"tab_home"="首頁";
+"MainMenu_Catelog"="商品型錄";
+"MainMenu_Promote"="促銷專區";
+"MainMenu_Member"="會員專案";
+"MainMenu_About"="關於我們";
+"ProductList_SortPrice"="依價格";
+"ProductList_SortScore"="依人氣";
+"ProductList_SortDate"="依時間";
+"tab_Bulletion"="公告欄";
+"tab_FQA"="常見疑問";
+"tab_Search"="速搜商品";
+"tab_login"="登入";
+"NaviBar_Member"="會員專區";
+"ProductInfo_Price"="售價:";
+"Login_Title"="萬馬奔騰";
+"Login_Description"="歡迎您成為萬馬奔騰超市的夥伴";
+"Login_UserName"="會員帳號:";
+"Login_Password"="密碼:";
+"Login_LoginButton"="登入";
+"Login_RegisterButton"="註冊";
+"Login_ForgetButton"="忘記密碼";
+"title_backhome"="回首頁";
+"login_alert_title_Hello"="您好";
+"login_alert_message_addtoShopping"="已加入購買清單";
+"login_alert_otherbutton"="確定";
+"modifypwd_title"="修改密碼";
+"modifypwd_description"="錯誤訊息";
+"modifypwd_id"="卡號:";
+"modifypwd_originalpwd"="原密碼:"
+"modifypwd_newpwd"="新密碼:";
+"modifypwd_recheck"="再次輸入新密碼";
+"modifypwd_modifybutton"="修改";

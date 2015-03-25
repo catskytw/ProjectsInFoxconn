@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector
+END
+Detector.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector/Detector.h
+END
+CornerPoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector/CornerPoint.cpp
+END
+MonochromeRectangleDetector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector/MonochromeRectangleDetector.cpp
+END
+CornerPoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector/CornerPoint.h
+END
+Detector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector/Detector.cpp
+END
+MonochromeRectangleDetector.h
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/datamatrix/detector/MonochromeRectangleDetector.h
+END

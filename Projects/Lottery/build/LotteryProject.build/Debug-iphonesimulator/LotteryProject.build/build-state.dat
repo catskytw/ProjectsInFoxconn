@@ -1,0 +1,2260 @@
+TLotteryProject
+v7
+r0
+t321238978.320412
+cCheck dependencies
+cProcessInfoPlistFile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/Info.plist Resources/Info.plist
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/fps_images.png Resources/fps_images.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/iTunesArtwork Resources/iTunesArtwork
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.xib
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.xib
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people.png Resources/ic_people.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/bg_dropdown.png Resources/bg_dropdown.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_menuset_i.png Resources/btn_menuset_i.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_menuset.png Resources/btn_menuset.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow_i.png Resources/ic_dropdown_arrow_i.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow.png Resources/ic_dropdown_arrow.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_money_l.png Resources/ic_money_l.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_money_m.png Resources/ic_money_m.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_money_s.png Resources/ic_money_s.png
+cCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.xib
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/AP_icon.png Resources/AP_icon.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_01.png Resources/ic_people_01.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_02.png Resources/ic_people_02.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_03.png Resources/ic_people_03.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_04.png Resources/ic_people_04.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_05.png Resources/ic_people_05.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_lock_i.png Resources/btn_lock_i.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_lock.png Resources/btn_lock.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_result_close.png Resources/btn_result_close.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/1.png Resources/1.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/2.png Resources/2.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/3.png Resources/3.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/4.png Resources/4.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/5.png Resources/5.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/bg_result.png Resources/bg_result.png
+cCpResource build/Debug-iphonesimulator/LotteryProject.app/bg_index.png Resources/bg_index.png
+cProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch.gch LotteryProject_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProjectAppDelegate.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/RootViewController.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryMainScene.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SettingView.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LuckyGuyListView.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DataModel.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ParametersObject.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/PresidentParameters.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ManagerPriceParameters.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/FirstPriceParameters.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DownloadThreadObject.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/JSONCoreDataUtil.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/QueryPattern.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSObject+SBJSON.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSString+SBJSON.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonBase.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonParser.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonWriter.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSMutableArray+Queue.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/Tools.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryCell.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject normal i386
+cGenerateDSYMFile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app.dSYM /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject
+cTouch /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004CC1288A00000000000F34A0
+t1287727242
+s996512
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004CC1224600000000001EA9C0
+t1287725638
+s2009536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+c000000004CC121DB00000000000022F0
+t1287725531
+s8944
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGImage.h
+c000000004CC121DB0000000000002650
+t1287725531
+s9808
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004CC1226400000000000246A0
+t1287725668
+s149152
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004CC12308000000000000094F
+t1287725832
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGLDrawable.h
+c000000004CC123080000000000000A61
+t1287725832
+s2657
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004CC123080000000000009369
+t1287725832
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004CC123080000000000003C4A
+t1287725832
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004CC1230E0000000000019D40
+t1287725838
+s105792
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/Availability.h
+c000000004CB3FA080000000000001ADD
+t1286863368
+s6877
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/inttypes.h
+c000000004CB3E48600000000000027D1
+t1286857862
+s10193
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/objc/objc.h
+c000000004CB935700000000000000A2F
+t1287206256
+s2607
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stddef.h
+c000000004CB3E4860000000000001404
+t1286857862
+s5124
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/stdlib.h
+c000000004CB3E4860000000000002DF5
+t1286857862
+s11765
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/string.h
+c000000004CB3E4860000000000001731
+t1286857862
+s5937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/sys/time.h
+c000000004CBFACAC0000000000001E17
+t1287629996
+s7703
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/lib/libz.dylib
+c000000004CC109C300000000000123B0
+t1287719363
+s74672
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.h
+c000000004D6DEF17000000000000011D
+t1299050263
+s285
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m
+c000000004D6DF2390000000000000336
+t1299051065
+s822
+i"DataModel.h"
+i"PresidentParameters.h"
+i"ManagerPriceParameters.h"
+i"FirstPriceParameters.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.h
+c000000004D6DE531000000000000010E
+t1299047729
+s270
+i<Foundation/Foundation.h>
+i"ParametersObject.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m
+c000000004D6E89720000000000000709
+t1299089778
+s1801
+i"FirstPriceParameters.h"
+i"NSMutableArray+Queue.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/GameConfig.h
+c000000004D7084A500000000000004D3
+t1299219621
+s1235
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.h
+c000000004D6EC43100000000000001E3
+t1299104817
+s483
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m
+c000000004D6ECE860000000000000136
+t1299107462
+s310
+i"LotteryCell.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.xib
+c000000004D6F3B4100000000000075F6
+t1299135297
+s30198
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.h
+c000000004D70A9A600000000000003DF
+t1299229094
+s991
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+i"SettingView.h"
+i"QueryPattern.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m
+c000000004D7580FC0000000000004007
+t1299546364
+s16391
+i"LotteryMainScene.h"
+i"GameConfig.h"
+i"LuckyGuyListView.h"
+i"NSMutableArray+Queue.h"
+i"Tools.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.h
+c000000004D6DB47F0000000000000187
+t1299035263
+s391
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m
+c000000004D6DB8D000000000000011D0
+t1299036368
+s4560
+i"cocos2d.h"
+i"LotteryProjectAppDelegate.h"
+i"GameConfig.h"
+i"LotteryMainScene.h"
+i"RootViewController.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.h
+c000000004D6EBAEF00000000000001F3
+t1299102447
+s499
+i<UIKit/UIKit.h>
+i"QueryPattern.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m
+c000000004D6F3A840000000000000ED1
+t1299135108
+s3793
+i"LuckyGuyListView.h"
+i"LotteryCell.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.xib
+c000000004D6F3C730000000000006A79
+t1299135603
+s27257
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.h
+c000000004D6DF0A5000000000000010C
+t1299050661
+s268
+i<Foundation/Foundation.h>
+i"ParametersObject.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m
+c000000004D6E894C0000000000000367
+t1299089740
+s871
+i"ManagerPriceParameters.h"
+i"NSMutableArray+Queue.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.h
+c000000004D6E887C00000000000001BC
+t1299089532
+s444
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m
+c000000004D6E89A9000000000000027A
+t1299089833
+s634
+i"ParametersObject.h"
+i"NSMutableArray+Queue.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.h
+c000000004D6DE4FF000000000000010C
+t1299047679
+s268
+i<Foundation/Foundation.h>
+i"ParametersObject.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m
+c000000004D6E892800000000000002CF
+t1299089704
+s719
+i"PresidentParameters.h"
+i"NSMutableArray+Queue.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.h
+c000000004D6DB47F00000000000000E4
+t1299035263
+s228
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m
+c000000004D6F8DE20000000000001210
+t1299156450
+s4624
+i"cocos2d.h"
+i"RootViewController.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.h
+c000000004D6EFAE1000000000000090B
+t1299118817
+s2315
+i<UIKit/UIKit.h>
+i"ParametersObject.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m
+c000000004D70845C0000000000002766
+t1299219548
+s10086
+i"SettingView.h"
+i"GameConfig.h"
+i"DataModel.h"
+i"ParametersObject.h"
+i"NSMutableArray+Queue.h"
+i"Tools.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.xib
+c000000004D7089C8000000000002310D
+t1299220936
+s143629
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.h
+c000000004D70726A00000000000001A1
+t1299214954
+s417
+i<Foundation/Foundation.h>
+i"ParametersObject.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m
+c000000004D707EA2000000000000085A
+t1299218082
+s2138
+i"Tools.h"
+i"GameConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.h
+c000000004CF7022300000000000002AC
+t1291256355
+s684
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m
+c000000004CF7113F000000000000082B
+t1291260223
+s2091
+i"DownloadThreadObject.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.h
+c000000004D3FD630000000000000026A
+t1296029232
+s618
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m
+c000000004D42701A0000000000000770
+t1296199706
+s1904
+i"JSONCoreDataUtil.h"
+i"JSON.h"
+i"NSString+SBJSON.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/JSON.h
+c000000004CAD161A0000000000000BE8
+t1286411802
+s3048
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"NSObject+SBJSON.h"
+i"NSString+SBJSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/NSObject+SBJSON.h>
+i<JSON/NSString+SBJSON.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.h
+c000000004CAD161A000000000000085F
+t1286411802
+s2143
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m
+c000000004CAD161A000000000000077D
+t1286411802
+s1917
+i"NSObject+SBJSON.h"
+i"SBJsonWriter.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.h
+c000000004CAD161A00000000000007F0
+t1286411802
+s2032
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m
+c000000004CD0EC160000000000000767
+t1288760342
+s1895
+i"NSString+SBJSON.h"
+i"SBJsonParser.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.h
+c000000004CAD161A0000000000000B82
+t1286411802
+s2946
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m
+c000000004CAD161A0000000000000AC1
+t1286411802
+s2753
+i"SBJsonBase.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.h
+c000000004CAD161A0000000000000C8F
+t1286411802
+s3215
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m
+c000000004CB715600000000000003B81
+t1287066976
+s15233
+i"SBJsonParser.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.h
+c000000004CAD161A00000000000011D9
+t1286411802
+s4569
+i<Foundation/Foundation.h>
+i"SBJsonBase.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m
+c000000004CAD161A00000000000020DF
+t1286411802
+s8415
+i"SBJsonWriter.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/LotteryProject_Prefix.pch
+c000000004D6DB47F00000000000000BF
+t1299035263
+s191
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.h
+c000000004D6E7EF5000000000000010F
+t1299087093
+s271
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m
+c000000004D6E7F080000000000000336
+t1299087112
+s822
+i"NSMutableArray+Queue.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.h
+c000000004D6DF1B80000000000000E59
+t1299050936
+s3673
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m
+c000000004D6ED0DB0000000000001A0A
+t1299108059
+s6666
+i"QueryPattern.h"
+i"SBJsonParser.h"
+i"DownloadThreadObject.h"
+i"JSONCoreDataUtil.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/1.png
+c000000004D707ADC000000000000A424
+t1299217116
+s42020
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/2.png
+c000000004D707AEA000000000000A1FD
+t1299217130
+s41469
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/3.png
+c000000004D707AF6000000000000A5E0
+t1299217142
+s42464
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/4.png
+c000000004D707AF00000000000009E3A
+t1299217136
+s40506
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/5.png
+c000000004D707B000000000000009BB3
+t1299217152
+s39859
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/AP_icon.png
+c000000004D6EFBA800000000000028FC
+t1299119016
+s10492
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_dropdown.png
+c000000004D6E103A000000000000621B
+t1299058746
+s25115
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_index.png
+c000000004D70870E0000000000084BC8
+t1299220238
+s543688
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_result.png
+c000000004D707F7A000000000003D7F5
+t1299218298
+s251893
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_lock.png
+c000000004D6F6B340000000000002B2A
+t1299147572
+s11050
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_lock_i.png
+c000000004D6F6B3A0000000000002B85
+t1299147578
+s11141
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_menuset.png
+c000000004D6E0FC60000000000001407
+t1299058630
+s5127
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_menuset_i.png
+c000000004D6E0FF800000000000014D3
+t1299058680
+s5331
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_result_close.png
+c000000004D7067920000000000002FB2
+t1299212178
+s12210
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/fps_images.png
+c000000004D6DB47F000000000000183B
+t1299035263
+s6203
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/iTunesArtwork
+c000000004D6DB47F000000000000F21E
+t1299035263
+s61982
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_dropdown_arrow.png
+c000000004D6E0F9200000000000003D3
+t1299058578
+s979
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_dropdown_arrow_i.png
+c000000004D6E12E20000000000000E97
+t1299059426
+s3735
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_l.png
+c000000004D6E06B00000000000001CE7
+t1299056304
+s7399
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_m.png
+c000000004D6E06A800000000000015AD
+t1299056296
+s5549
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_s.png
+c000000004D6E06E600000000000011C4
+t1299056358
+s4548
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people.png
+c000000004D6E02420000000000012132
+t1299055170
+s74034
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_01.png
+c000000004D6F0CF80000000000009595
+t1299123448
+s38293
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_02.png
+c000000004D6F0D2A00000000000094F7
+t1299123498
+s38135
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_03.png
+c000000004D6F0D520000000000009496
+t1299123538
+s38038
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_04.png
+c000000004D6F0D60000000000000969E
+t1299123552
+s38558
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_05.png
+c000000004D6F0D820000000000009601
+t1299123586
+s38401
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app
+t1299546178
+s1190
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app.dSYM
+t1299546178
+s102
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/1.png
+t1299223774
+s42020
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/2.png
+t1299223774
+s41469
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/3.png
+t1299223774
+s42464
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/4.png
+t1299223774
+s40506
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/5.png
+t1299223774
+s39859
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/AP_icon.png
+t1299223774
+s10492
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/Info.plist
+t1299223773
+s775
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryCell.nib
+t1299223774
+s2539
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject
+t1299546178
+s1811192
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LuckyGuyListView.nib
+t1299223773
+s2270
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/PkgInfo
+t1299223773
+s8
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/SettingView.nib
+t1299223774
+s10892
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/bg_dropdown.png
+t1299223773
+s25115
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/bg_index.png
+t1299223774
+s543688
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/bg_result.png
+t1299223774
+s251893
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/btn_lock.png
+t1299223774
+s11050
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/btn_lock_i.png
+t1299223774
+s11141
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/btn_menuset.png
+t1299223773
+s5127
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/btn_menuset_i.png
+t1299223773
+s5331
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/btn_result_close.png
+t1299223774
+s12210
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/fps_images.png
+t1299223773
+s6203
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/iTunesArtwork
+t1299223773
+s61982
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow.png
+t1299223773
+s979
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow_i.png
+t1299223773
+s3735
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_money_l.png
+t1299223773
+s7399
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_money_m.png
+t1299223773
+s5549
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_money_s.png
+t1299223773
+s4548
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_people.png
+t1299223773
+s74034
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_people_01.png
+t1299223774
+s38293
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_people_02.png
+t1299223774
+s38135
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_people_03.png
+t1299223774
+s38038
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_people_04.png
+t1299223774
+s38558
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/ic_people_05.png
+t1299223774
+s38401
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/libcocos2d libraries.a
+c000000004D7094DD00000000003C8290
+t1299223773
+s3965584
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DataModel.o
+t1299223775
+s5904
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DownloadThreadObject.o
+t1299223776
+s41684
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/FirstPriceParameters.o
+t1299223775
+s10328
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/JSONCoreDataUtil.o
+t1299223776
+s13320
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryCell.o
+t1299223776
+s39588
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryMainScene.o
+t1299546177
+s100632
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProject.LinkFileList
+c000000004D7094DD0000000000000E54
+t1299223773
+s3668
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProjectAppDelegate.o
+t1299229095
+s63576
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LuckyGuyListView.o
+t1299223775
+s54008
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ManagerPriceParameters.o
+t1299223775
+s6960
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSMutableArray+Queue.o
+t1299223776
+s4408
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSObject+SBJSON.o
+t1299223776
+s4356
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSString+SBJSON.o
+t1299223776
+s4364
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ParametersObject.o
+t1299223775
+s12232
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/PresidentParameters.o
+t1299223775
+s6420
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/QueryPattern.o
+t1299223776
+s55248
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/RootViewController.o
+t1299223775
+s42340
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonBase.o
+t1299223776
+s10520
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonParser.o
+t1299223776
+s34856
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonWriter.o
+t1299223776
+s26380
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SettingView.o
+t1299223775
+s113128
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/Tools.o
+t1299223776
+s8600
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/main.o
+t1299223775
+s3252
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCAction.h
+c000000004D6DB47F000000000000167A
+t1299035263
+s5754
+i<sys/time.h>
+i<Foundation/Foundation.h>
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionCamera.h
+c000000004D6DB47F00000000000009BC
+t1299035263
+s2492
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionEase.h
+c000000004D6DB47F0000000000001671
+t1299035263
+s5745
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionGrid.h
+c000000004D6DB47F000000000000148B
+t1299035263
+s5259
+i"CCActionInterval.h"
+i"CCActionInstant.h"
+i"CCGrid.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionGrid3D.h
+c000000004D6DB47F0000000000001A8A
+t1299035263
+s6794
+i"CCActionGrid.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionInstant.h
+c000000004D6DB47F00000000000013AA
+t1299035263
+s5034
+i"CCAction.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionInterval.h
+c000000004D6DB47F0000000000003265
+t1299035263
+s12901
+i"CCNode.h"
+i"CCAction.h"
+i"CCProtocols.h"
+i<sys/time.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionManager.h
+c000000004D6DB47F0000000000001071
+t1299035263
+s4209
+i"CCAction.h"
+i"Support/ccCArray.h"
+i"Support/uthash.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionPageTurn3D.h
+c000000004D6DB47F0000000000000644
+t1299035263
+s1604
+i"CCActionGrid3D.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionProgressTimer.h
+c000000004D6DB47F000000000000088D
+t1299035263
+s2189
+i<Foundation/Foundation.h>
+i"CCProgressTimer.h"
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionTiledGrid.h
+c000000004D6DB47F0000000000001A15
+t1299035263
+s6677
+i"CCActionGrid.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCActionTween.h
+c000000004D6DB47F0000000000000931
+t1299035263
+s2353
+i<Foundation/Foundation.h>
+i"CCActionInterval.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCAnimation.h
+c000000004D6DB47F000000000000126D
+t1299035263
+s4717
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCAnimationCache.h
+c000000004D6DB47F00000000000008DD
+t1299035263
+s2269
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCAtlasNode.h
+c000000004D6DB47F0000000000000C06
+t1299035263
+s3078
+i"CCTextureAtlas.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCBlockSupport.h
+c000000004D6DB47F000000000000066F
+t1299035263
+s1647
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCCamera.h
+c000000004D6DB47F0000000000000C84
+t1299035263
+s3204
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCCompatibility.h
+c000000004D6DB47F0000000000003891
+t1299035263
+s14481
+i<Foundation/Foundation.h>
+i"cocos2d.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCConfiguration.h
+c000000004D6DB47F0000000000000D36
+t1299035263
+s3382
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCDirector.h
+c000000004D6DB47F00000000000025C4
+t1299035263
+s9668
+i"ccConfig.h"
+i"ccTypes.h"
+i"Platforms/CCGL.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCDrawingPrimitives.h
+c000000004D6DB47F0000000000000C32
+t1299035263
+s3122
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCGrabber.h
+c000000004D6DB47F00000000000005E4
+t1299035263
+s1508
+i"Platforms/CCGL.h"
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCGrid.h
+c000000004D6DB47F0000000000000E5A
+t1299035263
+s3674
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCCamera.h"
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCLabelAtlas.h
+c000000004D6DB47F0000000000000B24
+t1299035263
+s2852
+i"CCAtlasNode.h"
+i"CCTextureAtlas.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCLabelBMFont.h
+c000000004D6DB47F0000000000001641
+t1299035263
+s5697
+i"CCSpriteBatchNode.h"
+i"Support/uthash.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCLabelTTF.h
+c000000004D6DB47F0000000000000A87
+t1299035263
+s2695
+i"CCTexture2D.h"
+i"CCSprite.h"
+i"Platforms/CCNS.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCLayer.h
+c000000004D6DB47F00000000000020E9
+t1299035263
+s8425
+i<Availability.h>
+i<UIKit/UIKit.h>
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/Mac/CCEventDispatcher.h"
+i"CCProtocols.h"
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCMenu.h
+c000000004D6DB47F0000000000000B29
+t1299035263
+s2857
+i"CCMenuItem.h"
+i"CCLayer.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCMenuItem.h
+c000000004D6DB47F00000000000033A8
+t1299035263
+s13224
+i"CCBlockSupport.h"
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCMotionStreak.h
+c000000004D6DB47F0000000000000B2A
+t1299035263
+s2858
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCRibbon.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCNode.h
+c000000004D6DB47F0000000000004485
+t1299035263
+s17541
+i<Availability.h>
+i"Platforms/CCGL.h"
+i"CCAction.h"
+i"ccTypes.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"ccConfig.h"
+i"Support/CCArray.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCParallaxNode.h
+c000000004D6DB47F000000000000075D
+t1299035263
+s1885
+i"CCNode.h"
+i"Support/ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCParticleExamples.h
+c000000004D6DB47F0000000000000AD0
+t1299035263
+s2768
+i<Availability.h>
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCParticleSystem.h
+c000000004D6DB47F00000000000037B8
+t1299035263
+s14264
+i"CCProtocols.h"
+i"CCNode.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCParticleSystemPoint.h
+c000000004D6DB47F0000000000000846
+t1299035263
+s2118
+i<Availability.h>
+i"CCParticleSystem.h"
+i"CCParticleSystemQuad.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCParticleSystemQuad.h
+c000000004D6DB48000000000000009F8
+t1299035264
+s2552
+i"CCParticleSystem.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCProgressTimer.h
+c000000004D6DB4800000000000000B48
+t1299035264
+s2888
+i<Foundation/Foundation.h>
+i"CCSprite.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCProtocols.h
+c000000004D6DB4800000000000000F9A
+t1299035264
+s3994
+i"ccTypes.h"
+i"CCTexture2D.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCRenderTexture.h
+c000000004D6DB4800000000000000F2A
+t1299035264
+s3882
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCSprite.h"
+i"Support/OpenGL_Internal.h"
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCRibbon.h
+c000000004D6DB4800000000000000FCD
+t1299035264
+s4045
+i"CCNode.h"
+i"CCTexture2D.h"
+i"CCProtocols.h"
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCScene.h
+c000000004D6DB4800000000000000676
+t1299035264
+s1654
+i"CCNode.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCScheduler.h
+c000000004D6DB48000000000000019D7
+t1299035264
+s6615
+i"Support/uthash.h"
+i"ccTypes.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCSprite.h
+c000000004D6DB480000000000000345C
+t1299035264
+s13404
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCSpriteBatchNode.h
+c000000004D6DB48000000000000018F8
+t1299035264
+s6392
+i"CCNode.h"
+i"CCProtocols.h"
+i"CCTextureAtlas.h"
+i"ccMacros.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCSpriteFrame.h
+c000000004D6DB4800000000000000D5A
+t1299035264
+s3418
+i<Foundation/Foundation.h>
+i"CCNode.h"
+i"CCProtocols.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCSpriteFrameCache.h
+c000000004D6DB4800000000000001394
+t1299035264
+s5012
+i<Foundation/Foundation.h>
+i"CCSpriteFrame.h"
+i"CCTexture2D.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCSpriteSheet.h
+c000000004D6DB48000000000000009FE
+t1299035264
+s2558
+i"CCSpriteBatchNode.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTMXLayer.h
+c000000004D6DB480000000000000182A
+t1299035264
+s6186
+i"CCAtlasNode.h"
+i"CCSpriteBatchNode.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTMXObjectGroup.h
+c000000004D6DB48000000000000008D5
+t1299035264
+s2261
+i"CCSpriteSheet.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTMXTiledMap.h
+c000000004D6DB48000000000000014D4
+t1299035264
+s5332
+i"CCSpriteSheet.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTMXXMLParser.h
+c000000004D6DB48000000000000016B9
+t1299035264
+s5817
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTexture2D.h
+c000000004D6DB4800000000000002C9A
+t1299035264
+s11418
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTextureAtlas.h
+c000000004D6DB480000000000000145B
+t1299035264
+s5211
+i"CCTexture2D.h"
+i"ccTypes.h"
+i"ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTextureCache.h
+c000000004D6DB48000000000000014C2
+t1299035264
+s5314
+i<Availability.h>
+i<CoreGraphics/CGImage.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTexturePVR.h
+c000000004D6DB4800000000000000FB9
+t1299035264
+s4025
+i<Foundation/Foundation.h>
+i"Platforms/CCGL.h"
+i"CCTextureCache.h"
+i"CCTexture2D.h"
+i"ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTileMapAtlas.h
+c000000004D6DB4800000000000000B86
+t1299035264
+s2950
+i"CCTextureAtlas.h"
+i"CCAtlasNode.h"
+i"Support/TGAlib.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTransition.h
+c000000004D6DB4800000000000002134
+t1299035264
+s8500
+i"CCScene.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTransitionPageTurn.h
+c000000004D6DB4800000000000000917
+t1299035264
+s2327
+i"CCTransition.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/CCTransitionRadial.h
+c000000004D6DB4800000000000000630
+t1299035264
+s1584
+i"CCTransition.h"
+i"CCProgressTimer.h"
+i"CCActionProgressTimer.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/CCGL.h
+c000000004D6DB4800000000000000BF8
+t1299035264
+s3064
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i<OpenGLES/EAGL.h>
+i"iOS/glu.h"
+i"iOS/EAGLView.h"
+i<OpenGL/gl.h>
+i<OpenGL/glu.h>
+i<Cocoa/Cocoa.h>
+i"Mac/MacGLView.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/CCNS.h
+c000000004D6DB4800000000000000965
+t1299035264
+s2405
+i<Availability.h>
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/Mac/CCDirectorMac.h
+c000000004D6DB4800000000000000C84
+t1299035264
+s3204
+i<Availability.h>
+i<QuartzCore/CVDisplayLink.h>
+i"../../CCDirector.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/Mac/CCEventDispatcher.h
+c000000004D6DB4800000000000001AA7
+t1299035264
+s6823
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"MacGLView.h"
+i"../../Support/uthash.h"
+i"../../Support/utlist.h"
+i"../../ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/Mac/MacGLView.h
+c000000004D6DB4800000000000000B8C
+t1299035264
+s2956
+i<Availability.h>
+i<Cocoa/Cocoa.h>
+i"../../ccConfig.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/CCDirectorIOS.h
+c000000004D6DB4800000000000002B53
+t1299035264
+s11091
+i<Availability.h>
+i"../../CCDirector.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/CCTouchDelegateProtocol.h
+c000000004D6DB4800000000000000BC3
+t1299035264
+s3011
+i<Availability.h>
+i<UIKit/UIKit.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/CCTouchDispatcher.h
+c000000004D6DB48000000000000010CA
+t1299035264
+s4298
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"EAGLView.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/CCTouchHandler.h
+c000000004D6DB4800000000000000D99
+t1299035264
+s3481
+i<Availability.h>
+i"CCTouchDelegateProtocol.h"
+i"CCTouchDispatcher.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/EAGLView.h
+c000000004D6DB4800000000000001B69
+t1299035264
+s7017
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"ESRenderer.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/ESRenderer.h
+c000000004D6DB480000000000000083A
+t1299035264
+s2106
+i<Availability.h>
+i<QuartzCore/QuartzCore.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/EAGLDrawable.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Platforms/iOS/glu.h
+c000000004D6DB480000000000000030D
+t1299035264
+s781
+i<Availability.h>
+i<OpenGLES/ES1/gl.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/CCArray.h
+c000000004D6DB4800000000000000BED
+t1299035264
+s3053
+i"ccCArray.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/CCFileUtils.h
+c000000004D6DB48000000000000007E8
+t1299035264
+s2024
+i<Foundation/Foundation.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/CCProfiling.h
+c000000004D6DB48000000000000006E9
+t1299035264
+s1769
+i<Foundation/Foundation.h>
+i<sys/time.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/CGPointExtension.h
+c000000004D6DB4800000000000001EAB
+t1299035264
+s7851
+i<Availability.h>
+i<CoreGraphics/CGGeometry.h>
+i<Foundation/Foundation.h>
+i<math.h>
+i<objc/objc.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/OpenGL_Internal.h
+c000000004D6DB48000000000000011A7
+t1299035264
+s4519
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/TGAlib.h
+c000000004D6DB4800000000000000444
+t1299035264
+s1092
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/ccCArray.h
+c000000004D6DB48000000000000030F3
+t1299035264
+s12531
+i<Foundation/Foundation.h>
+i<stdlib.h>
+i<string.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/ccUtils.h
+c000000004D6DB4800000000000000204
+t1299035264
+s516
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/uthash.h
+c000000004D6DB480000000000000FB13
+t1299035264
+s64275
+i<string.h>
+i<stddef.h>
+i<inttypes.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/Support/utlist.h
+c000000004D6DB4800000000000009091
+t1299035264
+s37009
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/ccConfig.h
+c000000004D6F70B00000000000002896
+t1299148976
+s10390
+i<Availability.h>
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/ccMacros.h
+c000000004D6DB4800000000000001DFE
+t1299035264
+s7678
+i<math.h>
+i"ccConfig.h"
+i<Foundation/Foundation.h>
+i<Availability.h>
+i"Platforms/iOS/CCDirectorIOS.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/ccTypes.h
+c000000004D6DB48000000000000016D2
+t1299035264
+s5842
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<CoreGraphics/CGGeometry.h>
+i"Platforms/CCGL.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/libs/cocos2d/cocos2d.h
+c000000004D6DB48000000000000010FF
+t1299035264
+s4351
+i<Availability.h>
+i"ccConfig.h"
+i"CCActionManager.h"
+i"CCAction.h"
+i"CCActionInstant.h"
+i"CCActionInterval.h"
+i"CCActionEase.h"
+i"CCActionCamera.h"
+i"CCActionTween.h"
+i"CCActionEase.h"
+i"CCActionTiledGrid.h"
+i"CCActionGrid3D.h"
+i"CCActionGrid.h"
+i"CCActionProgressTimer.h"
+i"CCActionPageTurn3D.h"
+i"CCAnimation.h"
+i"CCAnimationCache.h"
+i"CCSprite.h"
+i"CCSpriteFrame.h"
+i"CCSpriteSheet.h"
+i"CCSpriteBatchNode.h"
+i"CCSpriteFrameCache.h"
+i"CCLabelTTF.h"
+i"CCLabelBMFont.h"
+i"CCLabelAtlas.h"
+i"CCParticleSystem.h"
+i"CCParticleSystemPoint.h"
+i"CCParticleSystemQuad.h"
+i"CCParticleExamples.h"
+i"CCTexture2D.h"
+i"CCTexturePVR.h"
+i"CCTextureCache.h"
+i"CCTextureAtlas.h"
+i"CCTransition.h"
+i"CCTransitionPageTurn.h"
+i"CCTransitionRadial.h"
+i"CCTMXTiledMap.h"
+i"CCTMXLayer.h"
+i"CCTMXObjectGroup.h"
+i"CCTMXXMLParser.h"
+i"CCTileMapAtlas.h"
+i"CCLayer.h"
+i"CCMenu.h"
+i"CCMenuItem.h"
+i"CCDrawingPrimitives.h"
+i"CCScene.h"
+i"CCScheduler.h"
+i"CCBlockSupport.h"
+i"CCCamera.h"
+i"CCProtocols.h"
+i"CCNode.h"
+i"CCDirector.h"
+i"CCAtlasNode.h"
+i"CCGrabber.h"
+i"CCGrid.h"
+i"CCParallaxNode.h"
+i"CCRenderTexture.h"
+i"CCMotionStreak.h"
+i"CCConfiguration.h"
+i"ccTypes.h"
+i"ccMacros.h"
+i"Platforms/CCGL.h"
+i"Platforms/CCNS.h"
+i"Platforms/iOS/CCTouchDispatcher.h"
+i"Platforms/iOS/CCTouchDelegateProtocol.h"
+i"Platforms/iOS/CCTouchHandler.h"
+i"Platforms/iOS/EAGLView.h"
+i"Platforms/iOS/CCDirectorIOS.h"
+i"Platforms/Mac/MacGLView.h"
+i"Platforms/Mac/CCDirectorMac.h"
+i"Support/OpenGL_Internal.h"
+i"Support/CCFileUtils.h"
+i"Support/CGPointExtension.h"
+i"Support/ccCArray.h"
+i"Support/CCArray.h"
+i"Support/ccUtils.h"
+i"Support/CCProfiling.h"
+i"CCCompatibility.h"
+
+N/Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m
+c000000004D6DB4800000000000000163
+t1299035264
+s355
+i<UIKit/UIKit.h>
+
+N/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch.gch
+t1299223775
+s11943120
+
+NResources/Info.plist
+c000000004D6EFCB40000000000000479
+t1299119284
+s1145
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies321238976#321238976#0(0"0(0#1#0"8619890336#0"0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DataModel.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.768815
+e320916575.822123
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DataModel.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@86"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m320916575#320916575#0(0"0(0#0#78"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m8641886208#2436"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/DataModel.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DataModel.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DownloadThreadObject.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.956705
+e320916576.069868
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DownloadThreadObject.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@89"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m320916575#320916576#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m8631861568#2450"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/DownloadThreadObject.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/DownloadThreadObject.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/FirstPriceParameters.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.922614
+e320916575.997302
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/FirstPriceParameters.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@97"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m320916575#320916575#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m8632448064#2458"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/FirstPriceParameters.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/FirstPriceParameters.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/JSONCoreDataUtil.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.997406
+e320916576.078670
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/JSONCoreDataUtil.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@85"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m320916575#320916576#0(0"0(0#0#77"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m8631046176#2442"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONCoreDataUtil.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/JSONCoreDataUtil.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryCell.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.398744
+e320916576.487992
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryCell.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@88"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m320916576#320916576#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m8630904128#2440"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryCell.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryMainScene.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s321238976.529868
+e321238977.371656
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryMainScene.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@93"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m321238976#321238977#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m28429470871584880#2450"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryMainScene.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryMainScene.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProjectAppDelegate.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320921895.101521
+e320921895.326026
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProjectAppDelegate.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@102"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m320921895#320921895#0(0"0(0#0#94"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m8622918240#2468"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryProjectAppDelegate.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProjectAppDelegate.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LuckyGuyListView.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.739028
+e320916575.858000
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LuckyGuyListView.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@93"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m320916575#320916575#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m8644286336#2450"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LuckyGuyListView.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ManagerPriceParameters.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.899822
+e320916575.956595
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ManagerPriceParameters.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@99"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m320916575#320916575#0(0"0(0#0#91"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m8633097600#2462"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ManagerPriceParameters.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ManagerPriceParameters.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSMutableArray+Queue.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.338746
+e320916576.398629
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSMutableArray+Queue.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@89"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m320916576#320916576#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m8632546688#2450"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/NSMutableArray+Queue.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSMutableArray+Queue.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSObject+SBJSON.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.078770
+e320916576.139925
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSObject+SBJSON.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@98"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m320916576#320916576#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m8645435616#2454"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSObject+SBJSON.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSObject+SBJSON.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSString+SBJSON.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.140040
+e320916576.199654
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSString+SBJSON.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@98"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m320916576#320916576#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m8642454272#2454"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/NSString+SBJSON.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/NSString+SBJSON.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ParametersObject.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.822231
+e320916575.899708
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ParametersObject.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@93"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m320916575#320916575#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m8639486144#2450"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/ParametersObject.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/ParametersObject.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/PresidentParameters.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.858113
+e320916575.922506
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/PresidentParameters.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@96"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m320916575#320916575#0(0"0(0#0#88"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m8635945056#2456"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/PresidentParameters.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/PresidentParameters.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/QueryPattern.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.069971
+e320916576.202105
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/QueryPattern.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+o/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m: In function '-[QueryPattern objectWithUrl:]':
+o/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m:137: warning: format not a string literal and no format arguments
+lSLF07#2@81"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m320916576#320916576#0(261"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m: In function '-[QueryPattern objectWithUrl:]':/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m:137: warning: format not a string literal and no format arguments1(22@51"Format not a string literal and no format arguments320916576#103#122#0(6@73"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m320800859#137#0#137#0#51"format not a string literal and no format arguments0(0#0#73"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m8650919936#2434"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/QueryPattern.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/QueryPattern.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/RootViewController.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.358137
+e320916575.522590
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/RootViewController.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m320916575#320916575#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m8632436896#2454"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/RootViewController.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonBase.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.199765
+e320916576.272119
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonBase.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@93"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m320916576#320916576#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m8640379616#2444"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonBase.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonBase.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonParser.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.202203
+e320916576.338638
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonParser.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m320916576#320916576#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m8637775328#2448"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonParser.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonParser.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonWriter.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.272222
+e320916576.361939
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@95"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m320916576#320916576#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m8633296352#2448"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/JSONframework/SBJsonWriter.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SBJsonWriter.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SettingView.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.522699
+e320916575.738925
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SettingView.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@88"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m320916575#320916575#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m8651411232#2440"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/SettingView.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/Tools.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916576.362048
+e320916576.425303
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/Tools.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@82"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m320916576#320916576#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m8631859168#2428"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/Tools.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/Tools.o0#
+
+CCompileC build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/main.o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916575.301297
+e320916575.358029
+r1
+xCompileC
+xbuild/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/main.o
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@73"Compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m320916575#320916575#0(0"0(0#0#65"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m8633524384#2418"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -include /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/main.m -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.xib
+s320916573.922538
+e320916574.399321
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.xib
+lSLF07#2@34"CompileXIB Classes/LotteryCell.xib320916573#320916574#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.xib8631072736#647"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryCell.nib /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LotteryCell.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.xib
+s320916573.351132
+e320916573.901616
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.xib
+lSLF07#2@39"CompileXIB Classes/LuckyGuyListView.xib320916573#320916573#0(0"0(0#0#87"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.xib8645685184#657"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LuckyGuyListView.nib /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/LuckyGuyListView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.xib
+s320916573.341964
+e320916574.579430
+r1
+xCompileXIB
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.xib
+lSLF07#2@34"CompileXIB Classes/SettingView.xib320916573#320916574#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.xib8647115168#647"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/SettingView.nib /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Classes/SettingView.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/1.png Resources/1.png
+s320916574.425108
+e320916574.579193
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/1.png
+xResources/1.png
+lSLF07#2@20"Copy Resources/1.png320916574#320916574#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/1.png8642412512#540"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/1.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/2.png Resources/2.png
+s320916574.427040
+e320916574.579317
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/2.png
+xResources/2.png
+lSLF07#2@20"Copy Resources/2.png320916574#320916574#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/2.png8641785952#540"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/2.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/3.png Resources/3.png
+s320916574.432040
+e320916574.579540
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/3.png
+xResources/3.png
+lSLF07#2@20"Copy Resources/3.png320916574#320916574#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/3.png8641126848#540"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/3.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/4.png Resources/4.png
+s320916574.434175
+e320916574.579647
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/4.png
+xResources/4.png
+lSLF07#2@20"Copy Resources/4.png320916574#320916574#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/4.png8640665888#540"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/4.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/5.png Resources/5.png
+s320916574.438080
+e320916574.579754
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/5.png
+xResources/5.png
+lSLF07#2@20"Copy Resources/5.png320916574#320916574#0(0"0(0#0#74"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/5.png8639952768#540"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/5.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/AP_icon.png Resources/AP_icon.png
+s320916574.399417
+e320916574.424339
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/AP_icon.png
+xResources/AP_icon.png
+lSLF07#2@26"Copy Resources/AP_icon.png320916574#320916574#0(0"0(0#0#80"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/AP_icon.png8652697408#546"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/AP_icon.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/bg_dropdown.png Resources/bg_dropdown.png
+s320916573.902490
+e320916573.921902
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/bg_dropdown.png
+xResources/bg_dropdown.png
+lSLF07#2@30"Copy Resources/bg_dropdown.png320916573#320916573#0(0"0(0#0#84"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_dropdown.png8632491008#550"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_dropdown.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/bg_index.png Resources/bg_index.png
+s320916574.442732
+e320916574.585045
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/bg_index.png
+xResources/bg_index.png
+lSLF07#2@27"Copy Resources/bg_index.png320916574#320916574#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_index.png8638622496#547"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_index.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/bg_result.png Resources/bg_result.png
+s320916574.440759
+e320916574.580155
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/bg_result.png
+xResources/bg_result.png
+lSLF07#2@28"Copy Resources/bg_result.png320916574#320916574#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_result.png8639277024#548"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/bg_result.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_lock.png Resources/btn_lock.png
+s320916574.418973
+e320916574.579871
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/btn_lock.png
+xResources/btn_lock.png
+lSLF07#2@27"Copy Resources/btn_lock.png320916574#320916574#0(0"0(0#0#81"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_lock.png8643867808#547"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_lock.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_lock_i.png Resources/btn_lock_i.png
+s320916574.414170
+e320916574.425033
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/btn_lock_i.png
+xResources/btn_lock_i.png
+lSLF07#2@29"Copy Resources/btn_lock_i.png320916574#320916574#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_lock_i.png8644348992#549"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_lock_i.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_menuset.png Resources/btn_menuset.png
+s320916573.903794
+e320916573.922015
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/btn_menuset.png
+xResources/btn_menuset.png
+lSLF07#2@30"Copy Resources/btn_menuset.png320916573#320916573#0(0"0(0#0#84"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_menuset.png8632299936#550"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_menuset.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_menuset_i.png Resources/btn_menuset_i.png
+s320916573.903151
+e320916573.923888
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/btn_menuset_i.png
+xResources/btn_menuset_i.png
+lSLF07#2@32"Copy Resources/btn_menuset_i.png320916573#320916573#0(0"0(0#0#86"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_menuset_i.png8632381568#552"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_menuset_i.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/btn_result_close.png Resources/btn_result_close.png
+s320916574.420945
+e320916574.579986
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/btn_result_close.png
+xResources/btn_result_close.png
+lSLF07#2@35"Copy Resources/btn_result_close.png320916574#320916574#0(0"0(0#0#89"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_result_close.png8643204128#555"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/btn_result_close.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/fps_images.png Resources/fps_images.png
+s320916573.340202
+e320916573.351019
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/fps_images.png
+xResources/fps_images.png
+lSLF07#2@29"Copy Resources/fps_images.png320916573#320916573#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/fps_images.png8649965120#549"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/fps_images.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/iTunesArtwork Resources/iTunesArtwork
+s320916573.341231
+e320916573.347740
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/iTunesArtwork
+xResources/iTunesArtwork
+lSLF07#2@28"Copy Resources/iTunesArtwork320916573#320916573#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/iTunesArtwork8648491424#548"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/iTunesArtwork /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow.png Resources/ic_dropdown_arrow.png
+s320916573.905083
+e320916573.922242
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow.png
+xResources/ic_dropdown_arrow.png
+lSLF07#2@36"Copy Resources/ic_dropdown_arrow.png320916573#320916573#0(0"0(0#0#90"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_dropdown_arrow.png8631877120#556"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_dropdown_arrow.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow_i.png Resources/ic_dropdown_arrow_i.png
+s320916573.904432
+e320916573.922128
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_dropdown_arrow_i.png
+xResources/ic_dropdown_arrow_i.png
+lSLF07#2@38"Copy Resources/ic_dropdown_arrow_i.png320916573#320916573#0(0"0(0#0#92"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_dropdown_arrow_i.png8632073600#558"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_dropdown_arrow_i.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_money_l.png Resources/ic_money_l.png
+s320916573.905760
+e320916573.922351
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_money_l.png
+xResources/ic_money_l.png
+lSLF07#2@29"Copy Resources/ic_money_l.png320916573#320916573#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_l.png8631780768#549"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_l.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_money_m.png Resources/ic_money_m.png
+s320916573.906400
+e320916573.922464
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_money_m.png
+xResources/ic_money_m.png
+lSLF07#2@29"Copy Resources/ic_money_m.png320916573#320916573#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_m.png8631566112#549"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_m.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_money_s.png Resources/ic_money_s.png
+s320916573.907079
+e320916573.928282
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_money_s.png
+xResources/ic_money_s.png
+lSLF07#2@29"Copy Resources/ic_money_s.png320916573#320916573#0(0"0(0#0#83"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_s.png8631253312#549"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_money_s.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people.png Resources/ic_people.png
+s320916573.901716
+e320916573.921776
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_people.png
+xResources/ic_people.png
+lSLF07#2@28"Copy Resources/ic_people.png320916573#320916573#0(0"0(0#0#82"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people.png8632623328#548"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_01.png Resources/ic_people_01.png
+s320916574.400436
+e320916574.424473
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_people_01.png
+xResources/ic_people_01.png
+lSLF07#2@31"Copy Resources/ic_people_01.png320916574#320916574#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_01.png8650918688#551"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_01.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_02.png Resources/ic_people_02.png
+s320916574.405811
+e320916574.424588
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_people_02.png
+xResources/ic_people_02.png
+lSLF07#2@31"Copy Resources/ic_people_02.png320916574#320916574#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_02.png8649637632#551"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_02.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_03.png Resources/ic_people_03.png
+s320916574.406734
+e320916574.424702
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_people_03.png
+xResources/ic_people_03.png
+lSLF07#2@31"Copy Resources/ic_people_03.png320916574#320916574#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_03.png8647959040#551"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_03.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_04.png Resources/ic_people_04.png
+s320916574.408993
+e320916574.424814
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_people_04.png
+xResources/ic_people_04.png
+lSLF07#2@31"Copy Resources/ic_people_04.png320916574#320916574#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_04.png8646422848#551"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_04.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CCpResource build/Debug-iphonesimulator/LotteryProject.app/ic_people_05.png Resources/ic_people_05.png
+s320916574.411368
+e320916574.424924
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/LotteryProject.app/ic_people_05.png
+xResources/ic_people_05.png
+lSLF07#2@31"Copy Resources/ic_people_05.png320916574#320916574#0(0"0(0#0#85"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_05.png8645394176#551"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/ic_people_05.png /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+
+CGenerateDSYMFile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app.dSYM /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject
+s321238978.076525
+e321238978.302681
+r1
+xGenerateDSYMFile
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app.dSYM
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject
+lSLF07#2@130"GenerateDSYMFile build/Debug-iphonesimulator/LotteryProject.app.dSYM build/Debug-iphonesimulator/LotteryProject.app/LotteryProject321238978#321238978#0(0"0(0#0#120"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject8619135008#464"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app.dSYM0#
+
+CLd /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject normal i386
+s321238977.371751
+e321238978.076372
+r1
+xLd
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject
+xnormal
+xi386
+lSLF07#2@125"Link /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject321238977#321238978#0(0"0(0#0#0"8618379808#1261"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -L/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -filelist /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/Objects-normal/i386/LotteryProject.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 -framework CoreGraphics -framework Foundation -framework OpenGLES -framework QuartzCore -framework UIKit -framework AudioToolbox -framework OpenAL -lz -framework AVFoundation "-lcocos2d libraries" -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/LotteryProject0#
+
+CProcessInfoPlistFile /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/Info.plist Resources/Info.plist
+s320916573.316497
+e320916573.340103
+r1
+xProcessInfoPlistFile
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/Info.plist
+xResources/Info.plist
+lSLF07#2@28"Process Resources/Info.plist320916573#320916573#0(0"0(0#0#79"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/Resources/Info.plist8628335232#555"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Resources/Info.plist -genpkginfo /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app/Info.plist0#
+
+CProcessPCH /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch.gch LotteryProject_Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s320916574.585167
+e320916575.301039
+r1
+xProcessPCH
+x/var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch.gch
+xLotteryProject_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@36"Precompile LotteryProject_Prefix.pch320916574#320916575#0(0"0(0#0#84"/Users/change/Desktop/專案程式碼/客戶專案/Lottery/LotteryProject_Prefix.pch8635667392#2283"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DDEBUG -DCOCOS2D_DEBUG=1 -DCD_DEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-generated-files.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-own-target-headers.hmap -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-all-target-headers.hmap -iquote /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/LotteryProject-project-headers.hmap -Wall -F/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/include -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources/i386 -I/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/LotteryProject.build/Debug-iphonesimulator/LotteryProject.build/DerivedSources -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/LotteryProject_Prefix.pch -o /var/folders/Hm/Hm-oftOAF7GmpfDh2n7zlE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/LotteryProject_Prefix-hdfpedfyhdgufzaglwxsgbvjiqgp/LotteryProject_Prefix.pch.gch0#
+
+CTouch /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app
+s321238978.302772
+e321238978.320354
+r1
+xTouch
+x/Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app
+lSLF07#2@111"Touch /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app321238978#321238978#0(0"0(0#0#0"8619979808#325"    cd /Users/change/Desktop/專案程式碼/客戶專案/Lottery    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/change/Desktop/專案程式碼/客戶專案/Lottery/build/Debug-iphonesimulator/LotteryProject.app0#
+

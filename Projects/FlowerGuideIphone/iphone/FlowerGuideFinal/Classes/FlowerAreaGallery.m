@@ -1,0 +1,187 @@
+//
+//  FlowerAreaGallery.m
+//  FlowerGuide
+//
+//  Created by Liao Change on 9/13/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "FlowerAreaGallery.h"
+#import "GoFutureModel.h"
+#import "FlowerEntityObject.h"
+#import "FeatureCoordination.h"
+#import "FlowerContentViewController.h"
+#import "Vars.h"
+#import "ToolsFunction.h"
+@implementation FlowerAreaGallery
+@synthesize scrollBar,mapView,titleLabel,backgroundScrollView;
+/*
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        // Custom initialization
+    }
+    return self;
+}
+*/
+
+-(id)initWithFeatureId:(NSString*)inputAreaId{
+	if((self=[super init])){
+		areaId=[NSString stringWithString:inputAreaId];
+	}
+	return self;
+}
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(resetScrollMapContentSize:) name:ResetBackgroundView object:nil];
+	thisDataObject=[[GoFutureModel getFlowerListByExhibitPtId:areaId]retain];
+	[ToolsFunction getImageFromURL:thisDataObject.bgImageString withTargetUIImageView:mapView withNotificationString:ResetBackgroundView];
+	[self addButtonAndFlowerPoint];
+}
+
+
+
+-(void)addButtonAndFlowerPoint{
+	NSAutoreleasePool *myLocalPool=[NSAutoreleasePool new];
+	currentNum=0;
+	space=20;
+	buttonWidth=57;
+
+	allMapButton=[[NSMutableArray alloc]init];
+	allBottomButton=[[NSMutableArray alloc]init];
+	
+	int preSpace=round((double)(291/2)-((double)buttonWidth/2));
+	CGRect contextRect=CGRectMake(0, 0, preSpace*2+[thisDataObject.flowerEntity count]*(buttonWidth+space), 66);
+	
+	UIView *content=[[[UIView alloc]initWithFrame:contextRect]autorelease];
+	for(int i=0;i<[thisDataObject.flowerEntity count];i++){
+		FlowerEntityObject *thisFlowerData=(FlowerEntityObject*)[thisDataObject.flowerEntity objectAtIndex:i];
+		//增加map圖釘
+		CGPoint flowerPoint=CGPointMake(thisFlowerData.ptX,thisFlowerData.ptY);
+		UIButton *mapButton=[UIButton buttonWithType:UIButtonTypeCustom];
+		[mapButton setImage:[UIImage imageNamed:@"mapui_icon_plantpoint.png"]  forState:UIControlStateNormal];
+		mapButton.frame=CGRectMake(flowerPoint.x, flowerPoint.y-30, mapButton.frame.size.width, mapButton.frame.size.height);
+		mapButton.titleLabel.text=[NSString stringWithFormat:@"%i",i];
+		[mapButton addTarget:self action:@selector(buttonPress:) forControlEvents:UIControlEventTouchDown];
+		[allMapButton addObject:mapButton];
+		[backgroundScrollView addSubview:mapButton]; 
+		[mapButton release];
+		//增加下方buttomButton
+		UIButton *thisButton=[UIButton buttonWithType:UIButtonTypeCustom];
+		thisButton.frame=CGRectMake(preSpace+i*space+i*buttonWidth, 10, buttonWidth, 42);		
+		[thisButton setContentMode:UIViewContentModeScaleToFill];
+		[thisButton setBackgroundImage:[UIImage imageNamed:@"img_a_noflower.png"] forState:UIControlStateNormal];
+		[ToolsFunction getImageFromURL:thisFlowerData.imgUrl withTargetButton:thisButton];
+		[thisButton addTarget:self action:@selector(buttonPress:) forControlEvents:UIControlEventTouchDown];
+		thisButton.titleLabel.text=[NSString stringWithFormat:@"%@",thisFlowerData.flowerId];
+		[thisButton setTag:i];
+		if(i==0) [self addButtonEffect:thisButton];
+		[allBottomButton addObject:thisButton];
+		[content addSubview:thisButton];
+		[thisButton release];
+		
+	}
+	content.userInteractionEnabled=YES;
+	[scrollBar addSubview:content];
+	scrollBar.contentSize=contextRect.size;
+	scrollBar.scrollEnabled=YES;
+	scrollBar.userInteractionEnabled=YES;	
+	[myLocalPool drain];
+}
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+	//[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(resetScrollMapContentSize:) name:ResetBackgroundView object:nil];
+	//- (void)removeObserver:(id)observer name:(NSString *)aName object:(id)anObject;
+	[[NSNotificationCenter defaultCenter]removeObserver:self name:ResetBackgroundView object:nil];
+	
+}
+
+
+- (void)dealloc {
+	[thisDataObject release];
+	[allMapButton release];
+	[allBottomButton release];
+    [super dealloc];
+}
+
+-(void)buttonPress:(id)sender{
+	scrollBar.contentOffset=CGPointMake(0,0);
+	UIButton *thisButton=(UIButton*)sender;
+	int centerPosition=thisButton.tag;
+	[self bounceToCurrentPosition:centerPosition];
+	NSString *flowerId=thisButton.titleLabel.text;
+	FlowerContentViewController *nextController=[[FlowerContentViewController alloc]initWithFlowerId:flowerId];
+	UIView *parentView=[self.view superview];
+	[self.view removeFromSuperview];
+	[parentView addSubview:nextController.view];
+
+	//TODO next viewController
+}
+-(void)scrollViewDidScroll:(UIScrollView *)scrollView{
+	double totalOffset=buttonWidth/2+scrollView.contentOffset.x;
+	int tmpPosition=floor(totalOffset/(buttonWidth+space));
+	if(((int)totalOffset%87)<=57){
+		//TODO 而且tmpPosition介於-1與[allButton count]
+		if(tmpPosition!=currentNum && tmpPosition>-1 && tmpPosition<[allBottomButton count]){
+			int preNum=currentNum;
+			currentNum=tmpPosition;
+			currentNum=(currentNum<=0)?0:currentNum;
+			//titleLabel.text=[NSString stringWithFormat:@"num:%i",currentNum];
+			//NSLog(title);
+			UIButton *thisButton=(UIButton*)[allBottomButton objectAtIndex:currentNum];
+			[self addButtonEffect:thisButton];
+			UIButton *preButton=(UIButton*)[allBottomButton objectAtIndex:preNum];
+			[self delButtonEffect:preButton];
+			UIButton *thisMapButton=(UIButton*)[allMapButton objectAtIndex:currentNum];
+			[thisMapButton setImage:[UIImage imageNamed:@"mapui_icon_plantpoint_i.png"] forState:UIControlStateNormal];
+			UIButton *preMapButton=(UIButton*)[allMapButton objectAtIndex:preNum];
+			[preMapButton setImage:[UIImage imageNamed:@"mapui_icon_plantpoint.png"] forState:UIControlStateNormal];
+			//TODO change title		
+			FlowerEntityObject *tmpFlowerObject=(FlowerEntityObject*)[thisDataObject.flowerEntity objectAtIndex:thisButton.tag];
+			[titleLabel setText:tmpFlowerObject.flowerName];
+			thisButton.backgroundColor=[UIColor whiteColor];
+			preButton.backgroundColor=[UIColor grayColor];
+		}
+	}
+}
+
+
+-(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate{
+	//[self bounceToCurrentPosition:currentNum];
+}
+
+-(void)bounceToCurrentPosition:(int)currentPositionNum{
+	[scrollBar setContentOffset:CGPointMake( (buttonWidth+space)*currentPositionNum,0) animated:YES];
+}
+//被選中的Button,送進出做效果
+-(void)addButtonEffect:(UIButton*)thisButton{
+	[thisButton setFrame:CGRectMake(thisButton.frame.origin.x-10, 5, 77, 57)];
+}
+-(void)delButtonEffect:(UIButton*)thisButton{
+	[thisButton setFrame:CGRectMake(thisButton.frame.origin.x+10, 12, 57, 42)];
+}
+-(IBAction)exit:(id)sender{
+	[self.view removeFromSuperview];
+}
+
+-(void)resetScrollMapContentSize:(NSNotification*)notification{
+	[backgroundScrollView setContentSize:mapView.image.size];
+}
+@end

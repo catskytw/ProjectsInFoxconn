@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/2011/!svn/ver/12/Lottery
+END
+LICENSE.cocosdenshion
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/2011/!svn/ver/13/Lottery/LICENSE.cocosdenshion
+END
+LotteryProject_Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/2011/!svn/ver/13/Lottery/LotteryProject_Prefix.pch
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/2011/!svn/ver/13/Lottery/main.m
+END
+NSMutableArray+Queue.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/16/Lottery/NSMutableArray+Queue.h
+END
+JSONCoreDataUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/2011/!svn/ver/14/Lottery/JSONCoreDataUtil.h
+END
+DownloadThreadObject.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/14/Lottery/DownloadThreadObject.m
+END
+NSMutableArray+Queue.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/16/Lottery/NSMutableArray+Queue.m
+END
+JSONCoreDataUtil.m
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/2011/!svn/ver/14/Lottery/JSONCoreDataUtil.m
+END
+QueryPattern.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/2011/!svn/ver/14/Lottery/QueryPattern.h
+END
+DownloadThreadObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/2011/!svn/ver/14/Lottery/DownloadThreadObject.h
+END
+LICENSE.cocos2d
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/2011/!svn/ver/13/Lottery/LICENSE.cocos2d
+END
+QueryPattern.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/2011/!svn/ver/17/Lottery/QueryPattern.m
+END

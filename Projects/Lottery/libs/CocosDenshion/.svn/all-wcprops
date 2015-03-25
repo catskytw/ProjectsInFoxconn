@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion
+END
+CDConfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CDConfig.h
+END
+CocosDenshion.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CocosDenshion.h
+END
+SimpleAudioEngine.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/SimpleAudioEngine.h
+END
+CDOpenALSupport.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CDOpenALSupport.h
+END
+CDAudioManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CDAudioManager.h
+END
+CocosDenshion.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CocosDenshion.m
+END
+SimpleAudioEngine.m
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/SimpleAudioEngine.m
+END
+CDOpenALSupport.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CDOpenALSupport.m
+END
+CDAudioManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/2011/!svn/ver/13/Lottery/libs/CocosDenshion/CDAudioManager.m
+END

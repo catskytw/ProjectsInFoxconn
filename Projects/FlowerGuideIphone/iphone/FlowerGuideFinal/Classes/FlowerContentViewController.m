@@ -1,0 +1,88 @@
+//
+//  FlowerContentViewController.m
+//  FlowerGuide
+//
+//  Created by Liao Change on 9/14/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "FlowerContentViewController.h"
+#import "FlowerContent.h"
+#import "GoFutureModel.h"
+#import "LocalizationSystem.h"
+#import "ToolsFunction.h"
+#import "Vars.h"
+@implementation FlowerContentViewController
+@synthesize mainView,titleLabel;
+/*
+ // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+        // Custom initialization
+    }
+    return self;
+}
+*/
+
+-(id)initWithFlowerId:(NSString*)flowerId{
+	if((self=[super init])){
+		thisDataObject=[[GoFutureModel getFlowerInfo:flowerId]retain];
+		flowerContentView=[[FlowerContent alloc]initWithScreenWidth:290];
+	}
+	return self;
+}
+// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+	[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(resetImageStyle:) name:SetImageStyle object:nil];
+
+	[mainView addSubview:flowerContentView.view];
+	[flowerContentView.titleLabel setText:thisDataObject.flowerName];
+	[titleLabel setText:AMLocalizedString(@"FlowerInfo",nil)];
+	[ToolsFunction getImageFromURL:thisDataObject.flowerImageURL withTargetUIImageView:flowerContentView.flowerImage withNotificationString:SetImageStyle];
+	[flowerContentView.flowerImage setBackgroundColor:[UIColor whiteColor]];
+	CGSize textRectSize=[ToolsFunction getContentTextSize:thisDataObject.flowerContent withWidth:262 withFontSize:16];
+	[flowerContentView.contentLabel setFrame:CGRectMake(flowerContentView.contentLabel.frame.origin.x, flowerContentView.contentLabel.frame.origin.y, textRectSize.width, textRectSize.height)];
+	[flowerContentView.contentLabel setText:thisDataObject.flowerContent];
+	[flowerContentView.areaTitle setText:thisDataObject.areaName];
+	[flowerContentView.mainScrollView setContentSize:CGSizeMake(textRectSize.width,textRectSize.height+58)];
+}
+
+/*
+// Override to allow orientations other than the default portrait orientation.
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    // Return YES for supported orientations
+    return (interfaceOrientation == UIInterfaceOrientationPortrait);
+}
+*/
+
+- (void)didReceiveMemoryWarning {
+	// Releases the view if it doesn't have a superview.
+    [super didReceiveMemoryWarning];
+	
+	// Release any cached data, images, etc that aren't in use.
+}
+
+- (void)viewDidUnload {
+	// Release any retained subviews of the main view.
+	// e.g. self.myOutlet = nil;
+	[[NSNotificationCenter defaultCenter]removeObserver:self name:SetImageStyle object:nil];
+}
+
+
+- (void)dealloc {
+	[flowerContentView release];
+	[thisDataObject release];
+    [super dealloc];
+}
+
+-(IBAction)closeThisWindow:(id)sender{
+	[self.view removeFromSuperview];
+	[self release];
+}
+
+-(void)resetImageStyle:(NSNotification*)notification{
+	[flowerContentView settingTransform];
+	[flowerContentView setFlowerImageLocation];
+}
+@end

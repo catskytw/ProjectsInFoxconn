@@ -1,0 +1,182 @@
+//
+//  MapDrawer.m
+//  iphoneFlowerProject
+//
+//  Created by Change Liao on 5/11/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import "MapDrawer.h"
+#import "DrawFunctions.h"
+#import "Vars.h"
+@implementation MapDrawer
+@synthesize mapImageRef;
+@synthesize pointArray;
+@synthesize shortestPathArray;
+@synthesize isDrawTree;
+@synthesize isDrawContentPoint;
+@synthesize isDrawRoute;
+@synthesize isDrawShortestPath;
+@synthesize worldRect;
+@synthesize is3DFlag;
+@synthesize height,width;
+-(id)initWithWorldRect:(CGRect)thisWorldRect with3D:(BOOL)is3D withMonitorWidth:(NSInteger)thisWidth withMonitorHeight:(NSInteger)thisHeight withFeatureCollection:(FeatureCtrlCollections*)thisFcc withShortestPathArray:(NSMutableArray*)edgeArray{
+	if((self=[super init])){
+		pointArray=[[NSMutableArray arrayWithObjects:nil]retain];
+		shortestPathArray=[[NSMutableArray arrayWithObjects:nil]retain];
+		[shortestPathArray addObjectsFromArray:edgeArray];
+		width=thisWidth;
+		height=thisHeight;
+		worldRect=thisWorldRect;
+		is3DFlag=is3D;
+		fcc=thisFcc;
+		
+		//reuse this context
+		mapContextRef=[DrawFunctions createBitmapContext:width withHeight:height];
+		mapImageRef=CGBitmapContextCreateImage(mapContextRef);
+		isDrawTree=YES;
+		isDrawRoute=YES;
+		isDrawContentPoint=YES;
+		isDrawShortestPath=YES;
+	}
+	return self;
+}
+-(void)redraw{
+	CGImageRelease(mapImageRef);
+	CGContextSaveGState(mapContextRef);
+	CGContextClearRect(mapContextRef, CGRectMake(0, 0, width, height));
+	/**TODO 
+		畫3D圖與畫2D全區圖,應分別拆開
+		2D圖之繪製,應重複使用同一個CGImageRef,速度才會快
+	 */
+	[self drawMapWithDataCtrl:fcc.regionDataCtrl withInxCtrl:fcc.regionIdxCtrl withCGContextRef:mapContextRef withStyleType:FeatureTypeRegion withPointType:regionPointType];
+	[self drawMapWithDataCtrl:fcc.regionDataCtrl withInxCtrl:fcc.regionIdxCtrl withCGContextRef:mapContextRef withStyleType:FeatureTypeLine withPointType:regionPointType];
+	if(isDrawRoute) [self drawMapWithDataCtrl:fcc.routeDataCtrl withInxCtrl:fcc.routeIdxCtrl withCGContextRef:mapContextRef withStyleType:FeatureTypeLine withPointType:regionPointType];
+	if(isDrawShortestPath) [self drawShortestPath:shortestPathArray];
+	if(isDrawTree) [self drawMapWithDataCtrl:fcc.regionDataCtrl withInxCtrl:fcc.regionIdxCtrl withCGContextRef:mapContextRef withStyleType:FeatureTypePoint withPointType:regionPointType];
+	if(isDrawContentPoint) [self drawMapWithDataCtrl:fcc.pointDataCtrl withInxCtrl:fcc.pointIdxCtrl withCGContextRef:mapContextRef withStyleType:FeatureTypePoint withPointType:pointPointType];	
+#ifdef DEBUG_MODE
+	NSLog(@"creating bitmap:%@",[ToolsFunction currentMillionSec]);
+#endif
+	mapImageRef=CGBitmapContextCreateImage(mapContextRef);
+#ifdef DEBUG_MODE
+	NSLog(@"finishing bitmap:%@",[ToolsFunction currentMillionSec]);
+#endif
+	CGContextRestoreGState(mapContextRef);
+}
+-(void)dealloc{
+	CGContextRelease(mapContextRef);
+	CGImageRelease(mapImageRef);
+	[pointArray release];
+	[shortestPathArray release];
+	[super dealloc];
+}
+-(void)drawMapWithDataCtrl:(MapDataCtrl*)dataCtrl withInxCtrl:(MapIdxCtrl*)idxCtrl withCGContextRef:(CGContextRef)ref withStyleType:(NSInteger)styleType withPointType:(NSInteger)pointType{
+	MapPresentCtrl *presentCtrl=[[MapPresentCtrl alloc]initWithMapDataCtrl:dataCtrl withMapIdxCtrl:idxCtrl withWorldRect:worldRect withMonitorWidth:width withMonitorHeight:height is3D:is3DFlag];
+	NSMutableArray *allFeatures=[presentCtrl getAllFeatureAfterTransform:styleType];
+
+	for(MapFeature *eachFeature in allFeatures){
+		[self drawFeature:ref withFeature:eachFeature withPointType:pointType];
+	}
+
+	[presentCtrl release];
+}
+-(void)drawShortestPath:(NSMutableArray*)edgeArray{
+	if(edgeArray==nil) return;
+	MapPresentCtrl *presentCtrl=[[MapPresentCtrl alloc]initWithMapDataCtrl:nil withMapIdxCtrl:nil withWorldRect:worldRect withMonitorWidth:width withMonitorHeight:height is3D:is3DFlag];
+	for(Edge *thisEdge in edgeArray){
+		MapFeature *tmpFeature=[fcc.routeDataCtrl getFeatureObject:[thisEdge.edgeName intValue]];
+		[presentCtrl transFormFeature:tmpFeature];
+		[self drawShortestPathLine:tmpFeature];
+	}
+	[presentCtrl release];
+}
+
+-(void)drawShortestPathLine:(MapFeature*)lineFeature{
+	if([lineFeature.points count]<2) return;
+	CGContextSetRGBStrokeColor(mapContextRef, 0.40625, 0.8828125, 0.83203125, 1);
+	CGContextBeginPath(mapContextRef);
+	if(is3DFlag)
+		CGContextSetLineWidth(mapContextRef, 18);
+	else
+		CGContextSetLineWidth(mapContextRef, 6);	
+	Coordination *headPoint=(Coordination*)[lineFeature.points objectAtIndex:0];
+	CGContextMoveToPoint(mapContextRef, headPoint.x, headPoint.y);
+	for(int i=1;i<[lineFeature.points count];i++){
+		Coordination *thisPoint=(Coordination*)[lineFeature.points objectAtIndex:i];
+		CGContextAddLineToPoint(mapContextRef, thisPoint.x, thisPoint.y);
+	}
+	CGContextStrokePath(mapContextRef);
+}
+-(void)drawFeature:(CGContextRef)ref withFeature:(MapFeature*)targetFeature withPointType:(NSInteger)pointType{
+	float red=(float)targetFeature.styleObject.red/255.0f;
+	float green=(float)targetFeature.styleObject.green/255.0f;
+	float blue=(float)targetFeature.styleObject.blue/255.0f;
+	
+	MapLine *mapLineStyle;
+	Coordination *headPoint;
+	CGContextSetLineCap(ref, kCGLineCapRound);
+	switch (targetFeature.style) {
+		case FeatureTypePoint:
+			headPoint=(Coordination*)[targetFeature.points objectAtIndex:0];
+			[self drawPOI:(MapFeature*)targetFeature withPosition:headPoint withPointType:pointType];
+			break;
+		case FeatureTypeLine:
+			if([targetFeature.points count]<2)
+				return;
+			CGContextSetRGBStrokeColor(ref, red, green, blue, 1);
+			mapLineStyle=(MapLine*)targetFeature.styleObject;
+			CGContextBeginPath(ref);
+			if(is3DFlag)
+				CGContextSetLineWidth(ref, mapLineStyle.width);
+			else
+				CGContextSetLineWidth(ref, 6);
+			headPoint=(Coordination*)[targetFeature.points objectAtIndex:0];
+			CGContextMoveToPoint(ref, headPoint.x, headPoint.y);
+			for(int i=1;i<[targetFeature.points count];i++){
+				Coordination *thisPoint=(Coordination*)[targetFeature.points objectAtIndex:i];
+				CGContextAddLineToPoint(ref, thisPoint.x, thisPoint.y);
+			}
+			CGContextStrokePath(ref);
+			break;
+		case FeatureTypeRegion:
+			//TODO 沒有畫region裡的lineStyle
+			if([targetFeature.points count]<3) return;
+			CGContextSetRGBFillColor(ref,red,green,blue,1);
+			CGContextSetRGBStrokeColor(ref, red, green, blue, 1);
+			CGContextBeginPath(ref);
+			headPoint=(Coordination*)[targetFeature.points objectAtIndex:0];
+			CGContextMoveToPoint(ref, headPoint.x, headPoint.y);
+			for(int i=1;i<[targetFeature.points count];i++){
+				Coordination *thisPoint=(Coordination*)[targetFeature.points objectAtIndex:i];
+				CGContextAddLineToPoint(ref, thisPoint.x, thisPoint.y);
+			}
+			CGContextClosePath(ref);
+			CGContextDrawPath(ref, kCGPathFillStroke);
+			break;
+	}
+}
+-(void)drawPOI:(MapFeature*)featureObject withPosition:(Coordination*)point withPointType:(NSInteger)pointType{
+	MapPoint *styleObject=(MapPoint*)featureObject.styleObject;
+	NSString *fileName=nil, *num=nil;
+	switch (pointType) {
+		case regionPointType:
+			num=(styleObject.bmpId>8)?[NSString stringWithFormat:@"%i",styleObject.bmpId+1]:[NSString stringWithFormat:@"0%i",styleObject.bmpId+1];
+			fileName=[NSString stringWithFormat:@"mapui_icon_tree_%@",num];
+			//CCSprite *tmpSprite=[CCSprite spriteWithFile:[NSString stringWithFormat:@"%@.png",fileName]];
+			UIImage *tmpSprite=[UIImage imageNamed:[NSString stringWithFormat:@"%@.png",fileName]];
+			NSString *path = [[ NSBundle mainBundle ] pathForResource:fileName ofType:@"png"];
+			CGRect spriteRect=CGRectMake(point.x-(CGFloat)tmpSprite.size.width/2, point.y, tmpSprite.size.width, tmpSprite.size.height-10);
+			[DrawFunctions createAndDrawBitmapImage:mapContextRef withRect:spriteRect withFileName:path withTitle:nil withTitleSize:CGSizeZero withTitleYAxisInsect:0];
+			 
+			break;
+		case pointPointType:
+			//記錄yValue,以利排序
+			featureObject.yValue=((Coordination*)[featureObject.points objectAtIndex:0]).y;
+			[pointArray addObject:featureObject];
+			break;
+		default:
+			break;
+	}
+}
+@end

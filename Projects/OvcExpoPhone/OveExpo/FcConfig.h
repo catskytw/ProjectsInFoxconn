@@ -1,0 +1,265 @@
+//
+//  FcConfig.h
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/28.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+#import "NSFormatterExtend.h"
+#define CloseLogin NO //TODO note this
+#define USE_iOS5_FIX_PROBLEM
+#define USE_QUARTZ 1
+#define TEST_REGISTER 0
+#define CLOSE_AUTO_LOGIN NO
+//#define ISPAID 1
+//#define DRAW_ALL_POINT YES
+#define REDRAW_MOVE @"redraw_move"
+#define ccp(__X__,__Y__) CGPointMake(__X__,__Y__)
+#define ccs(__X__,__Y__) CGSizeMake(__X__,__Y__)
+#define DefaultFontName @"STHeitiTC-Light"
+#define DefaultBoldFontName @"STHeitiTC-Medium"
+#define AngleSpace 11.6129f
+#define GroupCellWidth 274
+#define GroupCellHeight 42
+#define GroupCellLabelDiff_Left 8
+#define GroupCellLabel_Space 6
+#define GroupCellLabelDiff_Right 8
+#define GroupCellLabelY_Font16 12
+#define TopMargin 15
+#define LeftMargin 15
+#define RightMargin 15
+#define ScreenWidth 320
+
+#define ContentWidth ScreenWidth-LeftMargin-RightMargin
+#define ContentSpacingVertical1 14  
+#define ContentSpacingVertical2 12
+#define ContentSpacingVertical3 7
+#define Seperator @"FcSeperator"
+//#define TESTDATA 1
+#define MY_TEST NO
+#define TABLE_SECTION_HEIGHT 28
+//project url
+#define URLPREFIX @"http://10.62.13.31:8080"
+
+//@"http://fcovcexpo.no-ip.org:8088"
+//@"http://10.62.13.31:8080"
+//@"http://10.161.32.74:8080"
+//@"http://wcch.myhome.hk:8088"
+//@"http://10.62.13.31:8080" 
+
+
+#define picUrl(picName) [NSString stringWithFormat:@"%@%@",URLPREFIX,picName]
+#define AccountService [NSString stringWithFormat:@"%@/service/accountService.",URLPREFIX]
+#define CommonService [NSString stringWithFormat:@"%@/service/commonService.",URLPREFIX]
+#define UserService [NSString stringWithFormat:@"%@/service/userService.",URLPREFIX]
+#define ExhibitionService [NSString stringWithFormat:@"%@/service/exhibitionService.",URLPREFIX]
+#define ExhibitorService [NSString stringWithFormat:@"%@/service/exhibitorService.",URLPREFIX]
+#define visitorService [NSString stringWithFormat:@"%@/service/visitorService.",URLPREFIX]
+#define navigatorService [NSString stringWithFormat:@"%@/service/navigatorService.",URLPREFIX]
+#define loginQuery(loginId, password) [NSString stringWithFormat:@"%@login?loginId=%@&password=%@&rnd=%d",AccountService,loginId,password,arc4random()]
+#define forgetPassword(loginId,email) [NSString stringWithFormat:@"%@forgetPassword?loginId=%@&mail=%@",AccountService,loginId,email]
+#define getCountryList [NSString stringWithFormat:@"%@getCountryList",CommonService]
+#define registerAccount(x,y,z) [NSString stringWithFormat:@"%@register?account=%@&user=%@&company=%@",AccountService,x,y,z]
+
+//*** Common
+#define getResourceVersion(sessionId) [NSString stringWithFormat:@"%@getMapVersion?sessionId=%@", CommonService, sessionId]
+#define getAboutUs(sessionId) [NSString stringWithFormat:@"%@getAboutUs?sessionId=%@", CommonService, sessionId]
+
+//*** 我的名片
+#define BusinessCardService [NSString stringWithFormat:@"%@/service/addressBookService.", URLPREFIX]
+#define getQRCode(sessionId) [NSString stringWithFormat:@"%@getMyQRCode?sessionId=%@", BusinessCardService, sessionId]
+#define getMyBusinessCard(sessionId) [NSString stringWithFormat:@"%@getMyBusinessCard?sessionId=%@", BusinessCardService, sessionId]
+#define getBusinessCardList(sessionId) [NSString stringWithFormat:@"%@getBusinessCardList?sessionId=%@", BusinessCardService, sessionId]
+#define getBusinessCardById(sessionId, cardId) [NSString stringWithFormat:@"%@getBusinessCard?sessionId=%@&businessCardId=%@", BusinessCardService, sessionId, cardId]
+#define addBusinessCard(sessionId, user, company) [NSString stringWithFormat:@"%@updateMyBusinessCard?sessionId=%@&user=%@&company=%@", BusinessCardService, sessionId, user, company]
+#define addFriendBusinessCard(sessionId,userId) [NSString stringWithFormat:@"%@addBusinessCard?sessionId=%@&contactId=%@",BusinessCardService,sessionId,userId]
+#define addBusinessCardPhoto(sessionId, photo) [NSString stringWithFormat:@"%@updatePhoto?sessionId=%@&photo=%@", BusinessCardService, sessionId, photo]
+///service/addressBookService.updatePhoto?photo=asdfhadifuhaiduhfaiushdfiauhsdifuhaisudhfaiuhsdfiuh
+
+//*** 會議行程表
+#define MeetingService [NSString stringWithFormat:@"%@/service/confereeService.", URLPREFIX]
+#define getMettingDates(sessionId) [NSString stringWithFormat:@"%@getMeetingDateList?sessionId=%@", MeetingService, sessionId]
+#define getRoomsWithDate(sessionId, date) [NSString stringWithFormat:@"%@getLocationListByDate?sessionId=%@&date=%@", MeetingService, sessionId, date]
+#define getMeetingsWithRoom1(sessionId, date, room) [NSString stringWithFormat:@"%@getSessionList?sessionId=%@&date=%@&location=%@", MeetingService, sessionId, date, room]
+#define getMeetingsWithRoom(sessionId, date, room) [NSString stringWithFormat:@"%@getSessionList?sessionId=%@&date=%@&location=%@", MeetingService, sessionId, date, room]
+#define getMeetingsWithDate(sessionId, date) [NSString stringWithFormat:@"%@getSessionList?sessionId=%@&date=%@", MeetingService, sessionId, date]
+#define getMeetingDetail(sessionId, meetingId) [NSString stringWithFormat:@"%@getSessionById?sessionId=%@&id=%@",MeetingService, sessionId, meetingId]
+#define joinMetting(sessionId, meetingId) [NSString stringWithFormat:@"%@register?sessionId=%@&conferenceId=%@", MeetingService, sessionId, meetingId]
+#define getMeetingsList(sessionId) [NSString stringWithFormat:@"%@getConferenceList?sessionId=%@", MeetingService, sessionId]
+#define getMeetingById(sessionId, meetingId) [NSString stringWithFormat:@"%@getConferenceById?sessionId=%@&conferenceId=%@",MeetingService, sessionId, meetingId]
+
+
+//***個人行程表
+#define getPersonalEventList(x) [NSString stringWithFormat:@"%@getPersonalEventList?sessionId=%@&rand=%d",UserService,x,arc4random()]
+#define getPersonalEventById(x,y) [NSString stringWithFormat:@"%@getPersonalEventById?sessionId=%@&eventId=%@&rand=%d",UserService,x,y,arc4random()]
+#define deletePersonalEventById(x,y) [NSString stringWithFormat:@"%@deletePersonalEventById?sessionId=%@&eventId=%@",UserService,x,y]
+
+//廠商列表
+#define getExhibitorList(x) [NSString stringWithFormat:@"%@getExhibitorList?sessionId=%@&rand=%d",visitorService,x,arc4random()]
+#define getExhibitorById(x,y) [NSString stringWithFormat:@"%@getExhibitorById?sessionId=%@&exhibitorId=%@&rand=%d",visitorService,x,y,arc4random()]
+#define addReservationDate(x,y,z,w,u) [NSString stringWithFormat:@"%@addReservationDate?sessionId=%@&exhibitorId=%@&startDate=%f&endDate=%f&notes=%@",ExhibitionService,x,y,z,w,u]
+//visitorService.getOpenReservationListByExhibitorId
+#define reserveExhibitor(x,y,w) [NSString stringWithFormat:@"%@reserveExhibitor?sessionId=%@&exhibitorId=%@&reservationId=%@",visitorService,x,y,w]
+//visitorService.addExhibitorToPersonalEvent
+#define getOpenReservationListByExhibitorId(x,y) [NSString stringWithFormat:@"%@getOpenReservationListByExhibitorId?sessionId=%@&exhibitorId=%@&rnd=%d",visitorService,x,y,arc4random()]
+//addExhibitorToPersonalEvent
+#define addExhibitorToPersonalEvent(x,y,w,z) [NSString stringWithFormat:@"%@addExhibitorToPersonalEvent?sessionId=%@&exhibitorId=%@&startDate=%@&endDate=%@",visitorService,x,y,w,z]
+
+//廠商行程
+//exhibitorService.getReservationEventList
+//sessionId
+#define getReservationEventList(x) [NSString stringWithFormat:@"%@getReservationEventList?sessionId=%@&rnd=%d",ExhibitorService,x,arc4random()]
+//同意
+//exhibitorService.approveReservationEventById
+// sessionId reservationEventId
+#define approveReservationEventById(x,y) [NSString stringWithFormat:@"%@approveReservationEventById?sessionId=%@&reservationEventId=%@",ExhibitorService,x,y]
+
+//廠商專用
+//exhibitorService.getReservationList
+//sessionId
+#define getReservationList(x) [NSString stringWithFormat:@"%@getReservationList?sessionId=%@&rnd=%d",ExhibitorService,x,arc4random()]
+
+//刪除
+//exhibitorService.deleteReservationById
+//sessionId
+//reservationId
+#define deleteReservationById(x,y) [NSString stringWithFormat:@"%@deleteReservationById?sessionId=%@&reservationId=%@",ExhibitorService,x,y]
+//新增
+//exhibitorService.addReservation
+//sessionId exhibitorId startDate endDate notes
+#define addReservation(x,y,w,z) [NSString stringWithFormat:@"%@addReservation?sessionId=%@&startDate=%@&endDate=%@&notes=%@",ExhibitorService,x,y,w,z]
+
+//******地圖
+#define last3Schedules(_sessionId) [NSString stringWithFormat:@"%@getLastNavLocation?sessionId=%@&rnd=%d",navigatorService,_sessionId,arc4random()]
+#define getExhibitorByQRCode(_sessionId,_uuid) [NSString stringWithFormat:@"%@getExhibitorByQRCode?sessionId=%@&qrCode=%@",visitorService,_sessionId,_uuid]
+#define getLocationById(_sessionId,mapId,locationId) [NSString stringWithFormat:@"%@getLocationById?sessionId=%@&mapId=%@&locationId=%@",navigatorService,_sessionId,mapId,locationId]
+#define getLocationByQRCode(_sessionId,qrcodeUUID) [NSString stringWithFormat:@"%@getLocationByQRCode?sessionId=%@&qrCode=%@",navigatorService,_sessionId,qrcodeUUID]
+#define getDefaultExitByMapId(_sessionId,mapId) [NSString stringWithFormat:@"%@getDefaultExitByMapId?sessionId=%@&mapId=%@",navigatorService,_sessionId,mapId]
+#define getExitByFromAndToMapId(_sessionId,fromMapId,toMapId) [NSString stringWithFormat:@"%@getExitByFromAndToMapId?sessionId=%@&fromMapId=%d&toMapId=%d",navigatorService,_sessionId,fromMapId,toMapId]
+#define getAllLocationList(_sessionId,mapId) [NSString stringWithFormat:@"%@getAllLocationList?sessionId=%@&mapId=%d",navigatorService,_sessionId,mapId]
+#define getFacilityLocationByIds(_sessionId,locationIds) [NSString stringWithFormat:@"%@getFacilityLocationByIds?sessionId=%@&locationIds=%@",navigatorService,_sessionId,locationIds]
+#define getDefaultExitLocation(_sessionId) [NSString stringWithFormat:@"%@getDefaultExitLocation?sessionId=%@",navigatorService,_sessionId]
+//Notification name
+#define CLOSE_ACTIVITY_INDICATOR @"CLOSE_ACTIVITY_INDICATOR"
+#define SHOW_ACTIVITY_INDICATOR @"SHOW_ACTIVITY_INDICATOR"
+
+#define CLEAR_COMPANY_WINDOW @"CLEAR_COMPANY_WINDOW"
+#define SHOW_PLACE_CONFIRM_WINDOW @"SHOW_PLACE_CONFIRM_WINDOW"
+#define CLEAR_PLACE_CONFIRM_WINDOW @"CLEAR_PLACE_CONFIRM_WINDOW"
+#define MAKE_ROUTEING @"MAKE_ROUTEING"
+#define CHANGE_TAB @"CHANGE_TAB"
+#define REFRESH_POINTS_IN_LOCATION @"REFRESH_POINTS_IN_LOCATION"
+//*** table cell pattern
+typedef enum{
+    FcGroupTableCellMode_MIDDLE = 0, //中
+    FcGroupTableCellMode_TOP,      //上
+    FcGroupTableCellMode_BUTTON,
+}FcGroupTableCellMode;
+
+typedef enum{
+    BOOKING_STATUS_BOOKING = 0, //預約中
+    BOOKING_STATUS_BOOKED,      //已預約
+}BOOKING_STATUS;
+#pragma mark -- 地圖使用之type
+#define USELITTLEENDIAN YES
+enum MapDataSource{ // 圖資來源
+    A_2F=0,
+    A_3F=1,
+    B_1F=2,
+    B_2F=3
+};
+enum MapDataTypeNum {
+	MapDataTypeIdx=1,
+	MapDataTypeDat=2
+};
+
+enum FeatureTypeNum{
+	FeatureTypePoint=0,
+	FeatureTypeLine=1,
+	FeatureTypeRegion=2
+};
+
+enum pointType{
+	regionPointType=0,
+	pointPointType=1,
+	plantPointType=2
+};
+
+enum directionPoint{
+	directionNone=0,
+	directionLeft=1,
+	directionUp=2,
+	directionRight=3,
+	directionDown=4
+};
+
+// type [M)會議, E)看展, R)預約廠商]
+#define SCHEDULE_TYPE_BOOKING  @"R"
+#define SCHEDULE_TYPE_CONFERENCE @"M" 
+#define SCHEDULE_TYPE_EXHIBITOR @"E"
+
+static inline CGPoint
+ccpAdd(const CGPoint v1, const CGPoint v2)
+{
+	return ccp(v1.x + v2.x, v1.y + v2.y);
+}
+
+static inline CGPoint
+ccpSub(const CGPoint v1, const CGPoint v2)
+{
+	return ccp(v1.x - v2.x, v1.y - v2.y);
+}
+
+static inline CGRect
+ccRectShift(const CGRect v1, const CGPoint v2)
+{
+    return CGRectMake(v1.origin.x+v2.x, v1.origin.y+v2.y, v1.size.width, v1.size.height);
+}
+static inline CGRect 
+ccRectBackBtn(){
+    return CGRectMake(15.0, 7.0, 57, 30);
+}
+static inline CGRect 
+ccRectAddBtn(){
+    return CGRectMake(15.0, 7.0, 50, 30);
+}
+static inline CGRect 
+ccRectEditBtn(){
+    return CGRectMake(255.0, 7.0, 50, 30);
+}
+static inline CGRect 
+ccRectPathBtn(){
+    return CGRectMake(245.0, 7.0, 70, 30);
+}
+static inline CGFloat
+realRadian(CGFloat _radian)
+{
+    if (_radian>2*M_PI)
+        return realRadian(_radian-(2*M_PI));
+    else if(_radian<0)
+        return realRadian(_radian+(2*M_PI));
+    return _radian;
+}
+static inline CGRect		
+fixBlurryRect(CGRect originRect)		
+{		
+    return CGRectMake(ceilf(originRect.origin.x), ceilf(originRect.origin.y), ceilf(originRect.size.width), ceilf(originRect.size.height));		
+}
+
+/*
+ *  System Versioning Preprocessor Macros
+ */ 
+
+#define SYSTEM_VERSION_EQUAL_TO(v)                  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedSame)
+#define SYSTEM_VERSION_GREATER_THAN(v)              ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedDescending)
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN(v)                 ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] == NSOrderedAscending)
+#define SYSTEM_VERSION_LESS_THAN_OR_EQUAL_TO(v)     ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedDescending)
+
+/*
+ *  Usage
+ */ 
+
+//if (SYSTEM_VERSION_LESS_THAN(@"4.0")) {
+//    ...
+//}

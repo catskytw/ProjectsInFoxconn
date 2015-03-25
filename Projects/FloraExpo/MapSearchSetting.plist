@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DistanceRange</key>
+	<integer>0</integer>
+	<key>SettingFlagDic</key>
+	<dict>
+		<key>addOilStation</key>
+		<false/>
+		<key>busStation</key>
+		<true/>
+		<key>mrtStation</key>
+		<true/>
+		<key>hsStation</key>
+		<true/>
+		<key>parking</key>
+		<false/>
+	</dict>
+</dict>
+</plist>

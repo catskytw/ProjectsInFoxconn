@@ -1,0 +1,248 @@
+/* 
+ Localizable.strings
+ OveExpo
+ 
+ Created by Chang Link on 11/9/19.
+ Copyright 2011年 foxconn. All rights reserved.
+ */
+
+"tab_home"="Home";
+"tab_login"="Login";
+
+//帳號相關
+
+"Login_UserName"="Account";
+"Login_Password"="Password";
+"Login_LoginButton"="Login";
+"Login_ModifyButton"="Change Password";
+"Login_ActiveButton"="Account Activation";
+"Login_ForgetButton"="Forgot";
+"Login_RegisterButton"="Register";
+"Login_errormsg"="Error: Account or Password Error!";
+"title_backhome"="Home";
+"submit"="Submit";
+"cancel"="Cancel";
+"ok"="OK";
+"logout_button"="Logout";
+"login_err_alert_title"= "Error Message";
+"login_alert_ok"="OK";
+"login_alert_otherbutton"="OK";
+"logout_alert_title"="Logout";
+"logout_alert_msg"="Logout Successful!";
+"logout_alert_ok"="OK";
+"register_success"="Registration Successful";
+"register_success_msg"="Registration Successful!";
+"register_fail"="Registration Fail";
+"Email"="Email";
+"modifypwd_title"="Update Password";
+"modifypwd_description"="Error Message";
+"modifypwd_id"="Member Card ID:";
+"modifypwd_originalpwd"="Old Password:";
+"modifypwd_newpwd"="New Password:";
+"modifypwd_recheck"="New Password Again";
+"modifypwd_modifybutton"="Update";
+"getpwd_alert_title"="Forgot Password";
+"getpwd_alert_msg"="Password already sent to email";
+"getpwd_alert_ok"="OK";
+"input_alert_title"="Warning";
+"input_alert_msg"="Field cannot be empty!";
+"input_alert_ok"="OK";
+"emailformat_alert_msg"= "Wrong email format! ";
+"Account"="Account";
+"male"="Male";
+"female"="Female";
+"BasicUserInfo"="Information";
+"firstname"="First Name";
+"lastname"="Last Name";
+"nickname"="Nick Name";
+"sex"="Sex";
+"job"="Job Title";
+"depart"="Department";
+"company"="Company";
+"country"="Country";
+"province"="Province";
+"city"="City";
+"address"="Address";
+"zip"="Zip";
+"tel"="Tel";
+"fax"="Fax";
+"mobile"="Mobile";
+"email"="Email";
+"website"="Website";
+"submit"="Done";
+"cancel"="Cancel";
+"back"="Back";
+"userInfo_Name"="Name:";
+"userInfo_workIncome"="Annual Income:";
+"userInfo_birthday"="Birthday:";
+"userInfo_Sex"="Sex:";
+"userInfo_Phone"="Tel:";
+"userInfo_StoreName"="Company:";
+"userInfo_CityName"="City:";
+"userInfo_sectionName"="Section Name:";
+"userInfo_postCode"="Zip:";
+"userInfo_ProvinceName"="Province:";
+"userInfo_Code"="Code:";
+"userInfo_WorkJob"="Job:";
+"userInfo_MarryStatus"="Marital Status:";
+"userInfo_Habit"="Habit:";
+"userInfo_Address"="Address:";
+"userInfo_Email"="Email:";
+"userInfo_StoreId"="Store:";
+"userInfo_Mobile"="Mobile:";
+"order_alert_ok"="OK";
+"modifypwd_reinputerr_title"="Input Error";
+"modifypwd_reinputerr_msg"="Passwords do not match, please try again.";
+"modifypwd_reinputerr_ok"="OK";
+"modifypwd_changePwd_title"="Change Password";
+"modifypwd_changePwd_msg"="Change password successfully";
+"modifypwd_changePwd_ok"="OK";
+"modifypwd_changePwd_err"="Password change failed, please try again later.";
+"PleaseWait"="Loading, please wait....";
+//個人行事曆
+"personalschedule"="My Schedule"; 
+"BOOKING_STATUS_BOOKED"="Already Booked";
+"BOOKING_STATUS_BOOKING"="Booking";
+"Location"="Location：";
+"edit"="Edit";
+"done"="Done";
+"date"="Date";
+"eventInfo"= "Detail";
+"eventInfo_start"="Start Time：";
+"eventInfo_end"="End Time：";
+"eventInfo_location"="Booth：";
+"eventInfo_status"="Status：";
+//廠商列表
+"exhibitors_info"="Detail";
+"exhibitorinfo_addSchedule"="Add to Schedule";
+"exhibitorinfo_download"="Download";
+"exhibitorinfo_booking"="Booking";
+"exhibitorinfo_btn_website"="Website";
+"exhibitorinfo_productlocation"="Location:";
+"exhibitorinfo_place"="Booth:";
+"exhibitorinfo_website"="Website:";
+"exhibitorinfo_back"="List";
+"exhibitor_booking"="Booking";
+"exhibitor_booking_selectetInterval"="Select Interval";
+"exhibitor_booking_Interval"="Interval";
+"exhibitor_booking_date"="Date";
+"exhibitor_booking_reverse"="Booking";
+"exhibitor_booking_remark"="Note:";
+"pathguide"="Route";
+"exhibitor_AddPersonalSchedule"="Add to Schedule";
+"exhibitor_PS_Start"="Starts";
+"exhibitor_PS_End"="Ends";
+"add_ps_msg"="Already added to personal schedule";
+"revert_ok_title"="Successful";
+"revert_ok_msg"="Booking Successful";
+"revert_err_title"="Error";
+"exhibitor_input"="Company Name";
+
+//廠商開放預約
+"exhibitorsBooking"="Booking";
+"add"="Add";
+"exhibitorBooking_addReserve"="Add Reserve";
+//"exhibitor_booking_remark"="Note";
+//首頁
+"AbountUs"="About Us";
+"events"="Events";
+"floorplan"="Floor Plan";
+"booking_exhibitors"="Booking";
+"conferences"="Conf.";//Change, reach
+"exhibitors_list"="Exhibitors";
+"schedule"="Schedule";
+"schedule_exhibitors"="Plans";//Cathy
+"qrcode"="QR Code";
+"namecard"="My Card";
+"transportation"="Transportation";
+
+//展區平面圖
+"floorPlan"="Floor Plan";
+"A_floor2"="Hall A - 2F";
+"A_floor3"="Hall A - 3F";
+"B_floor1"="Hall B - 1F";
+"B_floor2"="Hall B - 2F";
+"detailInfo"="Detail";
+"guideRoute"="Route Guide";
+"exhibitorSearch"="Search";
+"differentFloor"="The destination is in different floor! \n Will direct you to the correct exit, please from %@ to %@, \nthen re-do the route guidance.";
+"addNameCardFailure"="Name card added failed.";
+"recentSchedule"="Latest";
+"導引起點: 目前位置"="Start:Current Location";
+"地點名稱"="Destination";
+"是否正確？"="Is correct?";
+"是的"="Yes";
+"不是,請刷附近QRCode"="No,scan nearby QRCode";
+
+//會議時程表
+"meeting_schedule_title"="Conferences";
+"meeting_schedule_year"="Year";
+"meeting_schedule_month"="Month";
+"meeting_schedule_day"="Day";
+"meeting_schedule_room"="Meeting Room";
+"meeting_schedule_path"="Route Guide";
+"meeting_schedule_meeting_list"="List";
+"meeting_schedule_time"="Time";
+"meeting_schedule_time_start"="Start Time";
+"meeting_schedule_time_end"="End Time";
+"主講人"="Speaker";
+"meeting_schedule_location"="Location";
+"meeting_schedule_scale"="Scale";
+"報名會議"="Booking";
+"參加會議"="Join Conference";
+
+//廠商行程表
+<<<<<<< .mine
+"exhibitors_event"="Plans";//Cathy
+=======
+"exhibitors_event"="Exhibitor Schedule";
+>>>>>>> .r85
+"admit"="Wait Admit";
+"admited"="Admitted";
+"approve_err_title"="Error";
+
+//個人名片
+"編輯名片"="Edit";
+"我的名片"="Business Card";
+"的名片"="'s Business Card";
+"名片盒" = "Address Book";
+"返回" = "Back";
+"編輯我的名片" = "Edit My Card";
+"完成" = "Done";
+"會展簡介" = "Expo Introduction";
+"姓"="Last Name";
+"名"="First Name";
+"公司名稱"="Company";
+"部門"="Department";
+"職業/職位"="Job Title";
+"國家"="Country";
+"省份"="Province";
+"城市"="City";
+"公司地址"="Address";
+"電話"="Tel";
+"傳真"="Fax";
+"電郵"="Email";
+"手機"="Mobile";
+"網址"="Website";
+"名片修改"="Edit Card ";
+"成功"="Success";
+"失敗"="Fail";
+"確定"="OK";
+"大頭照修改有誤"="Business Card Update Failed";
+"新增"="Add";
+"照片"="Photo";
+"輸入廠商名稱"="Company Name";
+"addNameCardFailure"="Add name card failed";
+"differentFloor"="Different floor";
+
+//QRCode scanning
+"qrcodeString"="Please scan QR code";
+
+"checkInSuccess"="Check in successfully";
+
+"checkInFailed"="Check in failed, please try again";
+
+"checkInResult"="Check in result";
+
+"close"="Close";
+"qrcode_error"="QRCode data format may be incorrect";

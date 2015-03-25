@@ -1,0 +1,150 @@
+//
+//  FcConfig.h
+//  PIM_cocos2d
+//
+//  Created by 廖 晨志 on 2011/7/28.
+//  Copyright 2011年 foxconn. All rights reserved.
+//
+#import "NSFormatterExtend.h"
+
+#define WheelLayer_NUM 1
+#define EventLayer_NUM 2
+#define MaskLayer_NUM 1000
+
+//Wheel使用之public參數
+#define TABLE_ORIGIN_POINT CGPointMake(50, 86)
+#define _SPACE 53 //每一輪之間距 
+#define _WIDTH 586.0f //正常半徑
+#define _MAXWHEELNUM 24.0f //總共有幾圈
+//Wheel使用之private參數
+#define _LargeCircleRaduis 1368
+#define _MinCircle 0.0051
+#define _InnerCircleRadius 44
+#define _BaseRate 0.0017
+
+#define USE_QUARTZ 1
+#define REDRAW_MOVE @"redraw_move"
+#define ccp(__X__,__Y__) CGPointMake(__X__,__Y__)
+#define ccs(__X__,__Y__) CGSizeMake(__X__,__Y__)
+#define DefaultFontName @"STHeitiTC-Light"
+#define AngleSpace 11.6129f
+#define Seperator @"FcSeperator"
+//#define TESTDATA 1
+
+//Attendance使用之變數
+#define attendanceCellWidth 53.0f
+#define attendanceCellHeight 48.0f
+
+//project url
+<<<<<<< .mine
+//#define URLPREFIX @"http://10.62.13.2:8080" /*@"http://10.62.13.2:8080"*/
+#define URLPREFIX @"http://10.62.13.31:8080"
+=======
+#define URLPREFIX @"http://10.62.13.31:8080" /*@"http://10.62.13.2:8080"*/
+//#define URLPREFIX @"http://10.62.13.31:8080"
+>>>>>>> .r229
+#define AccountService [NSString stringWithFormat:@"%@/service/accountService.",URLPREFIX]
+#define CalendarService [NSString stringWithFormat:@"%@/service/calendarService.",URLPREFIX]
+#define FilterService [NSString stringWithFormat:@"%@/service/filterService.",URLPREFIX]
+#define workflowService [NSString stringWithFormat:@"%@/service/workflowService.",URLPREFIX]
+#define AddEventURL(sessionId,jsonString) [NSString stringWithFormat:@"%@addEvent?sessionId=%@&json=%@&rnd=%d",CalendarService,sessionId,jsonString,arc4random()] //TODO change sessionId
+
+#define updateEventURL(sessionId,jsonString) [NSString stringWithFormat:@"%@updateEvent?sessionId=%@&json=%@&rnd=%d",CalendarService,sessionId,jsonString,arc4random()]
+
+#define fetchEventsURL(sessionId,dateString) [NSString stringWithFormat:@"%@getEventList?lastModifyDate=Timestamp(%@)&sessionId=%@&rnd=%d",CalendarService,dateString,sessionId,arc4random()]
+
+#define deleteEventURL(sessionId,eventId) [NSString stringWithFormat:@"%@removeEvent?sessionId=@&eventId=%@&rnd=%d",CalendarService,sessionId,eventId,arc4random()]
+#define workService [NSString stringWithFormat:@"%@/service/workflowService.",URLPREFIX]
+
+#define loginURL(workNo, password) [NSString stringWithFormat:@"%@login?loginId=%@&password=%@",AccountService,workNo,password] //XXXX Reach : for user login
+#define queryPasswordURL(address) [NSString stringWithFormat:@"%@queryPassword?address=%@",CalendarService,address] //XXXX Reach : for user forget password
+//*** for search dialog
+#define querySearchTypes(sessionId) [NSString stringWithFormat:@"%@getFilterTypeList?sessionId=%@",FilterService, sessionId]//<<< Send >>> None. <<< Return >>> filterType:搜尋類別, filterName:搜尋名稱
+#define querySearchItems(sessionId, workNo, filterType, filterTime) [NSString stringWithFormat:@"%@getFilterType?sessionId=%@&workNo=%@&filterType=%@&filterTime=%@",FilterService, sessionId, workNo, filterType, filterTime] //<<< Send >>> workNo:工號, filterType:搜尋類別, filterTime:搜尋的月份. <<< Return >>> name:顯示的名稱, value:要當成參數帶的值
+#define queryWorkers(sessionId, workNo, filterTime, json) [NSString stringWithFormat:@"%@getFilterList?sessionId=%@&workNo=%@&filterTime=%@&json=%@",FilterService, sessionId, workNo, filterTime, json]//<<< Send >>> workNo:工號, filterTime:搜尋的月份, json:搜尋額外條件. <<< Return >>> cName:員工姓名, workNo:工號
+#define getFlowTaskList(sessionId,workNo,type) [NSString stringWithFormat:@"%@getFlowTaskList?sessionId=%@&workNo=%@&type=%@",workflowService,sessionId,workNo,type]
+#define getFlowTaskContent(sessionId,taskId, flowType) [NSString stringWithFormat:@"%@getFlowTaskContent?sessionId=%@&taskId=%@&flowType=%@",workflowService,sessionId,taskId,flowType]
+
+#define completeFlowTask(sessionId,taskId,eventMode,remark) [NSString stringWithFormat:@"%@getFlowTaskContent?sessionId=%@taskId=%@&eventMode=%d&remark=%@",workflowService,sessionId,taskId,eventMode,remark]
+
+//Notification name
+#define DrawTodayEvents @"DrawTodayEvents"
+#define DrawWheelEvents @"DrawWheelEvents"
+#define FlowTypeNotification @"FlowTypeNotification"
+#define TaskIdNotification @"TaskIdNotification"
+#define CheckedTaskIdNotification @"CheckedTaskIdNotification"
+#define FlowEnumNotification @"FlowEnumNotification"
+#define AgreeEnableNotification @"AgreeEnableNotification" 
+#define startWriteCommentNotification @"startWriteCommentNotification"
+#define endWriteCommentNotification @"endWriteCommentNotification"
+#define UISendSignOffMessageNotification @"SendSignOffMessageNotification"
+#define Attendance3ViewXOffSet @"Attendance3ViewXOffSet"
+#define DrawAttendanceSchedule @"DrawAttendanceSchedule"
+#define DrawOffSchedule @"DrawOffSchedule"
+#define DrawOverTimeShcedule @"DrawOverTimeShcedule"
+#define AttendanceType @"AttendanceType"
+//typedef section
+typedef enum {
+    FcEventTypePersonal=5,
+    FcEventTypeBusiness=6,
+    FcEventTypeMeeting=7,
+    FcEventTypeLunch=8,
+    //FcEventTypeTrip=9,
+    FcEventTypeMulti=10,
+    FcEventTypeDefault=11,
+    //FcEventTypeOverTime=12,
+    //FcEventTypeAttendance=13
+} FcEventType;
+
+typedef enum{
+    FLOWTYPE_CONFIRMLEAVE = 0, //銷假
+    FLOWTYPE_ASKLEAVE = 1,     //請假
+    FLOWTYPE_CONFIRMWORK = 2,   //出勤
+    FLOWTYPE_BUSSINESSTRIP = 3, //出差
+}FlowTypeEnum;
+
+typedef enum{
+    ATTENDANCE_TRAVEL=0,
+    ATTENDANCE_OVERTIME=1,
+    ATTENDANCE_OFF=2,
+}AttendanceTypeEnum;
+
+static inline CGPoint
+ccpAdd(const CGPoint v1, const CGPoint v2)
+{
+	return ccp(v1.x + v2.x, v1.y + v2.y);
+}
+
+static inline CGPoint
+ccpSub(const CGPoint v1, const CGPoint v2)
+{
+	return ccp(v1.x - v2.x, v1.y - v2.y);
+}
+
+static inline CGRect
+ccRectShift(const CGRect v1, const CGPoint v2)
+{
+    return CGRectMake(v1.origin.x+v2.x, v1.origin.y+v2.y, v1.size.width, v1.size.height);
+}
+
+static inline CGFloat
+realRadian(CGFloat _radian)
+{
+    if (_radian>2*M_PI)
+        return realRadian(_radian-(2*M_PI));
+    else if(_radian<0)
+        return realRadian(_radian+(2*M_PI));
+    return _radian;
+}
+
+static inline UIColor*
+getUIColorFromRGB(CGFloat r,CGFloat g,CGFloat b, CGFloat alpha)
+{
+    return [UIColor colorWithRed:(CGFloat)r/256.0f green:(CGFloat)g/256.0f blue:(CGFloat)b/256.0f alpha:alpha];
+}
+
+static inline CGRect		
+fixBlurryRect(CGRect originRect)		
+{		
+    return CGRectMake(ceilf(originRect.origin.x), ceilf(originRect.origin.y), ceilf(originRect.size.width), ceilf(originRect.size.height));		
+}

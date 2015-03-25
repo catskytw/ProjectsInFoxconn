@@ -1,0 +1,58 @@
+//
+//  MapDrawer.h
+//  iphoneFlowerProject
+//
+//  Created by Change Liao on 5/11/10.
+//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//
+
+#import <Foundation/Foundation.h>
+#import "FeatureCtrlCollections.h"
+#import "MapPresentCtrl.h"
+#import "MapPoint.h"
+#import "MapLine.h"
+#import "MapRegion.h"
+#import "Edge.h"
+@interface MapDrawer : NSObject {
+	//完成之物件
+	CGContextRef mapContextRef;
+	CGImageRef mapImageRef;
+	NSMutableArray *pointArray;
+	//輸入之參數指標
+	CGRect worldRect;
+	NSInteger width;
+	NSInteger height;
+	BOOL is3DFlag;
+	//FileHandler,從Scene指向過來
+	FeatureCtrlCollections *fcc;
+	
+	NSMutableArray *shortestPathArray;
+	CGImageRef imageRefArray [10];
+	CGSize imageSizeArray[10];
+	//控制開關
+	BOOL isDrawTree;
+	BOOL isDrawContentPoint; //ContentPoint包含point圖層的每一種類
+	BOOL isDrawRoute;
+	BOOL isDrawShortestPath;
+}
+@property(nonatomic)CGImageRef mapImageRef;
+
+@property(nonatomic,retain)NSMutableArray *pointArray;
+@property(nonatomic,retain)NSMutableArray *shortestPathArray;
+
+@property(nonatomic)BOOL isDrawTree;
+@property(nonatomic)BOOL isDrawContentPoint;
+@property(nonatomic)BOOL isDrawRoute;
+@property(nonatomic)BOOL isDrawShortestPath;
+@property(nonatomic)BOOL is3DFlag;
+
+@property(nonatomic)CGRect worldRect;
+@property(nonatomic)NSInteger height,width;
+-(id)initWithWorldRect:(CGRect)thisWorldRect with3D:(BOOL)is3D withMonitorWidth:(NSInteger)thisWidth withMonitorHeight:(NSInteger)thisHeight withFeatureCollection:(FeatureCtrlCollections*)thisFcc withShortestPathArray:(NSMutableArray*)edgeArray;
+-(void)drawMapWithDataCtrl:(MapDataCtrl*)dataCtrl withInxCtrl:(MapIdxCtrl*)idxCtrl withCGContextRef:(CGContextRef)ref withStyleType:(NSInteger)styleType withPointType:(NSInteger)pointType;
+-(void)drawFeature:(CGContextRef)ref withFeature:(MapFeature*)targetFeature withPointType:(NSInteger)pointType;
+-(void)drawPOI:(MapFeature*)featureObject withPosition:(CGPoint)point withPointType:(NSInteger)pointType;
+-(void)drawShortestPath:(NSMutableArray*)edgeArray;
+-(void)drawShortestPathLine:(MapFeature*)lineFeature;
+-(void)redraw;
+@end

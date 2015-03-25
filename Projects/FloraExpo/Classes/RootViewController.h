@@ -1,0 +1,24 @@
+//
+//  RootViewController.h
+//  FloraExpo2010
+//
+//  Created by Change Liao on 6/28/10.
+//  Copyright __MyCompanyName__ 2010. All rights reserved.
+//
+#import "TrafficTabViewController.h"
+#import "FloraExpoRootViewController.h"
+#import "MyLifeTabViewController.h"
+@interface RootViewController : UIViewController {
+	UIView *preView;
+	NSTimer *timer;
+	BOOL hasRunningAnimated;
+	
+	TrafficTabViewController *trafficController;
+	FloraExpoRootViewController *floraExpoRootController;
+	MyLifeTabViewController *myLifeController;
+}
+-(IBAction)enterTraffic:(id)sender;
+-(IBAction)enterFloraExpo:(id)sender;
+-(IBAction)enterMyLife:(id)sender;
+-(void)showAlertMsg;
+@end

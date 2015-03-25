@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder
+END
+DecodedBitStreamParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.cpp
+END
+BitMatrixParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.cpp
+END
+DataBlock.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/DataBlock.cpp
+END
+DecodedBitStreamParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/DecodedBitStreamParser.h
+END
+Mode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/Mode.cpp
+END
+BitMatrixParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/BitMatrixParser.h
+END
+DataMask.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/DataMask.cpp
+END
+Decoder.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/Decoder.cpp
+END
+DataBlock.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/DataBlock.h
+END
+Mode.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/Mode.h
+END
+DataMask.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/DataMask.h
+END
+Decoder.h
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/Change/!svn/ver/108/trunk/FlowerGuide_iphone/cpp/core/src/zxing/qrcode/decoder/Decoder.h
+END

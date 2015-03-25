@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Goverment</key>
+	<dict>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+	<key>Finance</key>
+	<dict>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+	<key>Education</key>
+	<dict>
+		<key>未分類目錄1</key>
+		<array/>
+	</dict>
+	<key>Fun</key>
+	<dict>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+	<key>Shopping</key>
+	<dict>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+	<key>Traffic</key>
+	<dict>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+	<key>Parking</key>
+	<dict>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+	<key>Bus</key>
+	<dict>
+		<key>經過我家</key>
+		<array/>
+		<key>未分類目錄</key>
+		<array/>
+	</dict>
+</dict>
+</plist>
